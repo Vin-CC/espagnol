@@ -1,0 +1,133 @@
+[
+ {
+  "id": "ser-estar",
+  "unlock": 1,
+  "title": "Être : ser et estar",
+  "body": [
+   "Le français a un seul verbe « être », l’espagnol en a deux.",
+   "**ser** : ce qu’on est (nom, origine, métier, caractère). soy, eres, es, somos, son.",
+   "**estar** : où on est, comment on va en ce moment. estoy, estás, está, estamos, están.",
+   "Repère simple : un lieu ou un état du moment → estar ; le reste → ser.",
+   "Les noms ont un genre, souvent visible : -o masculin (**el** gato), -a féminin (**la** casa). Articles : el / la (le, la), los / las (les), un / una (un, une)."
+  ],
+  "examples": [
+   {
+    "es": "Lucía es de Francia.",
+    "fr": "Lucía vient de France.",
+    "audio": "es_7993678dd942.mp3"
+   },
+   {
+    "es": "Sí, soy Lucía. Y este es Pipo.",
+    "fr": "Oui, je suis Lucía. Et voici Pipo.",
+    "audio": "es_a4a7d040608a.mp3"
+   },
+   {
+    "es": "Lucía y Pipo ya están en Valencia.",
+    "fr": "Lucía et Pipo sont déjà à Valencia.",
+    "audio": "es_a4104036712c.mp3"
+   },
+   {
+    "es": "¡Hola! ¿Cómo estás? ¿Qué quieres?",
+    "fr": "Salut ! Comment ça va ? Qu’est-ce que tu veux ?",
+    "audio": "es_07f993c471a6.mp3"
+   }
+  ]
+ },
+ {
+  "id": "present",
+  "unlock": 8,
+  "title": "Le présent et la négation",
+  "body": [
+   "Au présent, on enlève -ar, -er ou -ir et on ajoute la terminaison de la personne.",
+   "**hablar** (parler) : hablo (je), hablas (tu), habla (il, elle, vous), hablamos (nous), hablan (ils, elles, vous).",
+   "**comer** (manger) : como, comes, come, comemos, comen. **vivir** (vivre) : vivo, vives, vive, vivimos, viven.",
+   "« yo » est souvent omis : la terminaison suffit. Les verbes très fréquents sont souvent irréguliers (tengo, quiero, puedo) : apprends-les comme des mots.",
+   "Négation : **no** juste devant le verbe, sans « pas ». Avec nada ou nadie, le no reste : no dice nada = il ne dit rien."
+  ],
+  "examples": [
+   {
+    "es": "Marta habla mucho y habla rápido.",
+    "fr": "Marta parle beaucoup et parle vite.",
+    "audio": "es_f30c327d0e74.mp3"
+   },
+   {
+    "es": "Un café, gracias. Lo siento, no hablo bien español.",
+    "fr": "Un café, merci. Désolée, je ne parle pas bien espagnol.",
+    "audio": "es_16812434a80a.mp3"
+   },
+   {
+    "es": "Pipo no dice nada.",
+    "fr": "Pipo ne dit rien.",
+    "audio": "es_7a22458d928b.mp3"
+   }
+  ]
+ },
+ {
+  "id": "gustar",
+  "unlock": 15,
+  "title": "Gustar et me / te / le",
+  "body": [
+   "**gustar** se construit comme « plaire » : me gusta el café = le café me plaît = j’aime le café.",
+   "me gusta (j’aime), te gusta (tu aimes), le gusta (il, elle aime ; vous aimez), nos gusta (nous aimons), les gusta (ils, elles aiment).",
+   "Si ce qu’on aime est au pluriel : **gustan**. Me gustan los gatos.",
+   "Pour dire qui : a Lucía le gusta… (le « le » reste).",
+   "Ces petits mots se placent devant le verbe : me mira = il me regarde."
+  ],
+  "examples": [
+   {
+    "es": "¿A Pipo le gusta la música? Sí, mucho.",
+    "fr": "Pipo aime la musique ? Oui, beaucoup.",
+    "audio": "es_5da785ec9cef.mp3"
+   },
+   {
+    "es": "Pero a Lucía le gusta esta noche con Diego.",
+    "fr": "Mais Lucía aime bien cette soirée avec Diego.",
+    "audio": "es_c5741349fdd6.mp3"
+   },
+   {
+    "es": "Me gustan los gatos.",
+    "fr": "J’aime les chats.",
+    "audio": "es_3780806db2f3.mp3"
+   },
+   {
+    "es": "¿Te gusta Valencia?",
+    "fr": "Tu aimes Valencia ?",
+    "audio": "es_8a1c452107c9.mp3"
+   }
+  ]
+ },
+ {
+  "id": "passe",
+  "unlock": 21,
+  "title": "Le passé, pour comprendre",
+  "body": [
+   "Les histoires racontent maintenant ce qui s’est passé (ayer = hier). Inutile de conjuguer : il suffit de reconnaître les terminaisons.",
+   "Verbes en -ar : **-é** (je), **-ó** (il, elle), **-aron** (ils). miré, miró, miraron.",
+   "Verbes en -er / -ir : **-í**, **-ió**, **-ieron**. comí, comió, comieron.",
+   "L’accent compte : miro = je regarde, miró = il a regardé.",
+   "Trois irréguliers fréquents : **fue** (il est allé ou il a été : même forme pour ir et ser), **tuvo** (il a eu), **hizo** (il a fait)."
+  ],
+  "examples": [
+   {
+    "es": "Ayer, Lucía encontró una nota vieja en casa de Ramón.",
+    "fr": "Hier, Lucía a trouvé une vieille note chez Ramón.",
+    "audio": "es_5835f82bbf47.mp3"
+   },
+   {
+    "es": "¿Quién escribió la nota? pregunta Lucía.",
+    "fr": "Qui a écrit la note ? demande Lucía.",
+    "audio": "es_c98b4776e6f4.mp3"
+   },
+   {
+    "es": "Ella cogió el balón y me miró.",
+    "fr": "Elle a attrapé le ballon et elle m’a regardé.",
+    "audio": "es_ad3c1a3a1971.mp3"
+   },
+   {
+    "es": "Un día, ella se fue.",
+    "fr": "Un jour, elle est partie.",
+    "audio": "es_a00ae7902012.mp3"
+   }
+  ]
+ }
+]

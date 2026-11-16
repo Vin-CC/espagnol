@@ -4,6 +4,7 @@ import { dayKey } from './dates.js';
 import * as T from './text.js';
 import * as store from './storage.js';
 import * as audio from './audio.js';
+import * as G from './guide.js';
 
 const DS_URL = 'https://www.dreamingspanish.com/';
 const AUDIO_CACHE = 'ed-audio-v1'; // doit correspondre à sw.js
@@ -15,6 +16,7 @@ const POS = {
 
 const app = {
   cards: null, byId: new Map(), days: [], listen: [], lexicon: null,
+  weeks: [], grammar: [],  // consignes de la semaine, fiches de grammaire
   sequence: [], cogSequence: [], totalDays: 60,
   progress: S.emptyProgress(), settings: { ...S.DEFAULT_SETTINGS },
   scheduler: S.createScheduler(),
@@ -122,6 +124,7 @@ function render() {
   const screens = {
     aujourdhui: renderToday, mots: renderReview, histoire: renderStory,
     histoires: renderLibrary, ecoute: renderListen, reglages: renderSettings,
+    fiche: renderSheet, aide: renderHelp,
   };
   const fn = screens[r.name] || renderToday;
   root.replaceChildren();
@@ -148,7 +151,8 @@ function renderNav(active) {
     ['ecoute', 'Écoute', '#/ecoute'],
     ['reglages', 'Réglages', '#/reglages'],
   ];
-  const cur = active === 'histoire' ? 'histoires' : active;
+  const parent = { histoire: 'histoires', fiche: 'histoires', aide: 'reglages' };
+  const cur = parent[active] || active;
   nav.replaceChildren(...items.map(([k, label, href]) =>
     h('a', { href, class: 'nav-item', 'aria-current': cur === k ? 'page' : null }, label)));
   nav.hidden = active === 'mots';
@@ -254,6 +258,7 @@ function renderToday() {
   }
 
   const dayDone = current === null;
+  const listenOpen = S.unlockedWeeks(p.day, app.listen, app.totalDays).length > 0;
   const welcome = !steps.words && S.daysAway(p.activity, t) >= 2
     ? h('p', { class: 'hint welcome', role: 'status' }, 'Bon retour ! On reprend en douceur.') : null;
   const streakTile = streak === 0 && best > 0
@@ -282,9 +287,89 @@ function renderToday() {
       step(steps.dreaming, 3, 'Dreaming Spanish (45 min)',
         `Cumul : ${fmtHours(p.dsMinutes || 0)}${steps.dreaming ? ` · aujourd’hui ${fmtHours(act.ds)}` : ''}`,
         dsBody),
-      step(steps.listen, 4, 'Écoute en trajet', 'Les mots de la semaine, à écouter sans écran (5 min suffisent).',
-        h('a', { class: 'btn', href: '#/ecoute' }, 'Écouter'), { optional: true })),
+      listenOpen
+        ? step(steps.listen, 4, 'Écoute en trajet', 'Les mots de la semaine, à écouter sans écran (5 min suffisent).',
+          h('a', { class: 'btn', href: '#/ecoute' }, 'Écouter'), { optional: true })
+        : step(false, 4, 'Écoute en trajet', `Ouvre au jour ${S.weekUnlockDay(1, app.totalDays)}, avec les mots de ta première semaine.`, null, { optional: true })),
+    weekCard(p.day),
   ].filter(Boolean));
+}
+
+/** Carte discrète « Cette semaine » (pas une étape : n'empêche pas « Journée terminée »). */
+function weekCard(day) {
+  const tip = G.weekTip(app.weeks, day);
+  if (!tip) return null;
+  const sheet = tip.sheet ? app.grammar.find((s) => s.id === tip.sheet) : null;
+  const link = sheet && G.isSheetUnlocked(sheet, day)
+    ? h('a', { class: 'btn', href: `#/fiche/${sheet.id}` }, 'Lire la fiche')
+    : tip.help ? h('a', { class: 'btn', href: '#/aide' }, 'Voir le prompt') : null;
+  return h('section', { class: 'week-tip', 'aria-labelledby': 'week-tip-title' },
+    h('h2', { class: 'kicker', id: 'week-tip-title' }, `Cette semaine · semaine ${G.weekOf(day)}`),
+    h('p', {}, tip.text),
+    link);
+}
+
+const rich = (str) => G.richSegments(str).map((x) => (x.bold ? h('strong', {}, x.text) : x.text));
+
+// ---------- Fiche de grammaire ----------
+function renderSheet(arg) {
+  const day = app.progress.day;
+  const sheet = app.grammar.find((s) => s.id === arg);
+  const back = h('p', { class: 'center' }, h('a', { class: 'btn', href: '#/histoires' }, 'Toutes les fiches'));
+  if (!sheet || !G.isSheetUnlocked(sheet, day)) {
+    root.append(h('header', { class: 'page-head' }, h('h1', {}, 'Fiche'),
+      h('p', { class: 'muted' }, sheet ? `Cette fiche s’ouvre au jour ${sheet.unlock}.` : 'Fiche introuvable.')), back);
+    return;
+  }
+  const examples = h('ul', { class: 'examples' }, sheet.examples.map((e) => {
+    const btn = e.audio ? h('button', {
+      class: 'btn icon replay speaker', type: 'button', 'aria-label': `Écouter : ${e.es}`,
+      onclick: async () => {
+        btn.classList.add('playing');
+        await audio.play(audioUrl(e.audio));
+        btn.classList.remove('playing');
+      },
+    }, '▶') : null;
+    return h('li', { class: btn ? null : 'no-audio' }, btn, h('div', {},
+      h('p', { class: 'es', lang: 'es' }, e.es),
+      h('p', { class: 'muted' }, e.fr)));
+  }));
+  root.append(
+    h('header', { class: 'page-head' }, h('p', { class: 'kicker' }, 'Fiche · pour comprendre'), h('h1', {}, sheet.title)),
+    h('section', { class: 'card sheet' }, sheet.body.map((para) => h('p', {}, rich(para)))),
+    h('h2', {}, 'Dans les histoires'),
+    examples,
+    back);
+}
+
+// ---------- Aide (prompts pour Claude) ----------
+function renderHelp() {
+  const cards = G.PROMPTS.map((pr) => {
+    const textId = `prompt-${pr.id}`;
+    const pre = h('pre', { class: 'prompt', id: textId, tabindex: '0' }, pr.text);
+    const status = h('span', { class: 'copy-status', role: 'status' });
+    const copy = h('button', {
+      class: 'btn', type: 'button', 'aria-describedby': textId,
+      onclick: async () => {
+        try {
+          await navigator.clipboard.writeText(pr.text);
+          status.textContent = 'Copié ✓';
+        } catch {
+          // Repli : sélectionne le texte pour une copie manuelle.
+          const r = document.createRange();
+          r.selectNodeContents(pre);
+          const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r);
+          status.textContent = 'Texte sélectionné : copie-le.';
+        }
+        setTimeout(() => { status.textContent = ''; }, 3000);
+      },
+    }, 'Copier');
+    return h('section', { class: 'card' }, h('h2', {}, pr.title), h('p', { class: 'muted' }, pr.use), pre,
+      h('div', { class: 'row' }, copy, status));
+  });
+  root.append(h('header', { class: 'page-head' }, h('p', { class: 'kicker' }, 'Réglages › Aide'), h('h1', {}, 'Aide'),
+    h('p', { class: 'muted' }, 'Deux prompts à coller dans Claude (appli ou claude.ai).')), ...cards,
+  h('p', { class: 'center' }, h('a', { class: 'btn', href: '#/reglages' }, 'Retour aux réglages')));
 }
 
 // ---------- Révision ----------
@@ -627,14 +712,20 @@ function renderLibrary() {
       h('span', { class: 'lib-check', 'aria-label': read ? 'lue' : 'non lue' }, read ? '✓' : ''))));
     getStory(d).then((s) => { title.textContent = s ? s.title : 'bientôt disponible'; });
   }
+  const { unlocked, next } = G.sheetsFor(app.grammar, app.progress.day);
+  const sheets = app.grammar.length ? h('section', { class: 'sheets', 'aria-labelledby': 'sheets-title' },
+    h('h2', { id: 'sheets-title' }, 'Fiches de grammaire'),
+    h('ul', { class: 'library' }, unlocked.map((s) => h('li', {}, h('a', { href: `#/fiche/${s.id}`, class: 'lib-item' },
+      h('span', { class: 'lib-title' }, s.title))))),
+    next ? h('p', { class: 'muted small' }, `Prochaine fiche au jour ${next.unlock} : ${next.title}.`) : null) : null;
   root.append(h('header', { class: 'page-head' }, h('h1', {}, 'Histoires'),
-    h('p', { class: 'muted' }, 'Une nouvelle histoire chaque jour, écrite avec les mots du jour.')), ul);
+    h('p', { class: 'muted' }, 'Une nouvelle histoire chaque jour, écrite avec les mots du jour.')), sheets,
+  sheets ? h('h2', {}, 'Histoires') : null, ul);
 }
 
 // ---------- Écoute ----------
 const fmtDuration = (sec) => `${Math.max(1, Math.round(sec / 60))} min`;
-/** Jours couverts par la semaine W : 7W−6 à 7W (bornés au nombre de jours). */
-const weekDays = (w) => [7 * w.week - 6, Math.min(7 * w.week, app.totalDays)];
+const weekDays = (w) => S.weekDayRange(w.week, app.totalDays);
 
 function listenElement(w) {
   if (!app.listenEls.has(w.week)) {
@@ -694,7 +785,7 @@ function renderListen() {
     root.append(h('p', { class: 'card' }, 'Les fichiers d’écoute ne sont pas encore disponibles.'));
     return;
   }
-  const weeks = S.unlockedWeeks(app.progress.day, app.listen);
+  const weeks = S.unlockedWeeks(app.progress.day, app.listen, app.totalDays);
   const known = getMeta().listenDur || {};
   const list = h('ul', { class: 'weeks' });
   for (const w of [...weeks].reverse()) {
@@ -704,12 +795,15 @@ function renderListen() {
     const dur = Number.isFinite(el.duration) ? el.duration : known[w.week];
     list.append(h('li', { class: 'card' },
       h('h2', {}, `Semaine ${w.week}`),
-      h('p', { class: 'week-meta' }, `Mots des jours ${a} à ${b}`, h('span', { id: `dur-${w.week}` }, dur ? ` · ${fmtDuration(dur)}` : '')),
+      h('p', { class: 'week-meta' }, `Révise les mots des jours ${a} à ${b}`, h('span', { id: `dur-${w.week}` }, dur ? ` · ${fmtDuration(dur)}` : '')),
       h('p', { class: 'muted small', lang: 'es' }, `${words.slice(0, 8).map((c) => c.lemma).join(', ')}${words.length > 8 ? '…' : ''}`),
       el));
   }
   const next = app.listen.find((w) => !weeks.includes(w));
-  if (next) list.append(h('li', { class: 'card locked' }, `Semaine ${next.week} : débloquée au jour ${7 * next.week - 6}.`));
+  if (next) {
+    list.append(h('li', { class: 'card locked' },
+      `Semaine ${next.week} : s’ouvre au jour ${S.weekUnlockDay(next.week, app.totalDays)}, avec les mots des jours ${S.weekDayRange(next.week, app.totalDays).join(' à ')}.`));
+  }
   root.append(list);
 }
 
@@ -718,15 +812,11 @@ function renderSettings() {
   const s = app.settings;
   const msg = (text, kind = '') => h('p', { class: `msg ${kind}`, role: 'status' }, text);
 
-  // Nouvelles cartes par jour
-  const val = h('output', { class: 'stepper-val', 'aria-live': 'polite' }, String(s.newPerDay));
-  const setNew = (d) => { s.newPerDay = S.clampNew(s.newPerDay + d); val.textContent = String(s.newPerDay); persist(); };
-  const newCards = h('section', { class: 'card' },
-    h('h2', {}, 'Nouvelles cartes par jour'),
-    h('div', { class: 'stepper' },
-      h('button', { class: 'btn icon', type: 'button', 'aria-label': 'Moins', onclick: () => setNew(-1) }, '−'), val,
-      h('button', { class: 'btn icon', type: 'button', 'aria-label': 'Plus', onclick: () => setNew(1) }, '+')),
-    h('p', { class: 'muted' }, 'Entre 5 et 20 (10 conseillé). S’applique au prochain lot.'));
+  // Aide : prompts pour écrire et parler avec Claude
+  const help = h('section', { class: 'card' },
+    h('h2', {}, 'Aide'),
+    h('p', { class: 'muted' }, 'Prompts à copier pour faire corriger tes phrases et parler avec Claude.'),
+    h('a', { class: 'btn', href: '#/aide' }, 'Ouvrir l’aide'));
 
   // Plafond de révisions par jour (après une absence, le reste est reporté)
   const revVal = h('output', { class: 'stepper-val', 'aria-live': 'polite' }, String(s.maxReviews));
@@ -806,7 +896,7 @@ function renderSettings() {
   };
   drawReset();
 
-  root.append(h('header', { class: 'page-head' }, h('h1', {}, 'Réglages')), newCards, maxRev, cog, offline, backup, reset,
+  root.append(h('header', { class: 'page-head' }, h('h1', {}, 'Réglages')), help, maxRev, cog, offline, backup, reset,
     h('p', { class: 'muted center small' }, 'Español diario · FSRS (ts-fsrs, MIT)'));
 }
 
@@ -926,7 +1016,8 @@ async function init() {
       h('p', {}, 'Impossible de charger les données. Vérifie ta connexion puis rouvre l’appli.')));
     return;
   }
-  app.listen = await fetchJSON('data/listen.json').catch(() => []);
+  [app.listen, app.weeks, app.grammar] = await Promise.all(['listen', 'weeks', 'grammar']
+    .map((f) => fetchJSON(`data/${f}.json`).catch(() => [])));
   for (const deck of Object.values(app.cards)) for (const c of deck) app.byId.set(c.id, c);
   app.lexicon = T.buildLexicon(app.cards);
   app.sequence = S.buildSequence(app.cards, app.days);

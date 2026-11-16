@@ -8,15 +8,14 @@ import { dayKey, endOfDay, addDays, fromDayKey } from './dates.js';
 export { Rating, State };
 
 export const DEFAULT_SETTINGS = Object.freeze({
-  newPerDay: 10,        // 5–20
   cognates: false,      // cognats transparents : 5 nouveaux/jour
   speed: 1,             // vitesse de lecture des histoires (0.8 ou 1)
   showTranslation: false,
   maxReviews: 60,       // révisions max par jour (30–150) : évite le mur de cartes après une absence
 });
 export const COGNATES_PER_DAY = 5;
-export const MIN_NEW = 5;
-export const MAX_NEW = 20;
+/** Nouveaux mots par lot : fixe, les histoires sont écrites pour les lots de 10 de days.json. */
+export const NEW_PER_DAY = 10;
 export const MIN_REVIEWS = 30;
 export const MAX_REVIEWS = 150;
 /** Au-delà de ce nombre de révisions dues, on ne débloque pas de nouveau lot (il attend le lendemain). */
@@ -40,7 +39,7 @@ export function emptyProgress() {
     day: 0,               // nombre de lots débloqués = « Jour N »
     lastUnlock: null,     // clé du dernier jour où un lot a été débloqué
     cursor: 0,            // position dans la séquence principale
-    cogCursor: 0,         // position dans la séquence des cognats
+    cogCursor: 0,         // position dans la séquence des cognats (indicatif : le lot prend les premiers non vus)
     pending: [],          // nouvelles cartes attribuées, pas encore vues
     lot: [],              // nouvelles cartes du dernier lot débloqué (vues ou non)
     cards: {},            // id -> état FSRS sérialisé (dates ISO)
@@ -62,7 +61,7 @@ export function normalizeProgress(p) {
 
 export function normalizeSettings(s) {
   const out = { ...DEFAULT_SETTINGS, ...(s && typeof s === 'object' ? s : {}) };
-  out.newPerDay = clampNew(out.newPerDay);
+  delete out.newPerDay; // ancien réglage (5–20) retiré : lots fixes de NEW_PER_DAY
   out.cognates = !!out.cognates;
   out.speed = out.speed === 0.8 ? 0.8 : 1;
   out.showTranslation = !!out.showTranslation;
@@ -74,12 +73,6 @@ export function clampReviews(n) {
   const v = Math.round(Number(n));
   if (!Number.isFinite(v)) return DEFAULT_SETTINGS.maxReviews;
   return Math.min(MAX_REVIEWS, Math.max(MIN_REVIEWS, v));
-}
-
-export function clampNew(n) {
-  const v = Math.round(Number(n));
-  if (!Number.isFinite(v)) return DEFAULT_SETTINGS.newPerDay;
-  return Math.min(MAX_NEW, Math.max(MIN_NEW, v));
 }
 
 /**
@@ -114,8 +107,8 @@ function clone(p) {
 /**
  * Débloque au plus un lot par jour calendaire.
  * Un nouveau lot n'est débloqué que si les nouvelles cartes du lot précédent ont toutes été vues
- * (un jour sauté ne crée pas d'arriéré). Le lot = les `newPerDay` cartes suivantes de la séquence
- * (+ 5 cognats si l'option est active). `day` est plafonné à `totalDays` (60).
+ * (un jour sauté ne crée pas d'arriéré). Le lot = les NEW_PER_DAY cartes suivantes de la séquence
+ * (+ les 5 premiers cognats jamais vus si l'option est active). `day` est plafonné à `totalDays` (60).
  * Après une absence (plus de BACKLOG_HOLD révisions dues ce jour-là), le lot attend : `day` n'avance
  * pas, aucun jour n'est « perdu ».
  * @returns {{progress: object, unlocked: boolean}}
@@ -126,13 +119,13 @@ export function unlockIfNeeded(progress, ctx, now) {
   if (progress.lastUnlock === today) return { progress, unlocked: false };
   if (progress.pending.some((id) => !progress.cards[id])) return { progress, unlocked: false };
   if (isBacklogHeld(progress, now)) return { progress, unlocked: false };
-  const quota = clampNew(settings.newPerDay);
+  const quota = NEW_PER_DAY;
   const fresh = sequence.slice(progress.cursor, progress.cursor + quota)
     .filter((id) => !progress.cards[id]);
   let cogs = [];
   if (settings.cognates) {
-    cogs = cognateSequence.slice(progress.cogCursor, progress.cogCursor + COGNATES_PER_DAY)
-      .filter((id) => !progress.cards[id]);
+    // Premiers cognats jamais vus (et non un curseur) : robuste si le paquet change.
+    cogs = cognateSequence.filter((id) => !progress.cards[id]).slice(0, COGNATES_PER_DAY);
   }
   if (fresh.length === 0 && cogs.length === 0 && progress.cursor >= sequence.length) {
     return { progress, unlocked: false };
@@ -357,9 +350,19 @@ export function wordsLearned(progress) {
   return Object.values(progress.cards).filter((c) => c.state !== State.New).length;
 }
 
-/** Semaines d'écoute débloquées : semaine W si au moins 7W−6 lots débloqués. */
-export function unlockedWeeks(day, listen) {
-  return (listen || []).filter((w) => day >= 7 * w.week - 6);
+/** Jour où s'ouvre la semaine d'écoute W : quand tous ses lots sont débloqués (7W, borné à totalDays). */
+export function weekUnlockDay(week, totalDays = 60) {
+  return Math.min(7 * week, totalDays);
+}
+
+/** Jours couverts par la semaine W : [7W−6, 7W] (bornés à totalDays). */
+export function weekDayRange(week, totalDays = 60) {
+  return [7 * week - 6, weekUnlockDay(week, totalDays)];
+}
+
+/** Semaines d'écoute débloquées : semaine W quand ses lots sont tous débloqués (jour ≥ 7W ; dernière : totalDays). */
+export function unlockedWeeks(day, listen, totalDays = 60) {
+  return (listen || []).filter((w) => day >= weekUnlockDay(w.week, totalDays));
 }
 
 /** État des 4 étapes de l'écran « Aujourd'hui ». */

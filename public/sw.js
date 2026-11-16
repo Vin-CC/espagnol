@@ -4,7 +4,7 @@
 // - Audio : cache séparé et durable (survit aux changements de version), rempli à la première lecture
 //   ou par le bouton « Télécharger tout l'audio ». Les requêtes Range (Safari) reçoivent une réponse 206.
 
-const CACHE_VERSION = 'v4';
+const CACHE_VERSION = 'v5';
 const SHELL_CACHE = `ed-shell-${CACHE_VERSION}`;
 const AUDIO_CACHE = 'ed-audio-v1';
 const DAYS = 60;
@@ -20,6 +20,7 @@ const SHELL = [
   'js/text.js',
   'js/storage.js',
   'js/audio.js',
+  'js/guide.js',
   'vendor/ts-fsrs.mjs',
   'icons/icon-180.png',
   'icons/icon-192.png',
@@ -28,6 +29,8 @@ const SHELL = [
   'icons/apple-touch-icon.png',
   'data/cards.json',
   'data/days.json',
+  'data/weeks.json',
+  'data/grammar.json',
 ];
 // Fichiers de données facultatifs (peuvent manquer au moment de l'installation).
 const OPTIONAL = [

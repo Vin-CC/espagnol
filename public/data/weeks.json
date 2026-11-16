@@ -1,0 +1,8 @@
+[
+ {"weeks": [1], "text": "Dreaming Spanish : choisis le niveau Superbeginner. Lis la fiche « Être : ser et estar ».", "sheet": "ser-estar"},
+ {"weeks": [2], "text": "Lis la fiche « Le présent et la négation ». Dreaming Spanish : reste en Superbeginner.", "sheet": "present"},
+ {"weeks": [3], "text": "Lis la fiche « Gustar et me / te / le ». Si tu en as envie : un livre gradué A1 sur Kindle, 10 min le soir (facultatif).", "sheet": "gustar"},
+ {"weeks": [4], "text": "Les histoires passent au passé : lis la fiche « Le passé, pour comprendre ». Dreaming Spanish : tu peux essayer le niveau Beginner.", "sheet": "passe"},
+ {"weeks": [5], "text": "Écris 3 phrases sur ta journée et demande à Claude de les corriger (prompt dans Réglages › Aide).", "help": true},
+ {"weeks": [6, 7, 8, 9], "text": "2 à 3 fois par semaine : 10 min de conversation à voix haute avec Claude (prompt dans Réglages › Aide). Continue ton livre gradué.", "help": true}
+]

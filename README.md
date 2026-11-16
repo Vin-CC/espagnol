@@ -30,10 +30,11 @@ Si on supprime l’appli de l’écran d’accueil ou les données de Safari, la
 ## Fonctionnement
 
 - Chaque jour calendaire, un **lot** de nouvelles cartes est débloqué (lot = `days[N]` de `data/days.json`,
-  10 cartes par défaut). « Jour N » = nombre de lots débloqués. Le lot suivant n’arrive que lorsque les
+  10 mots, fixe). « Jour N » = nombre de lots débloqués. Le lot suivant n’arrive que lorsque les
   nouvelles cartes du lot précédent ont toutes été vues : un jour sauté ne crée pas de retard à rattraper.
-- Le réglage « nouvelles cartes par jour » (5–20) s’applique au lot suivant ; les cartes suivent l’ordre de
-  `days.json`, puis le reste du paquet principal. Option : 5 cognats transparents par jour.
+- Pas de réglage « nouvelles cartes par jour » : les histoires sont écrites pour les lots de 10 de `days.json`
+  (un autre rythme décalerait mots et histoires). Après le jour 60 : le reste du paquet principal.
+  Option : 5 cognats transparents par jour (les 5 premiers jamais vus).
 - Notation : **À revoir** = FSRS *Again*, **Je savais** = FSRS *Good* (`ts-fsrs`, rétention 0,9,
   apprentissage court terme : une carte ratée revient dans la même séance).
 - Une révision due aujourd’hui (quelle que soit l’heure) fait partie de la file du jour.
@@ -48,7 +49,12 @@ Si on supprime l’appli de l’écran d’accueil ou les données de Safari, la
   Histoire et Dreaming Spanish sont faits. Stat « d’espagnol écouté » = Dreaming Spanish + audio des
   histoires et de l’écoute en trajet. Bandeau d’installation (une fois, refermable) après la première
   séance si l’appli n’est pas lancée depuis l’écran d’accueil.
-- Écoute en trajet : cochée après 5 min d’écoute cumulée dans la journée.
+- Écoute en trajet : cochée après 5 min d’écoute cumulée dans la journée. La semaine W s’ouvre quand tous ses
+  lots sont débloqués (jour 7W ; semaine 9 = jours 57–60, au jour 60).
+- **Cette semaine** : sous les étapes de l’accueil, une consigne par semaine (`data/weeks.json`, W = ceil(jour/7))
+  avec un lien vers la fiche de grammaire ou l’aide. Ce n’est pas une étape : elle ne bloque pas « Journée terminée ».
+- **Fiches de grammaire** (`data/grammar.json`, onglet Histoires) : ser/estar (j1), présent et négation (j8),
+  gustar (j15), passé (j21). **Réglages › Aide** : deux prompts à copier pour Claude (correction, conversation vocale).
 - **Mot jamais vu** : d’abord une découverte (recto et verso, audio) avec un seul bouton « Compris, suivant »
   = FSRS *Again* ; le mot revient quelques minutes plus tard pour être vérifié normalement.
 - **Compteurs en mots** : accueil « 10 nouveaux mots · 5 à revoir · ≈ 4 min » ; pendant la séance, barre
@@ -71,9 +77,11 @@ public/              servi tel quel (aucune étape de build)
   js/storage.js      localStorage + export/import
   js/audio.js        lecteur unique (HTMLAudioElement réutilisé, déblocage iOS)
   js/dates.js        dates locales
+  js/guide.js        consigne de la semaine, fiches, prompts d’aide (pur)
   vendor/ts-fsrs.mjs ts-fsrs 5.4.2 (MIT, voir vendor/ts-fsrs.LICENSE)
   icons/             180, 192, 512 (+ maskable), apple-touch-icon
-  data/  audio/      produits par les scripts (ne pas modifier à la main)
+  data/  audio/      produits par les scripts (cards/days corrigés à la main, voir SPEC.md ;
+                     weeks.json et grammar.json écrits à la main)
 tests/               tests node --test + fixtures
 ```
 
@@ -84,7 +92,7 @@ node --test tests/           # Node 22 : passe par tests/index.js
 node --test tests/*.test.mjs # équivalent
 ```
 
-Les tests couvrent `scheduler.js` (dont découverte et compteur de séance), `text.js` et `storage.js` (dont le rappel de sauvegarde) avec les fixtures de `tests/fixtures/data/`.
+Les tests couvrent `scheduler.js` (dont découverte et compteur de séance), `text.js` et `storage.js` (dont le rappel de sauvegarde) avec les fixtures de `tests/fixtures/data/`, ainsi que `guide.js` et la cohérence des vraies données (`guide-data.test.mjs`).
 
 Essai local de l’interface :
 

@@ -67,16 +67,25 @@ test('jour sauté : le lot suivant est débloqué au retour, sans rattrapage', (
   assert.equal(r.progress.pending.length, 10);
 });
 
-test('réglage du nombre de nouvelles cartes (borné 5–20) et cognats', () => {
-  let p = S.unlockIfNeeded(S.emptyProgress(), ctx({ newPerDay: 5 }), at(1)).progress;
-  assert.deepEqual(p.pending, days[0].new.slice(0, 5));
+test('lots fixes de 10 mots (ancien réglage newPerDay ignoré) et cognats', () => {
+  assert.equal(S.NEW_PER_DAY, 10);
+  assert.equal('newPerDay' in S.normalizeSettings({ newPerDay: 5 }), false);
+  let p = S.unlockIfNeeded(S.emptyProgress(), { ...ctx(), settings: { newPerDay: 5 } }, at(1)).progress;
+  assert.deepEqual(p.pending, days[0].new);
   p = rateAll(p, at(1, 10));
-  p = S.unlockIfNeeded(p, ctx({ newPerDay: 99, cognates: true }), at(2)).progress;
-  assert.equal(p.pending.length, 20 + S.COGNATES_PER_DAY);
-  assert.deepEqual(p.pending.slice(0, 5), days[0].new.slice(5));
-  assert.deepEqual(p.pending.slice(20), cognateSequence.slice(0, 5));
-  assert.equal(S.clampNew(1), 5);
-  assert.equal(S.clampNew('abc'), 10);
+  p = S.unlockIfNeeded(p, { ...ctx({ cognates: true }), settings: { newPerDay: 99, cognates: true } }, at(2)).progress;
+  assert.equal(p.pending.length, 10 + S.COGNATES_PER_DAY);
+  assert.deepEqual(p.pending.slice(0, 10), days[1].new);
+  assert.deepEqual(p.pending.slice(10), cognateSequence.slice(0, 5));
+});
+
+test('cognats : les premiers jamais vus, même si le paquet a changé', () => {
+  let p = S.unlockIfNeeded(S.emptyProgress(), ctx({ cognates: true }), at(1)).progress;
+  p = rateAll(p, at(1, 10));
+  // Paquet modifié : le 1er cognat a quitté le paquet (mots-outils) ; aucun cognat n'est sauté.
+  const shorter = cognateSequence.slice(1);
+  p = S.unlockIfNeeded(p, { ...ctx({ cognates: true }), cognateSequence: shorter }, at(2)).progress;
+  assert.deepEqual(p.pending.slice(10), shorter.slice(4, 4 + S.COGNATES_PER_DAY));
 });
 
 test('jour plafonné au nombre de lots ; arrêt quand tout est introduit', () => {
@@ -192,14 +201,23 @@ test('Dreaming Spanish, histoire, écoute : étapes du jour', () => {
   assert.equal(st.words, false);
 });
 
-test('semaines d’écoute débloquées : semaine W si lots ≥ 7W−6', () => {
+test('semaines d’écoute : semaine W ouverte quand tous ses lots sont débloqués (jour 7W)', () => {
   const listen = [1, 2, 3, 9].map((week) => ({ week, file: `listen-w0${week}.mp3`, words: [] }));
-  assert.deepEqual(S.unlockedWeeks(0, listen).map((w) => w.week), []);
-  assert.deepEqual(S.unlockedWeeks(1, listen).map((w) => w.week), [1]);
-  assert.deepEqual(S.unlockedWeeks(7, listen).map((w) => w.week), [1]);
-  assert.deepEqual(S.unlockedWeeks(8, listen).map((w) => w.week), [1, 2]);
-  assert.deepEqual(S.unlockedWeeks(57, listen).map((w) => w.week), [1, 2, 3, 9]);
+  const weeks = (d) => S.unlockedWeeks(d, listen, 60).map((w) => w.week);
+  assert.deepEqual(weeks(0), []);
+  assert.deepEqual(weeks(1), []);
+  assert.deepEqual(weeks(6), []);
+  assert.deepEqual(weeks(7), [1]);
+  assert.deepEqual(weeks(13), [1]);
+  assert.deepEqual(weeks(14), [1, 2]);
+  assert.deepEqual(weeks(21), [1, 2, 3]);
+  assert.deepEqual(weeks(59), [1, 2, 3]);
+  assert.deepEqual(weeks(60), [1, 2, 3, 9]); // semaine 9 = jours 57–60
   assert.deepEqual(S.unlockedWeeks(5, undefined), []);
+  assert.equal(S.weekUnlockDay(9, 60), 60);
+  assert.equal(S.weekUnlockDay(2), 14);
+  assert.deepEqual(S.weekDayRange(1, 60), [1, 7]);
+  assert.deepEqual(S.weekDayRange(9, 60), [57, 60]);
 });
 
 test('normalisation des réglages et de la progression', () => {
