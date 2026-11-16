@@ -1,0 +1,202 @@
+{
+ "day": 57,
+ "title": "El viejo árbol",
+ "title_fr": "Le vieil arbre",
+ "sentences": [
+  {
+   "es": "Ayer, todos pusieron en la calle las luces del señor alemán.",
+   "fr": "Hier, tout le monde a installé dans la rue les lumières du monsieur allemand.",
+   "audio": "es_f82871193312.mp3"
+  },
+  {
+   "es": "Hoy hace un poco de frío.",
+   "fr": "Aujourd'hui, il fait un peu froid.",
+   "audio": "es_c89210d00694.mp3"
+  },
+  {
+   "es": "Ramón está sentado al lado del gran árbol de la calle.",
+   "fr": "Ramón est assis à côté du grand arbre de la rue.",
+   "audio": "es_f11b9bc3f48e.mp3"
+  },
+  {
+   "es": "Lucía se sienta con él un rato.",
+   "fr": "Lucía s'assoit avec lui un moment.",
+   "audio": "es_a160486688c8.mp3"
+  },
+  {
+   "es": "—Este árbol es muy viejo —dice Ramón—. Fue testigo de toda la historia.",
+   "fr": "« Cet arbre est très vieux, dit Ramón. Il a été témoin de toute l'histoire. »",
+   "audio": "es_665298bb2787.mp3"
+  },
+  {
+   "es": "—¿Testigo?",
+   "fr": "« Témoin ? »",
+   "audio": "es_0509070a9ada.mp3"
+  },
+  {
+   "es": "—Sí. Aquí mi padre y la abuela de Marta hablaban cada noche.",
+   "fr": "« Oui. Ici, mon père et la grand-mère de Marta parlaient chaque soir. »",
+   "audio": "es_e1968b61f312.mp3"
+  },
+  {
+   "es": "—Querían casarse, pero el destino no quiso.",
+   "fr": "« Ils voulaient se marier, mais le destin ne l'a pas voulu. »",
+   "audio": "es_578443e5d0e5.mp3"
+  },
+  {
+   "es": "Carmen y Lola llegan con papeles.",
+   "fr": "Carmen et Lola arrivent avec des papiers.",
+   "audio": "es_3aed77ff0a45.mp3"
+  },
+  {
+   "es": "Lola pega un papel en el árbol: «¡Gran fiesta en la calle del Sol!»",
+   "fr": "Lola colle un papier sur l'arbre : « Grande fête dans la calle del Sol ! »",
+   "audio": "es_0d36cdd23c56.mp3"
+  },
+  {
+   "es": "—Esta área es para los niños —dice Lola.",
+   "fr": "« Cette zone est pour les enfants », dit Lola.",
+   "audio": "es_c56c94e75ca4.mp3"
+  },
+  {
+   "es": "—Y en la parte sur de la calle está el área de la música —dice Carmen.",
+   "fr": "« Et dans la partie sud de la rue, il y a l'espace musique », dit Carmen.",
+   "audio": "es_58d24496d59d.mp3"
+  },
+  {
+   "es": "Lola pega otro papel y se va a jugar.",
+   "fr": "Lola colle un autre papier et part jouer.",
+   "audio": "es_d42dee2c784f.mp3"
+  },
+  {
+   "es": "Carmen mira el árbol: —Un buen matrimonio es como este árbol: viejo y fuerte.",
+   "fr": "Carmen regarde l'arbre : « Un bon mariage, c'est comme cet arbre : vieux et solide. »",
+   "audio": "es_eea7c349ebc1.mp3"
+  },
+  {
+   "es": "Ramón tiene frío. Lucía trae dos cafés.",
+   "fr": "Ramón a froid. Lucía apporte deux cafés.",
+   "audio": "es_a0e22ca6c0e2.mp3"
+  },
+  {
+   "es": "—Ramón, ¿usted cree en el destino?",
+   "fr": "« Ramón, vous croyez au destin ? »",
+   "audio": "es_3c703360c06e.mp3"
+  },
+  {
+   "es": "—Creo que el destino te trajo a Valencia. Tú vienes del norte, de Francia, y ahora estás aquí, en el sur.",
+   "fr": "« Je crois que le destin t'a amenée à Valencia. Tu viens du nord, de France, et maintenant tu es ici, dans le sud. »",
+   "audio": "es_a547819d7fbc.mp3"
+  },
+  {
+   "es": "—Y usted fue testigo de mi primera palabra en español —dice Lucía.",
+   "fr": "« Et vous avez été témoin de mon premier mot en espagnol », dit Lucía.",
+   "audio": "es_5c1e4191bfd8.mp3"
+  },
+  {
+   "es": "Los dos se ríen. A pesar del frío, se quedan sentados un rato más.",
+   "fr": "Ils rient tous les deux. Malgré le froid, ils restent assis encore un moment.",
+   "audio": "es_b8c5970c7287.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à",
+  "abuela": "grand-mère",
+  "ahora": "maintenant",
+  "al": "au (al lado = à côté)",
+  "alemán": "allemand",
+  "aquí": "ici",
+  "ayer": "hier",
+  "buen": "bon",
+  "cada": "chaque",
+  "cafés": "cafés",
+  "calle": "rue",
+  "como": "comme",
+  "con": "avec",
+  "cree": "croit ; croyez",
+  "creo": "je crois",
+  "de": "de",
+  "del": "du ; de la",
+  "destino": "destin",
+  "dice": "dit",
+  "dos": "deux",
+  "el": "le",
+  "en": "dans ; sur ; en",
+  "es": "est",
+  "español": "espagnol",
+  "esta": "cette",
+  "este": "cet",
+  "está": "est",
+  "estás": "tu es",
+  "fiesta": "fête",
+  "frío": "froid",
+  "fue": "a été",
+  "fuerte": "fort ; solide",
+  "gran": "grand",
+  "hablaban": "parlaient",
+  "hace": "fait (hace frío = il fait froid)",
+  "historia": "histoire",
+  "hoy": "aujourd'hui",
+  "jugar": "jouer",
+  "la": "la ; l'",
+  "lado": "côté",
+  "las": "les",
+  "llegan": "arrivent",
+  "los": "les",
+  "luces": "lumières",
+  "matrimonio": "mariage ; couple marié",
+  "mi": "mon",
+  "mira": "regarde",
+  "muy": "très",
+  "más": "plus (un rato más = encore un moment)",
+  "música": "musique",
+  "niños": "enfants",
+  "no": "non ; ne... pas",
+  "noche": "soir",
+  "norte": "nord",
+  "otro": "autre",
+  "padre": "père",
+  "palabra": "mot",
+  "papel": "papier",
+  "papeles": "papiers",
+  "para": "pour",
+  "pega": "colle",
+  "pero": "mais",
+  "pesar": "peser (a pesar de = malgré)",
+  "poco": "peu (un poco = un peu)",
+  "primera": "premier",
+  "pusieron": "ont installé",
+  "que": "que",
+  "quedan": "restent (se quedan)",
+  "querían": "voulaient",
+  "quiso": "n'a pas voulu (no quiso)",
+  "rato": "moment",
+  "ríen": "rient",
+  "se": "se",
+  "sentado": "assis",
+  "sentados": "assis",
+  "señor": "monsieur",
+  "sienta": "s'assoit (se sienta)",
+  "sur": "sud",
+  "sí": "oui",
+  "te": "t' ; te",
+  "testigo": "témoin",
+  "tiene": "a",
+  "toda": "toute",
+  "todos": "tout le monde",
+  "trae": "apporte",
+  "trajo": "a amené",
+  "tú": "tu ; toi",
+  "un": "un",
+  "usted": "vous",
+  "va": "va (se va = s'en va)",
+  "viejo": "vieux",
+  "vienes": "tu viens",
+  "y": "et",
+  "árbol": "arbre",
+  "área": "zone ; espace",
+  "él": "lui",
+  "casarse": "se marier",
+  "parte": "partie (la parte sur = la partie sud)"
+ }
+}

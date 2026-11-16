@@ -1,0 +1,223 @@
+{
+ "day": 51,
+ "title": "La carta y la flor",
+ "title_fr": "La lettre et la fleur",
+ "sentences": [
+  {
+   "es": "Ayer, la madre de Lucía volvió a Francia.",
+   "fr": "Hier, la mère de Lucía est rentrée en France.",
+   "audio": "es_6510f7e0a895.mp3"
+  },
+  {
+   "es": "Hoy, Lucía sube a casa de don Ramón.",
+   "fr": "Aujourd'hui, Lucía monte chez don Ramón.",
+   "audio": "es_eb8b7df62122.mp3"
+  },
+  {
+   "es": "Ramón tiene un montón de cartas viejas en la mesa.",
+   "fr": "Ramón a un tas de vieilles lettres sur la table.",
+   "audio": "es_337a20b4819a.mp3"
+  },
+  {
+   "es": "—Lucía, vamos a revisar todas estas cartas —dice él.",
+   "fr": "« Lucía, on va relire toutes ces lettres », dit-il.",
+   "audio": "es_208bf27f554a.mp3"
+  },
+  {
+   "es": "Lucía revisa las cartas una por una. Es un montón de trabajo.",
+   "fr": "Lucía relit les lettres une par une. C'est un tas de travail.",
+   "audio": "es_e9ba63dedc01.mp3"
+  },
+  {
+   "es": "En una carta hay una flor muy vieja.",
+   "fr": "Dans une lettre, il y a une très vieille fleur.",
+   "audio": "es_f2fc43eedb16.mp3"
+  },
+  {
+   "es": "Es una flor pequeña y roja.",
+   "fr": "C'est une petite fleur rouge.",
+   "audio": "es_1b191b4c0292.mp3"
+  },
+  {
+   "es": "—¡Mire, Ramón! Esta carta habla de una boda.",
+   "fr": "« Regardez, Ramón ! Cette lettre parle d'un mariage. »",
+   "audio": "es_631a1c2bcbfd.mp3"
+  },
+  {
+   "es": "—¿Una boda? ¿Qué boda? —pregunta Ramón.",
+   "fr": "« Un mariage ? Quel mariage ? » demande Ramón.",
+   "audio": "es_ee9d22edfefc.mp3"
+  },
+  {
+   "es": "Lucía lee: «Mi amor, nuestra boda es en la calle del Sol.",
+   "fr": "Lucía lit : « Mon amour, notre mariage aura lieu dans la calle del Sol.",
+   "audio": "es_0e490b886c83.mp3"
+  },
+  {
+   "es": "Pero hay peligro. Tu padre no quiere esta boda.»",
+   "fr": "Mais il y a un danger. Ton père ne veut pas de ce mariage. »",
+   "audio": "es_9b1d7bf74447.mp3"
+  },
+  {
+   "es": "Ramón se sienta. Es un golpe para él.",
+   "fr": "Ramón s'assoit. C'est un coup pour lui.",
+   "audio": "es_a1ef72d1fc75.mp3"
+  },
+  {
+   "es": "—Esta carta es de mi padre —dice—. Y no es para mi madre.",
+   "fr": "« Cette lettre est de mon père, dit-il. Et elle n'est pas pour ma mère. »",
+   "audio": "es_17873f892eb5.mp3"
+  },
+  {
+   "es": "Es un golpe duro, pero Ramón quiere enfrentar la verdad.",
+   "fr": "C'est un coup dur, mais Ramón veut affronter la vérité.",
+   "audio": "es_28ef23e4c9ef.mp3"
+  },
+  {
+   "es": "—Lucía, haz una cosa: lee el final otra vez.",
+   "fr": "« Lucía, fais une chose : relis la fin. »",
+   "audio": "es_cc6d50219bea.mp3"
+  },
+  {
+   "es": "El final es muy corto: «Te espero siempre. R.»",
+   "fr": "La fin est très courte : « Je t'attends toujours. R. »",
+   "audio": "es_3568dd4d3cd4.mp3"
+  },
+  {
+   "es": "Una carta corta, una flor y un nombre muy corto.",
+   "fr": "Une lettre courte, une fleur et un nom très court.",
+   "audio": "es_e74c0e8bd4c8.mp3"
+  },
+  {
+   "es": "—¿Qué peligro? —pregunta Lucía.",
+   "fr": "« Quel danger ? » demande Lucía.",
+   "audio": "es_a169c5ee1a15.mp3"
+  },
+  {
+   "es": "—No sé. Mi padre nunca habló de esto.",
+   "fr": "« Je ne sais pas. Mon père n'a jamais parlé de ça. »",
+   "audio": "es_ecc2362eb29a.mp3"
+  },
+  {
+   "es": "Pipo sube a la mesa y mira la flor.",
+   "fr": "Pipo monte sur la table et regarde la fleur.",
+   "audio": "es_fce5d7bddeff.mp3"
+  },
+  {
+   "es": "—Lucía, haz café, por favor. Tenemos mucho trabajo.",
+   "fr": "« Lucía, fais du café, s'il te plaît. Nous avons beaucoup de travail. »",
+   "audio": "es_5f6e06df4825.mp3"
+  },
+  {
+   "es": "Juntos, van a enfrentar esta historia.",
+   "fr": "Ensemble, ils vont affronter cette histoire.",
+   "audio": "es_366db70ef7d7.mp3"
+  },
+  {
+   "es": "—Esta vez vamos a tener éxito —dice Lucía.",
+   "fr": "« Cette fois, on va réussir », dit Lucía.",
+   "audio": "es_fc92ea8369ef.mp3"
+  },
+  {
+   "es": "—Sí —dice Ramón—. Y el éxito va a ser de los dos.",
+   "fr": "« Oui, dit Ramón. Et la réussite sera pour nous deux. »",
+   "audio": "es_80c1caf3d7a3.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à ; chez",
+  "amor": "amour",
+  "ayer": "hier",
+  "boda": "mariage (cérémonie)",
+  "café": "café",
+  "calle": "rue",
+  "carta": "lettre",
+  "cartas": "lettres",
+  "casa": "maison ; chez (a casa de)",
+  "corta": "courte",
+  "corto": "court",
+  "cosa": "chose",
+  "de": "de",
+  "del": "du ; de la",
+  "dice": "dit",
+  "don": "don (titre de respect)",
+  "dos": "deux",
+  "duro": "dur",
+  "el": "le",
+  "en": "dans ; sur",
+  "enfrentar": "affronter",
+  "es": "est",
+  "espero": "j'attends",
+  "esta": "cette",
+  "estas": "ces",
+  "esto": "ça ; ceci",
+  "favor": "faveur (por favor = s'il te plaît)",
+  "final": "fin",
+  "flor": "fleur",
+  "golpe": "coup",
+  "habla": "parle",
+  "habló": "a parlé",
+  "hay": "il y a",
+  "haz": "fais !",
+  "historia": "histoire",
+  "hoy": "aujourd'hui",
+  "juntos": "ensemble",
+  "la": "la",
+  "las": "les",
+  "lee": "lit ; lis !",
+  "los": "les (los dos = tous les deux)",
+  "madre": "mère",
+  "mesa": "table",
+  "mi": "mon ; ma",
+  "mira": "regarde",
+  "mire": "regardez !",
+  "montón": "tas (un montón de = plein de)",
+  "mucho": "beaucoup de",
+  "muy": "très",
+  "no": "non ; ne... pas",
+  "nombre": "nom",
+  "nuestra": "notre",
+  "nunca": "jamais",
+  "otra": "autre (otra vez = encore une fois)",
+  "padre": "père",
+  "para": "pour",
+  "peligro": "danger",
+  "pequeña": "petite",
+  "pero": "mais",
+  "por": "par",
+  "pregunta": "demande",
+  "quiere": "veut",
+  "qué": "quel ; quoi",
+  "r": "R (initiale)",
+  "revisa": "relit ; vérifie",
+  "revisar": "relire ; vérifier",
+  "roja": "rouge",
+  "se": "se (se sienta = s'assoit)",
+  "ser": "être",
+  "siempre": "toujours",
+  "sienta": "assoit (se sienta)",
+  "sube": "monte",
+  "sé": "je sais",
+  "sí": "oui",
+  "te": "te",
+  "tenemos": "nous avons",
+  "tener": "avoir (tener éxito = réussir)",
+  "tiene": "a",
+  "todas": "toutes",
+  "trabajo": "travail",
+  "tu": "ton ; ta",
+  "un": "un",
+  "una": "une",
+  "va": "va",
+  "vamos": "nous allons ; on va",
+  "van": "ils vont",
+  "verdad": "vérité",
+  "vez": "fois",
+  "vieja": "vieille",
+  "viejas": "vieilles",
+  "volvió": "est rentrée",
+  "y": "et",
+  "él": "il ; lui",
+  "éxito": "succès ; réussite"
+ }
+}

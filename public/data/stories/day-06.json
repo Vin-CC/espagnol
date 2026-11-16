@@ -1,0 +1,118 @@
+{
+ "day": 6,
+ "title": "Una vida nueva",
+ "title_fr": "Une nouvelle vie",
+ "sentences": [
+  {
+   "es": "Pipo no vuelve a casa.",
+   "fr": "Pipo ne revient pas à la maison.",
+   "audio": "es_920f7f3f1ac4.mp3"
+  },
+  {
+   "es": "Es el primer día sin él. Lucía no duerme.",
+   "fr": "C'est le premier jour sans lui. Lucía ne dort pas.",
+   "audio": "es_da1464cc63ec.mp3"
+  },
+  {
+   "es": "Entonces llega Pablo. Pablo pasa por aquí cada día.",
+   "fr": "Puis Pablo arrive. Pablo passe par ici tous les jours.",
+   "audio": "es_1bf595a1a23d.mp3"
+  },
+  {
+   "es": "—¡Hola, Lucía! ¿Es verdad? ¿Pipo no está?",
+   "fr": "« Salut, Lucía ! C'est vrai ? Pipo n'est pas là ? »",
+   "audio": "es_39a3cfa50191.mp3"
+  },
+  {
+   "es": "—Es verdad. Es la primera vez.",
+   "fr": "« C'est vrai. C'est la première fois. »",
+   "audio": "es_3d359820f8c9.mp3"
+  },
+  {
+   "es": "—Mira: Pipo quiere ver su vida nueva. Es normal.",
+   "fr": "« Écoute : Pipo veut voir sa nouvelle vie. C'est normal. »",
+   "audio": "es_54be3ff5e1a5.mp3"
+  },
+  {
+   "es": "—¿Una vida nueva? ¡Su vida está aquí, en casa!",
+   "fr": "« Une nouvelle vie ? Sa vie est ici, à la maison ! »",
+   "audio": "es_78a488da089f.mp3"
+  },
+  {
+   "es": "—Lo mejor es esperar. Debes quedarte en casa.",
+   "fr": "« Le mieux, c'est d'attendre. Tu dois rester à la maison. »",
+   "audio": "es_460fa60fe097.mp3"
+  },
+  {
+   "es": "Si Pipo llega, tú estás aquí.",
+   "fr": "Si Pipo arrive, tu es là.",
+   "audio": "es_00af6b93b248.mp3"
+  },
+  {
+   "es": "—Y toma un café. Es mejor.",
+   "fr": "« Et prends un café. C'est mieux. »",
+   "audio": "es_ea71936a4e3b.mp3"
+  },
+  {
+   "es": "Lucía se queda en casa. Toma un café. Espera.",
+   "fr": "Lucía reste à la maison. Elle prend un café. Elle attend.",
+   "audio": "es_dfe47f2a92ff.mp3"
+  },
+  {
+   "es": "Pero Pipo nunca llega.",
+   "fr": "Mais Pipo n'arrive jamais.",
+   "audio": "es_a1f3a31a3c9e.mp3"
+  }
+ ],
+ "gloss": {
+  "no": "ne… pas ; non",
+  "vuelve": "revient ; rentre",
+  "a": "à",
+  "casa": "maison",
+  "es": "est ; c'est",
+  "el": "le",
+  "primer": "premier",
+  "día": "jour ; journée",
+  "sin": "sans",
+  "él": "il ; lui",
+  "duerme": "dort",
+  "entonces": "alors",
+  "llega": "arrive",
+  "pasa": "passe",
+  "por": "par",
+  "aquí": "ici",
+  "cada": "chaque",
+  "hola": "salut",
+  "verdad": "vrai ; vérité",
+  "está": "est (lieu, état)",
+  "la": "la",
+  "primera": "première",
+  "vez": "fois",
+  "mira": "regarde ; écoute",
+  "quiere": "veut",
+  "ver": "voir",
+  "su": "sa",
+  "vida": "vie",
+  "nueva": "nouvelle",
+  "normal": "normal",
+  "una": "une",
+  "en": "en ; dans ; à",
+  "lo": "le (lo mejor : le mieux)",
+  "mejor": "mieux ; le mieux",
+  "esperar": "attendre",
+  "debes": "tu dois",
+  "quedarte": "rester (toi)",
+  "si": "si",
+  "tú": "tu ; toi",
+  "estás": "tu es",
+  "y": "et",
+  "toma": "prends ; prend",
+  "un": "un",
+  "café": "café",
+  "se": "se (se queda : reste)",
+  "queda": "reste",
+  "espera": "attend",
+  "pero": "mais",
+  "nunca": "jamais"
+ }
+}

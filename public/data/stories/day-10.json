@@ -1,0 +1,139 @@
+{
+ "day": 10,
+ "title": "El último lugar",
+ "title_fr": "Le dernier endroit",
+ "sentences": [
+  {
+   "es": "El niño dice que Pipo está con don Ramón.",
+   "fr": "L'enfant dit que Pipo est chez don Ramón.",
+   "audio": "es_332255dfd562.mp3"
+  },
+  {
+   "es": "Es el último lugar de la lista.",
+   "fr": "C'est le dernier endroit de la liste.",
+   "audio": "es_3bb9f4a250c5.mp3"
+  },
+  {
+   "es": "Lucía llama tres veces a la puerta.",
+   "fr": "Lucía frappe trois fois à la porte.",
+   "audio": "es_39fb611e444e.mp3"
+  },
+  {
+   "es": "Don Ramón sale. —¿Sí?",
+   "fr": "Don Ramón sort. « Oui ? »",
+   "audio": "es_27df1fd38db8.mp3"
+  },
+  {
+   "es": "—Don Ramón, ¿Pipo está aquí?",
+   "fr": "« Don Ramón, Pipo est ici ? »",
+   "audio": "es_889f8bdf0243.mp3"
+  },
+  {
+   "es": "—¿Aquí? Claro que no.",
+   "fr": "« Ici ? Bien sûr que non. »",
+   "audio": "es_8dbf79722ad5.mp3"
+  },
+  {
+   "es": "Pero entonces Pipo sale del apartamento.",
+   "fr": "Mais alors Pipo sort de l'appartement.",
+   "audio": "es_d9e79e297feb.mp3"
+  },
+  {
+   "es": "—¡Pipo! No entiendo nada, don Ramón.",
+   "fr": "« Pipo ! Je ne comprends rien, don Ramón. »",
+   "audio": "es_a0ce26ef3b77.mp3"
+  },
+  {
+   "es": "—Bueno... Pipo llega cada noche y trata de entrar. Yo digo que no, pero no puedo.",
+   "fr": "« Bon... Pipo arrive chaque nuit et essaie d'entrer. Je dis non, mais je n'y arrive pas. »",
+   "audio": "es_61d6082fc076.mp3"
+  },
+  {
+   "es": "Él quiere ayudarme: con él, estoy menos solo.",
+   "fr": "Il veut m'aider : avec lui, je suis moins seul.",
+   "audio": "es_d973d838293d.mp3"
+  },
+  {
+   "es": "Ahora Lucía entiende.",
+   "fr": "Maintenant, Lucía comprend.",
+   "audio": "es_007890cc4bad.mp3"
+  },
+  {
+   "es": "—Entonces Pipo tiene dos casas. ¿De acuerdo?",
+   "fr": "« Alors Pipo a deux maisons. D'accord ? »",
+   "audio": "es_b0c4dd54d51f.mp3"
+  },
+  {
+   "es": "—Claro. Y usted puede ayudar con Pipo.",
+   "fr": "« Bien sûr. Et vous pouvez aider avec Pipo. »",
+   "audio": "es_f0dbde3b49ee.mp3"
+  },
+  {
+   "es": "Así acaba la historia: Pipo no está fuera, está en casa.",
+   "fr": "Ainsi finit l'histoire : Pipo n'est pas dehors, il est à la maison.",
+   "audio": "es_7cd30546220a.mp3"
+  }
+ ],
+ "gloss": {
+  "el": "le",
+  "niño": "enfant",
+  "dice": "dit",
+  "que": "que ; non (claro que no : bien sûr que non)",
+  "está": "est (lieu, état)",
+  "con": "avec",
+  "don": "don (titre de respect)",
+  "es": "est ; c'est",
+  "último": "dernier",
+  "lugar": "endroit ; lieu",
+  "de": "de",
+  "la": "la",
+  "lista": "liste",
+  "llama": "frappe (llamar a la puerta : frapper)",
+  "tres": "trois",
+  "veces": "fois",
+  "a": "à",
+  "puerta": "porte",
+  "sale": "sort",
+  "sí": "oui",
+  "aquí": "ici",
+  "claro": "bien sûr",
+  "no": "ne… pas ; non",
+  "pero": "mais",
+  "entonces": "alors",
+  "del": "du (de + el)",
+  "apartamento": "appartement",
+  "entiendo": "je comprends",
+  "nada": "rien",
+  "bueno": "bon",
+  "llega": "arrive",
+  "cada": "chaque",
+  "noche": "nuit ; soir",
+  "y": "et",
+  "trata": "essaie (tratar de : essayer de)",
+  "entrar": "entrer",
+  "yo": "je ; moi",
+  "digo": "je dis",
+  "puedo": "je peux",
+  "él": "il ; lui",
+  "quiere": "veut",
+  "ayudarme": "m'aider",
+  "estoy": "je suis",
+  "menos": "moins",
+  "solo": "seul",
+  "ahora": "maintenant",
+  "entiende": "comprend",
+  "tiene": "a",
+  "dos": "deux",
+  "casas": "maisons",
+  "acuerdo": "accord (de acuerdo : d'accord)",
+  "usted": "vous (politesse)",
+  "puede": "vous pouvez",
+  "ayudar": "aider",
+  "así": "comme ça ; ainsi",
+  "acaba": "finit",
+  "historia": "histoire",
+  "fuera": "dehors",
+  "en": "en ; dans ; à",
+  "casa": "maison"
+ }
+}

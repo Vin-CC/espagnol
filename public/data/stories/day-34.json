@@ -1,0 +1,211 @@
+{
+ "day": 34,
+ "title": "Una idea en la oficina",
+ "title_fr": "Une idée au bureau",
+ "sentences": [
+  {
+   "es": "El café de Marta debe dinero, y la guitarra de Diego no funciona.",
+   "fr": "Le café de Marta doit de l'argent, et la guitare de Diego ne marche pas.",
+   "audio": "es_d6d90b47e856.mp3"
+  },
+  {
+   "es": "Por la mañana, el amigo de Ramón mira la guitarra.",
+   "fr": "Le matin, l'ami de Ramón regarde la guitare.",
+   "audio": "es_d164032715c2.mp3"
+  },
+  {
+   "es": "—Puedo arreglar esto —dice—. Pero necesito diez días.",
+   "fr": "« Je peux réparer ça, dit-il. Mais j'ai besoin de dix jours. »",
+   "audio": "es_56c02cadd2eb.mp3"
+  },
+  {
+   "es": "—¿Diez días? ¡La fiesta es la semana que viene! —dice Diego.",
+   "fr": "« Dix jours ? La fête, c'est la semaine prochaine ! » dit Diego.",
+   "audio": "es_2c8636036644.mp3"
+  },
+  {
+   "es": "Después, Lucía va a su oficina.",
+   "fr": "Ensuite, Lucía va à son bureau.",
+   "audio": "es_796966dcc9d1.mp3"
+  },
+  {
+   "es": "Su empresa es pequeña. Hay diez personas en la oficina.",
+   "fr": "Son entreprise est petite. Il y a dix personnes au bureau.",
+   "audio": "es_1ebfc690c2d7.mp3"
+  },
+  {
+   "es": "Carmen trabaja con muchos papeles.",
+   "fr": "Carmen travaille avec beaucoup de papiers.",
+   "audio": "es_4b10ff7899c6.mp3"
+  },
+  {
+   "es": "—Carmen, tengo un problema. Bueno, Diego tiene un problema.",
+   "fr": "« Carmen, j'ai un problème. Enfin, Diego a un problème. »",
+   "audio": "es_2769fccf6284.mp3"
+  },
+  {
+   "es": "Lucía le cuenta todo: la guitarra, la carta, el dinero.",
+   "fr": "Lucía lui raconte tout : la guitare, la lettre, l'argent.",
+   "audio": "es_c8c1ea8033c0.mp3"
+  },
+  {
+   "es": "—Al principio, todo es difícil —dice Carmen—. Pero todo se puede arreglar.",
+   "fr": "« Au début, tout est difficile, dit Carmen. Mais tout peut s'arranger. »",
+   "audio": "es_9402fc0b6b6b.mp3"
+  },
+  {
+   "es": "—¿Cómo?",
+   "fr": "« Comment ? »",
+   "audio": "es_da1d7858db9c.mp3"
+  },
+  {
+   "es": "—Por ejemplo, la gente puede pagar en la puerta. Diez personas, muchas personas…",
+   "fr": "« Par exemple, les gens peuvent payer à la porte. Dix personnes, beaucoup de personnes… »",
+   "audio": "es_b6c9c9ed2b06.mp3"
+  },
+  {
+   "es": "—¡Y el dinero es para el café!",
+   "fr": "« Et l'argent est pour le café ! »",
+   "audio": "es_71d24604ea49.mp3"
+  },
+  {
+   "es": "—Eso es. Y la empresa puede hacer papeles para la calle, con el nombre de Diego.",
+   "fr": "« C'est ça. Et l'entreprise peut faire des papiers pour la rue, avec le nom de Diego. »",
+   "audio": "es_268b8d607837.mp3"
+  },
+  {
+   "es": "—¿La empresa? ¿Y el jefe?",
+   "fr": "« L'entreprise ? Et le chef ? »",
+   "audio": "es_4bdb61fe173e.mp3"
+  },
+  {
+   "es": "—El jefe es amigo mío. A través de mí, todo es fácil.",
+   "fr": "« Le chef est un ami à moi. Par mon intermédiaire, tout est facile. »",
+   "audio": "es_e060b607ea84.mp3"
+  },
+  {
+   "es": "Por la tarde, Lucía vuelve a la calle del Sol con los papeles.",
+   "fr": "L'après-midi, Lucía revient dans la calle del Sol avec les papiers.",
+   "audio": "es_6fa6ded500b6.mp3"
+  },
+  {
+   "es": "—¡Diego, mira! Un ejemplo para la fiesta.",
+   "fr": "« Diego, regarde ! Un exemple pour la fête. »",
+   "audio": "es_5629b81fb4c6.mp3"
+  },
+  {
+   "es": "Diego mira los papeles. Al principio no dice nada.",
+   "fr": "Diego regarde les papiers. Au début, il ne dit rien.",
+   "audio": "es_37622650aaa8.mp3"
+  },
+  {
+   "es": "Luego mira a Lucía. Está feliz.",
+   "fr": "Puis il regarde Lucía. Il est content.",
+   "audio": "es_3a442bcdb0fd.mp3"
+  },
+  {
+   "es": "—Es una buena idea. Pero Marta no puede saber nada de esto.",
+   "fr": "« C'est une bonne idée. Mais Marta ne doit rien savoir de tout ça. »",
+   "audio": "es_31ac4a1a2d50.mp3"
+  },
+  {
+   "es": "Pipo llega y se sienta sobre los papeles.",
+   "fr": "Pipo arrive et s'assoit sur les papiers.",
+   "audio": "es_e819043f3084.mp3"
+  },
+  {
+   "es": "—Mira a Pipo —dice Diego—. Es el amo del café.",
+   "fr": "« Regarde Pipo, dit Diego. C'est le maître du café. »",
+   "audio": "es_dc6a51b0e5c7.mp3"
+  }
+ ],
+ "gloss": {
+  "el": "le",
+  "café": "café",
+  "de": "de",
+  "debe": "doit",
+  "dinero": "argent",
+  "y": "et",
+  "la": "la",
+  "guitarra": "guitare",
+  "no": "non, ne… pas",
+  "funciona": "marche",
+  "por": "par, pour",
+  "mañana": "matin (por la mañana = le matin)",
+  "amigo": "ami",
+  "mira": "regarde",
+  "puedo": "je peux",
+  "arreglar": "réparer ; arranger",
+  "esto": "ça",
+  "dice": "dit",
+  "pero": "mais",
+  "necesito": "j'ai besoin de",
+  "diez": "dix",
+  "días": "jours",
+  "fiesta": "fête",
+  "es": "est",
+  "semana": "semaine",
+  "después": "après",
+  "va": "va",
+  "a": "à",
+  "su": "son, sa",
+  "oficina": "bureau",
+  "empresa": "entreprise",
+  "pequeña": "petite",
+  "hay": "il y a",
+  "personas": "personnes",
+  "en": "dans, en",
+  "trabaja": "travaille",
+  "con": "avec",
+  "muchos": "beaucoup de",
+  "papeles": "papiers",
+  "tengo": "j'ai",
+  "un": "un",
+  "problema": "problème",
+  "bueno": "bon, bien",
+  "tiene": "a",
+  "le": "lui",
+  "cuenta": "raconte",
+  "todo": "tout",
+  "carta": "lettre",
+  "al": "au",
+  "principio": "début (al principio = au début)",
+  "difícil": "difficile",
+  "se": "se, s'",
+  "puede": "peut ; doit (no puede saber = ne doit pas savoir)",
+  "cómo": "comment",
+  "ejemplo": "exemple (por ejemplo = par exemple)",
+  "gente": "gens",
+  "pagar": "payer",
+  "puerta": "porte",
+  "muchas": "beaucoup de",
+  "para": "pour",
+  "eso": "ça (eso es = c'est ça)",
+  "hacer": "faire",
+  "calle": "rue",
+  "nombre": "nom",
+  "jefe": "chef",
+  "mío": "à moi",
+  "través": "travers (a través de = par)",
+  "mí": "moi",
+  "fácil": "facile",
+  "tarde": "après-midi",
+  "vuelve": "revient",
+  "del": "du",
+  "los": "les",
+  "nada": "rien",
+  "luego": "ensuite",
+  "está": "est",
+  "feliz": "content",
+  "una": "une",
+  "buena": "bonne",
+  "idea": "idée",
+  "saber": "savoir",
+  "llega": "arrive",
+  "sienta": "s'assoit",
+  "sobre": "sur",
+  "amo": "maître",
+  "que": "que (la semana que viene = la semaine prochaine)",
+  "viene": "vient"
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "day": 17,
+ "title": "El agua loca",
+ "title_fr": "L'eau folle",
+ "sentences": [
+  {
+   "es": "Don Ramón quiere ayudar a Diego con su grupo.",
+   "fr": "Don Ramón veut aider Diego avec son groupe.",
+   "audio": "es_8f37456524fc.mp3"
+  },
+  {
+   "es": "Hoy, Carmen trae a Lola a casa de Lucía.",
+   "fr": "Aujourd'hui, Carmen amène Lola chez Lucía.",
+   "audio": "es_f4e5bcd3057f.mp3"
+  },
+  {
+   "es": "Lucía abre la puerta.",
+   "fr": "Lucía ouvre la porte.",
+   "audio": "es_92dab37a39a3.mp3"
+  },
+  {
+   "es": "—¡Hola, Lola! Pipo está dentro. ¿Quieres jugar con él?",
+   "fr": "— Salut, Lola ! Pipo est à l'intérieur. Tu veux jouer avec lui ?",
+   "audio": "es_7159f54c9db1.mp3"
+  },
+  {
+   "es": "—¡Sí! Quiero jugar a algo nuevo, llamado «el agua loca».",
+   "fr": "— Oui ! Je veux jouer à un truc nouveau, qui s'appelle « l'eau folle ».",
+   "audio": "es_6545f7333cff.mp3"
+  },
+  {
+   "es": "—¿«El agua loca»? ¿Qué es eso?",
+   "fr": "— « L'eau folle » ? Qu'est-ce que c'est ?",
+   "audio": "es_9e787864cad8.mp3"
+  },
+  {
+   "es": "Lola no dice ni una palabra. Entra con Pipo.",
+   "fr": "Lola ne dit pas un mot. Elle entre avec Pipo.",
+   "audio": "es_cdb5afc101ad.mp3"
+  },
+  {
+   "es": "Lucía está en la otra parte de la casa, al teléfono.",
+   "fr": "Lucía est dans l'autre partie de la maison, au téléphone.",
+   "audio": "es_f78672c750e9.mp3"
+  },
+  {
+   "es": "Unos minutos después, Lucía oye algo. ¿Qué ocurre?",
+   "fr": "Quelques minutes plus tard, Lucía entend quelque chose. Que se passe-t-il ?",
+   "audio": "es_f2bddde0f22f.mp3"
+  },
+  {
+   "es": "Hay agua en medio de la casa. ¡Mucha agua!",
+   "fr": "Il y a de l'eau au milieu de la maison. Beaucoup d'eau !",
+   "audio": "es_0a05fc8e4ef2.mp3"
+  },
+  {
+   "es": "Y en medio del agua está Pipo, con los ojos muy grandes.",
+   "fr": "Et au milieu de l'eau, il y a Pipo, les yeux tout ronds.",
+   "audio": "es_e26060024595.mp3"
+  },
+  {
+   "es": "—¡Lola! ¿Estás loca?",
+   "fr": "— Lola ! Tu es folle ?",
+   "audio": "es_6ae6f3c8ef4a.mp3"
+  },
+  {
+   "es": "Pipo mira a Lola con ojos de loco y sale.",
+   "fr": "Pipo regarde Lola avec des yeux de fou et s'en va.",
+   "audio": "es_bf404469ba61.mp3"
+  },
+  {
+   "es": "Lucía no dice una palabra. Mira a Lola. Lola mira a Lucía.",
+   "fr": "Lucía ne dit pas un mot. Elle regarde Lola. Lola regarde Lucía.",
+   "audio": "es_2a12f9477882.mp3"
+  },
+  {
+   "es": "—Perdón —dice Lola—. Solo una palabra: perdón.",
+   "fr": "— Pardon, dit Lola. Juste un mot : pardon.",
+   "audio": "es_f850bf3a5da4.mp3"
+  },
+  {
+   "es": "Lucía intenta estar seria, pero no puede.",
+   "fr": "Lucía essaie d'être sérieuse, mais elle n'y arrive pas.",
+   "audio": "es_c5a43396ff4e.mp3"
+  },
+  {
+   "es": "En ese momento, Carmen abre la puerta.",
+   "fr": "À ce moment-là, Carmen ouvre la porte.",
+   "audio": "es_e07923345ecb.mp3"
+  },
+  {
+   "es": "—¿Qué ocurre aquí?",
+   "fr": "— Qu'est-ce qui se passe ici ?",
+   "audio": "es_374e7aef6ce0.mp3"
+  },
+  {
+   "es": "—Nada, nada. Un animal loco y una niña loca.",
+   "fr": "— Rien, rien. Un animal fou et une petite fille folle.",
+   "audio": "es_9788ee224329.mp3"
+  }
+ ],
+ "gloss": {
+  "don": "don (titre de respect)",
+  "quiere": "veut",
+  "ayudar": "aider",
+  "a": "à",
+  "con": "avec",
+  "su": "son / sa / leur",
+  "grupo": "groupe",
+  "hoy": "aujourd'hui",
+  "trae": "amène",
+  "casa": "maison",
+  "de": "de",
+  "abre": "ouvre",
+  "la": "la",
+  "puerta": "porte",
+  "hola": "bonjour / salut",
+  "está": "est",
+  "dentro": "à l'intérieur",
+  "quieres": "tu veux",
+  "jugar": "jouer",
+  "él": "lui",
+  "sí": "oui",
+  "quiero": "je veux",
+  "algo": "quelque chose",
+  "nuevo": "nouveau",
+  "llamado": "appelé",
+  "el": "le",
+  "agua": "eau",
+  "loca": "folle",
+  "qué": "quoi / que / quel",
+  "es": "est",
+  "eso": "ça",
+  "no": "non / ne... pas",
+  "dice": "dit",
+  "ni": "même pas",
+  "una": "une",
+  "palabra": "mot",
+  "en": "en / dans / à",
+  "otra": "autre",
+  "parte": "partie",
+  "teléfono": "téléphone",
+  "unos": "quelques",
+  "minutos": "minutes",
+  "después": "après / plus tard",
+  "ocurre": "se passe",
+  "hay": "il y a",
+  "medio": "milieu",
+  "mucha": "beaucoup de",
+  "y": "et",
+  "del": "du",
+  "los": "les",
+  "ojos": "yeux",
+  "muy": "très",
+  "grandes": "grands",
+  "estás": "tu es",
+  "mira": "regarde",
+  "loco": "fou",
+  "sale": "s'en va",
+  "perdón": "pardon",
+  "solo": "seulement / juste",
+  "intenta": "essaie",
+  "estar": "être",
+  "seria": "sérieuse",
+  "pero": "mais",
+  "puede": "peut",
+  "ese": "ce",
+  "momento": "moment",
+  "aquí": "ici",
+  "nada": "rien",
+  "un": "un",
+  "animal": "animal",
+  "niña": "petite fille",
+  "entra": "entre",
+  "al": "au (a + el)",
+  "oye": "entend"
+ }
+}

@@ -1,0 +1,796 @@
+{
+ "main": [
+  {
+   "id": 5,
+   "lemma": "ser",
+   "pos": "v",
+   "fr": "être (identité, nature)",
+   "ex_es": "Mi hermano es médico.",
+   "ex_fr": "Mon frère est médecin.",
+   "note": "≠ estar ; soy, eres, es ; fue",
+   "ff": false,
+   "forms": [
+    "es",
+    "fue",
+    "era",
+    "sé"
+   ],
+   "a_word": "es_9df1c16e8235.mp3",
+   "a_ex": "es_87ec17bfd681.mp3"
+  },
+  {
+   "id": 9,
+   "lemma": "estar",
+   "pos": "v",
+   "fr": "être (état, lieu)",
+   "ex_es": "Hoy estoy muy cansado.",
+   "ex_fr": "Aujourd'hui, je suis très fatigué.",
+   "note": "≠ ser : état passager, localisation",
+   "ff": false,
+   "forms": [
+    "está",
+    "estoy",
+    "estás",
+    "estaba"
+   ],
+   "a_word": "es_04f4f77f0bb0.mp3",
+   "a_ex": "es_c2738ef6c267.mp3"
+  },
+  {
+   "id": 10,
+   "lemma": "uno",
+   "pos": "num",
+   "fr": "un ; une",
+   "ex_es": "Uno para todos, todos para uno.",
+   "ex_fr": "Un pour tous, tous pour un.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "un"
+   ],
+   "a_word": "es_1eaa8bb19586.mp3",
+   "a_ex": "es_e0caf942e351.mp3"
+  },
+  {
+   "id": 11,
+   "lemma": "haber",
+   "pos": "v",
+   "fr": "avoir (auxiliaire) ; il y a (hay)",
+   "ex_es": "Eso es lo que debí haber dicho.",
+   "ex_fr": "C'est ce que j'aurais dû dire.",
+   "note": "hay = il y a ; he, has, ha",
+   "ff": false,
+   "forms": [
+    "ha",
+    "hay",
+    "he",
+    "había"
+   ],
+   "a_word": "es_509d2216087f.mp3",
+   "a_ex": "es_d4da7630d33c.mp3"
+  },
+  {
+   "id": 14,
+   "lemma": "tener",
+   "pos": "v",
+   "fr": "avoir (posséder)",
+   "ex_es": "Él debe tener unos 40 años.",
+   "ex_fr": "Il doit avoir environ 40 ans.",
+   "note": "tengo, tienes ; tener que = devoir",
+   "ff": false,
+   "forms": [
+    "tengo",
+    "tiene",
+    "tienes",
+    "tenemos"
+   ],
+   "a_word": "es_26f5581c1102.mp3",
+   "a_ex": "es_84bb56a438ab.mp3"
+  },
+  {
+   "id": 17,
+   "lemma": "ir",
+   "pos": "v",
+   "fr": "aller",
+   "ex_es": "Le he dicho que podía ir.",
+   "ex_fr": "Je lui ai dit qu'il pouvait y aller.",
+   "note": "irrégulier : voy, vas ; fue",
+   "ff": false,
+   "forms": [
+    "vamos",
+    "voy",
+    "va",
+    "vas"
+   ],
+   "a_word": "es_d74eea4899a6.mp3",
+   "a_ex": "es_f03287b62e36.mp3"
+  },
+  {
+   "id": 21,
+   "lemma": "hacer",
+   "pos": "v",
+   "fr": "faire",
+   "ex_es": "¿Qué haces esta noche?",
+   "ex_fr": "Qu'est-ce que tu fais ce soir ?",
+   "note": "hago, haces ; hice ; hecho",
+   "ff": false,
+   "forms": [
+    "hace",
+    "haciendo",
+    "hizo",
+    "hacerlo"
+   ],
+   "a_word": "es_98ddd921f5a0.mp3",
+   "a_ex": "es_8cab78f61fb9.mp3"
+  },
+  {
+   "id": 22,
+   "lemma": "poder",
+   "pos": "v",
+   "fr": "pouvoir",
+   "ex_es": "Necesito alguien con quien poder hablar.",
+   "ex_fr": "J'ai besoin de quelqu'un avec qui pouvoir parler.",
+   "note": "puedo, puedes ; pude",
+   "ff": false,
+   "forms": [
+    "puedo",
+    "puede",
+    "puedes",
+    "podría"
+   ],
+   "a_word": "es_6a065a3b0f83.mp3",
+   "a_ex": "es_34ac1fadd537.mp3"
+  },
+  {
+   "id": 25,
+   "lemma": "decir",
+   "pos": "v",
+   "fr": "dire",
+   "ex_es": "Puedes decir todo lo que quieras.",
+   "ex_fr": "Tu peux dire tout ce que tu veux.",
+   "note": "digo, dices ; dije ; dicho",
+   "ff": false,
+   "forms": [
+    "dijo",
+    "dice",
+    "dije",
+    "dicho"
+   ],
+   "a_word": "es_552b49f02401.mp3",
+   "a_ex": "es_38fd7f7bd904.mp3"
+  },
+  {
+   "id": 31,
+   "lemma": "querer",
+   "pos": "v",
+   "fr": "vouloir ; aimer (qqn)",
+   "ex_es": "Quiero un café, por favor.",
+   "ex_fr": "Je veux un café, s'il vous plaît.",
+   "note": "quiero ; te quiero = je t'aime",
+   "ff": false,
+   "forms": [
+    "quiero",
+    "quieres",
+    "quiere",
+    "quería"
+   ],
+   "a_word": "es_c2a9a78d6b42.mp3",
+   "a_ex": "es_c74415775454.mp3"
+  },
+  {
+   "id": 37,
+   "lemma": "más",
+   "pos": "adv",
+   "fr": "plus ; davantage",
+   "ex_es": "Quiero más agua, por favor.",
+   "ex_fr": "Je veux plus d'eau, s'il te plaît.",
+   "note": "más = plus ; mais = pero",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_5b2bf2d5d766.mp3",
+   "a_ex": "es_2d0ae79b2ab4.mp3"
+  },
+  {
+   "id": 38,
+   "lemma": "ver",
+   "pos": "v",
+   "fr": "voir",
+   "ex_es": "Solo quería ver si lo sabías.",
+   "ex_fr": "Je voulais juste voir si tu savais.",
+   "note": "veo ; vi ; visto",
+   "ff": false,
+   "forms": [
+    "visto",
+    "ven",
+    "veo",
+    "vi"
+   ],
+   "a_word": "es_0812f14f4331.mp3",
+   "a_ex": "es_0e45ea48469b.mp3"
+  },
+  {
+   "id": 40,
+   "lemma": "saber",
+   "pos": "v",
+   "fr": "savoir",
+   "ex_es": "Eso es lo que queremos saber.",
+   "ex_fr": "C'est ce que nous voulons savoir.",
+   "note": "sé, sabes ; supe",
+   "ff": false,
+   "forms": [
+    "sabes",
+    "sabe",
+    "sabía",
+    "sabemos"
+   ],
+   "a_word": "es_2bde79bff687.mp3",
+   "a_ex": "es_baec63a71ad3.mp3"
+  },
+  {
+   "id": 42,
+   "lemma": "aquí",
+   "pos": "adv",
+   "fr": "ici",
+   "ex_es": "¿Está bien si me siento aquí?",
+   "ex_fr": "Ça va si je m'assois ici ?",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "aqui",
+    "aki"
+   ],
+   "a_word": "es_27c55018e21f.mp3",
+   "a_ex": "es_8ea4686deaed.mp3"
+  },
+  {
+   "id": 45,
+   "lemma": "creer",
+   "pos": "v",
+   "fr": "croire",
+   "ex_es": "Quiero creer que todo va bien.",
+   "ex_fr": "Je veux croire que tout va bien.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "creo",
+    "crees",
+    "cree",
+    "creí"
+   ],
+   "a_word": "es_bf7eceea6674.mp3",
+   "a_ex": "es_8d65cccff8d5.mp3"
+  },
+  {
+   "id": 46,
+   "lemma": "ya",
+   "pos": "adv",
+   "fr": "déjà ; maintenant",
+   "ex_es": "Él ya ha dicho que sí.",
+   "ex_fr": "Il a déjà dit oui.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "yas"
+   ],
+   "a_word": "es_d74600e380db.mp3",
+   "a_ex": "es_7cb5d67ec485.mp3"
+  },
+  {
+   "id": 48,
+   "lemma": "dar",
+   "pos": "v",
+   "fr": "donner",
+   "ex_es": "¿Qué me puedes dar?",
+   "ex_fr": "Que peux-tu me donner ?",
+   "note": "doy ; di, dio",
+   "ff": false,
+   "forms": [
+    "da",
+    "dio",
+    "dado",
+    "dame"
+   ],
+   "a_word": "es_ac638a13498f.mp3",
+   "a_ex": "es_1f5ed32e563b.mp3"
+  },
+  {
+   "id": 49,
+   "lemma": "deber",
+   "pos": "v",
+   "fr": "devoir",
+   "ex_es": "Debes estudiar más.",
+   "ex_fr": "Tu dois étudier davantage.",
+   "note": "deber + infinitif = devoir faire",
+   "ff": false,
+   "forms": [
+    "debe",
+    "debería",
+    "debo",
+    "debes"
+   ],
+   "a_word": "es_3d56eb4a68de.mp3",
+   "a_ex": "es_43f5a7f90e1f.mp3"
+  },
+  {
+   "id": 50,
+   "lemma": "mucho",
+   "pos": "adv",
+   "fr": "beaucoup ; très",
+   "ex_es": "Se parece mucho a su madre.",
+   "ex_fr": "Elle ressemble beaucoup à sa mère.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "muy"
+   ],
+   "a_word": "es_5198d7431da9.mp3",
+   "a_ex": "es_ff491db742bf.mp3"
+  },
+  {
+   "id": 52,
+   "lemma": "así",
+   "pos": "adv",
+   "fr": "ainsi ; comme ça",
+   "ex_es": "¿Por qué me estás mirando así?",
+   "ex_fr": "Pourquoi me regardes-tu ainsi ?",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "asi",
+    "asín",
+    "ansí",
+    "haci"
+   ],
+   "a_word": "es_288bd7680afd.mp3",
+   "a_ex": "es_0c208253f6b5.mp3"
+  },
+  {
+   "id": 53,
+   "lemma": "ahora",
+   "pos": "adv",
+   "fr": "maintenant",
+   "ex_es": "Y ahora, ¿qué voy a hacer?",
+   "ex_fr": "Et maintenant, que vais-je faire ?",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "agora"
+   ],
+   "a_word": "es_9b86dcf988d5.mp3",
+   "a_ex": "es_ffec4bd4d17e.mp3"
+  },
+  {
+   "id": 54,
+   "lemma": "vez",
+   "pos": "n",
+   "fr": "fois",
+   "ex_es": "Sólo le he visto una vez.",
+   "ex_fr": "Je ne l'ai vu qu'une fois.",
+   "note": "a veces = parfois",
+   "ff": false,
+   "forms": [
+    "veces",
+    "vezes"
+   ],
+   "a_word": "es_26ea5d22048b.mp3",
+   "a_ex": "es_b81e82eed720.mp3"
+  },
+  {
+   "id": 57,
+   "lemma": "dejar",
+   "pos": "v",
+   "fr": "laisser ; arrêter de",
+   "ex_es": "Quiero dejar de pensar en eso.",
+   "ex_fr": "Je veux cesser d'y penser.",
+   "note": "dejar de + inf. = arrêter de",
+   "ff": false,
+   "forms": [
+    "deja",
+    "déjame",
+    "dejó",
+    "dejado"
+   ],
+   "a_word": "es_ffb9faa62bc4.mp3",
+   "a_ex": "es_a33f9ff32fcc.mp3"
+  },
+  {
+   "id": 58,
+   "lemma": "hablar",
+   "pos": "v",
+   "fr": "parler",
+   "ex_es": "Quiero hablar con todos ellos.",
+   "ex_fr": "Je veux leur parler à tous.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "hablando",
+    "habla",
+    "hablas",
+    "hablado"
+   ],
+   "a_word": "es_6bf62abc853d.mp3",
+   "a_ex": "es_80f1b8776a39.mp3"
+  },
+  {
+   "id": 59,
+   "lemma": "bueno",
+   "pos": "interj",
+   "fr": "bon ; bien (interj.)",
+   "ex_es": "Bueno, ahora me tengo que ir.",
+   "ex_fr": "Bien, je dois y aller, maintenant.",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_2e30567ce780.mp3",
+   "a_ex": "es_e22702ff06b6.mp3"
+  },
+  {
+   "id": 62,
+   "lemma": "cómo",
+   "pos": "adv",
+   "fr": "comment",
+   "ex_es": "¿Cómo te llamas?",
+   "ex_fr": "Comment tu t'appelles ?",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_d4d1ee0df6c0.mp3",
+   "a_ex": "es_b5a266a1e5af.mp3"
+  },
+  {
+   "id": 63,
+   "lemma": "solo",
+   "pos": "adv",
+   "fr": "seulement ; seul",
+   "ex_es": "Tuve que hacerlo todo yo solo.",
+   "ex_fr": "J'ai dû tout faire tout seul.",
+   "note": "adverbe = seulement ; adjectif = seul",
+   "ff": false,
+   "forms": [
+    "sólo"
+   ],
+   "a_word": "es_5653c6b1f518.mp3",
+   "a_ex": "es_ce589768a4d0.mp3"
+  },
+  {
+   "id": 64,
+   "lemma": "sentir",
+   "pos": "v",
+   "fr": "sentir, ressentir ; regretter",
+   "ex_es": "Siento un dolor en la espalda.",
+   "ex_fr": "Je ressens une douleur dans le dos.",
+   "note": "lo siento = désolé ; sentir (odeur) = oler",
+   "ff": false,
+   "forms": [
+    "siento",
+    "siente",
+    "sientes",
+    "sentía"
+   ],
+   "a_word": "es_350aef0dfc81.mp3",
+   "a_ex": "es_e9be47bcd007.mp3"
+  },
+  {
+   "id": 67,
+   "lemma": "esperar",
+   "pos": "v",
+   "fr": "attendre ; espérer",
+   "ex_es": "Te espero en la estación.",
+   "ex_fr": "Je t'attends à la gare.",
+   "note": "deux sens : attendre et espérer",
+   "ff": false,
+   "forms": [
+    "espera",
+    "espero",
+    "esperando",
+    "esperaba"
+   ],
+   "a_word": "es_cb72558ab358.mp3",
+   "a_ex": "es_01f73e12793f.mp3"
+  },
+  {
+   "id": 69,
+   "lemma": "día",
+   "pos": "n",
+   "fr": "jour",
+   "ex_es": "Te doy un día para pensártelo.",
+   "ex_fr": "Je te donne un jour pour y penser.",
+   "note": "masculin malgré -a : el día",
+   "ff": false,
+   "forms": [
+    "días",
+    "dia",
+    "dias"
+   ],
+   "a_word": "es_9ae6e063e269.mp3",
+   "a_ex": "es_2489f9b5e1f3.mp3"
+  },
+  {
+   "id": 990,
+   "lemma": "carajo",
+   "pos": "n",
+   "fr": "zut ; bon sang (vulg.)",
+   "ex_es": "¡Carajo, qué frío hace!",
+   "ex_fr": "Bon sang, qu'est-ce qu'il fait froid !",
+   "note": "juron, familier",
+   "ff": false,
+   "forms": [
+    "carajos"
+   ],
+   "a_word": "es_2425d38c4925.mp3",
+   "a_ex": "es_9737092cff90.mp3"
+  },
+  {
+   "id": 992,
+   "lemma": "iniciar",
+   "pos": "v",
+   "fr": "commencer ; lancer ; initier",
+   "ex_es": "Vamos a iniciar la reunión.",
+   "ex_fr": "Nous allons commencer la réunion.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "inició",
+    "inicia",
+    "iniciado",
+    "iniciaron"
+   ],
+   "a_word": "es_2b139c2400de.mp3",
+   "a_ex": "es_50da6d61f8be.mp3"
+  },
+  {
+   "id": 993,
+   "lemma": "diario",
+   "pos": "n",
+   "fr": "journal ; quotidien",
+   "ex_es": "¿Escribió algo en su diario ayer?",
+   "ex_fr": "A-t-il écrit quelque chose dans son journal hier ?",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "diarios"
+   ],
+   "a_word": "es_cb17f19a45e2.mp3",
+   "a_ex": "es_4d3c686a50cc.mp3"
+  },
+  {
+   "id": 995,
+   "lemma": "pista",
+   "pos": "n",
+   "fr": "piste ; indice ; court",
+   "ex_es": "¿Vas a la pista de tenis?",
+   "ex_fr": "Tu vas sur le court de tennis ?",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "pistas"
+   ],
+   "a_word": "es_47c3da0dc1d8.mp3",
+   "a_ex": "es_6e3482539a53.mp3"
+  },
+  {
+   "id": 996,
+   "lemma": "descansar",
+   "pos": "v",
+   "fr": "se reposer",
+   "ex_es": "Me quedé en casa para descansar.",
+   "ex_fr": "Je suis resté à la maison pour me reposer.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "descansa",
+    "descanse",
+    "descansando",
+    "descansen"
+   ],
+   "a_word": "es_7a3bb02cfebc.mp3",
+   "a_ex": "es_e32afbd8a416.mp3"
+  }
+ ],
+ "cognates": [
+  {
+   "id": 1,
+   "lemma": "de",
+   "pos": "prep",
+   "fr": "de ; du ; depuis",
+   "ex_es": "Es el libro de mi hermano.",
+   "ex_fr": "C'est le livre de mon frère.",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_5f02f0889301.mp3",
+   "a_ex": "es_aae9f92dfcce.mp3"
+  },
+  {
+   "id": 3,
+   "lemma": "que",
+   "pos": "pron",
+   "fr": "que ; qui ; quoi",
+   "ex_es": "Sé lo que tengo que hacer.",
+   "ex_fr": "Je sais ce que je dois faire.",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_8cfbcfcd27c8.mp3",
+   "a_ex": "es_27086a624562.mp3"
+  },
+  {
+   "id": 7,
+   "lemma": "en",
+   "pos": "prep",
+   "fr": "en ; dans ; à ; sur",
+   "ex_es": "Vivo en una ciudad pequeña.",
+   "ex_fr": "Je vis dans une petite ville.",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_9cfefed8fb94.mp3",
+   "a_ex": "es_49fc75dbdbcb.mp3"
+  },
+  {
+   "id": 15,
+   "lemma": "se",
+   "pos": "pron",
+   "fr": "se (pronom réfléchi)",
+   "ex_es": "Ella se llama Ana.",
+   "ex_fr": "Elle s'appelle Ana.",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_efad7abb323e.mp3",
+   "a_ex": "es_9953bb1d72b8.mp3"
+  },
+  {
+   "id": 16,
+   "lemma": "tú",
+   "pos": "pron",
+   "fr": "tu ; toi",
+   "ex_es": "¿Tú hablas francés?",
+   "ex_fr": "Tu parles français ?",
+   "note": "tú = tu ; tu = ton",
+   "ff": false,
+   "forms": [
+    "te",
+    "ti",
+    "contigo",
+    "tí"
+   ],
+   "a_word": "es_1b40a5d56ce5.mp3",
+   "a_ex": "es_fd63cdbee965.mp3"
+  },
+  {
+   "id": 30,
+   "lemma": "si",
+   "pos": "conj",
+   "fr": "si",
+   "ex_es": "Si llueve, me quedo en casa.",
+   "ex_fr": "S'il pleut, je reste à la maison.",
+   "note": "si = si ; sí = oui",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_ac5585d98646.mp3",
+   "a_ex": "es_60fa1898a991.mp3"
+  },
+  {
+   "id": 36,
+   "lemma": "bien",
+   "pos": "adv",
+   "fr": "bien",
+   "ex_es": "Yo creo que éste está bien.",
+   "ex_fr": "Je pense que celui-ci est bien.",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_67d6c28fac75.mp3",
+   "a_ex": "es_7a005aac7804.mp3"
+  },
+  {
+   "id": 47,
+   "lemma": "o",
+   "pos": "conj",
+   "fr": "ou",
+   "ex_es": "O vas tú, o voy yo.",
+   "ex_fr": "Soit tu vas, soit je vais.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "ò"
+   ],
+   "a_word": "es_d95679752134.mp3",
+   "a_ex": "es_de5048838457.mp3"
+  }
+ ],
+ "function_words": [
+  {
+   "id": 2,
+   "lemma": "ella",
+   "pos": "pron",
+   "fr": "elle",
+   "ex_es": "Ella me dijo que me quería.",
+   "ex_fr": "Elle m'a dit qu'elle m'aimait.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "la",
+    "las",
+    "ellas"
+   ],
+   "a_word": "es_ec5e1e94c042.mp3",
+   "a_ex": "es_32fe6f252d3b.mp3"
+  },
+  {
+   "id": 4,
+   "lemma": "el",
+   "pos": "art",
+   "fr": "le (article masc.)",
+   "ex_es": "El perro come en la cocina.",
+   "ex_fr": "Le chien mange dans la cuisine.",
+   "note": "el = le ; él = il",
+   "ff": false,
+   "forms": [
+    "los",
+    "er"
+   ],
+   "a_word": "es_65c10911d8b8.mp3",
+   "a_ex": "es_936bce5f2a05.mp3"
+  },
+  {
+   "id": 6,
+   "lemma": "y",
+   "pos": "conj",
+   "fr": "et",
+   "ex_es": "Y ahora, ¿qué voy a hacer?",
+   "ex_fr": "Et maintenant, que vais-je faire ?",
+   "note": "",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_415290769594.mp3",
+   "a_ex": "es_ffec4bd4d17e.mp3"
+  },
+  {
+   "id": 8,
+   "lemma": "él",
+   "pos": "pron",
+   "fr": "il ; lui",
+   "ex_es": "Él hace todo lo que quiero.",
+   "ex_fr": "Il fait tout ce que je veux.",
+   "note": "él = il ; el = le",
+   "ff": false,
+   "forms": [
+    "lo",
+    "le",
+    "ellos"
+   ],
+   "a_word": "es_4fc48b7d17df.mp3",
+   "a_ex": "es_f7de1c232be3.mp3"
+  },
+  {
+   "id": 12,
+   "lemma": "yo",
+   "pos": "pron",
+   "fr": "je ; moi",
+   "ex_es": "Yo hago lo que me dicen.",
+   "ex_fr": "Je fais ce qu'on me dit.",
+   "note": "",
+   "ff": false,
+   "forms": [
+    "me"
+   ],
+   "a_word": "es_6d0007e52f7a.mp3",
+   "a_ex": "es_0aa3326fe850.mp3"
+  },
+  {
+   "id": 13,
+   "lemma": "por",
+   "pos": "prep",
+   "fr": "par ; pour ; à cause de",
+   "ex_es": "Gracias por tu ayuda.",
+   "ex_fr": "Merci pour ton aide.",
+   "note": "por = cause/moyen ; para = but",
+   "ff": false,
+   "forms": [],
+   "a_word": "es_7cf41ff971d6.mp3",
+   "a_ex": "es_a8a9b0d05b60.mp3"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "day": 12,
+ "title": "Lucía pide un favor",
+ "title_fr": "Lucía demande un service",
+ "sentences": [
+  {
+   "es": "Lucía ya tiene trabajo en Valencia, con Carmen.",
+   "fr": "Lucía a déjà du travail à Valencia, avec Carmen.",
+   "audio": "es_e0353c998e72.mp3"
+  },
+  {
+   "es": "Hoy, Lucía trae dos cafés del café de Marta.",
+   "fr": "Aujourd'hui, Lucía apporte deux cafés du café de Marta.",
+   "audio": "es_286ee4e0086c.mp3"
+  },
+  {
+   "es": "—¡Gracias! —dice Carmen—. No tienes que traer café.",
+   "fr": "— Merci ! dit Carmen. Tu n'es pas obligée d'apporter du café.",
+   "audio": "es_0e533d2b3c36.mp3"
+  },
+  {
+   "es": "—Quiero empezar bien el día.",
+   "fr": "— Je veux bien commencer la journée.",
+   "audio": "es_735085463e20.mp3"
+  },
+  {
+   "es": "Lucía empieza a trabajar. Hay un problema con un cliente.",
+   "fr": "Lucía commence à travailler. Il y a un problème avec un client.",
+   "audio": "es_fd4b49dc319b.mp3"
+  },
+  {
+   "es": "Ella intenta entender el caso, pero no puede.",
+   "fr": "Elle essaie de comprendre le dossier, mais elle n'y arrive pas.",
+   "audio": "es_2aae4cdcdbaa.mp3"
+  },
+  {
+   "es": "Entonces le pide un favor a Carmen.",
+   "fr": "Alors elle demande un service à Carmen.",
+   "audio": "es_d230b082ba4b.mp3"
+  },
+  {
+   "es": "—Carmen, ¿me puedes ayudar? No entiendo este caso.",
+   "fr": "— Carmen, tu peux m'aider ? Je ne comprends pas ce dossier.",
+   "audio": "es_7bf20ec0bd81.mp3"
+  },
+  {
+   "es": "—Claro. ¿Cuál es el nombre del cliente?",
+   "fr": "— Bien sûr. Quel est le nom du client ?",
+   "audio": "es_a69451d4c376.mp3"
+  },
+  {
+   "es": "Lucía no sabe el nombre. Mira el documento.",
+   "fr": "Lucía ne connaît pas le nom. Elle regarde le document.",
+   "audio": "es_bf84ea62bf24.mp3"
+  },
+  {
+   "es": "—Quizá está aquí... Sí, aquí está el nombre.",
+   "fr": "— Peut-être qu'il est ici... Oui, voici le nom.",
+   "audio": "es_71b81812e024.mp3"
+  },
+  {
+   "es": "Carmen toma el documento en la mano.",
+   "fr": "Carmen prend le document en main.",
+   "audio": "es_4cfad209b7d8.mp3"
+  },
+  {
+   "es": "—Este caso es fácil. En este caso, tienes que llamar al cliente.",
+   "fr": "— Ce dossier est facile. Dans ce cas, tu dois appeler le client.",
+   "audio": "es_95e06bf2abb3.mp3"
+  },
+  {
+   "es": "Lucía llama al cliente. Habla tanto, y tan rápido...",
+   "fr": "Lucía appelle le client. Elle parle tellement, et si vite...",
+   "audio": "es_8c16d82fe865.mp3"
+  },
+  {
+   "es": "Pero al final, consigue la información.",
+   "fr": "Mais à la fin, elle obtient l'information.",
+   "audio": "es_4c9134e849e0.mp3"
+  },
+  {
+   "es": "—¡Ya lo tengo! —dice Lucía, con el teléfono en la mano.",
+   "fr": "— Ça y est, je l'ai ! dit Lucía, le téléphone à la main.",
+   "audio": "es_96c82b6056ae.mp3"
+  },
+  {
+   "es": "—Muy bien. Tanto trabajo y tan poco café...",
+   "fr": "— Très bien. Tant de travail et si peu de café...",
+   "audio": "es_a933bb24424e.mp3"
+  },
+  {
+   "es": "—Quizá mañana traigo tres cafés. ¿Te parece bien?",
+   "fr": "— Peut-être que demain j'apporte trois cafés. Ça te va ?",
+   "audio": "es_be89c024e9ed.mp3"
+  },
+  {
+   "es": "—¡Perfecto! Y si necesitas algo, pide.",
+   "fr": "— Parfait ! Et si tu as besoin de quelque chose, demande.",
+   "audio": "es_95322335a0f2.mp3"
+  }
+ ],
+ "gloss": {
+  "ya": "déjà / ne... plus (ya lo tengo : ça y est, je l'ai)",
+  "tiene": "a",
+  "trabajo": "travail / je travaille",
+  "en": "en / dans / à",
+  "con": "avec",
+  "hoy": "aujourd'hui",
+  "trae": "apporte",
+  "dos": "deux",
+  "cafés": "cafés",
+  "del": "du",
+  "café": "café",
+  "de": "de",
+  "gracias": "merci",
+  "dice": "dit",
+  "no": "non / ne... pas",
+  "tienes": "tu as",
+  "que": "que / qui",
+  "traer": "apporter",
+  "quiero": "je veux",
+  "empezar": "commencer",
+  "bien": "bien",
+  "el": "le",
+  "día": "jour / journée",
+  "empieza": "commence",
+  "a": "à",
+  "trabajar": "travailler",
+  "hay": "il y a",
+  "un": "un",
+  "problema": "problème",
+  "cliente": "client",
+  "ella": "elle",
+  "intenta": "essaie",
+  "entender": "comprendre",
+  "caso": "dossier / cas",
+  "pero": "mais",
+  "puede": "peut",
+  "entonces": "alors",
+  "le": "lui",
+  "pide": "demande",
+  "favor": "faveur / service",
+  "me": "me / moi",
+  "puedes": "tu peux",
+  "ayudar": "aider",
+  "entiendo": "je comprends",
+  "este": "ce",
+  "claro": "bien sûr",
+  "cuál": "quel",
+  "es": "est",
+  "nombre": "nom",
+  "sabe": "sait",
+  "mira": "regarde",
+  "documento": "document",
+  "quizá": "peut-être",
+  "está": "est",
+  "aquí": "ici",
+  "sí": "oui",
+  "toma": "prend",
+  "la": "la",
+  "mano": "main",
+  "fácil": "facile",
+  "llamar": "appeler",
+  "al": "au",
+  "llama": "appelle",
+  "habla": "parle",
+  "tanto": "tant / tellement",
+  "y": "et",
+  "tan": "si / aussi",
+  "rápido": "vite",
+  "final": "fin / final",
+  "consigue": "obtient",
+  "información": "information",
+  "lo": "le",
+  "teléfono": "téléphone",
+  "muy": "très",
+  "poco": "peu",
+  "mañana": "demain / matin",
+  "traigo": "j'apporte",
+  "tres": "trois",
+  "te": "te / toi",
+  "parece": "semble (te parece bien : ça te va)",
+  "perfecto": "parfait",
+  "si": "si",
+  "necesitas": "tu as besoin",
+  "algo": "quelque chose",
+  "tengo": "j'ai"
+ }
+}

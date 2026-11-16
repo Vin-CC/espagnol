@@ -1,0 +1,185 @@
+{
+ "day": 21,
+ "title": "La nota en el juego",
+ "title_fr": "La note dans le jeu",
+ "sentences": [
+  {
+   "es": "Después de una semana de trabajo, Lucía está feliz en Valencia.",
+   "fr": "Après une semaine de travail, Lucía est heureuse à Valencia.",
+   "audio": "es_d962f5d6fd9d.mp3"
+  },
+  {
+   "es": "A las cinco, don Ramón llama a su puerta.",
+   "fr": "À cinq heures, don Ramón frappe à sa porte.",
+   "audio": "es_76ce9af88953.mp3"
+  },
+  {
+   "es": "—Lucía, ¿puedes ayudarme? Tengo que mover muchas cosas.",
+   "fr": "— Lucía, tu peux m'aider ? Je dois déplacer beaucoup de choses.",
+   "audio": "es_fd505033a99f.mp3"
+  },
+  {
+   "es": "—¡Claro! —dice Lucía.",
+   "fr": "— Bien sûr ! dit Lucía.",
+   "audio": "es_210ab73f610d.mp3"
+  },
+  {
+   "es": "La casa de Ramón tiene fotos, documentos y un juego muy viejo.",
+   "fr": "La maison de Ramón a des photos, des documents et un très vieux jeu.",
+   "audio": "es_1a8d75ac82f9.mp3"
+  },
+  {
+   "es": "Lucía abre el juego. Dentro hay una nota larga.",
+   "fr": "Lucía ouvre le jeu. Dedans, il y a une longue note.",
+   "audio": "es_a6f27d2abd66.mp3"
+  },
+  {
+   "es": "La nota dice: «Querido Ramón: te echo de menos. Escribe pronto. Con cariño, C.»",
+   "fr": "La note dit : « Cher Ramón, tu me manques. Écris vite. Avec tendresse, C. »",
+   "audio": "es_71db593c6855.mp3"
+  },
+  {
+   "es": "Ramón toca la nota con la mano.",
+   "fr": "Ramón touche la note de la main.",
+   "audio": "es_74ccb333e94f.mp3"
+  },
+  {
+   "es": "Su cara cambia. Además, sus ojos están tristes.",
+   "fr": "Son visage change. En plus, ses yeux sont tristes.",
+   "audio": "es_bbeba8dff2b5.mp3"
+  },
+  {
+   "es": "—¿Quién escribió la nota? —pregunta Lucía.",
+   "fr": "— Qui a écrit la note ? demande Lucía.",
+   "audio": "es_c98b4776e6f4.mp3"
+  },
+  {
+   "es": "Ramón no dice nada. Mira la nota cinco minutos.",
+   "fr": "Ramón ne dit rien. Il regarde la note pendant cinq minutes.",
+   "audio": "es_13cffdd50584.mp3"
+  },
+  {
+   "es": "Toca otra vez las palabras «con cariño».",
+   "fr": "Il touche encore une fois les mots « avec tendresse ».",
+   "audio": "es_342b94c3ebc8.mp3"
+  },
+  {
+   "es": "—Es una historia larga, Lucía. Además, es del pasado.",
+   "fr": "— C'est une longue histoire, Lucía. En plus, elle appartient au passé.",
+   "audio": "es_19676a54d40f.mp3"
+  },
+  {
+   "es": "—Pero ella dice: «Escribe pronto».",
+   "fr": "— Mais elle dit : « Écris vite ».",
+   "audio": "es_d8ed24e92e34.mp3"
+  },
+  {
+   "es": "—Ahora quiero estar solo. Gracias por tu ayuda.",
+   "fr": "— Maintenant, je veux être seul. Merci pour ton aide.",
+   "audio": "es_065de5b34c42.mp3"
+  },
+  {
+   "es": "Ramón echa a Lucía de su casa con cariño, pero la echa.",
+   "fr": "Ramón met Lucía à la porte avec gentillesse, mais il la met dehors.",
+   "audio": "es_fb3f0186f219.mp3"
+  },
+  {
+   "es": "Lucía no puede olvidar la cara de Ramón.",
+   "fr": "Lucía ne peut pas oublier le visage de Ramón.",
+   "audio": "es_0daf8ffbb782.mp3"
+  },
+  {
+   "es": "¿Quién es ella? ¿Y por qué escribe «te echo de menos»?",
+   "fr": "Qui est-elle ? Et pourquoi écrit-elle « tu me manques » ?",
+   "audio": "es_67b581f77782.mp3"
+  }
+ ],
+ "gloss": {
+  "después": "après, ensuite",
+  "de": "de",
+  "una": "une",
+  "semana": "semaine",
+  "trabajo": "travail",
+  "está": "est",
+  "feliz": "heureuse",
+  "en": "en, dans, à",
+  "a": "à",
+  "las": "les",
+  "cinco": "cinq",
+  "don": "don (titre de respect)",
+  "llama": "frappe (llamar a la puerta)",
+  "su": "son, sa, leur",
+  "puerta": "porte",
+  "puedes": "tu peux",
+  "ayudarme": "m'aider",
+  "tengo": "j'ai",
+  "que": "que, qui",
+  "mover": "déplacer",
+  "muchas": "beaucoup de",
+  "cosas": "choses",
+  "claro": "bien sûr",
+  "dice": "dit",
+  "la": "la",
+  "casa": "maison",
+  "tiene": "a",
+  "fotos": "photos",
+  "documentos": "documents",
+  "y": "et",
+  "un": "un",
+  "juego": "jeu",
+  "muy": "très",
+  "viejo": "vieux",
+  "abre": "ouvre",
+  "el": "le",
+  "dentro": "dedans",
+  "hay": "il y a",
+  "nota": "note",
+  "larga": "longue",
+  "querido": "cher",
+  "te": "te, toi",
+  "echo": "echo de menos : tu me manques",
+  "menos": "moins (echar de menos : manquer)",
+  "escribe": "écrit ; écris",
+  "pronto": "vite, bientôt",
+  "con": "avec",
+  "cariño": "tendresse",
+  "c": "C. (initiale)",
+  "toca": "touche",
+  "mano": "main",
+  "cara": "visage",
+  "cambia": "change",
+  "además": "en plus",
+  "sus": "ses",
+  "ojos": "yeux",
+  "están": "sont",
+  "tristes": "tristes",
+  "quién": "qui",
+  "pregunta": "demande",
+  "no": "non, ne... pas",
+  "nada": "rien",
+  "mira": "regarde",
+  "minutos": "minutes",
+  "otra": "autre",
+  "vez": "fois",
+  "palabras": "mots",
+  "es": "est",
+  "historia": "histoire",
+  "del": "du (de + el)",
+  "pasado": "passé",
+  "pero": "mais",
+  "ella": "elle",
+  "ahora": "maintenant",
+  "quiero": "je veux",
+  "estar": "être",
+  "solo": "seul",
+  "gracias": "merci",
+  "por": "par, pour",
+  "tu": "ton, ta",
+  "ayuda": "aide",
+  "echa": "met dehors",
+  "puede": "peut",
+  "olvidar": "oublier",
+  "qué": "quoi, qu'est-ce que",
+  "escribió": "a écrit"
+ }
+}

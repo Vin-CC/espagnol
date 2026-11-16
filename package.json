@@ -1,0 +1,11 @@
+{
+  "name": "espanol-diario",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PWA statique d'apprentissage de l'espagnol (aucune dépendance, aucune étape de build).",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/",
+    "serve": "python3 -m http.server 8000 --directory public"
+  }
+}

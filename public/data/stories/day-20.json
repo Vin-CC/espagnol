@@ -1,0 +1,180 @@
+{
+ "day": 20,
+ "title": "La fiesta",
+ "title_fr": "La fête",
+ "sentences": [
+  {
+   "es": "Todo el equipo ayuda, y todo está preparado.",
+   "fr": "Toute l'équipe aide, et tout est prêt.",
+   "audio": "es_0c23af66b796.mp3"
+  },
+  {
+   "es": "La fiesta comienza a las cuatro de la tarde.",
+   "fr": "La fête commence à quatre heures de l'après-midi.",
+   "audio": "es_e26bd07d11e7.mp3"
+  },
+  {
+   "es": "—¡Buenas tardes a todos! —dice un hombre del gobierno de la ciudad.",
+   "fr": "— Bonjour à tous ! dit un homme du gouvernement de la ville.",
+   "audio": "es_c633cafc43f3.mp3"
+  },
+  {
+   "es": "Habla mucho, y nadie escucha.",
+   "fr": "Il parle beaucoup, et personne n'écoute.",
+   "audio": "es_bf0c356564be.mp3"
+  },
+  {
+   "es": "Hay gente joven y gente vieja, niños y padres.",
+   "fr": "Il y a des jeunes et des vieux, des enfants et des parents.",
+   "audio": "es_1858d53f81e7.mp3"
+  },
+  {
+   "es": "Lola juega con otros niños. Carmen y su esposo comen.",
+   "fr": "Lola joue avec d'autres enfants. Carmen et son mari mangent.",
+   "audio": "es_fe69d53c310b.mp3"
+  },
+  {
+   "es": "Don Ramón llega con Lucía.",
+   "fr": "Don Ramón arrive avec Lucía.",
+   "audio": "es_6038f8940ca1.mp3"
+  },
+  {
+   "es": "—No soy viejo —dice—. Hoy soy joven.",
+   "fr": "— Je ne suis pas vieux, dit-il. Aujourd'hui, je suis jeune.",
+   "audio": "es_4917050a79ca.mp3"
+  },
+  {
+   "es": "Por la noche, la música comienza.",
+   "fr": "Le soir, la musique commence.",
+   "audio": "es_ca103bee4a73.mp3"
+  },
+  {
+   "es": "El grupo de Diego es el número cuatro.",
+   "fr": "Le groupe de Diego est le numéro quatre.",
+   "audio": "es_dada0918c388.mp3"
+  },
+  {
+   "es": "—¡Buenas noches! Somos el número cuatro —dice Diego.",
+   "fr": "— Bonsoir ! Nous sommes le numéro quatre, dit Diego.",
+   "audio": "es_7909b523ac3e.mp3"
+  },
+  {
+   "es": "Diego y su grupo hacen música. La gente está feliz.",
+   "fr": "Diego et son groupe font de la musique. Les gens sont heureux.",
+   "audio": "es_f1646d1f356d.mp3"
+  },
+  {
+   "es": "Diego no gana, pero está feliz.",
+   "fr": "Diego ne gagne pas, mais il est heureux.",
+   "audio": "es_d502cef6b754.mp3"
+  },
+  {
+   "es": "Don Ramón mira la calle y dice: —Valencia es mi tierra.",
+   "fr": "Don Ramón regarde la rue et dit : — Valencia, c'est ma terre.",
+   "audio": "es_b338672002c2.mp3"
+  },
+  {
+   "es": "Y ahora, Lucía, es tu tierra también.",
+   "fr": "Et maintenant, Lucía, c'est aussi ta terre.",
+   "audio": "es_a9272a1bfac8.mp3"
+  },
+  {
+   "es": "A las dos de la mañana, Lucía regresa a casa.",
+   "fr": "À deux heures du matin, Lucía rentre à la maison.",
+   "audio": "es_6e7c2e7f672b.mp3"
+  },
+  {
+   "es": "Ramón regresa con ella, feliz como un joven.",
+   "fr": "Ramón rentre avec elle, heureux comme un jeune homme.",
+   "audio": "es_80500ecff4bc.mp3"
+  },
+  {
+   "es": "Pipo los espera en la puerta.",
+   "fr": "Pipo les attend à la porte.",
+   "audio": "es_ce3e5a50014e.mp3"
+  },
+  {
+   "es": "—Pipo —dice Lucía—, hoy soy muy feliz.",
+   "fr": "— Pipo, dit Lucía, aujourd'hui je suis très heureuse.",
+   "audio": "es_c5b754e5c4b0.mp3"
+  }
+ ],
+ "gloss": {
+  "todo": "tout",
+  "el": "le",
+  "equipo": "équipe",
+  "ayuda": "aide",
+  "y": "et",
+  "está": "est",
+  "preparado": "prêt",
+  "la": "la",
+  "fiesta": "fête",
+  "comienza": "commence",
+  "a": "à",
+  "las": "les",
+  "cuatro": "quatre",
+  "de": "de",
+  "tarde": "après-midi",
+  "buenas": "bonnes",
+  "tardes": "buenas tardes : bonjour (l'après-midi)",
+  "todos": "tous / tout le monde",
+  "dice": "dit",
+  "un": "un",
+  "hombre": "homme",
+  "del": "du",
+  "gobierno": "gouvernement",
+  "ciudad": "ville",
+  "habla": "parle",
+  "mucho": "beaucoup",
+  "nadie": "personne",
+  "escucha": "entend / écoute",
+  "hay": "il y a",
+  "gente": "gens",
+  "joven": "jeune",
+  "vieja": "vieille",
+  "niños": "enfants",
+  "padres": "parents",
+  "juega": "joue",
+  "con": "avec",
+  "otros": "autres",
+  "su": "son / sa / leur",
+  "esposo": "mari",
+  "comen": "mangent",
+  "don": "don (titre de respect)",
+  "llega": "arrive",
+  "no": "non / ne... pas",
+  "soy": "je suis",
+  "viejo": "vieux",
+  "hoy": "aujourd'hui",
+  "por": "par / pour",
+  "noche": "soir / nuit",
+  "música": "musique",
+  "grupo": "groupe",
+  "es": "est",
+  "número": "numéro",
+  "noches": "buenas noches : bonsoir",
+  "somos": "nous sommes",
+  "hacen": "font",
+  "feliz": "heureux / heureuse",
+  "gana": "gagne",
+  "pero": "mais",
+  "mira": "regarde",
+  "calle": "rue",
+  "mi": "mon / ma",
+  "tierra": "terre",
+  "ahora": "maintenant",
+  "tu": "ton / ta",
+  "también": "aussi",
+  "dos": "deux",
+  "mañana": "matin",
+  "regresa": "rentre",
+  "casa": "maison",
+  "ella": "elle",
+  "como": "comme",
+  "los": "les",
+  "espera": "attend",
+  "en": "en / dans / à",
+  "puerta": "porte",
+  "muy": "très"
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "day": 1,
+  "title": "Mi hermano",
+  "title_fr": "Mon frère",
+  "sentences": [
+    { "es": "Mi hermano es médico.", "fr": "Mon frère est médecin.", "audio": "story-01-01.mp3" },
+    { "es": "Hoy está muy cansado.", "fr": "Aujourd'hui, il est très fatigué.", "audio": "story-01-02.mp3" },
+    { "es": "Tiene que ir al hospital, pero no puede.", "fr": "Il doit aller à l'hôpital, mais il ne peut pas.", "audio": "story-01-03.mp3" },
+    { "es": "Dice: «Quiero dormir».", "fr": "Il dit : « Je veux dormir ».", "audio": "story-01-04.mp3" }
+  ],
+  "gloss": {
+    "mi": "mon", "hermano": "frère", "es": "est", "médico": "médecin", "hoy": "aujourd'hui",
+    "está": "est", "muy": "très", "cansado": "fatigué", "tiene": "a", "que": "que", "ir": "aller",
+    "al": "à l'", "hospital": "hôpital", "pero": "mais", "no": "ne… pas", "puede": "peut",
+    "dice": "dit", "quiero": "je veux", "dormir": "dormir"
+  }
+}

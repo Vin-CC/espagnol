@@ -1,0 +1,181 @@
+{
+ "day": 18,
+ "title": "El programa de la fiesta",
+ "title_fr": "Le programme de la fête",
+ "sentences": [
+  {
+   "es": "Pipo ya no quiere jugar con el agua.",
+   "fr": "Pipo ne veut plus jouer avec l'eau.",
+   "audio": "es_8ac4bd5286ab.mp3"
+  },
+  {
+   "es": "Hoy, en el camino al trabajo, Lucía ve a Pablo.",
+   "fr": "Aujourd'hui, sur le chemin du travail, Lucía voit Pablo.",
+   "audio": "es_6c5df76fdb22.mp3"
+  },
+  {
+   "es": "Pablo es alto, muy alto.",
+   "fr": "Pablo est grand, très grand.",
+   "audio": "es_361c0549d9df.mp3"
+  },
+  {
+   "es": "—¡Lucía! Todos reciben el programa de la fiesta. Aquí está.",
+   "fr": "— Lucía ! Tout le monde reçoit le programme de la fête. Le voici.",
+   "audio": "es_a3716977860a.mp3"
+  },
+  {
+   "es": "Lucía recibe el programa y lo lee en el camino.",
+   "fr": "Lucía reçoit le programme et le lit en chemin.",
+   "audio": "es_ef6f9aab4d1e.mp3"
+  },
+  {
+   "es": "«Música, cine para niños y un gran final.»",
+   "fr": "« Musique, cinéma pour les enfants et un grand final. »",
+   "audio": "es_6fdfdd6da7f3.mp3"
+  },
+  {
+   "es": "En el trabajo, Carmen también lee el programa.",
+   "fr": "Au travail, Carmen lit aussi le programme.",
+   "audio": "es_afbc8012192c.mp3"
+  },
+  {
+   "es": "—Mi esposo y yo vamos con Lola.",
+   "fr": "— Mon mari et moi, on y va avec Lola.",
+   "audio": "es_3c16f1fb54e1.mp3"
+  },
+  {
+   "es": "—¿Puedo hacer una pregunta? ¿Tu esposo es de Valencia?",
+   "fr": "— Je peux poser une question ? Ton mari est de Valencia ?",
+   "audio": "es_23ee8465c9eb.mp3"
+  },
+  {
+   "es": "—Sí, pero su familia es de Francia, ¡como tú!",
+   "fr": "— Oui, mais sa famille vient de France, comme toi !",
+   "audio": "es_1d996905b108.mp3"
+  },
+  {
+   "es": "Por la noche, en el café, Lucía quiere pagar.",
+   "fr": "Le soir, au café, Lucía veut payer.",
+   "audio": "es_b41f849fbdbb.mp3"
+  },
+  {
+   "es": "Pero Marta no lo permite. —Aquí, tú no pagas.",
+   "fr": "Mais Marta ne le permet pas. — Ici, tu ne paies pas.",
+   "audio": "es_0171a7ebe605.mp3"
+  },
+  {
+   "es": "—¿Por qué no puedo pagar?",
+   "fr": "— Pourquoi je ne peux pas payer ?",
+   "audio": "es_3e542fefbd51.mp3"
+  },
+  {
+   "es": "—Es una pregunta fácil: eres de la familia.",
+   "fr": "— C'est une question facile : tu fais partie de la famille.",
+   "audio": "es_eee20f7bd3ec.mp3"
+  },
+  {
+   "es": "Don Ramón lee el programa en silencio. Está triste.",
+   "fr": "Don Ramón lit le programme en silence. Il est triste.",
+   "audio": "es_8f1898759cb1.mp3"
+  },
+  {
+   "es": "—¿Qué sucede, don Ramón?",
+   "fr": "— Que se passe-t-il, don Ramón ?",
+   "audio": "es_c05d10f1df1c.mp3"
+  },
+  {
+   "es": "—Esta fiesta es muy especial para mí. Pero desde la muerte de mi esposa, ya no voy.",
+   "fr": "— Cette fête est très spéciale pour moi. Mais depuis la mort de ma femme, je n'y vais plus.",
+   "audio": "es_164f72847b43.mp3"
+  },
+  {
+   "es": "—Este año, ¿viene conmigo?",
+   "fr": "— Cette année, vous venez avec moi ?",
+   "audio": "es_33d9114a459c.mp3"
+  },
+  {
+   "es": "Ramón mira a Lucía. —Sí. Este año, sí.",
+   "fr": "Ramón regarde Lucía. — Oui. Cette année, oui.",
+   "audio": "es_48ee45ea08f4.mp3"
+  }
+ ],
+ "gloss": {
+  "ya": "ne... plus",
+  "no": "non / ne... pas",
+  "quiere": "veut",
+  "jugar": "jouer",
+  "con": "avec",
+  "el": "le",
+  "agua": "eau",
+  "hoy": "aujourd'hui",
+  "en": "en / dans / à",
+  "camino": "chemin",
+  "al": "au",
+  "trabajo": "travail / je travaille",
+  "ve": "voit",
+  "a": "à",
+  "es": "est",
+  "alto": "grand",
+  "muy": "très",
+  "todos": "tous / tout le monde",
+  "reciben": "reçoivent",
+  "programa": "programme",
+  "de": "de",
+  "la": "la",
+  "fiesta": "fête",
+  "aquí": "ici",
+  "está": "est",
+  "recibe": "reçoit",
+  "y": "et",
+  "lo": "le",
+  "lee": "lit",
+  "música": "musique",
+  "cine": "cinéma",
+  "para": "pour",
+  "niños": "enfants",
+  "un": "un",
+  "gran": "grand(e)",
+  "final": "final",
+  "también": "aussi",
+  "mi": "mon / ma",
+  "esposo": "mari",
+  "yo": "je / moi",
+  "vamos": "nous allons",
+  "puedo": "je peux",
+  "hacer": "faire",
+  "una": "une",
+  "pregunta": "question",
+  "tu": "ton / ta",
+  "sí": "oui",
+  "pero": "mais",
+  "su": "son / sa / leur",
+  "familia": "famille",
+  "como": "comme",
+  "tú": "tu / toi",
+  "por": "par / pour",
+  "noche": "soir / nuit",
+  "café": "café",
+  "pagar": "payer",
+  "permite": "permet",
+  "pagas": "tu paies",
+  "qué": "quoi / que / quel",
+  "fácil": "facile",
+  "eres": "tu es",
+  "don": "don (titre de respect)",
+  "silencio": "silence",
+  "triste": "triste",
+  "sucede": "se passe",
+  "esposa": "épouse",
+  "esta": "cette",
+  "muerte": "mort",
+  "voy": "je vais",
+  "este": "ce",
+  "año": "année",
+  "viene": "vient",
+  "conmigo": "avec moi",
+  "mira": "regarde",
+  "especial": "spécial(e)",
+  "mí": "moi",
+  "desde": "depuis"
+ }
+}

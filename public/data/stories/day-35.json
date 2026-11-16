@@ -1,0 +1,223 @@
+{
+ "day": 35,
+ "title": "El rey de las fiestas",
+ "title_fr": "Le roi des fêtes",
+ "sentences": [
+  {
+   "es": "Lucía tiene papeles para la fiesta, pero Diego no tiene guitarra.",
+   "fr": "Lucía a des papiers pour la fête, mais Diego n'a pas de guitare.",
+   "audio": "es_a7f37f49db96.mp3"
+  },
+  {
+   "es": "Don Ramón llama a Diego y a Lucía.",
+   "fr": "Don Ramón appelle Diego et Lucía.",
+   "audio": "es_68bedc07d405.mp3"
+  },
+  {
+   "es": "—Venid a mi casa. Tengo algo para vosotros.",
+   "fr": "« Venez chez moi. J'ai quelque chose pour vous. »",
+   "audio": "es_c78a85cca9d2.mp3"
+  },
+  {
+   "es": "En casa de Ramón hay un cuarto pequeño. Es su estudio.",
+   "fr": "Chez Ramón, il y a une petite pièce. C'est son bureau.",
+   "audio": "es_82836b5576a3.mp3"
+  },
+  {
+   "es": "Hay muchos libros. Y en el fondo del cuarto, hay una guitarra vieja.",
+   "fr": "Il y a beaucoup de livres. Et au fond de la pièce, il y a une vieille guitare.",
+   "audio": "es_4dfc4868c2a5.mp3"
+  },
+  {
+   "es": "—Es mi guitarra —dice Ramón—. En mi tiempo, yo era el rey de las fiestas.",
+   "fr": "« C'est ma guitare, dit Ramón. À mon époque, j'étais le roi des fêtes. »",
+   "audio": "es_01e1029d2b90.mp3"
+  },
+  {
+   "es": "—¿Usted, Don Ramón? ¿Usted tocaba? —pregunta Lucía.",
+   "fr": "« Vous, Don Ramón ? Vous jouiez ? » demande Lucía.",
+   "audio": "es_c98bff751349.mp3"
+  },
+  {
+   "es": "—Sí. Era un verdadero artista. ¡Tocaba con fuego!",
+   "fr": "« Oui. J'étais un vrai artiste. Je jouais avec feu ! »",
+   "audio": "es_bc14e2c408d5.mp3"
+  },
+  {
+   "es": "—¿Puedo probar? —pregunta Diego.",
+   "fr": "« Je peux essayer ? » demande Diego.",
+   "audio": "es_e1f1ee9b4c12.mp3"
+  },
+  {
+   "es": "—Claro. Prueba.",
+   "fr": "« Bien sûr. Essaie. »",
+   "audio": "es_ef69b409f3b6.mp3"
+  },
+  {
+   "es": "Diego toca. A pesar de los años, la guitarra suena muy bien.",
+   "fr": "Diego joue. Malgré les années, la guitare sonne très bien.",
+   "audio": "es_4bf80d85aa2a.mp3"
+  },
+  {
+   "es": "—¡Es de muy buen nivel! —dice Diego.",
+   "fr": "« Elle est de très bon niveau ! » dit Diego.",
+   "audio": "es_718d17a0c2ff.mp3"
+  },
+  {
+   "es": "—Una guitarra verdadera no muere —dice Ramón.",
+   "fr": "« Une vraie guitare ne meurt pas », dit Ramón.",
+   "audio": "es_24ca068a3291.mp3"
+  },
+  {
+   "es": "—¿Me la deja para la fiesta?",
+   "fr": "« Vous me la prêtez pour la fête ? »",
+   "audio": "es_3dc010128c60.mp3"
+  },
+  {
+   "es": "Ramón no da una respuesta. La mira mucho tiempo.",
+   "fr": "Ramón ne donne pas de réponse. Il la regarde longtemps.",
+   "audio": "es_40ba69018636.mp3"
+  },
+  {
+   "es": "—Bueno. Pero cuidado con Pipo.",
+   "fr": "« Bon. Mais attention à Pipo. »",
+   "audio": "es_bd6ede01e94a.mp3"
+  },
+  {
+   "es": "Bajan al café. Marta está allí con los papeles de Lucía en la mano.",
+   "fr": "Ils descendent au café. Marta est là, avec les papiers de Lucía à la main.",
+   "audio": "es_5ca027cfd910.mp3"
+  },
+  {
+   "es": "—¿Qué es esto? ¿Dinero para el café? ¿Por qué?",
+   "fr": "« Qu'est-ce que c'est ? De l'argent pour le café ? Pourquoi ? »",
+   "audio": "es_bb8e830e0538.mp3"
+  },
+  {
+   "es": "Diego no dice nada.",
+   "fr": "Diego ne dit rien.",
+   "audio": "es_534940b50693.mp3"
+  },
+  {
+   "es": "—¡Basta! Quiero una respuesta, Diego.",
+   "fr": "« Ça suffit ! Je veux une réponse, Diego. »",
+   "audio": "es_5f6a92cfb0f7.mp3"
+  },
+  {
+   "es": "—El café debe dinero, Marta. Sé lo de la carta.",
+   "fr": "« Le café doit de l'argent, Marta. Je suis au courant pour la lettre. »",
+   "audio": "es_88f1fc6181e9.mp3"
+  },
+  {
+   "es": "Marta lo mira. Está muy seria.",
+   "fr": "Marta le regarde. Elle est très sérieuse.",
+   "audio": "es_84720d7ad356.mp3"
+  },
+  {
+   "es": "—Esto no es asunto tuyo. ¡Basta ya!",
+   "fr": "« Ce n'est pas ton affaire. Ça suffit maintenant ! »",
+   "audio": "es_9303f7e86e72.mp3"
+  },
+  {
+   "es": "Marta sale del café. Diego mira a Lucía.",
+   "fr": "Marta sort du café. Diego regarde Lucía.",
+   "audio": "es_1f9db8ad3c85.mp3"
+  }
+ ],
+ "gloss": {
+  "tiene": "a",
+  "papeles": "papiers",
+  "para": "pour",
+  "la": "la ; l' (me la deja = me la prête)",
+  "fiesta": "fête",
+  "pero": "mais",
+  "no": "non, ne… pas",
+  "guitarra": "guitare",
+  "don": "don (titre de respect)",
+  "llama": "appelle",
+  "a": "à",
+  "y": "et",
+  "venid": "venez",
+  "mi": "mon, ma",
+  "casa": "maison, chez soi",
+  "tengo": "j'ai",
+  "algo": "quelque chose",
+  "vosotros": "vous",
+  "en": "dans, en",
+  "de": "de",
+  "hay": "il y a",
+  "un": "un",
+  "cuarto": "pièce, chambre",
+  "pequeño": "petit",
+  "es": "est",
+  "su": "son, sa",
+  "estudio": "bureau (pièce pour étudier)",
+  "muchos": "beaucoup de",
+  "libros": "livres",
+  "el": "le",
+  "fondo": "fond",
+  "del": "du",
+  "una": "une",
+  "vieja": "vieille",
+  "dice": "dit",
+  "tiempo": "temps (en mi tiempo = à mon époque ; mucho tiempo = longtemps)",
+  "yo": "je, moi",
+  "era": "étais",
+  "rey": "roi",
+  "las": "les",
+  "fiestas": "fêtes",
+  "usted": "vous (politesse)",
+  "tocaba": "jouais",
+  "pregunta": "demande",
+  "sí": "oui",
+  "verdadero": "vrai",
+  "artista": "artiste",
+  "con": "avec",
+  "fuego": "feu",
+  "puedo": "je peux",
+  "probar": "essayer",
+  "claro": "bien sûr",
+  "prueba": "essaie",
+  "toca": "joue",
+  "pesar": "peser (a pesar de = malgré)",
+  "los": "les",
+  "años": "années",
+  "suena": "sonne",
+  "muy": "très",
+  "bien": "bien",
+  "buen": "bon",
+  "nivel": "niveau",
+  "verdadera": "vraie",
+  "muere": "meurt",
+  "me": "me",
+  "deja": "prête, laisse",
+  "da": "donne",
+  "respuesta": "réponse",
+  "mira": "regarde",
+  "mucho": "beaucoup",
+  "bueno": "bon, bien",
+  "cuidado": "attention",
+  "bajan": "descendent",
+  "al": "au",
+  "café": "café",
+  "está": "est",
+  "allí": "là-bas",
+  "mano": "main",
+  "qué": "quoi, que",
+  "esto": "ça, ceci",
+  "dinero": "argent",
+  "por": "pour (por qué = pourquoi)",
+  "nada": "rien",
+  "basta": "ça suffit",
+  "quiero": "je veux",
+  "debe": "doit",
+  "sé": "je sais",
+  "lo": "le ; ce (lo de = l'histoire de)",
+  "carta": "lettre",
+  "seria": "sérieuse",
+  "asunto": "affaire",
+  "tuyo": "à toi",
+  "ya": "maintenant (basta ya = ça suffit maintenant)",
+  "sale": "sort"
+ }
+}

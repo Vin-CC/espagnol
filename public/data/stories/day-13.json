@@ -1,0 +1,189 @@
+{
+ "day": 13,
+ "title": "Lola, la pequeña",
+ "title_fr": "Lola, la petite",
+ "sentences": [
+  {
+   "es": "Lucía ya trabaja bien con Carmen.",
+   "fr": "Lucía travaille déjà bien avec Carmen.",
+   "audio": "es_b47263ab7896.mp3"
+  },
+  {
+   "es": "Hoy, Carmen viene al trabajo con una niña pequeña.",
+   "fr": "Aujourd'hui, Carmen vient au travail avec une petite fille.",
+   "audio": "es_72b8c5edb2c0.mp3"
+  },
+  {
+   "es": "—Es Lola, mi hija. Es mi única hija.",
+   "fr": "— C'est Lola, ma fille. C'est ma fille unique.",
+   "audio": "es_c79466b5481e.mp3"
+  },
+  {
+   "es": "Lola es pequeña, pero quiere preguntar muchas cosas.",
+   "fr": "Lola est petite, mais elle veut demander beaucoup de choses.",
+   "audio": "es_eba3bf2e4bb6.mp3"
+  },
+  {
+   "es": "—¿Cómo te llamas? ¿Eres de Francia? ¿Tienes un animal?",
+   "fr": "— Comment tu t'appelles ? Tu viens de France ? Tu as un animal ?",
+   "audio": "es_f318dfd2338e.mp3"
+  },
+  {
+   "es": "—Me llamo Lucía. Sí, soy de Francia. Y tengo un animal: Pipo.",
+   "fr": "— Je m'appelle Lucía. Oui, je viens de France. Et j'ai un animal : Pipo.",
+   "audio": "es_8ac651e3c3d4.mp3"
+  },
+  {
+   "es": "—¿Pipo es pequeño?",
+   "fr": "— Pipo est petit ?",
+   "audio": "es_82b69a731f22.mp3"
+  },
+  {
+   "es": "—No, no es pequeño. ¡Es un monstruo!",
+   "fr": "— Non, il n'est pas petit. C'est un monstre !",
+   "audio": "es_cef0730e4ceb.mp3"
+  },
+  {
+   "es": "Lola lo quiere preguntar todo. Lucía responde y responde.",
+   "fr": "Lola veut tout demander. Lucía répond et répond.",
+   "audio": "es_e17681cef784.mp3"
+  },
+  {
+   "es": "—Supongo que hoy no hay clase —dice Lucía.",
+   "fr": "— Je suppose qu'il n'y a pas école aujourd'hui, dit Lucía.",
+   "audio": "es_883e14406bf2.mp3"
+  },
+  {
+   "es": "—Tienes razón. Como el año pasado.",
+   "fr": "— Tu as raison. Comme l'année dernière.",
+   "audio": "es_8732ca004c20.mp3"
+  },
+  {
+   "es": "Al final del día, Lucía está muerta.",
+   "fr": "À la fin de la journée, Lucía est morte de fatigue.",
+   "audio": "es_5c97ab5642be.mp3"
+  },
+  {
+   "es": "Pero Lola aún quiere preguntar. Aún tiene energía.",
+   "fr": "Mais Lola veut encore poser des questions. Elle a encore de l'énergie.",
+   "audio": "es_50bcb350e85e.mp3"
+  },
+  {
+   "es": "—¿Tú tienes una hija?",
+   "fr": "— Toi, tu as une fille ?",
+   "audio": "es_db544ca9256f.mp3"
+  },
+  {
+   "es": "—No, no tengo hijos.",
+   "fr": "— Non, je n'ai pas d'enfants.",
+   "audio": "es_7f09a6502b1f.mp3"
+  },
+  {
+   "es": "—¿Y tienes un amigo especial?",
+   "fr": "— Et tu as un ami spécial ?",
+   "audio": "es_c79d89d6941e.mp3"
+  },
+  {
+   "es": "Lucía no responde. Carmen se da cuenta y mira a Lucía.",
+   "fr": "Lucía ne répond pas. Carmen s'en rend compte et regarde Lucía.",
+   "audio": "es_a3a375d84bfe.mp3"
+  },
+  {
+   "es": "—Lola, Lucía está muerta. ¡Silencio!",
+   "fr": "— Lola, Lucía est épuisée. Silence !",
+   "audio": "es_4b72a5847d95.mp3"
+  },
+  {
+   "es": "—Tienes razón, mamá. Una última cosa: ¿Lucía es buena?",
+   "fr": "— Tu as raison, maman. Une dernière chose : Lucía est gentille ?",
+   "audio": "es_fb32f543a588.mp3"
+  },
+  {
+   "es": "—Sí —dice Carmen—. Es una buena amiga.",
+   "fr": "— Oui, dit Carmen. C'est une bonne amie.",
+   "audio": "es_e4b08bf14c75.mp3"
+  },
+  {
+   "es": "Lucía se da cuenta: en Valencia, ya no está sola.",
+   "fr": "Lucía s'en rend compte : à Valencia, elle n'est plus seule.",
+   "audio": "es_a11b8f92fb86.mp3"
+  }
+ ],
+ "gloss": {
+  "ya": "déjà / ne... plus",
+  "trabaja": "travaille",
+  "bien": "bien",
+  "con": "avec",
+  "hoy": "aujourd'hui",
+  "viene": "vient",
+  "al": "au",
+  "trabajo": "travail / je travaille",
+  "una": "une",
+  "niña": "petite fille",
+  "pequeña": "petite",
+  "es": "est",
+  "mi": "mon / ma",
+  "hija": "fille",
+  "única": "unique",
+  "pero": "mais",
+  "quiere": "veut",
+  "preguntar": "demander / poser des questions",
+  "muchas": "beaucoup de",
+  "cosas": "choses / affaires",
+  "cómo": "comment",
+  "te": "te / toi",
+  "llamas": "tu t'appelles",
+  "eres": "tu es",
+  "de": "de",
+  "tienes": "tu as",
+  "un": "un",
+  "animal": "animal",
+  "me": "me / moi",
+  "llamo": "je m'appelle",
+  "sí": "oui",
+  "soy": "je suis",
+  "y": "et",
+  "tengo": "j'ai",
+  "pequeño": "petit",
+  "no": "non / ne... pas",
+  "monstruo": "monstre",
+  "todo": "tout",
+  "responde": "répond",
+  "supongo": "je suppose",
+  "que": "que / qui",
+  "hay": "il y a",
+  "clase": "école",
+  "dice": "dit",
+  "razón": "raison",
+  "el": "le",
+  "año": "année",
+  "pasado": "dernier (año pasado : l'année dernière)",
+  "día": "jour / journée",
+  "final": "fin",
+  "del": "du",
+  "está": "est",
+  "muerta": "morte de fatigue",
+  "aún": "encore",
+  "tiene": "a",
+  "energía": "énergie",
+  "tú": "tu / toi",
+  "hijos": "enfants",
+  "amigo": "ami",
+  "especial": "spécial",
+  "se": "se",
+  "da": "donne",
+  "cuenta": "se da cuenta : s'en rend compte",
+  "mira": "regarde",
+  "a": "à",
+  "silencio": "silence",
+  "mamá": "maman",
+  "última": "dernière",
+  "cosa": "chose",
+  "buena": "gentille / bonne",
+  "amiga": "amie",
+  "en": "en / dans / à",
+  "sola": "seule",
+  "lo": "le (lo... todo : tout)",
+  "como": "comme"
+ }
+}

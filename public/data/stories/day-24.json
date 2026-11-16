@@ -1,0 +1,182 @@
+{
+ "day": 24,
+ "title": "La foto del perro",
+ "title_fr": "La photo du chien",
+ "sentences": [
+  {
+   "es": "Ramón tiene miedo, pero quiere contar su historia.",
+   "fr": "Ramón a peur, mais il veut raconter son histoire.",
+   "audio": "es_eb0d4fb5fa1d.mp3"
+  },
+  {
+   "es": "Una semana después, Lucía sube a casa de Ramón.",
+   "fr": "Une semaine plus tard, Lucía monte chez Ramón.",
+   "audio": "es_937eabb0e765.mp3"
+  },
+  {
+   "es": "—Siéntate, Lucía. Quiero mostrarte algo.",
+   "fr": "— Assieds-toi, Lucía. Je veux te montrer quelque chose.",
+   "audio": "es_66fdf54aeaf2.mp3"
+  },
+  {
+   "es": "—¿Estás listo, Ramón?",
+   "fr": "— Tu es prêt, Ramón ?",
+   "audio": "es_6e3039550673.mp3"
+  },
+  {
+   "es": "—Sí, estoy listo.",
+   "fr": "— Oui, je suis prêt.",
+   "audio": "es_d7fa743c5f01.mp3"
+  },
+  {
+   "es": "Ramón saca una foto vieja.",
+   "fr": "Ramón sort une vieille photo.",
+   "audio": "es_c7c9f2f76825.mp3"
+  },
+  {
+   "es": "En la foto hay una mujer joven y un perro.",
+   "fr": "Sur la photo, il y a une jeune femme et un chien.",
+   "audio": "es_79e5cdfd26b9.mp3"
+  },
+  {
+   "es": "—Es ella, la mujer de la nota. Y el perro es mi perro.",
+   "fr": "— C'est elle, la femme de la note. Et le chien, c'est mon chien.",
+   "audio": "es_bfe984f43801.mp3"
+  },
+  {
+   "es": "Ramón empieza.",
+   "fr": "Ramón commence.",
+   "audio": "es_5b4e6fe0aa75.mp3"
+  },
+  {
+   "es": "—Un día, mi perro corre hacia un coche.",
+   "fr": "— Un jour, mon chien court vers une voiture.",
+   "audio": "es_8622d0f50dba.mp3"
+  },
+  {
+   "es": "El coche va muy rápido. Ella corre y salva a mi perro.",
+   "fr": "La voiture va très vite. Elle court et sauve mon chien.",
+   "audio": "es_203c2ab54c14.mp3"
+  },
+  {
+   "es": "Es una mujer muy fuerte. Más fuerte que yo.",
+   "fr": "C'est une femme très forte. Plus forte que moi.",
+   "audio": "es_6debee50030b.mp3"
+  },
+  {
+   "es": "—¿Y después?",
+   "fr": "— Et après ?",
+   "audio": "es_fdab74aeb2a8.mp3"
+  },
+  {
+   "es": "—Después, ella y yo damos una vuelta por Valencia con el perro. Una vuelta muy larga.",
+   "fr": "— Après, elle et moi, nous faisons un tour dans Valencia avec le chien. Un très long tour.",
+   "audio": "es_1053450e7ad7.mp3"
+  },
+  {
+   "es": "—Ella salva al perro... y un poco a mí también.",
+   "fr": "— Elle sauve le chien... et un peu moi aussi.",
+   "audio": "es_35d58c36043d.mp3"
+  },
+  {
+   "es": "Después, Ramón quiere mostrar otra foto: ella, en un coche.",
+   "fr": "Ensuite, Ramón veut montrer une autre photo : elle, dans une voiture.",
+   "audio": "es_55e2e8c7c964.mp3"
+  },
+  {
+   "es": "—Un día, ella sube a este coche y se va. No vuelve.",
+   "fr": "— Un jour, elle monte dans cette voiture et elle s'en va. Elle ne revient pas.",
+   "audio": "es_d3910df07b25.mp3"
+  },
+  {
+   "es": "—¿Por qué?",
+   "fr": "— Pourquoi ?",
+   "audio": "es_17adfaea949d.mp3"
+  },
+  {
+   "es": "—No sé. Para mí, eso no tiene sentido.",
+   "fr": "— Je ne sais pas. Pour moi, ça n'a pas de sens.",
+   "audio": "es_b635b6def3b7.mp3"
+  },
+  {
+   "es": "Lucía mira la foto. Ahora la nota tiene más sentido.",
+   "fr": "Lucía regarde la photo. Maintenant, la note a plus de sens.",
+   "audio": "es_3f02bc85372e.mp3"
+  }
+ ],
+ "gloss": {
+  "tiene": "a",
+  "miedo": "peur",
+  "pero": "mais",
+  "quiere": "veut",
+  "contar": "raconter",
+  "su": "son, sa, leur",
+  "historia": "histoire",
+  "una": "une",
+  "semana": "semaine",
+  "después": "après, ensuite",
+  "sube": "monte",
+  "a": "à",
+  "casa": "maison",
+  "de": "de",
+  "siéntate": "assieds-toi",
+  "quiero": "je veux",
+  "mostrarte": "te montrer",
+  "algo": "quelque chose",
+  "estás": "tu es",
+  "listo": "prêt",
+  "sí": "oui",
+  "estoy": "je suis",
+  "saca": "sort",
+  "foto": "photo",
+  "vieja": "vieille",
+  "en": "en, dans, à",
+  "la": "la",
+  "hay": "il y a",
+  "mujer": "femme",
+  "joven": "jeune",
+  "y": "et",
+  "un": "un",
+  "perro": "chien",
+  "es": "est",
+  "ella": "elle",
+  "nota": "note",
+  "el": "le",
+  "mi": "mon, ma",
+  "empieza": "commence",
+  "día": "jour",
+  "corre": "court",
+  "hacia": "vers",
+  "coche": "voiture",
+  "va": "va",
+  "muy": "très",
+  "rápido": "vite",
+  "salva": "sauve",
+  "fuerte": "forte",
+  "más": "plus",
+  "que": "que, qui",
+  "yo": "je, moi",
+  "damos": "nous faisons (dar una vuelta)",
+  "vuelta": "tour",
+  "por": "par, pour",
+  "con": "avec",
+  "larga": "longue",
+  "al": "au (a + el)",
+  "poco": "peu",
+  "mí": "moi",
+  "también": "aussi",
+  "mostrar": "montrer",
+  "otra": "autre",
+  "este": "ce",
+  "se": "se",
+  "no": "non, ne... pas",
+  "vuelve": "revient",
+  "qué": "quoi, qu'est-ce que",
+  "sé": "je sais",
+  "para": "pour",
+  "eso": "cela, ça",
+  "sentido": "sens",
+  "mira": "regarde",
+  "ahora": "maintenant"
+ }
+}

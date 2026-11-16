@@ -1,0 +1,129 @@
+{
+ "day": 7,
+ "title": "Una noche con Diego",
+ "title_fr": "Une nuit avec Diego",
+ "sentences": [
+  {
+   "es": "Pipo sigue sin volver.",
+   "fr": "Pipo n'est toujours pas revenu.",
+   "audio": "es_92b49439964c.mp3"
+  },
+  {
+   "es": "Esta noche, Lucía sale de casa y va al café.",
+   "fr": "Ce soir, Lucía sort de chez elle et va au café.",
+   "audio": "es_03cd98bade76.mp3"
+  },
+  {
+   "es": "Diego está en el café. Es como un hijo para Marta.",
+   "fr": "Diego est au café. Il est comme un fils pour Marta.",
+   "audio": "es_90484b7c43c1.mp3"
+  },
+  {
+   "es": "—Diego, por favor, ¿salimos? Necesito encontrar a Pipo.",
+   "fr": "« Diego, s'il te plaît, on sort ? J'ai besoin de trouver Pipo. »",
+   "audio": "es_9179d2574592.mp3"
+  },
+  {
+   "es": "Diego pone una foto de Pipo en el café.",
+   "fr": "Diego met une photo de Pipo dans le café.",
+   "audio": "es_1b9cbce6a251.mp3"
+  },
+  {
+   "es": "Los dos chicos salen. Es de noche y no hay nadie.",
+   "fr": "Les deux jeunes sortent. Il fait nuit et il n'y a personne.",
+   "audio": "es_bf1e171592f7.mp3"
+  },
+  {
+   "es": "—¿Dónde está Pipo? ¿Dónde?",
+   "fr": "« Où est Pipo ? Où ? »",
+   "audio": "es_83c4875c0840.mp3"
+  },
+  {
+   "es": "Entonces oyen algo.",
+   "fr": "Alors ils entendent quelque chose.",
+   "audio": "es_50e401e22c7c.mp3"
+  },
+  {
+   "es": "—¿Oyes eso? —dice Diego.",
+   "fr": "« Tu entends ça ? » dit Diego.",
+   "audio": "es_2cb03d586041.mp3"
+  },
+  {
+   "es": "—¿A Pipo le gusta la música? —Sí, mucho.",
+   "fr": "« Pipo aime la musique ? — Oui, beaucoup. »",
+   "audio": "es_5da785ec9cef.mp3"
+  },
+  {
+   "es": "Entonces Diego hace música en la noche.",
+   "fr": "Alors Diego fait de la musique dans la nuit.",
+   "audio": "es_1caa5f1fda8a.mp3"
+  },
+  {
+   "es": "Los chicos siguen la música... pero no es Pipo. Es otro gato.",
+   "fr": "Les jeunes suivent la musique... mais ce n'est pas Pipo. C'est un autre chat.",
+   "audio": "es_db0382e60fb8.mp3"
+  },
+  {
+   "es": "Pero a Lucía le gusta esta noche con Diego.",
+   "fr": "Mais Lucía aime bien cette nuit avec Diego.",
+   "audio": "es_c5741349fdd6.mp3"
+  }
+ ],
+ "gloss": {
+  "sigue": "continue (sigue sin : toujours pas)",
+  "sin": "sans",
+  "volver": "revenir",
+  "esta": "cette",
+  "noche": "nuit ; soir",
+  "sale": "sort",
+  "de": "de",
+  "casa": "maison",
+  "y": "et",
+  "va": "va",
+  "al": "au (a + el)",
+  "café": "café",
+  "está": "est (lieu, état)",
+  "en": "en ; dans ; à",
+  "el": "le",
+  "es": "est ; il fait (es de noche : il fait nuit)",
+  "como": "comme",
+  "un": "un",
+  "hijo": "fils",
+  "para": "pour",
+  "por": "par",
+  "favor": "faveur (por favor : s'il te plaît)",
+  "salimos": "on sort ; nous sortons",
+  "necesito": "j'ai besoin de",
+  "encontrar": "trouver",
+  "a": "à",
+  "pone": "met",
+  "una": "une",
+  "foto": "photo",
+  "los": "les",
+  "dos": "deux",
+  "chicos": "jeunes",
+  "salen": "sortent",
+  "no": "ne… pas ; non",
+  "hay": "il y a",
+  "nadie": "personne",
+  "dónde": "où",
+  "entonces": "alors",
+  "oyen": "entendent",
+  "algo": "quelque chose",
+  "oyes": "tu entends",
+  "eso": "ça",
+  "dice": "dit",
+  "le": "lui",
+  "gusta": "plaît (le gusta : il aime)",
+  "la": "la",
+  "música": "musique",
+  "sí": "oui",
+  "mucho": "beaucoup",
+  "hace": "fait",
+  "siguen": "suivent",
+  "pero": "mais",
+  "otro": "autre ; un autre",
+  "gato": "chat",
+  "con": "avec"
+ }
+}

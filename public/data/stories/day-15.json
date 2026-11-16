@@ -1,0 +1,185 @@
+{
+ "day": 15,
+ "title": "Las historias de Ramón",
+ "title_fr": "Les histoires de Ramón",
+ "sentences": [
+  {
+   "es": "Diego quiere comer con Lucía otro día.",
+   "fr": "Diego veut manger avec Lucía un autre jour.",
+   "audio": "es_a9d99cd4f4cc.mp3"
+  },
+  {
+   "es": "Hoy no hay trabajo. Lucía y don Ramón están juntos en el café de Marta.",
+   "fr": "Aujourd'hui, il n'y a pas de travail. Lucía et don Ramón sont ensemble au café de Marta.",
+   "audio": "es_3e8b177aea75.mp3"
+  },
+  {
+   "es": "Pipo está a su lado.",
+   "fr": "Pipo est à côté d'eux.",
+   "audio": "es_93b9ffee6d8d.mp3"
+  },
+  {
+   "es": "Ramón es un hombre serio, pero sabe contar historias.",
+   "fr": "Ramón est un homme sérieux, mais il sait raconter des histoires.",
+   "audio": "es_edab07dfda99.mp3"
+  },
+  {
+   "es": "—¿Quieres escuchar una historia de Valencia? —dice.",
+   "fr": "— Tu veux écouter une histoire de Valencia ? dit-il.",
+   "audio": "es_f4552f7b0554.mp3"
+  },
+  {
+   "es": "—¡Claro! Cuenta, cuenta.",
+   "fr": "— Bien sûr ! Raconte, raconte.",
+   "audio": "es_56129caf4228.mp3"
+  },
+  {
+   "es": "—Es la historia de mi propia familia.",
+   "fr": "— C'est l'histoire de ma propre famille.",
+   "audio": "es_c177b2a85580.mp3"
+  },
+  {
+   "es": "Hace muchos años, mi padre tiene un café aquí, al lado del café de Marta.",
+   "fr": "Il y a de nombreuses années, mon père a un café ici, à côté du café de Marta.",
+   "audio": "es_eec4c4803f01.mp3"
+  },
+  {
+   "es": "En ese momento, Diego llega con dos cafés.",
+   "fr": "À ce moment-là, Diego arrive avec deux cafés.",
+   "audio": "es_947571d39195.mp3"
+  },
+  {
+   "es": "Pero un café termina en la cabeza de Pipo.",
+   "fr": "Mais un café finit sur la tête de Pipo.",
+   "audio": "es_f8cdc01ce9a0.mp3"
+  },
+  {
+   "es": "—¡Mierda! —dice Diego.",
+   "fr": "— Merde ! dit Diego.",
+   "audio": "es_255f3aea8547.mp3"
+  },
+  {
+   "es": "—¡Diego! ¡Un poco de respeto! —dice Marta.",
+   "fr": "— Diego ! Un peu de respect ! dit Marta.",
+   "audio": "es_c87a11c23457.mp3"
+  },
+  {
+   "es": "Pipo no dice nada. Mantiene la calma, como un señor.",
+   "fr": "Pipo ne dit rien. Il garde son calme, comme un monsieur.",
+   "audio": "es_c963025f67e7.mp3"
+  },
+  {
+   "es": "—Hay que mantener la calma —dice Ramón, muy serio.",
+   "fr": "— Il faut garder son calme, dit Ramón, très sérieux.",
+   "audio": "es_96318f55761e.mp3"
+  },
+  {
+   "es": "—Perdón, ¿en qué punto estoy? Mi cabeza olvida todo.",
+   "fr": "— Pardon, où en suis-je ? Ma tête oublie tout.",
+   "audio": "es_cc686074ad73.mp3"
+  },
+  {
+   "es": "—Tu padre tiene un café al lado de este café.",
+   "fr": "— Ton père a un café à côté de ce café.",
+   "audio": "es_2b3cd62b0c28.mp3"
+  },
+  {
+   "es": "—Sí, sí. Gracias, Lucía.",
+   "fr": "— Oui, oui. Merci, Lucía.",
+   "audio": "es_e2ae77e2e2d5.mp3"
+  },
+  {
+   "es": "Y Ramón cuenta, y cuenta, hasta la noche.",
+   "fr": "Et Ramón raconte, et raconte, jusqu'au soir.",
+   "audio": "es_18f1f5cd8381.mp3"
+  },
+  {
+   "es": "Lucía no va a olvidar esta historia.",
+   "fr": "Lucía ne va pas oublier cette histoire.",
+   "audio": "es_8752cbf0334b.mp3"
+  }
+ ],
+ "gloss": {
+  "quiere": "veut",
+  "comer": "manger",
+  "con": "avec",
+  "otro": "autre",
+  "día": "jour / journée",
+  "hoy": "aujourd'hui",
+  "no": "non / ne... pas",
+  "hay": "il y a",
+  "trabajo": "travail / je travaille",
+  "y": "et",
+  "don": "don (titre de respect)",
+  "están": "sont",
+  "juntos": "ensemble",
+  "en": "en / dans / à",
+  "el": "le",
+  "café": "café",
+  "de": "de",
+  "está": "est",
+  "a": "à",
+  "su": "son / sa / leur",
+  "lado": "côté",
+  "es": "est",
+  "un": "un",
+  "hombre": "homme",
+  "serio": "sérieux",
+  "pero": "mais",
+  "sabe": "sait",
+  "contar": "raconter",
+  "historias": "histoires",
+  "quieres": "tu veux",
+  "escuchar": "écouter",
+  "una": "une",
+  "historia": "histoire",
+  "dice": "dit",
+  "claro": "bien sûr",
+  "cuenta": "raconte",
+  "la": "la",
+  "mi": "mon / ma",
+  "propia": "propre",
+  "familia": "famille",
+  "hace": "il y a (hace muchos años)",
+  "muchos": "beaucoup de / nombreux",
+  "años": "ans / années",
+  "padre": "père",
+  "tiene": "a",
+  "aquí": "ici",
+  "al": "au",
+  "del": "du",
+  "ese": "ce",
+  "momento": "moment",
+  "llega": "arrive",
+  "dos": "deux",
+  "cafés": "cafés",
+  "termina": "finit",
+  "cabeza": "tête",
+  "mierda": "merde",
+  "poco": "peu",
+  "respeto": "respect",
+  "nada": "rien",
+  "mantiene": "garde",
+  "calma": "calme",
+  "como": "comme",
+  "señor": "monsieur",
+  "que": "que / qui",
+  "mantener": "garder",
+  "muy": "très",
+  "perdón": "pardon",
+  "qué": "quoi / que / quel",
+  "punto": "point (¿en qué punto estoy? : où en suis-je ?)",
+  "estoy": "je suis",
+  "olvida": "oublie",
+  "todo": "tout",
+  "tu": "ton / ta",
+  "este": "ce",
+  "sí": "oui",
+  "gracias": "merci",
+  "hasta": "jusqu'à",
+  "noche": "soir / nuit",
+  "va": "va",
+  "olvidar": "oublier",
+  "esta": "cette"
+ }
+}

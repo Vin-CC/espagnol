@@ -1,0 +1,222 @@
+{
+ "day": 49,
+ "title": "Mamá está enferma",
+ "title_fr": "Maman est malade",
+ "sentences": [
+  {
+   "es": "Lucía tiene dos entradas para el teatro, en un libro.",
+   "fr": "Lucía a deux places pour le théâtre, dans un livre.",
+   "audio": "es_e1fe0a441001.mp3"
+  },
+  {
+   "es": "Pero una mañana, su madre no se levanta.",
+   "fr": "Mais un matin, sa mère ne se lève pas.",
+   "audio": "es_a9e95263437c.mp3"
+  },
+  {
+   "es": "—¿Mamá? —Su madre no contesta.",
+   "fr": "« Maman ? » Sa mère ne répond pas.",
+   "audio": "es_1e73c42128f0.mp3"
+  },
+  {
+   "es": "—¡Mamá! —Lucía empieza a gritar.",
+   "fr": "« Maman ! » Lucía se met à crier.",
+   "audio": "es_83e548ab48f5.mp3"
+  },
+  {
+   "es": "Por fin, su madre contesta: —Estoy aquí, hija. No grites. Tengo dolor en todo el cuerpo.",
+   "fr": "Enfin, sa mère répond : « Je suis là, ma fille. Ne crie pas. J'ai mal dans tout le corps. »",
+   "audio": "es_473919fbf17d.mp3"
+  },
+  {
+   "es": "Lucía llama al médico.",
+   "fr": "Lucía appelle le médecin.",
+   "audio": "es_9d7efc484877.mp3"
+  },
+  {
+   "es": "Don Ramón baja también. Lleva su mejor traje.",
+   "fr": "Don Ramón descend aussi. Il porte son plus beau costume.",
+   "audio": "es_c6016d34fed5.mp3"
+  },
+  {
+   "es": "—¿Un traje? ¿Para un médico? —pregunta Lucía.",
+   "fr": "« Un costume ? Pour un médecin ? » demande Lucía.",
+   "audio": "es_58cecd07c7a1.mp3"
+  },
+  {
+   "es": "—Para visitar a una señora, siempre traje —contesta Ramón.",
+   "fr": "« Pour rendre visite à une dame, toujours un costume », répond Ramón.",
+   "audio": "es_ee9bf7eb8c9c.mp3"
+  },
+  {
+   "es": "El médico llega y mira a la madre.",
+   "fr": "Le médecin arrive et examine la mère.",
+   "audio": "es_807c40543a3c.mp3"
+  },
+  {
+   "es": "—¿Es peligroso, doctor?",
+   "fr": "« C'est dangereux, docteur ? »",
+   "audio": "es_113fa75a6291.mp3"
+  },
+  {
+   "es": "—No, no es peligroso. Es una enfermedad sin importancia, debido al viaje y al cambio de vida.",
+   "fr": "« Non, ce n'est pas dangereux. C'est une maladie sans gravité, due au voyage et au changement de vie. »",
+   "audio": "es_4a5214a3a461.mp3"
+  },
+  {
+   "es": "—¿Y el dolor?",
+   "fr": "« Et la douleur ? »",
+   "audio": "es_8fc23ad41fa8.mp3"
+  },
+  {
+   "es": "—Todo está bien, salvo la cabeza. Tres días en la cama y ya está.",
+   "fr": "« Tout va bien, sauf la tête. Trois jours au lit et c'est fini. »",
+   "audio": "es_2d37855ed8ba.mp3"
+  },
+  {
+   "es": "Lucía se lo agradece mucho. —Muchas gracias, doctor.",
+   "fr": "Lucía le remercie beaucoup. « Merci beaucoup, docteur. »",
+   "audio": "es_10172792b2c9.mp3"
+  },
+  {
+   "es": "La madre está triste. —Te pido disculpas, hija. Sé lo del teatro, y ahora no podemos ir.",
+   "fr": "La mère est triste. « Je te demande pardon, ma fille. Je sais pour le théâtre, et maintenant on ne peut pas y aller. »",
+   "audio": "es_0431445010b9.mp3"
+  },
+  {
+   "es": "—No hay nada que disculpar, mamá. Primero, tu salud.",
+   "fr": "« Il n'y a rien à pardonner, maman. D'abord, ta santé. »",
+   "audio": "es_62b3cab23a16.mp3"
+  },
+  {
+   "es": "Ramón está de acuerdo. —Una enfermedad no es peligrosa, salvo si no la cuidamos.",
+   "fr": "Ramón est d'accord. « Une maladie n'est pas dangereuse, sauf si on ne la soigne pas. »",
+   "audio": "es_740107371aaa.mp3"
+  },
+  {
+   "es": "Por la tarde, Marta trae comida y Diego trae una canción.",
+   "fr": "L'après-midi, Marta apporte à manger et Diego apporte une chanson.",
+   "audio": "es_e7991c2aaa1c.mp3"
+  },
+  {
+   "es": "La madre los mira. —Quiero agradecer a todos. Con enfermedad o sin ella, disfruto de Valencia.",
+   "fr": "La mère les regarde. « Je veux remercier tout le monde. Malade ou pas, je profite de Valencia. »",
+   "audio": "es_0e59c9af1aba.mp3"
+  },
+  {
+   "es": "—Y nosotros disfrutamos contigo, mamá.",
+   "fr": "« Et nous, on profite de ta présence, maman. »",
+   "audio": "es_4301fda3be96.mp3"
+  }
+ ],
+ "gloss": {
+  "tiene": "il/elle a",
+  "dos": "deux",
+  "entradas": "places, billets",
+  "para": "pour",
+  "el": "le",
+  "teatro": "théâtre",
+  "en": "dans, en, sur",
+  "un": "un",
+  "libro": "livre",
+  "pero": "mais",
+  "una": "une",
+  "mañana": "matin, demain",
+  "su": "son, sa",
+  "madre": "mère",
+  "no": "non, ne… pas",
+  "se": "se ; le lui (se lo agradece = l'en remercie)",
+  "levanta": "lève",
+  "mamá": "maman",
+  "contesta": "répond",
+  "empieza": "commence, se met à",
+  "a": "à",
+  "gritar": "crier",
+  "por": "par, pour",
+  "fin": "fin",
+  "estoy": "je suis",
+  "aquí": "ici",
+  "hija": "ma fille",
+  "grites": "crie (no grites : ne crie pas)",
+  "tengo": "j'ai",
+  "dolor": "douleur",
+  "todo": "tout",
+  "cuerpo": "corps",
+  "llama": "appelle",
+  "al": "au (a + el)",
+  "médico": "médecin",
+  "don": "don (titre de respect)",
+  "baja": "descend",
+  "también": "aussi",
+  "lleva": "porte",
+  "mejor": "mieux, meilleur",
+  "traje": "costume",
+  "pregunta": "demande",
+  "visitar": "rendre visite à",
+  "señora": "madame",
+  "siempre": "toujours",
+  "llega": "arrive",
+  "y": "et",
+  "mira": "regarde",
+  "la": "la (article) ; la (pronom)",
+  "es": "est",
+  "peligroso": "dangereux",
+  "doctor": "docteur",
+  "enfermedad": "maladie",
+  "debido": "dû ; debido a : à cause de",
+  "viaje": "voyage",
+  "cambio": "changement",
+  "de": "de",
+  "vida": "vie",
+  "está": "est (état, lieu)",
+  "bien": "bien",
+  "salvo": "sauf",
+  "cabeza": "tête",
+  "tres": "trois",
+  "días": "jours",
+  "cama": "lit",
+  "ya": "ya está = c'est fini",
+  "agradece": "remercie",
+  "mucho": "beaucoup",
+  "muchas": "beaucoup de (fém.)",
+  "gracias": "merci",
+  "triste": "triste",
+  "te": "te",
+  "pido": "je demande",
+  "disculpas": "excuses, pardon",
+  "ahora": "maintenant",
+  "podemos": "nous pouvons",
+  "ir": "aller",
+  "hay": "il y a",
+  "nada": "rien",
+  "que": "que",
+  "disculpar": "excuser, pardonner",
+  "primero": "d'abord",
+  "tu": "ton, ta",
+  "salud": "santé",
+  "acuerdo": "accord ; de acuerdo : d'accord",
+  "peligrosa": "dangereuse",
+  "si": "si",
+  "cuidamos": "nous soignons",
+  "tarde": "après-midi",
+  "trae": "apporte",
+  "comida": "repas, nourriture",
+  "canción": "chanson",
+  "los": "les (article) ; les (pronom)",
+  "quiero": "je veux",
+  "agradecer": "remercier",
+  "todos": "tous, tout le monde",
+  "con": "avec",
+  "o": "ou",
+  "sin": "sans",
+  "ella": "elle",
+  "disfruto": "je profite",
+  "nosotros": "nous",
+  "disfrutamos": "nous profitons",
+  "contigo": "avec toi, de toi",
+  "importancia": "importance (sin importancia = sans gravité)",
+  "lo": "le ; ce (lo del teatro = l'histoire du théâtre)",
+  "sé": "je sais",
+  "del": "du (de + el)"
+ }
+}

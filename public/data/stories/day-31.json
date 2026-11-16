@@ -1,0 +1,246 @@
+{
+ "day": 31,
+ "title": "Una gran noticia",
+ "title_fr": "Une grande nouvelle",
+ "sentences": [
+  {
+   "es": "Lucía todavía piensa en el secreto de Ramón.",
+   "fr": "Lucía pense encore au secret de Ramón.",
+   "audio": "es_7182a18a0a07.mp3"
+  },
+  {
+   "es": "Pero hoy hay otra noticia en la calle del Sol.",
+   "fr": "Mais aujourd'hui, il y a une autre nouvelle dans la calle del Sol.",
+   "audio": "es_6b7b19d5c3a9.mp3"
+  },
+  {
+   "es": "Lucía baja de su casa. Marta está abajo, en el café.",
+   "fr": "Lucía descend de chez elle. Marta est en bas, au café.",
+   "audio": "es_ba5103dcea53.mp3"
+  },
+  {
+   "es": "—¡Hola, Lucía! ¡Tengo una gran noticia! —dice Marta.",
+   "fr": "« Salut, Lucía ! J'ai une grande nouvelle ! » dit Marta.",
+   "audio": "es_cf1f9d7d720e.mp3"
+  },
+  {
+   "es": "—¿Qué noticia?",
+   "fr": "« Quelle nouvelle ? »",
+   "audio": "es_9d71530bb584.mp3"
+  },
+  {
+   "es": "—Diego va a tocar música aquí, en el café, la semana que viene.",
+   "fr": "« Diego va jouer de la musique ici, au café, la semaine prochaine. »",
+   "audio": "es_1a866daf8fd1.mp3"
+  },
+  {
+   "es": "—¿Diego toca bien?",
+   "fr": "« Diego joue bien ? »",
+   "audio": "es_8d4d1e2e7197.mp3"
+  },
+  {
+   "es": "—Sí, toca muy bien. Pero tiene un poco de miedo.",
+   "fr": "« Oui, il joue très bien. Mais il a un peu peur. »",
+   "audio": "es_d1770ba324db.mp3"
+  },
+  {
+   "es": "Diego llega con un par de amigos.",
+   "fr": "Diego arrive avec deux ou trois amis.",
+   "audio": "es_6d1dec4aef0d.mp3"
+  },
+  {
+   "es": "—Hola, Lucía. ¿Vas a venir? —pregunta Diego.",
+   "fr": "« Salut, Lucía. Tu vas venir ? » demande Diego.",
+   "audio": "es_9ecb0fee07fe.mp3"
+  },
+  {
+   "es": "—¡Claro! Confío en ti. Vas a tocar muy bien.",
+   "fr": "« Bien sûr ! J'ai confiance en toi. Tu vas très bien jouer. »",
+   "audio": "es_7f34254a37b4.mp3"
+  },
+  {
+   "es": "—Gracias. Necesito un par de días más para preparar todo.",
+   "fr": "« Merci. J'ai besoin de quelques jours de plus pour tout préparer. »",
+   "audio": "es_21ddcb2f1b8b.mp3"
+  },
+  {
+   "es": "Los amigos de Diego empiezan a tocar. La música es muy fuerte.",
+   "fr": "Les amis de Diego commencent à jouer. La musique est très forte.",
+   "audio": "es_1306b128d5e0.mp3"
+  },
+  {
+   "es": "Arriba, Don Ramón no tiene paz.",
+   "fr": "En haut, Don Ramón n'a pas la paix.",
+   "audio": "es_78c46dbb1e52.mp3"
+  },
+  {
+   "es": "—¡Silencio, por favor! ¡Quiero un poco de paz! —dice Ramón desde arriba.",
+   "fr": "« Silence, s'il vous plaît ! Je veux un peu de paix ! » dit Ramón d'en haut.",
+   "audio": "es_33f248a54694.mp3"
+  },
+  {
+   "es": "Diego se calla. Los amigos se callan también.",
+   "fr": "Diego se tait. Ses amis se taisent aussi.",
+   "audio": "es_73d5f69c3ee9.mp3"
+  },
+  {
+   "es": "—Perdón, Don Ramón. Es mi culpa —dice Diego.",
+   "fr": "« Pardon, Don Ramón. C'est ma faute », dit Diego.",
+   "audio": "es_cd8e0a7f07e3.mp3"
+  },
+  {
+   "es": "—No, la culpa es de todos —dice Marta.",
+   "fr": "« Non, c'est la faute de tout le monde », dit Marta.",
+   "audio": "es_291929c3472c.mp3"
+  },
+  {
+   "es": "Ramón decide bajar al café.",
+   "fr": "Ramón décide de descendre au café.",
+   "audio": "es_b04d8a128dd6.mp3"
+  },
+  {
+   "es": "—Bueno. Podéis tocar, pero no de noche. Por la noche, quiero dormir en paz.",
+   "fr": "« Bon. Vous pouvez jouer, mais pas la nuit. La nuit, je veux dormir en paix. »",
+   "audio": "es_3d09f3c4611a.mp3"
+  },
+  {
+   "es": "—De acuerdo —dice Diego—. ¿Y si tocamos por la tarde?",
+   "fr": "« D'accord, dit Diego. Et si on joue l'après-midi ? »",
+   "audio": "es_7fcca726e54a.mp3"
+  },
+  {
+   "es": "—Por la tarde, sí. Confío en vosotros.",
+   "fr": "« L'après-midi, oui. Je vous fais confiance. »",
+   "audio": "es_1e7586b3f157.mp3"
+  },
+  {
+   "es": "Por la noche, Marta cierra el café.",
+   "fr": "Le soir, Marta ferme le café.",
+   "audio": "es_655daddb5796.mp3"
+  },
+  {
+   "es": "—Mañana es otro día —dice Marta.",
+   "fr": "« Demain est un autre jour », dit Marta.",
+   "audio": "es_e2f0ed52485b.mp3"
+  },
+  {
+   "es": "Lucía sube a su casa. Pipo la espera.",
+   "fr": "Lucía monte chez elle. Pipo l'attend.",
+   "audio": "es_0bcc0d121835.mp3"
+  },
+  {
+   "es": "—Pipo, ¡tengo una gran noticia!",
+   "fr": "« Pipo, j'ai une grande nouvelle ! »",
+   "audio": "es_e6419b4b8a21.mp3"
+  },
+  {
+   "es": "Pipo solo quiere comer.",
+   "fr": "Pipo veut seulement manger.",
+   "audio": "es_2294207158fa.mp3"
+  }
+ ],
+ "gloss": {
+  "todavía": "encore",
+  "piensa": "pense",
+  "en": "dans, en",
+  "el": "le",
+  "secreto": "secret",
+  "de": "de",
+  "pero": "mais",
+  "hoy": "aujourd'hui",
+  "hay": "il y a",
+  "otra": "autre",
+  "noticia": "nouvelle",
+  "la": "la ; l' (la espera = l'attend)",
+  "calle": "rue",
+  "del": "du",
+  "baja": "descend",
+  "su": "son, sa",
+  "casa": "maison, chez soi",
+  "está": "est",
+  "abajo": "en bas",
+  "café": "café",
+  "hola": "bonjour, salut",
+  "tengo": "j'ai",
+  "una": "une",
+  "gran": "grand(e)",
+  "dice": "dit",
+  "qué": "quelle",
+  "va": "va",
+  "a": "à",
+  "tocar": "jouer (de la musique)",
+  "música": "musique",
+  "aquí": "ici",
+  "semana": "semaine",
+  "toca": "joue",
+  "bien": "bien",
+  "sí": "oui",
+  "muy": "très",
+  "tiene": "a",
+  "un": "un",
+  "poco": "peu",
+  "miedo": "peur",
+  "llega": "arrive",
+  "con": "avec",
+  "par": "paire (un par de = quelques)",
+  "amigos": "amis",
+  "vas": "vas",
+  "venir": "venir",
+  "pregunta": "demande",
+  "claro": "bien sûr",
+  "confío": "j'ai confiance",
+  "ti": "toi",
+  "gracias": "merci",
+  "necesito": "j'ai besoin de",
+  "días": "jours",
+  "más": "plus",
+  "para": "pour",
+  "preparar": "préparer",
+  "todo": "tout",
+  "los": "les",
+  "empiezan": "commencent",
+  "es": "est",
+  "fuerte": "forte",
+  "arriba": "en haut",
+  "don": "don (titre de respect)",
+  "no": "non, ne… pas",
+  "paz": "paix",
+  "silencio": "silence",
+  "por": "par, pour",
+  "favor": "faveur (por favor = s'il te plaît)",
+  "quiero": "je veux",
+  "desde": "depuis, de",
+  "se": "se",
+  "calla": "se tait",
+  "callan": "se taisent",
+  "también": "aussi",
+  "perdón": "pardon",
+  "mi": "mon, ma",
+  "culpa": "faute",
+  "todos": "tous",
+  "decide": "décide",
+  "bajar": "descendre",
+  "al": "au",
+  "bueno": "bon, bien",
+  "podéis": "vous pouvez",
+  "noche": "nuit, soir",
+  "dormir": "dormir",
+  "acuerdo": "accord (de acuerdo = d'accord)",
+  "y": "et",
+  "si": "si",
+  "tocamos": "nous jouons",
+  "tarde": "après-midi",
+  "vosotros": "vous",
+  "cierra": "ferme",
+  "día": "jour",
+  "otro": "autre",
+  "sube": "monte",
+  "espera": "attend",
+  "solo": "seulement",
+  "quiere": "veut",
+  "comer": "manger",
+  "que": "que (la semana que viene = la semaine prochaine)",
+  "viene": "vient",
+  "mañana": "demain"
+ }
+}

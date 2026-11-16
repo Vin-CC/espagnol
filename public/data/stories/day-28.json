@@ -1,0 +1,185 @@
+{
+ "day": 28,
+ "title": "El otro novio",
+ "title_fr": "L'autre fiancé",
+ "sentences": [
+  {
+   "es": "La tía de Marta recuerda a la profesora de la escuela.",
+   "fr": "La tante de Marta se souvient de l'institutrice de l'école.",
+   "audio": "es_15d20e3055a7.mp3"
+  },
+  {
+   "es": "—¿Cuándo se fue? —pregunta Lucía.",
+   "fr": "— Quand est-ce qu'elle est partie ? demande Lucía.",
+   "audio": "es_65216728eb57.mp3"
+  },
+  {
+   "es": "—Un año después de la fiesta. Su padre tenía otro novio para ella.",
+   "fr": "— Un an après la fête. Son père avait un autre fiancé pour elle.",
+   "audio": "es_6705bd6f7a23.mp3"
+  },
+  {
+   "es": "—¿Otro novio?",
+   "fr": "— Un autre fiancé ?",
+   "audio": "es_b8dc0a5fc322.mp3"
+  },
+  {
+   "es": "—Sí. Un hombre con mucho dinero. Tenía un buen puesto en el gobierno.",
+   "fr": "— Oui. Un homme avec beaucoup d'argent. Il avait un bon poste au gouvernement.",
+   "audio": "es_e294a3cfd470.mp3"
+  },
+  {
+   "es": "—¿Y ella se casó con él?",
+   "fr": "— Et elle s'est mariée avec lui ?",
+   "audio": "es_e69012f43191.mp3"
+  },
+  {
+   "es": "—No sé. Su padre quería casarla. Pero ella no quería.",
+   "fr": "— Je ne sais pas. Son père voulait la marier. Mais elle ne voulait pas.",
+   "audio": "es_771bf10e0ebb.mp3"
+  },
+  {
+   "es": "Ramón no dice nada. Tampoco mira a nadie.",
+   "fr": "Ramón ne dit rien. Il ne regarde personne non plus.",
+   "audio": "es_d8d6691e0dea.mp3"
+  },
+  {
+   "es": "—¿Y tú, Ramón? ¿Te casaste después?",
+   "fr": "— Et toi, Ramón ? Tu t'es marié, après ?",
+   "audio": "es_0a8a4160c5a6.mp3"
+  },
+  {
+   "es": "—Yo nunca me casé. Ella tampoco, creo.",
+   "fr": "— Je ne me suis jamais marié. Elle non plus, je crois.",
+   "audio": "es_bb24132b9d0c.mp3"
+  },
+  {
+   "es": "La tía busca en sus cosas. Aparece con otra foto vieja.",
+   "fr": "La tante cherche dans ses affaires. Elle revient avec une autre vieille photo.",
+   "audio": "es_ad3c460de8c6.mp3"
+  },
+  {
+   "es": "En la foto aparecen los niños de la escuela con su profesora.",
+   "fr": "Sur la photo, on voit les enfants de l'école avec leur institutrice.",
+   "audio": "es_d4d0c877d8cb.mp3"
+  },
+  {
+   "es": "—Ella me enseñó a leer —dice la tía—. Es mi mejor recuerdo.",
+   "fr": "— C'est elle qui m'a appris à lire, dit la tante. C'est mon meilleur souvenir.",
+   "audio": "es_e1d85dfd7cf4.mp3"
+  },
+  {
+   "es": "—¿Puedo tener esta foto? —pregunta Ramón.",
+   "fr": "— Est-ce que je peux avoir cette photo ? demande Ramón.",
+   "audio": "es_e6516a17a162.mp3"
+  },
+  {
+   "es": "—¡No! ¿Quieres robar mi recuerdo? ¿Quieres robar a una vieja?",
+   "fr": "— Non ! Tu veux voler mon souvenir ? Tu veux voler une vieille dame ?",
+   "audio": "es_cf4b289fd31b.mp3"
+  },
+  {
+   "es": "Pero al final, Ramón logra tener la foto.",
+   "fr": "Mais à la fin, Ramón réussit à avoir la photo.",
+   "audio": "es_d19d44119afe.mp3"
+  },
+  {
+   "es": "Lucía está feliz. Poco a poco, logran avanzar.",
+   "fr": "Lucía est heureuse. Petit à petit, ils réussissent à avancer.",
+   "audio": "es_7e28f1799bf3.mp3"
+  },
+  {
+   "es": "Y Ramón tiene ahora un nuevo recuerdo de ella.",
+   "fr": "Et Ramón a maintenant un nouveau souvenir d'elle.",
+   "audio": "es_517f58769ae0.mp3"
+  }
+ ],
+ "gloss": {
+  "la": "la",
+  "tía": "tante",
+  "de": "de",
+  "recuerda": "se souvient de",
+  "a": "à",
+  "profesora": "professeure, institutrice",
+  "escuela": "école",
+  "cuándo": "quand",
+  "se": "se",
+  "ella": "elle",
+  "pregunta": "demande",
+  "un": "un",
+  "año": "an, année",
+  "después": "après, ensuite",
+  "fiesta": "fête",
+  "su": "son, sa, leur",
+  "padre": "père",
+  "tiene": "a",
+  "otro": "autre",
+  "novio": "fiancé",
+  "para": "pour",
+  "sí": "oui",
+  "hombre": "homme",
+  "con": "avec",
+  "mucho": "beaucoup",
+  "dinero": "argent",
+  "buen": "bon",
+  "puesto": "poste",
+  "en": "en, dans, à",
+  "el": "le",
+  "gobierno": "gouvernement",
+  "y": "et",
+  "él": "il, lui",
+  "no": "non, ne... pas",
+  "sé": "je sais",
+  "casarla": "la marier",
+  "pero": "mais",
+  "dice": "dit",
+  "nada": "rien",
+  "tampoco": "non plus",
+  "mira": "regarde",
+  "nadie": "personne",
+  "tú": "tu, toi",
+  "te": "te, toi",
+  "yo": "je, moi",
+  "nunca": "jamais",
+  "me": "me, moi",
+  "creo": "je crois",
+  "busca": "cherche",
+  "sus": "ses",
+  "cosas": "choses",
+  "aparece": "revient, apparaît",
+  "otra": "autre",
+  "foto": "photo",
+  "vieja": "vieille",
+  "aparecen": "apparaissent",
+  "los": "les",
+  "niños": "enfants",
+  "leer": "lire",
+  "es": "est",
+  "mi": "mon, ma",
+  "mejor": "meilleur",
+  "recuerdo": "souvenir",
+  "puedo": "je peux",
+  "tener": "avoir",
+  "esta": "cette",
+  "quieres": "tu veux",
+  "robar": "voler",
+  "una": "une",
+  "al": "au (a + el)",
+  "final": "fin",
+  "logra": "réussit",
+  "está": "est",
+  "feliz": "heureuse",
+  "poco": "peu",
+  "logran": "réussissent",
+  "avanzar": "avancer",
+  "ahora": "maintenant",
+  "nuevo": "nouveau",
+  "fue": "(se fue) est partie",
+  "tenía": "avait",
+  "casó": "s'est mariée",
+  "quería": "voulait",
+  "casaste": "tu t'es marié",
+  "casé": "je me suis marié",
+  "enseñó": "a appris (à quelqu'un), a enseigné"
+ }
+}

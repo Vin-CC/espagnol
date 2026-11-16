@@ -1,0 +1,221 @@
+{
+ "day": 40,
+ "title": "La fiesta del siglo",
+ "title_fr": "La fête du siècle",
+ "sentences": [
+  {
+   "es": "Anoche fue la gran fiesta de Diego en el café.",
+   "fr": "Hier soir, c'était la grande fête de Diego au café.",
+   "audio": "es_a745c91a11bf.mp3"
+  },
+  {
+   "es": "Hoy, por la mañana, Lucía y Diego recogen las mesas.",
+   "fr": "Aujourd'hui, le matin, Lucía et Diego rangent les tables.",
+   "audio": "es_e657827cf48f.mp3"
+  },
+  {
+   "es": "—¡Qué noche tan divertida! —dice Lucía.",
+   "fr": "« Quelle soirée amusante ! » dit Lucía.",
+   "audio": "es_d4b2c92bbba4.mp3"
+  },
+  {
+   "es": "—Sí, muy divertida. El café estaba lleno.",
+   "fr": "« Oui, très amusante. Le café était plein. »",
+   "audio": "es_1ebac3251265.mp3"
+  },
+  {
+   "es": "Mucha gente vino anoche: Carmen, Lola, Pablo, el abogado… Y todos pagaron en la puerta.",
+   "fr": "Beaucoup de gens sont venus hier soir : Carmen, Lola, Pablo, l'avocat… Et tout le monde a payé à la porte.",
+   "audio": "es_812713ceb766.mp3"
+  },
+  {
+   "es": "Diego tocó la guitarra de Ramón.",
+   "fr": "Diego a joué sur la guitare de Ramón.",
+   "audio": "es_98e310c6aa87.mp3"
+  },
+  {
+   "es": "El primer tema fue sobre el campo. El tercer tema fue el más bonito: un tema sobre el caballo de su abuelo.",
+   "fr": "Le premier morceau parlait de la campagne. Le troisième morceau était le plus joli : un morceau sur le cheval de son grand-père.",
+   "audio": "es_6fcae226af9e.mp3"
+  },
+  {
+   "es": "Y en el tercer tema, Diego cantó.",
+   "fr": "Et dans le troisième morceau, Diego a chanté.",
+   "audio": "es_190851e0dc2d.mp3"
+  },
+  {
+   "es": "—Tu voz es muy bonita —dice Lucía.",
+   "fr": "« Ta voix est très jolie », dit Lucía.",
+   "audio": "es_c0eed3142399.mp3"
+  },
+  {
+   "es": "—Gracias. Ramón es un buen maestro.",
+   "fr": "« Merci. Ramón est un bon professeur. »",
+   "audio": "es_def980fdd79d.mp3"
+  },
+  {
+   "es": "En ese momento, Ramón entra en el café.",
+   "fr": "À ce moment-là, Ramón entre dans le café.",
+   "audio": "es_de17d359d041.mp3"
+  },
+  {
+   "es": "—¡Hola, maestro! —dice Diego.",
+   "fr": "« Salut, maître ! » dit Diego.",
+   "audio": "es_d71acd5bc21e.mp3"
+  },
+  {
+   "es": "—Yo no soy tu maestro. Pero anoche fue la mejor fiesta del siglo.",
+   "fr": "« Je ne suis pas ton maître. Mais hier soir, c'était la meilleure fête du siècle. »",
+   "audio": "es_a095f08b2d4a.mp3"
+  },
+  {
+   "es": "—¿Del siglo, Don Ramón?",
+   "fr": "« Du siècle, Don Ramón ? »",
+   "audio": "es_93946666b5e6.mp3"
+  },
+  {
+   "es": "—Bueno… de este siglo.",
+   "fr": "« Bon… de ce siècle-ci. »",
+   "audio": "es_e7bab2fdb715.mp3"
+  },
+  {
+   "es": "Lucía recoge la guitarra de Ramón. La mira bien. No tiene ningún daño.",
+   "fr": "Lucía ramasse la guitare de Ramón. Elle la regarde bien. Elle n'est pas du tout abîmée.",
+   "audio": "es_0fa4f9141794.mp3"
+  },
+  {
+   "es": "—¡Esta vez, Pipo no rompió nada!",
+   "fr": "« Cette fois, Pipo n'a rien cassé ! »",
+   "audio": "es_b3a817100c68.mp3"
+  },
+  {
+   "es": "Marta llega con una noticia.",
+   "fr": "Marta arrive avec une nouvelle.",
+   "audio": "es_b64b7c3a8e6d.mp3"
+  },
+  {
+   "es": "—Con el dinero de anoche, podemos pagar una parte. ¡El café está salvado!",
+   "fr": "« Avec l'argent d'hier soir, on peut payer une partie. Le café est sauvé ! »",
+   "audio": "es_45dd4899be08.mp3"
+  },
+  {
+   "es": "—Diego, ahora empieza tu carrera —dice Ramón—. Paso a paso, como un buen caballo.",
+   "fr": "« Diego, maintenant ta carrière commence, dit Ramón. Pas à pas, comme un bon cheval. »",
+   "audio": "es_0f0e96afecdd.mp3"
+  },
+  {
+   "es": "—¿Mi carrera? Yo solo quiero tocar aquí, en la calle del Sol.",
+   "fr": "« Ma carrière ? Moi, je veux seulement jouer ici, dans la calle del Sol. »",
+   "audio": "es_db0ea92ae861.mp3"
+  },
+  {
+   "es": "Lucía recoge la última mesa y mira a Diego. Está feliz.",
+   "fr": "Lucía range la dernière table et regarde Diego. Elle est heureuse.",
+   "audio": "es_b4bab041059d.mp3"
+  }
+ ],
+ "gloss": {
+  "anoche": "hier soir",
+  "fue": "a été, c'était",
+  "la": "la ; l'",
+  "gran": "grande",
+  "fiesta": "fête",
+  "de": "de",
+  "en": "dans, en",
+  "el": "le",
+  "café": "café",
+  "hoy": "aujourd'hui",
+  "por": "par, pour",
+  "mañana": "matin (por la mañana = le matin)",
+  "y": "et",
+  "recogen": "rangent",
+  "las": "les",
+  "mesas": "tables",
+  "qué": "quel(le) (qué noche = quelle soirée)",
+  "noche": "soirée, nuit",
+  "tan": "si",
+  "divertida": "amusante",
+  "dice": "dit",
+  "sí": "oui",
+  "muy": "très",
+  "estaba": "était",
+  "lleno": "plein",
+  "mucha": "beaucoup de",
+  "gente": "gens",
+  "vino": "est venu(e)s",
+  "abogado": "avocat",
+  "todos": "tout le monde",
+  "pagaron": "ont payé",
+  "puerta": "porte",
+  "tocó": "a joué",
+  "guitarra": "guitare",
+  "primer": "premier",
+  "tema": "morceau",
+  "sobre": "sur",
+  "campo": "campagne",
+  "tercer": "troisième",
+  "más": "plus",
+  "bonito": "joli",
+  "un": "un",
+  "caballo": "cheval",
+  "su": "son, sa",
+  "abuelo": "grand-père",
+  "cantó": "a chanté",
+  "tu": "ton, ta",
+  "voz": "voix",
+  "es": "est",
+  "bonita": "jolie",
+  "gracias": "merci",
+  "buen": "bon",
+  "maestro": "professeur, maître",
+  "ese": "ce",
+  "momento": "moment",
+  "entra": "entre",
+  "hola": "bonjour, salut",
+  "yo": "je, moi",
+  "no": "non, ne… pas",
+  "soy": "je suis",
+  "pero": "mais",
+  "mejor": "meilleure",
+  "del": "du",
+  "siglo": "siècle",
+  "don": "don (titre de respect)",
+  "bueno": "bon, bien",
+  "este": "ce (de este siglo = de ce siècle-ci)",
+  "recoge": "ramasse ; range",
+  "mira": "regarde",
+  "bien": "bien",
+  "tiene": "a",
+  "ningún": "aucun",
+  "daño": "dégât ; mal (hacer daño = faire du mal)",
+  "esta": "cette",
+  "vez": "fois",
+  "a": "à",
+  "llega": "arrive",
+  "con": "avec",
+  "una": "une",
+  "noticia": "nouvelle",
+  "dinero": "argent",
+  "podemos": "nous pouvons",
+  "pagar": "payer",
+  "parte": "partie",
+  "está": "est",
+  "salvado": "sauvé",
+  "ahora": "maintenant",
+  "empieza": "commence",
+  "carrera": "carrière",
+  "paso": "pas (paso a paso = pas à pas)",
+  "como": "comme",
+  "mi": "mon, ma",
+  "solo": "seulement",
+  "quiero": "je veux",
+  "tocar": "jouer (de la musique)",
+  "aquí": "ici",
+  "calle": "rue",
+  "última": "dernière",
+  "mesa": "table",
+  "feliz": "heureuse",
+  "rompió": "a cassé",
+  "nada": "rien (no rompió nada = n'a rien cassé)"
+ }
+}

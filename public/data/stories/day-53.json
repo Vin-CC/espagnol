@@ -1,0 +1,213 @@
+{
+ "day": 53,
+ "title": "Una foto en el piso",
+ "title_fr": "Une photo dans l'appartement",
+ "sentences": [
+  {
+   "es": "Ayer, Lucía supo que el padre de Ramón tuvo que huir a Francia.",
+   "fr": "Hier, Lucía a appris que le père de Ramón avait dû fuir en France.",
+   "audio": "es_914af938c24a.mp3"
+  },
+  {
+   "es": "Hoy, el café de Marta está cerrado.",
+   "fr": "Aujourd'hui, le café de Marta est fermé.",
+   "audio": "es_d9fad9094f43.mp3"
+  },
+  {
+   "es": "Lucía tiene hambre, pero el café está cerrado.",
+   "fr": "Lucía a faim, mais le café est fermé.",
+   "audio": "es_e634c4c36da6.mp3"
+  },
+  {
+   "es": "—¿Adónde voy ahora? —piensa ella.",
+   "fr": "« Où est-ce que je vais maintenant ? » pense-t-elle.",
+   "audio": "es_3a7450ff6548.mp3"
+  },
+  {
+   "es": "Sube al piso de Ramón. Ramón vive en el tercer piso.",
+   "fr": "Elle monte à l'appartement de Ramón. Ramón habite au troisième étage.",
+   "audio": "es_332c5ae2b76a.mp3"
+  },
+  {
+   "es": "—Ramón, ¿tiene usted algo de comer? Tengo mucha hambre.",
+   "fr": "« Ramón, vous avez quelque chose à manger ? J'ai très faim. »",
+   "audio": "es_5db20b0da08e.mp3"
+  },
+  {
+   "es": "—Claro. Y mire: anoche hallé esto en mi piso.",
+   "fr": "« Bien sûr. Et regardez : hier soir, j'ai trouvé ceci dans mon appartement. »",
+   "audio": "es_8dcde90f3b76.mp3"
+  },
+  {
+   "es": "Es una foto vieja. En la foto hay una mujer joven con un vestido blanco.",
+   "fr": "C'est une vieille photo. Sur la photo, il y a une jeune femme avec une robe blanche.",
+   "audio": "es_7f54eed79583.mp3"
+  },
+  {
+   "es": "Al lado hay un hombre de espaldas. No vemos su cara.",
+   "fr": "À côté, il y a un homme de dos. On ne voit pas son visage.",
+   "audio": "es_881405cc2631.mp3"
+  },
+  {
+   "es": "—Ese hombre de espaldas es mi padre —dice Ramón.",
+   "fr": "« Cet homme de dos, c'est mon père », dit Ramón.",
+   "audio": "es_962de386d1a5.mp3"
+  },
+  {
+   "es": "—¿Y la mujer del vestido blanco?",
+   "fr": "« Et la femme à la robe blanche ? »",
+   "audio": "es_75c9703e3db9.mp3"
+  },
+  {
+   "es": "—No sé. Pero su cara me es familiar.",
+   "fr": "« Je ne sais pas. Mais son visage m'est familier. »",
+   "audio": "es_6a7d5c897fa3.mp3"
+  },
+  {
+   "es": "Lucía mira la foto. Para ella también es una cara familiar.",
+   "fr": "Lucía regarde la photo. Pour elle aussi, c'est un visage familier.",
+   "audio": "es_dd227ba34b18.mp3"
+  },
+  {
+   "es": "—¡Se parece a Marta! —dice.",
+   "fr": "« Elle ressemble à Marta ! » dit-elle.",
+   "audio": "es_fac9b89e0cbe.mp3"
+  },
+  {
+   "es": "—Aun así, no es Marta. La foto es muy vieja.",
+   "fr": "« Malgré tout, ce n'est pas Marta. La photo est très vieille. »",
+   "audio": "es_94c3ba26349e.mp3"
+  },
+  {
+   "es": "Detrás de la foto hay unas palabras: «Universidad de Valencia, departamento de historia».",
+   "fr": "Derrière la photo, il y a quelques mots : « Université de Valencia, département d'histoire ».",
+   "audio": "es_094ec28f7ecf.mp3"
+  },
+  {
+   "es": "—¿Un departamento de la universidad? —pregunta Lucía.",
+   "fr": "« Un département de l'université ? » demande Lucía.",
+   "audio": "es_9ac991a416e3.mp3"
+  },
+  {
+   "es": "—Sí. Allí hay muchas fotos viejas de la ciudad.",
+   "fr": "« Oui. Là-bas, il y a beaucoup de vieilles photos de la ville. »",
+   "audio": "es_cddc2f82955f.mp3"
+  },
+  {
+   "es": "—Entonces, ¿adónde vamos mañana?",
+   "fr": "« Alors, où allons-nous demain ? »",
+   "audio": "es_ff31aafaaa91.mp3"
+  },
+  {
+   "es": "—¡Al departamento de historia! —dice Ramón.",
+   "fr": "« Au département d'histoire ! » dit Ramón.",
+   "audio": "es_c573525ec8ca.mp3"
+  },
+  {
+   "es": "Comen algo juntos. Lucía ya no tiene hambre, y está feliz.",
+   "fr": "Ils mangent quelque chose ensemble. Lucía n'a plus faim, et elle est heureuse.",
+   "audio": "es_36ff0dffc87b.mp3"
+  },
+  {
+   "es": "Pipo duerme en la espalda de Ramón.",
+   "fr": "Pipo dort sur le dos de Ramón.",
+   "audio": "es_85c8179c4cc2.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à ; en",
+  "adónde": "où (direction)",
+  "ahora": "maintenant",
+  "al": "au ; à côté (al lado)",
+  "algo": "quelque chose",
+  "allí": "là-bas",
+  "anoche": "hier soir",
+  "así": "ainsi (aun así = malgré tout)",
+  "aun": "même (aun así = malgré tout)",
+  "ayer": "hier",
+  "blanco": "blanc",
+  "café": "café",
+  "cara": "visage",
+  "cerrado": "fermé",
+  "ciudad": "ville",
+  "claro": "bien sûr",
+  "comen": "ils mangent",
+  "comer": "manger",
+  "con": "avec",
+  "de": "de",
+  "del": "du ; de la",
+  "departamento": "département",
+  "detrás": "derrière",
+  "dice": "dit",
+  "duerme": "dort",
+  "el": "le",
+  "ella": "elle",
+  "en": "dans ; à ; sur",
+  "entonces": "alors",
+  "es": "est",
+  "ese": "cet",
+  "espalda": "dos",
+  "espaldas": "dos (de espaldas = de dos)",
+  "esto": "ceci",
+  "está": "est",
+  "familiar": "familier",
+  "feliz": "heureuse",
+  "foto": "photo",
+  "fotos": "photos",
+  "hallé": "j'ai trouvé",
+  "hambre": "faim",
+  "hay": "il y a",
+  "historia": "histoire",
+  "hombre": "homme",
+  "hoy": "aujourd'hui",
+  "huir": "fuir",
+  "joven": "jeune",
+  "juntos": "ensemble",
+  "la": "la",
+  "lado": "côté",
+  "mañana": "demain",
+  "me": "me",
+  "mi": "mon",
+  "mira": "regarde",
+  "mire": "regardez !",
+  "mucha": "beaucoup de",
+  "muchas": "beaucoup de",
+  "mujer": "femme",
+  "muy": "très",
+  "no": "non ; ne... pas",
+  "padre": "père",
+  "palabras": "mots",
+  "para": "pour",
+  "parece": "ressemble (se parece a)",
+  "pero": "mais",
+  "piensa": "pense",
+  "piso": "appartement ; étage",
+  "pregunta": "demande",
+  "que": "que",
+  "se": "se",
+  "su": "son",
+  "sube": "monte",
+  "supo": "a appris",
+  "sé": "je sais",
+  "sí": "oui",
+  "también": "aussi",
+  "tengo": "j'ai",
+  "tercer": "troisième",
+  "tiene": "a ; avez (usted tiene)",
+  "tuvo": "a eu (tuvo que = a dû)",
+  "un": "un",
+  "una": "une",
+  "unas": "quelques",
+  "universidad": "université",
+  "usted": "vous",
+  "vamos": "nous allons",
+  "vemos": "nous voyons ; on voit",
+  "vestido": "robe",
+  "vieja": "vieille",
+  "viejas": "vieilles",
+  "vive": "habite",
+  "voy": "je vais",
+  "y": "et",
+  "ya": "plus (ya no = ne… plus)"
+ }
+}

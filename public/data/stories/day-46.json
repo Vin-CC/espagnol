@@ -1,0 +1,221 @@
+{
+ "day": 46,
+ "title": "El mar y la llave",
+ "title_fr": "La mer et la clé",
+ "sentences": [
+  {
+   "es": "Después del mercado, la madre de Lucía tiene un deseo: ver el mar.",
+   "fr": "Après le marché, la mère de Lucía a un souhait : voir la mer.",
+   "audio": "es_2a81e9713278.mp3"
+  },
+  {
+   "es": "Diego va con ellas.",
+   "fr": "Diego va avec elles.",
+   "audio": "es_6d453468e039.mp3"
+  },
+  {
+   "es": "Primero pasan por el antiguo río de Valencia. Ahora no tiene agua: es un parque.",
+   "fr": "D'abord, ils passent par l'ancien fleuve de Valencia. Maintenant, il n'a pas d'eau : c'est un parc.",
+   "audio": "es_006a53d9d35d.mp3"
+  },
+  {
+   "es": "—¿Un río sin agua? ¡Qué raro! —dice la madre.",
+   "fr": "« Un fleuve sans eau ? Comme c'est bizarre ! » dit la mère.",
+   "audio": "es_82bd4d6afb36.mp3"
+  },
+  {
+   "es": "Después llegan al mar. El mar es enorme.",
+   "fr": "Ensuite, ils arrivent à la mer. La mer est immense.",
+   "audio": "es_9af53e133222.mp3"
+  },
+  {
+   "es": "La madre respira. —El mar es bueno para el alma.",
+   "fr": "La mère respire. « La mer, c'est bon pour l'âme. »",
+   "audio": "es_18d2ddb29205.mp3"
+  },
+  {
+   "es": "—Sí. El mar es el alma de Valencia —dice Diego.",
+   "fr": "« Oui. La mer, c'est l'âme de Valencia », dit Diego.",
+   "audio": "es_c785d69fd2ee.mp3"
+  },
+  {
+   "es": "Diego señala un barco. —Mi abuelo tenía un barco como ese.",
+   "fr": "Diego montre un bateau du doigt. « Mon grand-père avait un bateau comme celui-là. »",
+   "audio": "es_2e7e35d59a2a.mp3"
+  },
+  {
+   "es": "La madre mira a Diego y hace muchas preguntas.",
+   "fr": "La mère regarde Diego et pose beaucoup de questions.",
+   "audio": "es_d3f815ea9a9e.mp3"
+  },
+  {
+   "es": "—¿Cuántos años tienes? ¿Tienes trabajo? ¿Tienes novia?",
+   "fr": "« Quel âge as-tu ? Tu as du travail ? Tu as une petite amie ? »",
+   "audio": "es_b4d1645863d8.mp3"
+  },
+  {
+   "es": "—¡Mamá! ¡No eres un juez! —dice Lucía.",
+   "fr": "« Maman ! Tu n'es pas un juge ! » dit Lucía.",
+   "audio": "es_77cdc43223b5.mp3"
+  },
+  {
+   "es": "—Un juez no. Una madre, sí.",
+   "fr": "« Un juge, non. Une mère, si. »",
+   "audio": "es_5f8eb17a85d2.mp3"
+  },
+  {
+   "es": "Diego ríe. Niega con la cabeza. —No, señora, no tengo novia.",
+   "fr": "Diego rit. Il fait non de la tête. « Non, madame, je n'ai pas de petite amie. »",
+   "audio": "es_34a0256e6d19.mp3"
+  },
+  {
+   "es": "Después entran en una tienda pequeña.",
+   "fr": "Ensuite, ils entrent dans une petite boutique.",
+   "audio": "es_c58814f38072.mp3"
+  },
+  {
+   "es": "En la tienda venden cosas dulces. La madre quiere comprar muchos dulces.",
+   "fr": "Dans la boutique, on vend des choses sucrées. La mère veut acheter beaucoup de douceurs.",
+   "audio": "es_1701dcf8d632.mp3"
+  },
+  {
+   "es": "Por la tarde, vuelven a la calle del Sol.",
+   "fr": "L'après-midi, ils reviennent dans la calle del Sol.",
+   "audio": "es_9dbf6cdf25dd.mp3"
+  },
+  {
+   "es": "Lucía busca la llave de su casa. No está.",
+   "fr": "Lucía cherche la clé de sa maison. Elle n'est pas là.",
+   "audio": "es_61e0e08ae76e.mp3"
+  },
+  {
+   "es": "—¿Dónde está la llave, hija?",
+   "fr": "« Où est la clé, ma fille ? »",
+   "audio": "es_87f5f8a5b851.mp3"
+  },
+  {
+   "es": "—¡No sé!",
+   "fr": "« Je ne sais pas ! »",
+   "audio": "es_d6ac757d526d.mp3"
+  },
+  {
+   "es": "—¿Está en la tienda? ¿En el mar?",
+   "fr": "« Elle est dans la boutique ? Dans la mer ? »",
+   "audio": "es_1760840646ab.mp3"
+  },
+  {
+   "es": "Lucía lo niega todo. —¡No! ¡No la pierdo nunca!",
+   "fr": "Lucía nie tout. « Non ! Je ne la perds jamais ! »",
+   "audio": "es_cb83bf238a5e.mp3"
+  },
+  {
+   "es": "Entonces Diego señala la mano de la madre. La llave está allí.",
+   "fr": "Alors Diego montre la main de la mère. La clé est là.",
+   "audio": "es_96e1f553cd8f.mp3"
+  },
+  {
+   "es": "—¡Oh! ¡La tengo yo! —dice la madre. Todos ríen.",
+   "fr": "« Oh ! C'est moi qui l'ai ! » dit la mère. Tout le monde rit.",
+   "audio": "es_3233fe4ebe0b.mp3"
+  }
+ ],
+ "gloss": {
+  "después": "après, ensuite",
+  "del": "du (de + el)",
+  "mercado": "marché",
+  "la": "la ; l' (pronom)",
+  "madre": "mère",
+  "de": "de",
+  "tiene": "il/elle a",
+  "un": "un",
+  "deseo": "souhait",
+  "ver": "voir",
+  "el": "le",
+  "mar": "mer",
+  "va": "va",
+  "con": "avec",
+  "ellas": "elles",
+  "primero": "d'abord",
+  "pasan": "passent",
+  "por": "par, pour",
+  "antiguo": "ancien, vieux",
+  "río": "fleuve",
+  "ahora": "maintenant",
+  "no": "non, ne… pas",
+  "agua": "eau",
+  "es": "est",
+  "parque": "parc",
+  "sin": "sans",
+  "qué": "quoi, quel",
+  "raro": "bizarre",
+  "dice": "dit",
+  "llegan": "arrivent",
+  "al": "au (a + el)",
+  "enorme": "immense",
+  "respira": "respire",
+  "bueno": "bon",
+  "para": "pour",
+  "alma": "âme",
+  "sí": "oui",
+  "señala": "montre du doigt",
+  "barco": "bateau",
+  "mi": "mon, ma",
+  "abuelo": "grand-père",
+  "tenía": "avait",
+  "como": "comme",
+  "ese": "ce, celui-là",
+  "mira": "regarde",
+  "a": "à",
+  "y": "et",
+  "hace": "pose (hacer preguntas)",
+  "muchas": "beaucoup de (fém.)",
+  "preguntas": "questions",
+  "cuántos": "combien",
+  "años": "ans, années",
+  "tienes": "tu as",
+  "trabajo": "travail",
+  "novia": "petite amie",
+  "mamá": "maman",
+  "eres": "tu es",
+  "juez": "juge",
+  "una": "une",
+  "ríe": "rit",
+  "niega": "nie ; niega con la cabeza : fait non de la tête",
+  "cabeza": "tête",
+  "señora": "madame",
+  "tengo": "j'ai",
+  "entran": "entrent",
+  "en": "dans, en, sur",
+  "tienda": "boutique",
+  "pequeña": "petite",
+  "venden": "on vend",
+  "cosas": "choses",
+  "dulces": "sucrées ; douceurs",
+  "quiere": "veut",
+  "comprar": "acheter",
+  "muchos": "beaucoup de",
+  "tarde": "après-midi",
+  "vuelven": "reviennent",
+  "calle": "rue",
+  "sol": "soleil",
+  "busca": "cherche",
+  "llave": "clé",
+  "su": "son, sa",
+  "casa": "maison",
+  "está": "est (état, lieu)",
+  "dónde": "où",
+  "hija": "ma fille",
+  "sé": "je sais",
+  "lo": "le (lo niega todo : nie tout)",
+  "todo": "tout",
+  "pierdo": "je perds",
+  "nunca": "jamais",
+  "entonces": "alors",
+  "mano": "main",
+  "allí": "là-bas",
+  "oh": "oh",
+  "yo": "moi, je",
+  "todos": "tous, tout le monde",
+  "ríen": "rient"
+ }
+}

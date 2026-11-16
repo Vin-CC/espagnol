@@ -1,0 +1,195 @@
+{
+ "day": 59,
+ "title": "Prisa en la cocina",
+ "title_fr": "Branle-bas en cuisine",
+ "sentences": [
+  {
+   "es": "Ayer, todos limpiaron la calle y Diego puso luces azules.",
+   "fr": "Hier, tout le monde a nettoyé la rue et Diego a mis des lumières bleues.",
+   "audio": "es_2e49ccc0f4b8.mp3"
+  },
+  {
+   "es": "Hoy es el día de la fiesta. Todos tienen prisa.",
+   "fr": "Aujourd'hui, c'est le jour de la fête. Tout le monde est pressé.",
+   "audio": "es_487bf9fbb235.mp3"
+  },
+  {
+   "es": "Marta está en la cocina desde las seis.",
+   "fr": "Marta est dans la cuisine depuis six heures.",
+   "audio": "es_eb97a711527c.mp3"
+  },
+  {
+   "es": "—Lucía, te voy a encargar una cosa: una comida francesa.",
+   "fr": "« Lucía, je vais te confier quelque chose : un plat français. »",
+   "audio": "es_bd1cc8cf600f.mp3"
+  },
+  {
+   "es": "—¿Una comida de mi país? ¡Claro! —dice Lucía.",
+   "fr": "« Un plat de mon pays ? Bien sûr ! » dit Lucía.",
+   "audio": "es_e03fc2c0c835.mp3"
+  },
+  {
+   "es": "Lucía prepara la comida de su madre. Marta también le encarga el pan.",
+   "fr": "Lucía prépare le plat de sa mère. Marta lui confie aussi le pain.",
+   "audio": "es_ffb7f6f471f9.mp3"
+  },
+  {
+   "es": "Pero hay un problema: Pablo está enfermo.",
+   "fr": "Mais il y a un problème : Pablo est malade.",
+   "audio": "es_da85f8799443.mp3"
+  },
+  {
+   "es": "—Pablo está enfermo y no puede colocar las mesas —dice Carmen.",
+   "fr": "« Pablo est malade et il ne peut pas installer les tables », dit Carmen.",
+   "audio": "es_c94a759b3c19.mp3"
+  },
+  {
+   "es": "—No hay prisa —dice Ramón—. Yo coloco las mesas con Lola.",
+   "fr": "« Il n'y a pas d'urgence, dit Ramón. Je mets les tables avec Lola. »",
+   "audio": "es_13fecddb38eb.mp3"
+  },
+  {
+   "es": "Lola coloca flores en todas las mesas.",
+   "fr": "Lola met des fleurs sur toutes les tables.",
+   "audio": "es_3ffbe502ace7.mp3"
+  },
+  {
+   "es": "En la cocina, la carne está caliente.",
+   "fr": "Dans la cuisine, la viande est chaude.",
+   "audio": "es_eb7b0fa11bc5.mp3"
+  },
+  {
+   "es": "Pipo entra en la cocina. Quiere la carne caliente.",
+   "fr": "Pipo entre dans la cuisine. Il veut la viande chaude.",
+   "audio": "es_ef005f891ee4.mp3"
+  },
+  {
+   "es": "—¡Pipo, no! —dice Marta. Es una lucha entre Marta y Pipo.",
+   "fr": "« Pipo, non ! » dit Marta. C'est une lutte entre Marta et Pipo.",
+   "audio": "es_e6558943c404.mp3"
+  },
+  {
+   "es": "Al final, Pipo cae de culo en el suelo. Lola se ríe mucho.",
+   "fr": "À la fin, Pipo tombe sur les fesses. Lola rit beaucoup.",
+   "audio": "es_729a05ffb616.mp3"
+  },
+  {
+   "es": "Lola pregunta: —Lucía, ¿Francia es una isla?",
+   "fr": "Lola demande : « Lucía, la France, c'est une île ? »",
+   "audio": "es_f08fa79a5f64.mp3"
+  },
+  {
+   "es": "—No, Lola. Francia no es una isla. Pero hay islas francesas.",
+   "fr": "« Non, Lola. La France n'est pas une île. Mais il y a des îles françaises. »",
+   "audio": "es_6f8e3ff83a5a.mp3"
+  },
+  {
+   "es": "—¿Y tú eres francés o española?",
+   "fr": "« Et toi, tu es français ou espagnole ? »",
+   "audio": "es_be1393d9b573.mp3"
+  },
+  {
+   "es": "—Se dice «francesa», Lola. Pero hoy me siento un poco española.",
+   "fr": "« On dit \"française\", Lola. Mais aujourd'hui je me sens un peu espagnole. »",
+   "audio": "es_67c706e22fa7.mp3"
+  },
+  {
+   "es": "Ramón dice: —La vida es una lucha, pero hoy es fiesta.",
+   "fr": "Ramón dit : « La vie est une lutte, mais aujourd'hui, c'est la fête. »",
+   "audio": "es_01c9c5056468.mp3"
+  },
+  {
+   "es": "Todo está listo. La comida está caliente. ¡A la fiesta!",
+   "fr": "Tout est prêt. Le repas est chaud. À la fête !",
+   "audio": "es_748434072316.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à",
+  "al": "à la (al final = à la fin)",
+  "ayer": "hier",
+  "azules": "bleues",
+  "cae": "tombe",
+  "caliente": "chaud(e)",
+  "calle": "rue",
+  "carne": "viande",
+  "claro": "bien sûr",
+  "cocina": "cuisine",
+  "coloca": "met ; place",
+  "colocar": "installer ; placer",
+  "coloco": "je mets ; j'installe",
+  "comida": "plat ; repas",
+  "con": "avec",
+  "cosa": "chose",
+  "culo": "derrière ; fesses (de culo = sur les fesses)",
+  "de": "de",
+  "desde": "depuis",
+  "dice": "dit",
+  "día": "jour",
+  "el": "le",
+  "en": "dans ; sur",
+  "encarga": "confie (le encarga = lui confie)",
+  "encargar": "confier",
+  "enfermo": "malade",
+  "entra": "entre",
+  "entre": "entre",
+  "eres": "tu es",
+  "es": "est",
+  "española": "espagnole",
+  "está": "est",
+  "fiesta": "fête",
+  "final": "fin",
+  "flores": "fleurs",
+  "francesa": "française",
+  "francesas": "françaises",
+  "francés": "français",
+  "hay": "il y a",
+  "hoy": "aujourd'hui",
+  "isla": "île",
+  "islas": "îles",
+  "la": "la",
+  "las": "les (las seis = six heures)",
+  "limpiaron": "ont nettoyé",
+  "listo": "prêt",
+  "luces": "lumières",
+  "lucha": "lutte",
+  "madre": "mère",
+  "me": "me",
+  "mesas": "tables",
+  "mi": "mon",
+  "mucho": "beaucoup",
+  "no": "non ; ne... pas",
+  "o": "ou",
+  "pan": "pain",
+  "país": "pays",
+  "pero": "mais",
+  "poco": "peu (un poco = un peu)",
+  "pregunta": "demande",
+  "prepara": "prépare",
+  "prisa": "hâte (tener prisa = être pressé)",
+  "problema": "problème",
+  "puede": "peut",
+  "puso": "a mis",
+  "quiere": "veut",
+  "ríe": "rit (se ríe)",
+  "se": "se ; on (se dice = on dit)",
+  "seis": "six",
+  "siento": "je me sens (me siento)",
+  "su": "sa",
+  "suelo": "sol",
+  "te": "te",
+  "tienen": "ont",
+  "todas": "toutes",
+  "todo": "tout",
+  "todos": "tout le monde",
+  "tú": "toi ; tu",
+  "un": "un",
+  "una": "une",
+  "vida": "vie",
+  "voy": "je vais",
+  "y": "et",
+  "yo": "je",
+  "le": "lui",
+  "también": "aussi"
+ }
+}

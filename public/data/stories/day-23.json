@@ -1,0 +1,175 @@
+{
+ "day": 23,
+ "title": "Una luz en la noche",
+ "title_fr": "Une lumière dans la nuit",
+ "sentences": [
+  {
+   "es": "Ramón no quiere hablar de la nota vieja.",
+   "fr": "Ramón ne veut pas parler de la vieille note.",
+   "audio": "es_5477bdcc75ab.mp3"
+  },
+  {
+   "es": "Por la noche, Lucía ve una luz en la casa de Ramón.",
+   "fr": "La nuit, Lucía voit une lumière dans la maison de Ramón.",
+   "audio": "es_c90799888564.mp3"
+  },
+  {
+   "es": "Por la mañana, Lucía ve a Ramón cerca del café.",
+   "fr": "Le matin, Lucía voit Ramón près du café.",
+   "audio": "es_ae4d7ace2245.mp3"
+  },
+  {
+   "es": "Ramón la ve y corre a su casa.",
+   "fr": "Ramón la voit et court chez lui.",
+   "audio": "es_da2df041ec13.mp3"
+  },
+  {
+   "es": "¡Ramón nunca corre!",
+   "fr": "Ramón ne court jamais !",
+   "audio": "es_afbfa8191e8a.mp3"
+  },
+  {
+   "es": "—¿Tiene miedo de mí? —pregunta Lucía a Marta.",
+   "fr": "— Il a peur de moi ? demande Lucía à Marta.",
+   "audio": "es_ac268e9c2eb7.mp3"
+  },
+  {
+   "es": "—No tiene miedo de ti. Tiene miedo del pasado.",
+   "fr": "— Il n'a pas peur de toi. Il a peur du passé.",
+   "audio": "es_68f82175ee4f.mp3"
+  },
+  {
+   "es": "—Es un cambio muy grande. Ramón no es así. Este cambio no es normal.",
+   "fr": "— C'est un très grand changement. Ramón n'est pas comme ça. Ce changement n'est pas normal.",
+   "audio": "es_65a35a82e7d0.mp3"
+  },
+  {
+   "es": "Diego está cerca y escucha.",
+   "fr": "Diego est tout près et il écoute.",
+   "audio": "es_b9f20fafde30.mp3"
+  },
+  {
+   "es": "—De todos modos, Lucía, no tienes derecho a buscar en su vida.",
+   "fr": "— De toute façon, Lucía, tu n'as pas le droit de fouiller dans sa vie.",
+   "audio": "es_07ace8f3e75f.mp3"
+  },
+  {
+   "es": "—Tienes razón. No tengo derecho. Pero quiero ayudar.",
+   "fr": "— Tu as raison. Je n'ai pas le droit. Mais je veux aider.",
+   "audio": "es_33a62a1871c2.mp3"
+  },
+  {
+   "es": "Esa tarde, Ramón llama a la puerta de Lucía.",
+   "fr": "Cet après-midi-là, Ramón frappe à la porte de Lucía.",
+   "audio": "es_1370b12bcc51.mp3"
+  },
+  {
+   "es": "—Perdón por ayer, Lucía. Tengo miedo.",
+   "fr": "— Pardon pour hier, Lucía. J'ai peur.",
+   "audio": "es_9900ab2f5be0.mp3"
+  },
+  {
+   "es": "—¿Miedo de qué?",
+   "fr": "— Peur de quoi ?",
+   "audio": "es_8e363212adab.mp3"
+  },
+  {
+   "es": "—No sé si C. está viva. No tengo ninguna prueba.",
+   "fr": "— Je ne sais pas si C. est vivante. Je n'ai aucune preuve.",
+   "audio": "es_e7113c461299.mp3"
+  },
+  {
+   "es": "—Entonces vamos a buscar una prueba.",
+   "fr": "— Alors, on va chercher une preuve.",
+   "audio": "es_520cd4938347.mp3"
+  },
+  {
+   "es": "—La próxima semana te voy a contar toda la historia.",
+   "fr": "— La semaine prochaine, je vais te raconter toute l'histoire.",
+   "audio": "es_596e7555964a.mp3"
+  },
+  {
+   "es": "Esa noche, la luz de Ramón está otra vez allí. ¿Está viva la mujer de la nota?",
+   "fr": "Cette nuit-là, la lumière de Ramón est de nouveau là. La femme de la note est-elle vivante ?",
+   "audio": "es_1fdd180a782e.mp3"
+  }
+ ],
+ "gloss": {
+  "no": "non, ne... pas",
+  "quiere": "veut",
+  "hablar": "parler",
+  "de": "de",
+  "la": "la",
+  "nota": "note",
+  "vieja": "vieille",
+  "por": "par, pour",
+  "noche": "nuit, soir",
+  "ve": "voit",
+  "una": "une",
+  "luz": "lumière",
+  "en": "en, dans, à",
+  "casa": "maison",
+  "mañana": "demain ; matin",
+  "a": "à",
+  "cerca": "près",
+  "del": "du (de + el)",
+  "café": "café",
+  "y": "et",
+  "corre": "court",
+  "su": "son, sa, leur",
+  "nunca": "jamais",
+  "tiene": "a",
+  "miedo": "peur",
+  "mí": "moi",
+  "pregunta": "demande",
+  "ti": "toi",
+  "pasado": "passé",
+  "es": "est",
+  "un": "un",
+  "cambio": "changement",
+  "muy": "très",
+  "grande": "grand",
+  "así": "comme ça",
+  "este": "ce",
+  "normal": "normal",
+  "está": "est",
+  "escucha": "écoute",
+  "todos": "tous",
+  "modos": "de todos modos : de toute façon",
+  "tienes": "tu as",
+  "derecho": "droit",
+  "buscar": "chercher",
+  "vida": "vie",
+  "razón": "raison",
+  "tengo": "j'ai",
+  "pero": "mais",
+  "quiero": "je veux",
+  "ayudar": "aider",
+  "esa": "cette",
+  "tarde": "après-midi",
+  "llama": "frappe (llamar a la puerta)",
+  "puerta": "porte",
+  "perdón": "pardon",
+  "ayer": "hier",
+  "qué": "quoi, qu'est-ce que",
+  "sé": "je sais",
+  "si": "si",
+  "c": "C. (initiale)",
+  "viva": "vivante",
+  "ninguna": "aucune",
+  "prueba": "preuve",
+  "entonces": "alors",
+  "vamos": "allons",
+  "próxima": "prochaine",
+  "semana": "semaine",
+  "te": "te, toi",
+  "voy": "je vais",
+  "contar": "raconter",
+  "toda": "toute",
+  "historia": "histoire",
+  "otra": "autre",
+  "vez": "fois",
+  "allí": "là",
+  "mujer": "femme"
+ }
+}

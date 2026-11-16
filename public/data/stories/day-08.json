@@ -1,0 +1,128 @@
+{
+ "day": 8,
+ "title": "Una amiga de Pipo",
+ "title_fr": "Une amie de Pipo",
+ "sentences": [
+  {
+   "es": "Después de la noche con Diego, Lucía va al café.",
+   "fr": "Après la nuit avec Diego, Lucía va au café.",
+   "audio": "es_df3cf0deaf9e.mp3"
+  },
+  {
+   "es": "Está un poco triste. Marta tiene mucho trabajo.",
+   "fr": "Elle est un peu triste. Marta a beaucoup de travail.",
+   "audio": "es_a5b4f00d64c1.mp3"
+  },
+  {
+   "es": "Entonces una mujer entra. Es una amiga de Marta.",
+   "fr": "Alors une femme entre. C'est une amie de Marta.",
+   "audio": "es_256c5085f34f.mp3"
+  },
+  {
+   "es": "La mujer mira la foto de Pipo.",
+   "fr": "La femme regarde la photo de Pipo.",
+   "audio": "es_cedfda844dbb.mp3"
+  },
+  {
+   "es": "—¡Yo conozco a este gato!",
+   "fr": "« Je connais ce chat ! »",
+   "audio": "es_5d539063ed2b.mp3"
+  },
+  {
+   "es": "—¿De verdad? —dice Lucía.",
+   "fr": "« C'est vrai ? » demande Lucía.",
+   "audio": "es_424d75e229e8.mp3"
+  },
+  {
+   "es": "—Sí. De hecho, viene a mi casa cada día, antes de la noche.",
+   "fr": "« Oui. En fait, il vient chez moi tous les jours, avant la nuit. »",
+   "audio": "es_603e36f38b15.mp3"
+  },
+  {
+   "es": "Siempre quiere un poco de atención.",
+   "fr": "Il veut toujours un peu d'attention.",
+   "audio": "es_5a6ce891af23.mp3"
+  },
+  {
+   "es": "—¡Pipo tiene una amiga! —dice Marta.",
+   "fr": "« Pipo a une amie ! » dit Marta.",
+   "audio": "es_eb03c43fa873.mp3"
+  },
+  {
+   "es": "—¿Y su casa?",
+   "fr": "« Et votre maison ? »",
+   "audio": "es_c33b271c3a12.mp3"
+  },
+  {
+   "es": "—Está ahí, al final.",
+   "fr": "« Elle est là, au bout. »",
+   "audio": "es_0191e425dbcb.mp3"
+  },
+  {
+   "es": "Después del trabajo, Marta y Lucía van ahí con la mujer.",
+   "fr": "Après le travail, Marta et Lucía y vont avec la femme.",
+   "audio": "es_fa0954f7b406.mp3"
+  },
+  {
+   "es": "Esperan mucho tiempo. Pero esta vez, Pipo no llega.",
+   "fr": "Elles attendent longtemps. Mais cette fois, Pipo n'arrive pas.",
+   "audio": "es_16958e91d433.mp3"
+  }
+ ],
+ "gloss": {
+  "después": "après ; ensuite",
+  "de": "de",
+  "la": "la",
+  "noche": "nuit ; soir",
+  "con": "avec",
+  "va": "va",
+  "al": "au (a + el)",
+  "café": "café",
+  "está": "est (lieu, état)",
+  "un": "un",
+  "poco": "peu",
+  "triste": "triste",
+  "tiene": "a",
+  "mucho": "beaucoup",
+  "trabajo": "travail",
+  "entonces": "alors",
+  "una": "une",
+  "mujer": "femme",
+  "entra": "entre",
+  "es": "est ; c'est",
+  "amiga": "amie",
+  "mira": "regarde",
+  "foto": "photo",
+  "yo": "je ; moi",
+  "conozco": "je connais",
+  "a": "à",
+  "este": "ce",
+  "gato": "chat",
+  "verdad": "vrai ; vérité",
+  "dice": "dit",
+  "sí": "oui",
+  "hecho": "fait (de hecho : en fait)",
+  "viene": "vient",
+  "mi": "mon ; ma",
+  "casa": "maison",
+  "cada": "chaque",
+  "día": "jour ; journée",
+  "antes": "avant",
+  "siempre": "toujours",
+  "quiere": "veut",
+  "atención": "attention",
+  "y": "et",
+  "su": "votre",
+  "ahí": "là ; là-bas",
+  "final": "fin (al final : au bout)",
+  "del": "du (de + el)",
+  "van": "vont",
+  "esperan": "attendent",
+  "tiempo": "temps",
+  "pero": "mais",
+  "esta": "cette",
+  "vez": "fois",
+  "no": "ne… pas ; non",
+  "llega": "arrive"
+ }
+}

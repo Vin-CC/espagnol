@@ -1,0 +1,168 @@
+{
+ "day": 19,
+ "title": "Toda ayuda es buena",
+ "title_fr": "Toute aide est bonne",
+ "sentences": [
+  {
+   "es": "Este año, don Ramón no va a estar solo.",
+   "fr": "Cette année, don Ramón ne va pas être seul.",
+   "audio": "es_d969b39d2e92.mp3"
+  },
+  {
+   "es": "Hoy, el jefe de Lucía envía un mensaje a todo el equipo.",
+   "fr": "Aujourd'hui, le chef de Lucía envoie un message à toute l'équipe.",
+   "audio": "es_2879b1e1ec6e.mp3"
+  },
+  {
+   "es": "«El equipo va a la fiesta para ayudar.»",
+   "fr": "« L'équipe va à la fête pour aider. »",
+   "audio": "es_cfc920cd96a1.mp3"
+  },
+  {
+   "es": "—¿Tu jefe envía eso? —dice Marta—. ¡Qué buen jefe!",
+   "fr": "— Ton chef envoie ça ? dit Marta. Quel bon chef !",
+   "audio": "es_10885fe8bff1.mp3"
+  },
+  {
+   "es": "—Por supuesto. Es un jefe muy bueno.",
+   "fr": "— Bien sûr. C'est un très bon chef.",
+   "audio": "es_00d32aec855f.mp3"
+  },
+  {
+   "es": "Lucía va a comprar cosas para el gran día.",
+   "fr": "Lucía va acheter des choses pour le grand jour.",
+   "audio": "es_30ae38d750f0.mp3"
+  },
+  {
+   "es": "Diego también tiene que comprar cosas, y mover todo.",
+   "fr": "Diego aussi doit acheter des choses, et tout déplacer.",
+   "audio": "es_2310387a5cbd.mp3"
+  },
+  {
+   "es": "Lucía se acerca a Diego. —¿Necesitas ayuda?",
+   "fr": "Lucía s'approche de Diego. — Tu as besoin d'aide ?",
+   "audio": "es_78c199b6fbf3.mp3"
+  },
+  {
+   "es": "—Sí, gracias. Toda ayuda es buena.",
+   "fr": "— Oui, merci. Toute aide est bonne.",
+   "audio": "es_2a79940e9915.mp3"
+  },
+  {
+   "es": "Juntos mueven las cosas del café. Pero Lucía se cae.",
+   "fr": "Ensemble, ils déplacent les affaires du café. Mais Lucía tombe.",
+   "audio": "es_8605292ff500.mp3"
+  },
+  {
+   "es": "Diego se acerca rápido. —¿Estás bien?",
+   "fr": "Diego s'approche vite. — Tu vas bien ?",
+   "audio": "es_3e4026d2d265.mp3"
+  },
+  {
+   "es": "—Sí, sí. Mi cuerpo está bien. Solo mi honor...",
+   "fr": "— Oui, oui. Mon corps va bien. Seulement mon honneur...",
+   "audio": "es_6b0ca9d86e64.mp3"
+  },
+  {
+   "es": "Pipo mira todo y no se acerca. Por supuesto, él no ayuda.",
+   "fr": "Pipo regarde tout et ne s'approche pas. Bien sûr, lui, il n'aide pas.",
+   "audio": "es_b9bf56ce0ea6.mp3"
+  },
+  {
+   "es": "Diego ayuda a Lucía. Ella intenta mover las cosas otra vez, y otra vez se cae.",
+   "fr": "Diego aide Lucía. Elle essaie de déplacer les affaires encore une fois, et elle tombe encore.",
+   "audio": "es_6b18fc15e0a1.mp3"
+  },
+  {
+   "es": "—¿Quieres un café? —dice Diego—. Tú no vas a mover nada más.",
+   "fr": "— Tu veux un café ? dit Diego. Toi, tu ne vas plus rien déplacer.",
+   "audio": "es_75a6e6dfe409.mp3"
+  },
+  {
+   "es": "Esa noche, Lucía envía un mensaje a su madre: «Mi cuerpo está muerto, pero estoy bien.»",
+   "fr": "Ce soir-là, Lucía envoie un message à sa mère : « Mon corps est mort, mais je vais bien. »",
+   "audio": "es_83b197df5c43.mp3"
+  }
+ ],
+ "gloss": {
+  "este": "ce",
+  "año": "année",
+  "don": "don (titre de respect)",
+  "no": "non / ne... pas",
+  "va": "va",
+  "a": "à",
+  "estar": "être",
+  "solo": "seul ; seulement",
+  "hoy": "aujourd'hui",
+  "el": "le",
+  "jefe": "chef",
+  "de": "de",
+  "envía": "envoie",
+  "un": "un",
+  "mensaje": "message",
+  "todo": "tout",
+  "equipo": "équipe",
+  "la": "la",
+  "fiesta": "fête",
+  "para": "pour",
+  "ayudar": "aider",
+  "tu": "ton / ta",
+  "eso": "ça",
+  "dice": "dit",
+  "qué": "quoi / que / quel",
+  "buen": "bon",
+  "por": "par / pour",
+  "supuesto": "por supuesto : bien sûr",
+  "es": "est",
+  "muy": "très",
+  "bueno": "bon",
+  "comprar": "acheter",
+  "cosas": "choses / affaires",
+  "gran": "grand(e)",
+  "día": "jour / journée",
+  "también": "aussi",
+  "tiene": "a",
+  "que": "que / qui",
+  "y": "et",
+  "mover": "déplacer",
+  "se": "se",
+  "acerca": "approche",
+  "necesitas": "tu as besoin",
+  "ayuda": "aide",
+  "sí": "oui",
+  "gracias": "merci",
+  "toda": "toute",
+  "buena": "bonne",
+  "juntos": "ensemble",
+  "mueven": "déplacent",
+  "las": "les",
+  "del": "du",
+  "café": "café",
+  "pero": "mais",
+  "cae": "tombe (se cae : tombe)",
+  "rápido": "vite",
+  "estás": "tu es",
+  "bien": "bien",
+  "mi": "mon / ma",
+  "cuerpo": "corps",
+  "está": "est",
+  "honor": "honneur",
+  "mira": "regarde",
+  "él": "lui",
+  "ella": "elle",
+  "intenta": "essaie",
+  "otra": "autre",
+  "vez": "fois",
+  "quieres": "tu veux",
+  "tú": "tu / toi",
+  "vas": "tu vas",
+  "nada": "rien",
+  "más": "plus / encore",
+  "esa": "cette",
+  "noche": "soir / nuit",
+  "su": "son / sa / leur",
+  "madre": "mère",
+  "muerto": "mort",
+  "estoy": "je suis"
+ }
+}

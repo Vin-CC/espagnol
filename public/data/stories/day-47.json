@@ -1,0 +1,214 @@
+{
+ "day": 47,
+ "title": "Encuentro en la fuente",
+ "title_fr": "Rendez-vous à la fontaine",
+ "sentences": [
+  {
+   "es": "Después del día en el mar, Lucía tiene que volver al trabajo.",
+   "fr": "Après la journée à la mer, Lucía doit retourner au travail.",
+   "audio": "es_0453216a8588.mp3"
+  },
+  {
+   "es": "—Me marcho, mamá. Tengo que escribir un informe.",
+   "fr": "« J'y vais, maman. Je dois écrire un rapport. »",
+   "audio": "es_62b466ed5f40.mp3"
+  },
+  {
+   "es": "—Vale, hija. Yo voy a pasar el día con Don Ramón.",
+   "fr": "« D'accord, ma fille. Moi, je vais passer la journée avec Don Ramón. »",
+   "audio": "es_9bfac54e9d54.mp3"
+  },
+  {
+   "es": "—Bien. Nos vemos a las ocho, en la fuente de la calle del Sol.",
+   "fr": "« Bien. On se voit à huit heures, à la fontaine de la calle del Sol. »",
+   "audio": "es_0a221473675f.mp3"
+  },
+  {
+   "es": "En la oficina, Lucía apenas puede trabajar. El informe es largo y difícil.",
+   "fr": "Au bureau, Lucía arrive à peine à travailler. Le rapport est long et difficile.",
+   "audio": "es_ce5c2d6b8fe8.mp3"
+  },
+  {
+   "es": "Carmen la ayuda. —Tu informe está bien. ¡Ya puedes marcharte!",
+   "fr": "Carmen l'aide. « Ton rapport est bien. Tu peux partir maintenant ! »",
+   "audio": "es_23bf4ce53a10.mp3"
+  },
+  {
+   "es": "Mientras tanto, Ramón y la madre caminan por la ciudad.",
+   "fr": "Pendant ce temps, Ramón et la mère se promènent dans la ville.",
+   "audio": "es_132bf80bfda4.mp3"
+  },
+  {
+   "es": "Ramón no camina rápido. Tiene dolor en la pierna izquierda.",
+   "fr": "Ramón ne marche pas vite. Il a mal à la jambe gauche.",
+   "audio": "es_1f1c1091608b.mp3"
+  },
+  {
+   "es": "—¿Tiene mucho dolor en la pierna?",
+   "fr": "« Vous avez très mal à la jambe ? »",
+   "audio": "es_5e0cad09155a.mp3"
+  },
+  {
+   "es": "—Un poco. Es la edad.",
+   "fr": "« Un peu. C'est l'âge. »",
+   "audio": "es_6b1a820dd1d9.mp3"
+  },
+  {
+   "es": "Ramón señala una casa a la izquierda.",
+   "fr": "Ramón montre une maison à gauche.",
+   "audio": "es_2f9ac439360a.mp3"
+  },
+  {
+   "es": "—Yo nací allí, en el número ocho.",
+   "fr": "« Je suis né là, au numéro huit. »",
+   "audio": "es_0d6dc97bf885.mp3"
+  },
+  {
+   "es": "—¿Usted nació en esta calle?",
+   "fr": "« Vous êtes né dans cette rue ? »",
+   "audio": "es_8901045c9b31.mp3"
+  },
+  {
+   "es": "—Sí. Y mi padre también nació aquí.",
+   "fr": "« Oui. Et mon père aussi est né ici. »",
+   "audio": "es_da10bc8f4141.mp3"
+  },
+  {
+   "es": "Entonces Ramón habla de la carta antigua.",
+   "fr": "Alors Ramón parle de la vieille lettre.",
+   "audio": "es_3f5af0a66d56.mp3"
+  },
+  {
+   "es": "—Quiero averiguar quién escribió esa carta. Pero apenas tengo información.",
+   "fr": "« Je veux découvrir qui a écrit cette lettre. Mais j'ai à peine des informations. »",
+   "audio": "es_ccdebbc1cd9c.mp3"
+  },
+  {
+   "es": "—Yo le ayudo a averiguarlo —dice la madre.",
+   "fr": "« Je vous aide à le découvrir », dit la mère.",
+   "audio": "es_7ac712bb7411.mp3"
+  },
+  {
+   "es": "A las ocho, Lucía llega a la fuente para el encuentro.",
+   "fr": "À huit heures, Lucía arrive à la fontaine pour le rendez-vous.",
+   "audio": "es_dd243a970fc3.mp3"
+  },
+  {
+   "es": "Su madre y Ramón están allí, muy felices.",
+   "fr": "Sa mère et Ramón sont là, très heureux.",
+   "audio": "es_be59f1d778a4.mp3"
+  },
+  {
+   "es": "—¿Qué hacéis? —Un plan secreto —dice su madre.",
+   "fr": "« Qu'est-ce que vous faites ? » « Un plan secret », dit sa mère.",
+   "audio": "es_7deccbcbfa22.mp3"
+  }
+ ],
+ "gloss": {
+  "después": "après, ensuite",
+  "del": "du (de + el)",
+  "día": "jour",
+  "en": "dans, en, sur",
+  "el": "le",
+  "mar": "mer",
+  "tiene": "a ; doit (tiene que)",
+  "que": "que",
+  "volver": "retourner",
+  "al": "au (a + el)",
+  "trabajo": "travail",
+  "me": "me",
+  "marcho": "je m'en vais (me marcho)",
+  "mamá": "maman",
+  "tengo": "j'ai ; je dois (tengo que)",
+  "escribir": "écrire",
+  "un": "un",
+  "informe": "rapport",
+  "vale": "d'accord",
+  "hija": "ma fille",
+  "yo": "moi, je",
+  "voy": "je vais",
+  "a": "à",
+  "pasar": "passer",
+  "con": "avec",
+  "don": "don (titre de respect)",
+  "bien": "bien",
+  "encuentro": "rendez-vous, rencontre",
+  "las": "les (fém.)",
+  "ocho": "huit",
+  "la": "la (article) ; l' (pronom)",
+  "fuente": "fontaine",
+  "de": "de",
+  "calle": "rue",
+  "sol": "soleil",
+  "oficina": "bureau",
+  "apenas": "à peine",
+  "puede": "peut",
+  "trabajar": "travailler",
+  "es": "est",
+  "largo": "long",
+  "y": "et",
+  "difícil": "difficile",
+  "ayuda": "aide",
+  "tu": "ton, ta",
+  "está": "est (état, lieu)",
+  "ya": "déjà, désormais",
+  "puedes": "tu peux",
+  "marcharte": "t'en aller, partir",
+  "mientras": "pendant",
+  "tanto": "tant ; mientras tanto : pendant ce temps",
+  "madre": "mère",
+  "caminan": "marchent, se promènent",
+  "por": "par, pour",
+  "ciudad": "ville",
+  "no": "non, ne… pas",
+  "camina": "marche",
+  "rápido": "vite",
+  "dolor": "douleur",
+  "pierna": "jambe",
+  "izquierda": "gauche",
+  "mucho": "beaucoup",
+  "poco": "peu",
+  "edad": "âge",
+  "señala": "montre du doigt",
+  "una": "une",
+  "casa": "maison",
+  "nací": "je suis né",
+  "allí": "là-bas",
+  "número": "numéro",
+  "usted": "vous (politesse)",
+  "nació": "est né",
+  "esta": "cette",
+  "sí": "oui",
+  "mi": "mon, ma",
+  "padre": "père",
+  "también": "aussi",
+  "aquí": "ici",
+  "entonces": "alors",
+  "habla": "parle",
+  "carta": "lettre",
+  "antigua": "ancienne, vieille",
+  "quiero": "je veux",
+  "averiguar": "découvrir, trouver",
+  "quién": "qui",
+  "escribió": "a écrit",
+  "esa": "cette",
+  "pero": "mais",
+  "información": "information",
+  "le": "vous (politesse)",
+  "ayudo": "j'aide",
+  "averiguarlo": "le découvrir",
+  "dice": "dit",
+  "llega": "arrive",
+  "para": "pour",
+  "su": "son, sa",
+  "están": "sont (état, lieu)",
+  "muy": "très",
+  "felices": "heureux",
+  "qué": "quoi, quel",
+  "hacéis": "vous faites",
+  "plan": "plan",
+  "secreto": "secret",
+  "nos": "nous (nos vemos = on se voit)",
+  "vemos": "nous voyons"
+ }
+}

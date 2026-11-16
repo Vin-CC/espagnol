@@ -1,0 +1,187 @@
+{
+ "day": 29,
+ "title": "Una película vieja",
+ "title_fr": "Un vieux film",
+ "sentences": [
+  {
+   "es": "Ramón logra tener una foto de la profesora con los niños de la escuela.",
+   "fr": "Ramón réussit à avoir une photo de l'institutrice avec les enfants de l'école.",
+   "audio": "es_473a8898d728.mp3"
+  },
+  {
+   "es": "Esa noche, Lucía y Ramón beben un vino en su casa.",
+   "fr": "Ce soir-là, Lucía et Ramón boivent un vin chez lui.",
+   "audio": "es_f7e8fa3f0bc8.mp3"
+  },
+  {
+   "es": "—A ella le encantaba el cine —dice Ramón—. Le encantaban las películas viejas.",
+   "fr": "— Elle adorait le cinéma, dit Ramón. Elle adorait les vieux films.",
+   "audio": "es_361b4fef8e44.mp3"
+  },
+  {
+   "es": "—¿Y el teatro?",
+   "fr": "— Et le théâtre ?",
+   "audio": "es_5e74252e5a33.mp3"
+  },
+  {
+   "es": "—También. Un día, fuimos a ver una obra de teatro juntos.",
+   "fr": "— Aussi. Un jour, nous sommes allés voir une pièce de théâtre ensemble.",
+   "audio": "es_64cc40552992.mp3"
+  },
+  {
+   "es": "Ramón anda por la casa y busca algo.",
+   "fr": "Ramón marche dans la maison et cherche quelque chose.",
+   "audio": "es_2fd905ea027b.mp3"
+  },
+  {
+   "es": "Encuentra un programa viejo de la obra.",
+   "fr": "Il trouve un vieux programme de la pièce.",
+   "audio": "es_795ea242306a.mp3"
+  },
+  {
+   "es": "Dentro hay otra nota de ella.",
+   "fr": "Dedans, il y a une autre note d'elle.",
+   "audio": "es_186fb5724ffb.mp3"
+  },
+  {
+   "es": "Lucía la lee: «Cuanto más pienso en ti, más te echo de menos».",
+   "fr": "Lucía la lit : « Plus je pense à toi, plus tu me manques ».",
+   "audio": "es_0ad7907181e7.mp3"
+  },
+  {
+   "es": "—¿Ella se refiere a ti? —pregunta Lucía.",
+   "fr": "— Elle parle de toi ? demande Lucía.",
+   "audio": "es_2b909ea4752f.mp3"
+  },
+  {
+   "es": "—Sí. Pero no entiendo. ¿A qué se refiere aquí, con «el asunto de mi padre»?",
+   "fr": "— Oui. Mais je ne comprends pas. Qu'est-ce qu'elle veut dire ici, avec « l'affaire de mon père » ?",
+   "audio": "es_9bccff69693f.mp3"
+  },
+  {
+   "es": "En ese momento, suena el teléfono.",
+   "fr": "À ce moment-là, le téléphone sonne.",
+   "audio": "es_f724344c7245.mp3"
+  },
+  {
+   "es": "Es Marta: —Ramón, mi tía recuerda algo. Es un asunto importante.",
+   "fr": "C'est Marta : — Ramón, ma tante se souvient de quelque chose. C'est une affaire importante.",
+   "audio": "es_a74093af41d6.mp3"
+  },
+  {
+   "es": "Ramón y Lucía van rápido al café.",
+   "fr": "Ramón et Lucía vont vite au café.",
+   "audio": "es_f7cc958a9394.mp3"
+  },
+  {
+   "es": "La tía dice: —Ahora recuerdo. Ella tiene una hija.",
+   "fr": "La tante dit : — Maintenant, je me souviens. Elle a une fille.",
+   "audio": "es_bcdf7f8a9dcb.mp3"
+  },
+  {
+   "es": "Cuanto más descubren, más preguntas tienen.",
+   "fr": "Plus ils découvrent de choses, plus ils ont de questions.",
+   "audio": "es_f67307033e3b.mp3"
+  },
+  {
+   "es": "—Tenemos que descubrir la verdad cuanto antes —dice Lucía.",
+   "fr": "— Nous devons découvrir la vérité le plus vite possible, dit Lucía.",
+   "audio": "es_5528bcfc5fca.mp3"
+  }
+ ],
+ "gloss": {
+  "logra": "réussit",
+  "tener": "avoir",
+  "una": "une",
+  "foto": "photo",
+  "de": "de",
+  "la": "la",
+  "profesora": "professeure, institutrice",
+  "con": "avec",
+  "los": "les",
+  "niños": "enfants",
+  "escuela": "école",
+  "esa": "cette",
+  "noche": "nuit, soir",
+  "y": "et",
+  "beben": "boivent",
+  "un": "un",
+  "vino": "vin",
+  "en": "en, dans, à",
+  "su": "son, sa, leur",
+  "casa": "maison",
+  "a": "à",
+  "ella": "elle",
+  "le": "lui",
+  "el": "le",
+  "cine": "cinéma",
+  "dice": "dit",
+  "las": "les",
+  "películas": "films",
+  "viejas": "vieilles",
+  "teatro": "théâtre",
+  "también": "aussi",
+  "día": "jour",
+  "ver": "voir",
+  "obra": "pièce (de théâtre)",
+  "juntos": "ensemble",
+  "anda": "marche",
+  "por": "par, pour",
+  "busca": "cherche",
+  "algo": "quelque chose",
+  "encuentra": "trouve",
+  "programa": "programme",
+  "viejo": "vieux",
+  "dentro": "dedans",
+  "hay": "il y a",
+  "otra": "autre",
+  "nota": "note",
+  "lee": "lit",
+  "cuanto": "plus... (cuanto más)",
+  "más": "plus",
+  "pienso": "je pense",
+  "ti": "toi",
+  "te": "te, toi",
+  "echo": "echo de menos : tu me manques",
+  "menos": "moins (echar de menos : manquer)",
+  "se": "se",
+  "refiere": "se refiere a : parle de, veut dire",
+  "pregunta": "demande",
+  "sí": "oui",
+  "pero": "mais",
+  "no": "non, ne... pas",
+  "entiendo": "je comprends",
+  "qué": "quoi, qu'est-ce que",
+  "aquí": "ici",
+  "asunto": "affaire",
+  "mi": "mon, ma",
+  "padre": "père",
+  "ese": "ce",
+  "momento": "moment",
+  "suena": "sonne",
+  "teléfono": "téléphone",
+  "es": "est",
+  "tía": "tante",
+  "recuerda": "se souvient de",
+  "importante": "importante",
+  "rápido": "vite",
+  "al": "au (a + el)",
+  "café": "café",
+  "ahora": "maintenant",
+  "recuerdo": "souvenir ; je me souviens",
+  "tiene": "a",
+  "hija": "fille",
+  "descubren": "ils découvrent",
+  "preguntas": "questions",
+  "tienen": "ont",
+  "tenemos": "nous avons",
+  "que": "que, qui",
+  "descubrir": "découvrir",
+  "verdad": "vérité",
+  "antes": "avant",
+  "encantaba": "plaisait beaucoup (adorait)",
+  "encantaban": "plaisaient beaucoup (adorait)",
+  "fuimos": "nous sommes allés",
+  "van": "vont"
+ }
+}

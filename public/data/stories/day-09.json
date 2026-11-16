@@ -1,0 +1,132 @@
+{
+ "day": 9,
+ "title": "El niño",
+ "title_fr": "L'enfant",
+ "sentences": [
+  {
+   "es": "Pipo no está en la casa de la mujer.",
+   "fr": "Pipo n'est pas chez la femme.",
+   "audio": "es_f24ce7a4b303.mp3"
+  },
+  {
+   "es": "Ahora todo el mundo busca a Pipo: Marta, Diego, Pablo y mucha gente.",
+   "fr": "Maintenant, tout le monde cherche Pipo : Marta, Diego, Pablo et beaucoup de gens.",
+   "audio": "es_f6c69841ec0c.mp3"
+  },
+  {
+   "es": "Lucía busca una hora, dos horas...",
+   "fr": "Lucía cherche une heure, deux heures...",
+   "audio": "es_28aa95d5889d.mp3"
+  },
+  {
+   "es": "—¡Este gato me va a matar! —dice Lucía.",
+   "fr": "« Ce chat va me tuer ! » dit Lucía.",
+   "audio": "es_6b730a96d849.mp3"
+  },
+  {
+   "es": "Entonces llega un niño. Escucha la historia de Pipo.",
+   "fr": "Alors un enfant arrive. Il écoute l'histoire de Pipo.",
+   "audio": "es_61325ba066a4.mp3"
+  },
+  {
+   "es": "—Yo sé dónde está su gato.",
+   "fr": "« Moi, je sais où est votre chat. »",
+   "audio": "es_683dd60be99a.mp3"
+  },
+  {
+   "es": "—¿Estás seguro?",
+   "fr": "« Tu es sûr ? »",
+   "audio": "es_dc5a8923b769.mp3"
+  },
+  {
+   "es": "—Sí, seguro. Cada noche, a la misma hora, oigo un gato.",
+   "fr": "« Oui, sûr. Chaque nuit, à la même heure, j'entends un chat. »",
+   "audio": "es_d2c65e53844a.mp3"
+  },
+  {
+   "es": "—¿Dónde? Escucha, es muy importante.",
+   "fr": "« Où ? Écoute, c'est très important. »",
+   "audio": "es_b2e520ed5890.mp3"
+  },
+  {
+   "es": "—En la casa de don Ramón. Es mi profesor de música.",
+   "fr": "« Chez don Ramón. C'est mon professeur de musique. »",
+   "audio": "es_6317291c84e0.mp3"
+  },
+  {
+   "es": "—¿Don Ramón? ¡Pero él no quiere gatos!",
+   "fr": "« Don Ramón ? Mais il ne veut pas de chats ! »",
+   "audio": "es_3e181d6c5411.mp3"
+  },
+  {
+   "es": "—Es verdad —dice el niño.",
+   "fr": "« C'est vrai », dit l'enfant.",
+   "audio": "es_3f9831dc340e.mp3"
+  },
+  {
+   "es": "—De acuerdo. Vamos a ver a don Ramón.",
+   "fr": "« D'accord. Allons voir don Ramón. »",
+   "audio": "es_95fa6c9281f0.mp3"
+  }
+ ],
+ "gloss": {
+  "no": "ne… pas ; non",
+  "está": "est (lieu, état)",
+  "en": "en ; dans ; à",
+  "la": "la",
+  "casa": "maison",
+  "de": "de",
+  "mujer": "femme",
+  "ahora": "maintenant",
+  "todo": "tout",
+  "el": "le",
+  "mundo": "monde (todo el mundo : tout le monde)",
+  "busca": "cherche",
+  "a": "à",
+  "y": "et",
+  "mucha": "beaucoup de",
+  "gente": "gens",
+  "una": "une",
+  "hora": "heure",
+  "dos": "deux",
+  "horas": "heures",
+  "este": "ce ; celui-ci ; voici",
+  "gato": "chat",
+  "me": "me (me va a matar : va me tuer)",
+  "va": "va",
+  "matar": "tuer",
+  "dice": "dit",
+  "entonces": "alors",
+  "llega": "arrive",
+  "un": "un",
+  "niño": "enfant",
+  "escucha": "écoute",
+  "historia": "histoire",
+  "yo": "je ; moi",
+  "sé": "je sais",
+  "dónde": "où",
+  "su": "votre",
+  "estás": "tu es ; (ça) va",
+  "seguro": "sûr",
+  "sí": "oui",
+  "cada": "chaque",
+  "noche": "nuit ; soir",
+  "misma": "même",
+  "es": "est ; c'est",
+  "muy": "très",
+  "importante": "important",
+  "don": "don (titre de respect)",
+  "mi": "mon ; ma",
+  "profesor": "professeur",
+  "música": "musique",
+  "pero": "mais",
+  "él": "il ; lui",
+  "quiere": "veut",
+  "gatos": "chats",
+  "verdad": "vrai ; vérité",
+  "acuerdo": "accord (de acuerdo : d'accord)",
+  "vamos": "allons",
+  "ver": "voir",
+  "oigo": "j'entends"
+ }
+}

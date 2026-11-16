@@ -1,0 +1,222 @@
+{
+ "day": 43,
+ "title": "Una canción para mamá",
+ "title_fr": "Une chanson pour maman",
+ "sentences": [
+  {
+   "es": "La madre de Lucía está en Valencia, y esta noche tienen una cita en el café.",
+   "fr": "La mère de Lucía est à Valencia, et ce soir elles ont rendez-vous au café.",
+   "audio": "es_8f18b10eeb4f.mp3"
+  },
+  {
+   "es": "Todos sus amigos están alrededor de una mesa grande.",
+   "fr": "Tous ses amis sont autour d'une grande table.",
+   "audio": "es_e8eafe9851ef.mp3"
+  },
+  {
+   "es": "Don Ramón se levanta. —Mucho gusto, señora.",
+   "fr": "Don Ramón se lève. « Enchanté, madame. »",
+   "audio": "es_cb71a30d0077.mp3"
+  },
+  {
+   "es": "—El gusto es mío, señor.",
+   "fr": "« Tout le plaisir est pour moi, monsieur. »",
+   "audio": "es_0f44d6e20d5f.mp3"
+  },
+  {
+   "es": "Marta trae la comida y pone la mitad delante de la madre.",
+   "fr": "Marta apporte le repas et met la moitié devant la mère.",
+   "audio": "es_01a529465c57.mp3"
+  },
+  {
+   "es": "—La mitad para usted, señora. Usted lo merece: ¡es su primera noche aquí!",
+   "fr": "« La moitié pour vous, madame. Vous le méritez : c'est votre première nuit ici ! »",
+   "audio": "es_e5bd64d45166.mp3"
+  },
+  {
+   "es": "Después, Diego se levanta.",
+   "fr": "Ensuite, Diego se lève.",
+   "audio": "es_905aaf4ce3b1.mp3"
+  },
+  {
+   "es": "—Esta canción es para la madre de Lucía.",
+   "fr": "« Cette chanson est pour la mère de Lucía. »",
+   "audio": "es_c37570d37008.mp3"
+  },
+  {
+   "es": "Es una canción antigua, muy bonita.",
+   "fr": "C'est une vieille chanson, très jolie.",
+   "audio": "es_0189f65428a6.mp3"
+  },
+  {
+   "es": "La madre escucha en silencio. Al final, todos dicen: «¡Muy bien, Diego! ¡Lo mereces!»",
+   "fr": "La mère écoute en silence. À la fin, tout le monde dit : « Très bien, Diego ! Tu le mérites ! »",
+   "audio": "es_91c31e989733.mp3"
+  },
+  {
+   "es": "—¡Ahora a bailar! —dice Marta.",
+   "fr": "« Maintenant, on danse ! » dit Marta.",
+   "audio": "es_65d5b261238d.mp3"
+  },
+  {
+   "es": "La mitad de la gente baila. Ramón no baila, pero canta.",
+   "fr": "La moitié des gens danse. Ramón ne danse pas, mais il chante.",
+   "audio": "es_366714a1430d.mp3"
+  },
+  {
+   "es": "La madre baila con Diego.",
+   "fr": "La mère danse avec Diego.",
+   "audio": "es_b03d90e3fc63.mp3"
+  },
+  {
+   "es": "—Su hija es muy querida aquí, señora.",
+   "fr": "« Votre fille est très aimée ici, madame. »",
+   "audio": "es_e811eca4a268.mp3"
+  },
+  {
+   "es": "—Lo sé. Mi querida Lucía...",
+   "fr": "« Je sais. Ma chère Lucía... »",
+   "audio": "es_93aad4bea01e.mp3"
+  },
+  {
+   "es": "Afuera, el cielo está lleno de estrellas.",
+   "fr": "Dehors, le ciel est plein d'étoiles.",
+   "audio": "es_fc59f2ce5433.mp3"
+  },
+  {
+   "es": "Ramón mira las estrellas. —Diego es nuestra estrella.",
+   "fr": "Ramón regarde les étoiles. « Diego est notre étoile. »",
+   "audio": "es_a26b2f207133.mp3"
+  },
+  {
+   "es": "Pero entonces la madre se lleva la mano a la cabeza.",
+   "fr": "Mais alors, la mère porte la main à sa tête.",
+   "audio": "es_7cbcba571861.mp3"
+  },
+  {
+   "es": "—¿Qué pasa, mamá?",
+   "fr": "« Qu'est-ce qui se passe, maman ? »",
+   "audio": "es_128548d8cf84.mp3"
+  },
+  {
+   "es": "—Nada, hija. Un poco de dolor de cabeza. ¿Dónde está el baño?",
+   "fr": "« Rien, ma fille. Un peu mal à la tête. Où sont les toilettes ? »",
+   "audio": "es_195a5877d59e.mp3"
+  },
+  {
+   "es": "—Allí, al lado de la puerta.",
+   "fr": "« Là-bas, à côté de la porte. »",
+   "audio": "es_d4f0875655d9.mp3"
+  },
+  {
+   "es": "Cuando vuelve del baño, la madre está mejor. Pipo corre alrededor de la mesa.",
+   "fr": "Quand elle revient des toilettes, la mère va mieux. Pipo court autour de la table.",
+   "audio": "es_1ab0b5c47031.mp3"
+  },
+  {
+   "es": "—Ya está. El dolor no es nada. ¡Otra canción, Diego!",
+   "fr": "« Voilà, c'est passé. La douleur, ce n'est rien. Une autre chanson, Diego ! »",
+   "audio": "es_4a7c9aff56c6.mp3"
+  }
+ ],
+ "gloss": {
+  "la": "la ; l' (pronom)",
+  "madre": "mère",
+  "de": "de",
+  "está": "est (état, lieu)",
+  "en": "dans, en, sur",
+  "y": "et",
+  "esta": "cette",
+  "noche": "nuit, soir",
+  "tienen": "ils/elles ont",
+  "una": "une",
+  "cita": "rendez-vous",
+  "el": "le",
+  "café": "café",
+  "todos": "tous, tout le monde",
+  "sus": "ses",
+  "amigos": "amis",
+  "están": "sont (état, lieu)",
+  "alrededor": "autour",
+  "mesa": "table",
+  "grande": "grande",
+  "don": "don (titre de respect)",
+  "se": "se (se levanta : se lève)",
+  "levanta": "lève",
+  "mucho": "beaucoup",
+  "gusto": "plaisir ; mucho gusto : enchanté",
+  "señora": "madame",
+  "es": "est",
+  "mío": "mien ; el gusto es mío : tout le plaisir est pour moi",
+  "señor": "monsieur",
+  "trae": "apporte",
+  "comida": "repas, nourriture",
+  "pone": "met",
+  "mitad": "moitié",
+  "delante": "devant",
+  "para": "pour",
+  "usted": "vous (politesse)",
+  "lo": "le (pronom)",
+  "merece": "mérite",
+  "su": "son, sa",
+  "primera": "première",
+  "aquí": "ici",
+  "después": "après, ensuite",
+  "canción": "chanson",
+  "antigua": "ancienne, vieille",
+  "muy": "très",
+  "bonita": "jolie",
+  "escucha": "écoute",
+  "silencio": "silence",
+  "al": "au (a + el)",
+  "final": "fin",
+  "dicen": "disent",
+  "bien": "bien",
+  "mereces": "tu mérites",
+  "ahora": "maintenant",
+  "a": "à",
+  "bailar": "danser",
+  "dice": "dit",
+  "gente": "gens",
+  "baila": "danse",
+  "no": "non, ne… pas",
+  "pero": "mais",
+  "canta": "chante",
+  "con": "avec",
+  "hija": "ma fille",
+  "querida": "aimée, chère",
+  "sé": "je sais",
+  "mi": "mon, ma",
+  "afuera": "dehors",
+  "cielo": "ciel",
+  "lleno": "plein",
+  "estrellas": "étoiles",
+  "mira": "regarde",
+  "las": "les (fém.)",
+  "nuestra": "notre",
+  "estrella": "étoile",
+  "entonces": "alors",
+  "mano": "main",
+  "cabeza": "tête",
+  "qué": "quoi, quel",
+  "pasa": "se passe",
+  "mamá": "maman",
+  "nada": "rien",
+  "un": "un",
+  "poco": "peu",
+  "dolor": "douleur",
+  "dónde": "où",
+  "baño": "toilettes, salle de bain",
+  "allí": "là-bas",
+  "lado": "côté ; al lado de : à côté de",
+  "puerta": "porte",
+  "cuando": "quand",
+  "vuelve": "revient",
+  "del": "du (de + el)",
+  "mejor": "mieux, meilleur",
+  "corre": "court",
+  "ya": "ya está = voilà, c'est passé",
+  "otra": "autre",
+  "lleva": "porte (se lleva la mano a = porte la main à)"
+ }
+}

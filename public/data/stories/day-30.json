@@ -1,0 +1,177 @@
+{
+ "day": 30,
+ "title": "La voz en el sueño",
+ "title_fr": "La voix dans le rêve",
+ "sentences": [
+  {
+   "es": "Ahora saben que la mujer de la nota tiene una hija.",
+   "fr": "Maintenant, ils savent que la femme de la note a une fille.",
+   "audio": "es_5f5849e746d1.mp3"
+  },
+  {
+   "es": "Esa noche, Lucía tiene un sueño extraño.",
+   "fr": "Cette nuit-là, Lucía fait un rêve étrange.",
+   "audio": "es_1ad60d24f43a.mp3"
+  },
+  {
+   "es": "En su sueño, está en una habitación blanca. Arriba, hay mucho cielo.",
+   "fr": "Dans son rêve, elle est dans une chambre blanche. Au-dessus, il y a beaucoup de ciel.",
+   "audio": "es_6a6828cff69e.mp3"
+  },
+  {
+   "es": "Una voz dice: «Mira atrás, Lucía. Mira atrás».",
+   "fr": "Une voix dit : « Regarde derrière, Lucía. Regarde derrière. »",
+   "audio": "es_4108951ae1da.mp3"
+  },
+  {
+   "es": "Lucía mira atrás, pero no hay nadie.",
+   "fr": "Lucía regarde derrière, mais il n'y a personne.",
+   "audio": "es_ccca78667682.mp3"
+  },
+  {
+   "es": "A las seis, Lucía abre los ojos. Está en su habitación, con Pipo.",
+   "fr": "À six heures, Lucía ouvre les yeux. Elle est dans sa chambre, avec Pipo.",
+   "audio": "es_09ac7205539c.mp3"
+  },
+  {
+   "es": "Va al trabajo. Hace falta trabajar, pero no puede pensar en otra cosa.",
+   "fr": "Elle va au travail. Il faut travailler, mais elle ne peut pas penser à autre chose.",
+   "audio": "es_4e2292662528.mp3"
+  },
+  {
+   "es": "A la hora de la comida, come con Carmen.",
+   "fr": "À l'heure du déjeuner, elle mange avec Carmen.",
+   "audio": "es_04f3174ed600.mp3"
+  },
+  {
+   "es": "—Tienes mala cara, Lucía. ¿Qué te pasa?",
+   "fr": "— Tu as mauvaise mine, Lucía. Qu'est-ce qui t'arrive ?",
+   "audio": "es_9c69f066bfda.mp3"
+  },
+  {
+   "es": "—Nada. Un sueño, y un asunto de Ramón.",
+   "fr": "— Rien. Un rêve, et une affaire de Ramón.",
+   "audio": "es_94faa2708890.mp3"
+  },
+  {
+   "es": "Sin embargo, le cuenta todo: Ramón, la nota, la profesora, la hija.",
+   "fr": "Pourtant, elle lui raconte tout : Ramón, la note, l'institutrice, la fille.",
+   "audio": "es_69c023868e79.mp3"
+  },
+  {
+   "es": "Después de la comida, saca la foto de la escuela.",
+   "fr": "Après le déjeuner, elle sort la photo de l'école.",
+   "audio": "es_71637df7dcaa.mp3"
+  },
+  {
+   "es": "Carmen mira la foto mucho tiempo. Su voz cambia.",
+   "fr": "Carmen regarde la photo longtemps. Sa voix change.",
+   "audio": "es_f519c540e9c9.mp3"
+  },
+  {
+   "es": "—Lucía... yo conozco esta cara.",
+   "fr": "— Lucía... je connais ce visage.",
+   "audio": "es_03fc1ae8c3cc.mp3"
+  },
+  {
+   "es": "—¿Qué? ¿Cómo?",
+   "fr": "— Quoi ? Comment ?",
+   "audio": "es_d38204082381.mp3"
+  },
+  {
+   "es": "—Tengo que hablar con mi familia. Esta tarde, a las seis.",
+   "fr": "— Je dois parler avec ma famille. Ce soir, à six heures.",
+   "audio": "es_80daa55014ea.mp3"
+  },
+  {
+   "es": "Lucía mira el cielo. Piensa en la voz de su sueño: «Mira atrás».",
+   "fr": "Lucía regarde le ciel. Elle pense à la voix de son rêve : « Regarde derrière ».",
+   "audio": "es_f5c76df15878.mp3"
+  }
+ ],
+ "gloss": {
+  "ahora": "maintenant",
+  "saben": "savent",
+  "que": "que, qui",
+  "la": "la",
+  "mujer": "femme",
+  "de": "de",
+  "nota": "note",
+  "tiene": "a",
+  "una": "une",
+  "hija": "fille",
+  "esa": "cette",
+  "noche": "nuit, soir",
+  "un": "un",
+  "sueño": "rêve",
+  "extraño": "étrange",
+  "en": "en, dans, à",
+  "su": "son, sa, leur",
+  "está": "est",
+  "habitación": "chambre",
+  "blanca": "blanche",
+  "arriba": "en haut",
+  "hay": "il y a",
+  "mucho": "beaucoup",
+  "cielo": "ciel",
+  "voz": "voix",
+  "dice": "dit",
+  "mira": "regarde",
+  "atrás": "derrière, en arrière",
+  "pero": "mais",
+  "no": "non, ne... pas",
+  "nadie": "personne",
+  "a": "à",
+  "las": "les",
+  "seis": "six",
+  "abre": "ouvre",
+  "los": "les",
+  "ojos": "yeux",
+  "con": "avec",
+  "va": "va",
+  "al": "au (a + el)",
+  "trabajo": "travail",
+  "hace": "hace muchos años : il y a beaucoup d'années ; hace falta : il faut",
+  "falta": "hace falta : il faut",
+  "trabajar": "travailler",
+  "puede": "peut",
+  "pensar": "penser",
+  "otra": "autre",
+  "cosa": "chose",
+  "hora": "heure",
+  "comida": "déjeuner, repas",
+  "come": "mange",
+  "tienes": "tu as",
+  "mala": "mala cara : mauvaise mine",
+  "cara": "mine, visage",
+  "qué": "quoi, qu'est-ce que",
+  "te": "te, toi",
+  "pasa": "arrive (qué te pasa : qu'est-ce qui t'arrive)",
+  "nada": "rien",
+  "y": "et",
+  "sin": "sans",
+  "embargo": "sin embargo : pourtant",
+  "le": "lui",
+  "cuenta": "raconte",
+  "todo": "tout",
+  "profesora": "professeure, institutrice",
+  "después": "après, ensuite",
+  "saca": "sort",
+  "foto": "photo",
+  "escuela": "école",
+  "tiempo": "temps",
+  "cambia": "change",
+  "yo": "je, moi",
+  "conozco": "je connais",
+  "esta": "cette",
+  "cómo": "comment",
+  "hablar": "parler",
+  "mi": "mon, ma",
+  "familia": "famille",
+  "el": "le",
+  "piensa": "pense",
+  "asunto": "affaire",
+  "tengo": "j'ai (tengo que : je dois)",
+  "tarde": "après-midi, soir (esta tarde)"
+ }
+}

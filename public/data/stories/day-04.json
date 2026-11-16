@@ -1,0 +1,126 @@
+{
+ "day": 4,
+ "title": "Las historias de don Ramón",
+ "title_fr": "Les histoires de don Ramón",
+ "sentences": [
+  {
+   "es": "Ahora Lucía va al café de Marta cada día.",
+   "fr": "Maintenant, Lucía va au café de Marta tous les jours.",
+   "audio": "es_d00d5ff5a644.mp3"
+  },
+  {
+   "es": "Don Ramón también está en el café.",
+   "fr": "Don Ramón est aussi au café.",
+   "audio": "es_ba5042f8bd2a.mp3"
+  },
+  {
+   "es": "Marta da dos cafés: uno para Lucía y otro para él.",
+   "fr": "Marta donne deux cafés : un pour Lucía et un autre pour lui.",
+   "audio": "es_42809833e728.mp3"
+  },
+  {
+   "es": "—Hola, don Ramón. ¿Cómo está usted?",
+   "fr": "« Bonjour, don Ramón. Comment allez-vous ? »",
+   "audio": "es_8899911a97c5.mp3"
+  },
+  {
+   "es": "—Bien, gracias. Mira: este café tiene muchos años.",
+   "fr": "« Bien, merci. Regarde : ce café est très ancien. »",
+   "audio": "es_dac958b1cd31.mp3"
+  },
+  {
+   "es": "Era el café del padre de Marta, y de su madre también.",
+   "fr": "C'était le café du père de Marta, et de sa mère aussi.",
+   "audio": "es_d06a24af1083.mp3"
+  },
+  {
+   "es": "—¿Y Diego?",
+   "fr": "« Et Diego ? »",
+   "audio": "es_e33eb744e8b9.mp3"
+  },
+  {
+   "es": "—Es un hombre bueno. Hace música todo el tiempo.",
+   "fr": "« C'est un homme bien. Il fait de la musique tout le temps. »",
+   "audio": "es_077d8779f908.mp3"
+  },
+  {
+   "es": "Lucía mira a Diego. Diego mira a Lucía.",
+   "fr": "Lucía regarde Diego. Diego regarde Lucía.",
+   "audio": "es_0b5a522e4069.mp3"
+  },
+  {
+   "es": "—Una cosa —dice don Ramón—. Diego no mira así a todas las personas.",
+   "fr": "« Une chose, dit don Ramón. Diego ne regarde pas tout le monde comme ça. »",
+   "audio": "es_cccf2e442ddb.mp3"
+  },
+  {
+   "es": "—Gracias, señor, pero no tengo mucho tiempo.",
+   "fr": "« Merci, monsieur, mais je n'ai pas beaucoup de temps. »",
+   "audio": "es_97c8e6f104b8.mp3"
+  },
+  {
+   "es": "Pero en el apartamento, Pipo no está.",
+   "fr": "Mais dans l'appartement, Pipo n'est pas là.",
+   "audio": "es_e08f2b413202.mp3"
+  }
+ ],
+ "gloss": {
+  "ahora": "maintenant",
+  "va": "va",
+  "al": "au (a + el)",
+  "café": "café",
+  "de": "de",
+  "cada": "chaque",
+  "día": "jour ; journée",
+  "don": "don (titre de respect)",
+  "también": "aussi",
+  "está": "est ; allez (cómo está usted : comment allez-vous)",
+  "en": "en ; dans ; à",
+  "el": "le",
+  "da": "donne",
+  "dos": "deux",
+  "cafés": "cafés",
+  "uno": "un",
+  "para": "pour",
+  "y": "et",
+  "otro": "autre ; un autre",
+  "él": "il ; lui",
+  "hola": "bonjour ; salut",
+  "señor": "monsieur",
+  "cómo": "comment",
+  "usted": "vous (politesse)",
+  "bien": "bien",
+  "gracias": "merci",
+  "mira": "regarde",
+  "este": "ce ; celui-ci ; voici",
+  "tiene": "a",
+  "muchos": "beaucoup de",
+  "años": "ans ; années",
+  "era": "était",
+  "del": "du (de + el)",
+  "padre": "père",
+  "su": "sa",
+  "madre": "mère",
+  "es": "est ; c'est",
+  "un": "un",
+  "hombre": "homme",
+  "bueno": "bon",
+  "hace": "fait",
+  "música": "musique",
+  "todo": "tout",
+  "tiempo": "temps",
+  "a": "à",
+  "una": "une",
+  "cosa": "chose",
+  "dice": "dit",
+  "no": "ne… pas ; non",
+  "así": "comme ça ; ainsi",
+  "todas": "toutes",
+  "las": "les",
+  "personas": "personnes",
+  "pero": "mais",
+  "tengo": "j'ai",
+  "mucho": "beaucoup",
+  "apartamento": "appartement"
+ }
+}

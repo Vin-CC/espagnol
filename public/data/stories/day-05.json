@@ -1,0 +1,127 @@
+{
+ "day": 5,
+ "title": "Pipo no está",
+ "title_fr": "Pipo n'est pas là",
+ "sentences": [
+  {
+   "es": "Lucía vuelve del café, pero Pipo no está en casa.",
+   "fr": "Lucía revient du café, mais Pipo n'est pas à la maison.",
+   "audio": "es_671a0aceb3ae.mp3"
+  },
+  {
+   "es": "—¡Pipo! ¡Pipo! —llama Lucía.",
+   "fr": "« Pipo ! Pipo ! » appelle Lucía.",
+   "audio": "es_a1ba36afc6f6.mp3"
+  },
+  {
+   "es": "Nada. Sin Pipo, la casa parece tan grande.",
+   "fr": "Rien. Sans Pipo, la maison semble si grande.",
+   "audio": "es_cfbf26688653.mp3"
+  },
+  {
+   "es": "Lucía no encuentra a Pipo.",
+   "fr": "Lucía ne trouve pas Pipo.",
+   "audio": "es_599e6946b231.mp3"
+  },
+  {
+   "es": "Entonces llama a don Ramón.",
+   "fr": "Alors elle appelle don Ramón.",
+   "audio": "es_a87a9ead3066.mp3"
+  },
+  {
+   "es": "—Necesito encontrar a Pipo. ¿Puede hacer algo?",
+   "fr": "« J'ai besoin de trouver Pipo. Vous pouvez faire quelque chose ? »",
+   "audio": "es_99896ae8b42f.mp3"
+  },
+  {
+   "es": "—Tranquila, Lucía. Los gatos son así. Vuelven.",
+   "fr": "« Du calme, Lucía. Les chats sont comme ça. Ils reviennent. »",
+   "audio": "es_187432789249.mp3"
+  },
+  {
+   "es": "—Pero Valencia es tan grande...",
+   "fr": "« Mais Valencia est si grande... »",
+   "audio": "es_376d33e8abbd.mp3"
+  },
+  {
+   "es": "Lucía lleva una foto de Pipo al café.",
+   "fr": "Lucía emporte une photo de Pipo au café.",
+   "audio": "es_4c08e684b05b.mp3"
+  },
+  {
+   "es": "Marta mira la foto. —Este gato parece... No, no sé.",
+   "fr": "Marta regarde la photo. « Ce chat ressemble... Non, je ne sais pas. »",
+   "audio": "es_2f119ca9125f.mp3"
+  },
+  {
+   "es": "—Necesito a Pipo —dice Lucía.",
+   "fr": "« J'ai besoin de Pipo », dit Lucía.",
+   "audio": "es_4e18d96e9acb.mp3"
+  },
+  {
+   "es": "—Vamos a llamar a Diego.",
+   "fr": "« On va appeler Diego. »",
+   "audio": "es_1723eecf2427.mp3"
+  },
+  {
+   "es": "Pero Diego no está. Entonces Lucía vuelve sola a casa.",
+   "fr": "Mais Diego n'est pas là. Alors Lucía rentre seule à la maison.",
+   "audio": "es_43f6c69b5d58.mp3"
+  },
+  {
+   "es": "La misma casa, el mismo apartamento... pero sin Pipo.",
+   "fr": "La même maison, le même appartement... mais sans Pipo.",
+   "audio": "es_848d65ea7d56.mp3"
+  }
+ ],
+ "gloss": {
+  "vuelve": "revient ; rentre",
+  "del": "du (de + el)",
+  "café": "café",
+  "pero": "mais",
+  "no": "ne… pas ; non",
+  "está": "est (lieu, état)",
+  "en": "en ; dans ; à",
+  "casa": "maison",
+  "llama": "appelle",
+  "nada": "rien",
+  "sin": "sans",
+  "la": "la",
+  "parece": "semble ; ressemble",
+  "tan": "si (tellement)",
+  "grande": "grand(e)",
+  "encuentra": "trouve",
+  "a": "à",
+  "entonces": "alors",
+  "don": "don (titre de respect)",
+  "necesito": "j'ai besoin de",
+  "encontrar": "trouver",
+  "puede": "vous pouvez",
+  "hacer": "faire",
+  "algo": "quelque chose",
+  "los": "les",
+  "gatos": "chats",
+  "son": "sont",
+  "así": "comme ça ; ainsi",
+  "vuelven": "reviennent",
+  "es": "est ; c'est",
+  "lleva": "emporte",
+  "una": "une",
+  "foto": "photo",
+  "de": "de",
+  "al": "au (a + el)",
+  "mira": "regarde",
+  "este": "ce ; celui-ci ; voici",
+  "gato": "chat",
+  "sé": "je sais",
+  "dice": "dit",
+  "vamos": "on va ; allons",
+  "llamar": "appeler",
+  "sola": "seule",
+  "misma": "même",
+  "el": "le",
+  "mismo": "même",
+  "apartamento": "appartement",
+  "tranquila": "calme (tranquila : du calme)"
+ }
+}

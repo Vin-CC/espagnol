@@ -1,0 +1,228 @@
+{
+ "day": 33,
+ "title": "La guitarra del abuelo",
+ "title_fr": "La guitare du grand-père",
+ "sentences": [
+  {
+   "es": "Pipo rompió la guitarra de Diego, y Diego recibió una carta.",
+   "fr": "Pipo a cassé la guitare de Diego, et Diego a reçu une lettre.",
+   "audio": "es_fd7e54f5ab94.mp3"
+  },
+  {
+   "es": "Esa noche, Lucía no puede dormir.",
+   "fr": "Cette nuit-là, Lucía n'arrive pas à dormir.",
+   "audio": "es_c3957e94a29e.mp3"
+  },
+  {
+   "es": "Está en la cama y piensa en Diego.",
+   "fr": "Elle est au lit et pense à Diego.",
+   "audio": "es_45484b9fd617.mp3"
+  },
+  {
+   "es": "Entonces algo suena abajo. Es raro.",
+   "fr": "Alors quelque chose fait du bruit en bas. C'est bizarre.",
+   "audio": "es_1ed9c62e9a16.mp3"
+  },
+  {
+   "es": "Lucía baja al café. Diego está allí, solo, con su guitarra.",
+   "fr": "Lucía descend au café. Diego est là, seul, avec sa guitare.",
+   "audio": "es_aeb61ae46844.mp3"
+  },
+  {
+   "es": "—¿Te molesta si estoy aquí? —pregunta Lucía.",
+   "fr": "« Ça te dérange si je suis là ? » demande Lucía.",
+   "audio": "es_2aa38e25daa1.mp3"
+  },
+  {
+   "es": "—No, no me molestas.",
+   "fr": "« Non, tu ne me déranges pas. »",
+   "audio": "es_7dd9fe7214aa.mp3"
+  },
+  {
+   "es": "—Es muy vieja, ¿no?",
+   "fr": "« Elle est très vieille, non ? »",
+   "audio": "es_f419aee6848d.mp3"
+  },
+  {
+   "es": "—Sí. Era de mi abuelo. Mi abuelo tocaba en las fiestas del campo.",
+   "fr": "« Oui. Elle était à mon grand-père. Mon grand-père jouait dans les fêtes de la campagne. »",
+   "audio": "es_79ec53375cdb.mp3"
+  },
+  {
+   "es": "—¿Y ahora?",
+   "fr": "« Et maintenant ? »",
+   "audio": "es_3824e67ebf7c.mp3"
+  },
+  {
+   "es": "—Resulta que ya no funciona. La voy a tirar.",
+   "fr": "« Il se trouve qu'elle ne marche plus. Je vais la jeter. »",
+   "audio": "es_4aa645e52aec.mp3"
+  },
+  {
+   "es": "—¡No! No la tires. Es la guitarra de tu abuelo.",
+   "fr": "« Non ! Ne la jette pas. C'est la guitare de ton grand-père. »",
+   "audio": "es_0fc7157be28d.mp3"
+  },
+  {
+   "es": "—Hay un hombre que me puede ayudar, pero vive muy lejos. Es un viaje largo.",
+   "fr": "« Il y a un homme qui peut m'aider, mais il habite très loin. C'est un long voyage. »",
+   "audio": "es_c4a8d31ed70a.mp3"
+  },
+  {
+   "es": "—¿Y la carta? ¿Qué dice?",
+   "fr": "« Et la lettre ? Qu'est-ce qu'elle dit ? »",
+   "audio": "es_f01f788c64e9.mp3"
+  },
+  {
+   "es": "—Resulta que el café debe mucho dinero. Marta no sabe que yo sé.",
+   "fr": "« Il se trouve que le café doit beaucoup d'argent. Marta ne sait pas que je sais. »",
+   "audio": "es_e2087bfbed3f.mp3"
+  },
+  {
+   "es": "En ese momento, Don Ramón entra en el café.",
+   "fr": "À ce moment-là, Don Ramón entre dans le café.",
+   "audio": "es_bf25c006293e.mp3"
+  },
+  {
+   "es": "—¿Qué pasa aquí? ¡Me despertáis! —dice Ramón.",
+   "fr": "« Qu'est-ce qui se passe ici ? Vous me réveillez ! » dit Ramón.",
+   "audio": "es_8ef395b9946a.mp3"
+  },
+  {
+   "es": "—Perdón, Don Ramón. Ya paramos —dice Diego.",
+   "fr": "« Pardon, Don Ramón. On arrête », dit Diego.",
+   "audio": "es_58f512a61683.mp3"
+  },
+  {
+   "es": "Ramón mira la guitarra. Parece muy interesado.",
+   "fr": "Ramón regarde la guitare. Il a l'air très intéressé.",
+   "audio": "es_c33b29a61e34.mp3"
+  },
+  {
+   "es": "—Es rara. Y muy hermosa —dice Ramón.",
+   "fr": "« Elle est rare. Et très belle », dit Ramón.",
+   "audio": "es_420682c90787.mp3"
+  },
+  {
+   "es": "—Era de mi abuelo, pero no funciona.",
+   "fr": "« Elle était à mon grand-père, mais elle ne marche pas. »",
+   "audio": "es_a85b3851c16b.mp3"
+  },
+  {
+   "es": "—No tienes que hacer un viaje. Tengo un amigo aquí cerca.",
+   "fr": "« Tu n'as pas besoin de faire un voyage. J'ai un ami tout près d'ici. »",
+   "audio": "es_0b3268da6e5a.mp3"
+  },
+  {
+   "es": "—¿De verdad?",
+   "fr": "« Vraiment ? »",
+   "audio": "es_93e1f6876c90.mp3"
+  },
+  {
+   "es": "—Sí. Pero ahora, a la cama. Y no me despertéis otra vez.",
+   "fr": "« Oui. Mais maintenant, au lit. Et ne me réveillez plus. »",
+   "audio": "es_8e67fae7ddfe.mp3"
+  }
+ ],
+ "gloss": {
+  "rompió": "a cassé",
+  "la": "la ; l'",
+  "guitarra": "guitare",
+  "de": "de",
+  "y": "et",
+  "recibió": "a reçu",
+  "una": "une",
+  "carta": "lettre",
+  "esa": "cette…-là",
+  "noche": "nuit, soir",
+  "no": "non, ne… pas",
+  "puede": "peut",
+  "dormir": "dormir",
+  "está": "est",
+  "en": "dans, en",
+  "cama": "lit",
+  "piensa": "pense",
+  "entonces": "alors",
+  "algo": "quelque chose",
+  "suena": "fait du bruit, sonne",
+  "abajo": "en bas",
+  "es": "est",
+  "raro": "bizarre",
+  "baja": "descend",
+  "al": "au",
+  "café": "café",
+  "allí": "là-bas",
+  "solo": "seul",
+  "con": "avec",
+  "su": "son, sa",
+  "te": "te",
+  "molesta": "dérange",
+  "si": "si",
+  "estoy": "je suis",
+  "aquí": "ici",
+  "pregunta": "demande",
+  "me": "me",
+  "molestas": "tu déranges",
+  "muy": "très",
+  "vieja": "vieille",
+  "sí": "oui",
+  "era": "était",
+  "mi": "mon, ma",
+  "abuelo": "grand-père",
+  "tocaba": "jouait",
+  "las": "les",
+  "fiestas": "fêtes",
+  "del": "du",
+  "campo": "campagne",
+  "ahora": "maintenant",
+  "resulta": "il se trouve (resulta que)",
+  "que": "que, qui",
+  "voy": "je vais",
+  "a": "à",
+  "tirar": "jeter",
+  "tires": "jettes",
+  "tu": "ton, ta",
+  "hay": "il y a",
+  "un": "un",
+  "hombre": "homme",
+  "ayudar": "aider",
+  "pero": "mais",
+  "vive": "habite",
+  "lejos": "loin",
+  "viaje": "voyage",
+  "largo": "long",
+  "qué": "que, quoi",
+  "dice": "dit",
+  "el": "le",
+  "debe": "doit",
+  "mucho": "beaucoup",
+  "dinero": "argent",
+  "sabe": "sait",
+  "yo": "je, moi",
+  "sé": "je sais",
+  "ese": "ce",
+  "momento": "moment",
+  "don": "don (titre de respect)",
+  "entra": "entre",
+  "pasa": "se passe",
+  "despertáis": "vous réveillez",
+  "perdón": "pardon",
+  "ya": "tout de suite ; ya no = ne… plus",
+  "paramos": "nous arrêtons",
+  "mira": "regarde",
+  "parece": "a l'air",
+  "interesado": "intéressé",
+  "rara": "rare, étrange",
+  "hermosa": "belle",
+  "funciona": "marche",
+  "tienes": "tu dois (no tienes que = tu n'as pas besoin de)",
+  "hacer": "faire",
+  "tengo": "j'ai",
+  "amigo": "ami",
+  "cerca": "près",
+  "verdad": "vérité (de verdad = vraiment)",
+  "despertéis": "réveillez (no me despertéis = ne me réveillez pas)",
+  "otra": "autre (otra vez = encore)",
+  "vez": "fois"
+ }
+}

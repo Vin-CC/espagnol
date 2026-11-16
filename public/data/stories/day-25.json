@@ -1,0 +1,171 @@
+{
+ "day": 25,
+ "title": "Calle del Sol, número cinco",
+ "title_fr": "Rue du Soleil, numéro cinq",
+ "sentences": [
+  {
+   "es": "Ramón le mostró a Lucía la foto de la mujer y del perro.",
+   "fr": "Ramón a montré à Lucía la photo de la femme et du chien.",
+   "audio": "es_424821386323.mp3"
+  },
+  {
+   "es": "Lucía mira bien la foto. El perro es negro.",
+   "fr": "Lucía regarde bien la photo. Le chien est noir.",
+   "audio": "es_ff9d69f3676c.mp3"
+  },
+  {
+   "es": "—Ella es de un pueblo pequeño, cerca de Valencia —dice Ramón.",
+   "fr": "— Elle est d'un petit village, près de Valencia, dit Ramón.",
+   "audio": "es_36a6743ae5d8.mp3"
+  },
+  {
+   "es": "Ramón se levanta. Saca la foto del libro.",
+   "fr": "Ramón se lève. Il sort la photo du livre.",
+   "audio": "es_bd8485e64a83.mp3"
+  },
+  {
+   "es": "En la otra cara de la foto hay palabras en negro: «Calle del Sol, número cinco».",
+   "fr": "Au dos de la photo, il y a des mots en noir : « Rue du Soleil, numéro cinq ».",
+   "audio": "es_d1e26a22b63f.mp3"
+  },
+  {
+   "es": "—¡Es nuestra calle! —dice Lucía.",
+   "fr": "— C'est notre rue ! dit Lucía.",
+   "audio": "es_9043d3ef3de2.mp3"
+  },
+  {
+   "es": "—Sí. Antes, ella vivía en esta calle. En el número cinco.",
+   "fr": "— Oui. Avant, elle vivait dans cette rue. Au numéro cinq.",
+   "audio": "es_ea97f11a1867.mp3"
+  },
+  {
+   "es": "—¿Y ahora? ¿Vive en su pueblo?",
+   "fr": "— Et maintenant ? Elle vit dans son village ?",
+   "audio": "es_24f604f07c3f.mp3"
+  },
+  {
+   "es": "—No sé. Ya no tengo fuerza para buscar.",
+   "fr": "— Je ne sais pas. Je n'ai plus la force de chercher.",
+   "audio": "es_ce0059cbc002.mp3"
+  },
+  {
+   "es": "Lucía se levanta también.",
+   "fr": "Lucía se lève aussi.",
+   "audio": "es_44e871da174f.mp3"
+  },
+  {
+   "es": "—Yo tengo bastante fuerza para los dos. ¡Adelante, Ramón!",
+   "fr": "— Moi, j'ai assez de force pour nous deux. En avant, Ramón !",
+   "audio": "es_35013e394c60.mp3"
+  },
+  {
+   "es": "—Cuidado, Lucía. Es una historia de hace mucho tiempo.",
+   "fr": "— Attention, Lucía. C'est une histoire d'il y a très longtemps.",
+   "audio": "es_9a625fb76275.mp3"
+  },
+  {
+   "es": "—Vamos paso a paso. Primero, el número cinco de la calle.",
+   "fr": "— On y va pas à pas. D'abord, le numéro cinq de la rue.",
+   "audio": "es_b54f00e1d39a.mp3"
+  },
+  {
+   "es": "Ramón mira la foto del perro negro.",
+   "fr": "Ramón regarde la photo du chien noir.",
+   "audio": "es_ff349c8ff7a7.mp3"
+  },
+  {
+   "es": "Lucía le quita la foto de la mano.",
+   "fr": "Lucía lui prend la photo des mains.",
+   "audio": "es_dc39370e2263.mp3"
+  },
+  {
+   "es": "—Bueno. Un paso. Solo un paso.",
+   "fr": "— Bon. Un pas. Juste un pas.",
+   "audio": "es_2aec2451119a.mp3"
+  },
+  {
+   "es": "—Es bastante para hoy —dice Lucía.",
+   "fr": "— C'est assez pour aujourd'hui, dit Lucía.",
+   "audio": "es_c75e40b33463.mp3"
+  },
+  {
+   "es": "Los dos salen a la calle. Con cuidado, Ramón da su primer paso.",
+   "fr": "Tous les deux sortent dans la rue. Avec précaution, Ramón fait son premier pas.",
+   "audio": "es_209b71475d01.mp3"
+  }
+ ],
+ "gloss": {
+  "le": "lui",
+  "mostró": "a montré",
+  "a": "à",
+  "la": "la",
+  "foto": "photo",
+  "de": "de",
+  "mujer": "femme",
+  "y": "et",
+  "del": "du (de + el)",
+  "perro": "chien",
+  "mira": "regarde",
+  "bien": "bien",
+  "el": "le",
+  "es": "est",
+  "negro": "noir",
+  "ella": "elle",
+  "un": "un",
+  "pueblo": "village",
+  "pequeño": "petit",
+  "cerca": "près",
+  "dice": "dit",
+  "se": "se",
+  "levanta": "lève",
+  "quita": "enlève, prend",
+  "libro": "livre",
+  "en": "en, dans, à",
+  "otra": "autre",
+  "cara": "visage ; (ici) côté, face",
+  "hay": "il y a",
+  "palabras": "mots",
+  "calle": "rue",
+  "número": "numéro",
+  "cinco": "cinq",
+  "nuestra": "notre",
+  "sí": "oui",
+  "antes": "avant",
+  "vive": "vit, habite",
+  "esta": "cette",
+  "ahora": "maintenant",
+  "su": "son, sa, leur",
+  "no": "non, ne... pas",
+  "sé": "je sais",
+  "ya": "déjà (ya no : ne... plus)",
+  "tengo": "j'ai",
+  "fuerza": "force",
+  "para": "pour",
+  "buscar": "chercher",
+  "también": "aussi",
+  "yo": "je, moi",
+  "bastante": "assez",
+  "los": "les",
+  "dos": "deux",
+  "adelante": "en avant",
+  "cuidado": "attention, précaution",
+  "una": "une",
+  "historia": "histoire",
+  "hace": "hace muchos años : il y a beaucoup d'années ; hace falta : il faut",
+  "mucho": "beaucoup",
+  "tiempo": "temps",
+  "vamos": "allons",
+  "paso": "pas",
+  "primero": "d'abord",
+  "mano": "main",
+  "bueno": "bon",
+  "solo": "seulement",
+  "hoy": "aujourd'hui",
+  "salen": "sortent",
+  "con": "avec",
+  "da": "donne ; fait (dar un paso)",
+  "primer": "premier",
+  "saca": "sort",
+  "vivía": "vivait"
+ }
+}

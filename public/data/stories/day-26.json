@@ -1,0 +1,168 @@
+{
+ "day": 26,
+ "title": "Un café frente al número cinco",
+ "title_fr": "Un café en face du numéro cinq",
+ "sentences": [
+  {
+   "es": "Lucía y Ramón buscan el número cinco de la calle del Sol.",
+   "fr": "Lucía et Ramón cherchent le numéro cinq de la rue du Soleil.",
+   "audio": "es_45b5dabe3b83.mp3"
+  },
+  {
+   "es": "Van a pie.",
+   "fr": "Ils y vont à pied.",
+   "audio": "es_3644d104f67b.mp3"
+  },
+  {
+   "es": "—Es allá —dice Lucía—. La casa blanca, frente al café de Marta.",
+   "fr": "— C'est là-bas, dit Lucía. La maison blanche, en face du café de Marta.",
+   "audio": "es_672ff234bcd7.mp3"
+  },
+  {
+   "es": "Pero en la casa no hay nadie. Entran en el café.",
+   "fr": "Mais dans la maison, il n'y a personne. Ils entrent dans le café.",
+   "audio": "es_e51a9114740c.mp3"
+  },
+  {
+   "es": "—Marta, tienes que disculpar mis preguntas. ¿Conoces la casa de allá?",
+   "fr": "— Marta, tu dois excuser mes questions. Tu connais la maison là-bas ?",
+   "audio": "es_9a22b5fe4a18.mp3"
+  },
+  {
+   "es": "—Un poco. Pero primero, ¿qué queréis beber?",
+   "fr": "— Un peu. Mais d'abord, qu'est-ce que vous voulez boire ?",
+   "audio": "es_2acc660b095a.mp3"
+  },
+  {
+   "es": "Ramón bebe un café y habla.",
+   "fr": "Ramón boit un café et il parle.",
+   "audio": "es_4765812c8a09.mp3"
+  },
+  {
+   "es": "—Hace muchos años, hubo una fiesta en esta calle. Yo la vi frente a su casa.",
+   "fr": "— Il y a bien des années, il y a eu une fête dans cette rue. Je l'ai vue devant sa maison.",
+   "audio": "es_6251197d43fd.mp3"
+  },
+  {
+   "es": "—En la fiesta había un partido de fútbol. Yo jugaba en el partido.",
+   "fr": "— À la fête, il y avait un match de foot. Je jouais dans le match.",
+   "audio": "es_f6ac5f19b307.mp3"
+  },
+  {
+   "es": "Yo disparé muy mal, y el balón fue hacia ella.",
+   "fr": "J'ai très mal tiré, et le ballon est parti vers elle.",
+   "audio": "es_048083e24b5b.mp3"
+  },
+  {
+   "es": "Ella cogió el balón y me miró.",
+   "fr": "Elle a attrapé le ballon et elle m'a regardé.",
+   "audio": "es_ad3c1a3a1971.mp3"
+  },
+  {
+   "es": "—¿Tú, Ramón? ¿En un partido? —dice Marta—. ¡No puedo imaginarlo!",
+   "fr": "— Toi, Ramón ? Dans un match ? dit Marta. Je n'arrive pas à l'imaginer !",
+   "audio": "es_e2f75c9e40d0.mp3"
+  },
+  {
+   "es": "—Sí. Y ese día, la amé. Desde el primer momento.",
+   "fr": "— Oui. Et ce jour-là, je l'ai aimée. Dès le premier instant.",
+   "audio": "es_4887c953cc82.mp3"
+  },
+  {
+   "es": "Ramón coge su café y no dice más.",
+   "fr": "Ramón prend son café et n'en dit pas plus.",
+   "audio": "es_a3b57a880e76.mp3"
+  },
+  {
+   "es": "—Disculpad, pero yo no sé mucho de esa casa —dice Marta—. Mi tía sí. Ella conoce toda la calle.",
+   "fr": "— Excusez-moi, mais moi, je ne sais pas grand-chose sur cette maison, dit Marta. Ma tante, oui. Elle connaît toute la rue.",
+   "audio": "es_5d01bb7af888.mp3"
+  }
+ ],
+ "gloss": {
+  "y": "et",
+  "buscan": "cherchent",
+  "el": "le",
+  "número": "numéro",
+  "cinco": "cinq",
+  "de": "de",
+  "la": "la",
+  "calle": "rue",
+  "del": "du (de + el)",
+  "van": "vont",
+  "a": "à",
+  "pie": "a pie : à pied",
+  "es": "est",
+  "allá": "là-bas",
+  "dice": "dit",
+  "casa": "maison",
+  "blanca": "blanche",
+  "frente": "frente a : en face de, devant",
+  "al": "au (a + el)",
+  "café": "café",
+  "pero": "mais",
+  "en": "en, dans, à",
+  "no": "non, ne... pas",
+  "hay": "il y a",
+  "nadie": "personne",
+  "entran": "entrent",
+  "tienes": "tu as",
+  "que": "que, qui",
+  "disculpar": "excuser",
+  "mis": "mes",
+  "preguntas": "questions",
+  "conoces": "tu connais",
+  "un": "un",
+  "poco": "peu",
+  "primero": "d'abord",
+  "qué": "quoi, qu'est-ce que",
+  "queréis": "vous voulez",
+  "beber": "boire",
+  "bebe": "boit",
+  "habla": "parle",
+  "hace": "hace muchos años : il y a beaucoup d'années ; hace falta : il faut",
+  "muchos": "beaucoup de",
+  "años": "ans, années",
+  "una": "une",
+  "fiesta": "fête",
+  "esta": "cette",
+  "yo": "je, moi",
+  "su": "son, sa, leur",
+  "sí": "oui",
+  "partido": "match",
+  "fútbol": "football",
+  "disparé": "j'ai tiré",
+  "muy": "très",
+  "mal": "mauvais ; mal",
+  "balón": "ballon",
+  "fue": "est allé",
+  "hacia": "vers",
+  "ella": "elle",
+  "coge": "attrape, prend",
+  "me": "me, moi",
+  "tú": "tu, toi",
+  "puedo": "je peux",
+  "imaginarlo": "l'imaginer",
+  "ese": "ce",
+  "día": "jour",
+  "amé": "j'ai aimé",
+  "desde": "depuis, dès",
+  "primer": "premier",
+  "momento": "moment",
+  "más": "plus",
+  "disculpad": "excusez",
+  "sé": "je sais",
+  "esa": "cette",
+  "mi": "mon, ma",
+  "tía": "tante",
+  "conoce": "connaît",
+  "toda": "toute",
+  "hubo": "il y a eu",
+  "vi": "j'ai vu",
+  "había": "il y avait",
+  "jugaba": "je jouais",
+  "cogió": "a attrapé",
+  "miró": "a regardé",
+  "mucho": "beaucoup"
+ }
+}

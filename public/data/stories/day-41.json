@@ -1,0 +1,266 @@
+{
+ "day": 41,
+ "title": "Mamá va a volar",
+ "title_fr": "Maman va prendre l'avion",
+ "sentences": [
+  {
+   "es": "Marta y Diego ya están bien otra vez, y el café está tranquilo.",
+   "fr": "Marta et Diego vont de nouveau bien, et le café est calme.",
+   "audio": "es_bfdbff44c1e4.mp3"
+  },
+  {
+   "es": "Una mañana, el teléfono de Lucía suena.",
+   "fr": "Un matin, le téléphone de Lucía sonne.",
+   "audio": "es_f557fe9405a6.mp3"
+  },
+  {
+   "es": "Es su madre, desde Francia.",
+   "fr": "C'est sa mère, depuis la France.",
+   "audio": "es_b801fd354704.mp3"
+  },
+  {
+   "es": "—Hola, hija. ¡Voy a volar a Valencia la próxima semana!",
+   "fr": "« Bonjour, ma fille. Je vais prendre l'avion pour Valencia la semaine prochaine ! »",
+   "audio": "es_7260d55aae57.mp3"
+  },
+  {
+   "es": "—¡Mamá! ¡Qué bien!",
+   "fr": "« Maman ! Super ! »",
+   "audio": "es_2631b4117a83.mp3"
+  },
+  {
+   "es": "Pero su madre no vuela mucho. Tiene miedo.",
+   "fr": "Mais sa mère ne prend pas souvent l'avion. Elle a peur.",
+   "audio": "es_c9979af75df2.mp3"
+  },
+  {
+   "es": "—A mi edad, volar da miedo, hija. Pero quiero verte.",
+   "fr": "« À mon âge, prendre l'avion fait peur, ma fille. Mais je veux te voir. »",
+   "audio": "es_9a4638a0e7d3.mp3"
+  },
+  {
+   "es": "Después, Lucía va al banco. Necesita dinero para la visita.",
+   "fr": "Ensuite, Lucía va à la banque. Elle a besoin d'argent pour la visite.",
+   "audio": "es_0a9afe51af92.mp3"
+  },
+  {
+   "es": "El banco es muy antiguo. Hay mucha gente.",
+   "fr": "La banque est très ancienne. Il y a beaucoup de monde.",
+   "audio": "es_4f72ec309de4.mp3"
+  },
+  {
+   "es": "La mayoría son señores mayores. Lucía espera una hora.",
+   "fr": "La plupart sont des messieurs âgés. Lucía attend une heure.",
+   "audio": "es_c664af143579.mp3"
+  },
+  {
+   "es": "En casa, Pipo quiere comer.",
+   "fr": "À la maison, Pipo veut manger.",
+   "audio": "es_befb76a7d611.mp3"
+  },
+  {
+   "es": "La comida está en la mesa, pero él no la alcanza.",
+   "fr": "La nourriture est sur la table, mais il ne l'atteint pas.",
+   "audio": "es_2baaff4add22.mp3"
+  },
+  {
+   "es": "Lucía lo coge en brazos.",
+   "fr": "Lucía le prend dans ses bras.",
+   "audio": "es_cdce6ccdccd9.mp3"
+  },
+  {
+   "es": "—Pipo, ¡has crecido mucho!",
+   "fr": "« Pipo, tu as beaucoup grandi ! »",
+   "audio": "es_b5c36c640bc5.mp3"
+  },
+  {
+   "es": "Por la noche, Lucía sube a casa de Don Ramón.",
+   "fr": "Le soir, Lucía monte chez Don Ramón.",
+   "audio": "es_25594336152d.mp3"
+  },
+  {
+   "es": "—Le devuelvo su libro. Gracias.",
+   "fr": "« Je vous rends votre livre. Merci. »",
+   "audio": "es_e05d0ffda241.mp3"
+  },
+  {
+   "es": "—De nada. ¿Y por qué estás tan feliz?",
+   "fr": "« De rien. Et pourquoi es-tu si heureuse ? »",
+   "audio": "es_14755a7ec9ce.mp3"
+  },
+  {
+   "es": "—¡Mi madre viene de Francia!",
+   "fr": "« Ma mère vient de France ! »",
+   "audio": "es_542f8ce67907.mp3"
+  },
+  {
+   "es": "Ramón abre los brazos. —¡Qué bien, Lucía!",
+   "fr": "Ramón ouvre les bras. « Formidable, Lucía ! »",
+   "audio": "es_8d1baca61084.mp3"
+  },
+  {
+   "es": "Pero después pone una cara triste.",
+   "fr": "Mais ensuite, il fait une tête triste.",
+   "audio": "es_a668e4ad3512.mp3"
+  },
+  {
+   "es": "—Mi hermano vive muy lejos. Nunca lo veo. Es una pena.",
+   "fr": "« Mon frère vit très loin. Je ne le vois jamais. C'est dommage. »",
+   "audio": "es_d8e4e9fe48f7.mp3"
+  },
+  {
+   "es": "—Sí, es una pena.",
+   "fr": "« Oui, c'est dommage. »",
+   "audio": "es_f0fc994e56e8.mp3"
+  },
+  {
+   "es": "Ramón quiere alcanzar un libro arriba, pero no puede.",
+   "fr": "Ramón veut atteindre un livre en haut, mais il n'y arrive pas.",
+   "audio": "es_4f216022eb28.mp3"
+  },
+  {
+   "es": "Lucía lo coge y se lo da.",
+   "fr": "Lucía le prend et le lui donne.",
+   "audio": "es_12b979d172a3.mp3"
+  },
+  {
+   "es": "—Mira, son fotos de mi familia. Aquí crecí yo.",
+   "fr": "« Regarde, ce sont des photos de ma famille. C'est ici que j'ai grandi. »",
+   "audio": "es_25f3df1b1306.mp3"
+  },
+  {
+   "es": "—La mayoría de las fotos son muy antiguas, ¿verdad?",
+   "fr": "« La plupart des photos sont très anciennes, n'est-ce pas ? »",
+   "audio": "es_e26a9e49a35e.mp3"
+  },
+  {
+   "es": "—Sí. Como yo —dice Ramón.",
+   "fr": "« Oui. Comme moi », dit Ramón.",
+   "audio": "es_0c14e2a2e4ca.mp3"
+  },
+  {
+   "es": "Lucía devuelve las fotos a su lugar. ¡Su madre llega pronto!",
+   "fr": "Lucía remet les photos à leur place. Sa mère arrive bientôt !",
+   "audio": "es_bb635df0ac50.mp3"
+  }
+ ],
+ "gloss": {
+  "y": "et",
+  "ya": "déjà, désormais",
+  "están": "sont (état, lieu)",
+  "bien": "bien",
+  "otra": "autre",
+  "vez": "fois",
+  "el": "le",
+  "café": "café",
+  "está": "est (état, lieu)",
+  "tranquilo": "calme",
+  "una": "une",
+  "mañana": "matin, demain",
+  "teléfono": "téléphone",
+  "de": "de",
+  "suena": "sonne",
+  "es": "est",
+  "su": "son, sa",
+  "madre": "mère",
+  "desde": "depuis",
+  "hola": "bonjour",
+  "hija": "ma fille",
+  "voy": "je vais",
+  "a": "à",
+  "volar": "voler, prendre l'avion",
+  "la": "la ; l' (pronom)",
+  "próxima": "prochaine",
+  "semana": "semaine",
+  "mamá": "maman",
+  "qué": "quoi, quel",
+  "pero": "mais",
+  "no": "non, ne… pas",
+  "vuela": "prend l'avion",
+  "mucho": "beaucoup",
+  "tiene": "il/elle a",
+  "miedo": "peur",
+  "mi": "mon, ma",
+  "edad": "âge",
+  "da": "donne ; da miedo : fait peur",
+  "quiero": "je veux",
+  "verte": "te voir",
+  "después": "après, ensuite",
+  "va": "va",
+  "al": "au (a + el)",
+  "banco": "banque",
+  "necesita": "elle a besoin de",
+  "dinero": "argent",
+  "para": "pour",
+  "visita": "visite",
+  "muy": "très",
+  "antiguo": "ancien, vieux",
+  "hay": "il y a",
+  "mucha": "beaucoup de",
+  "gente": "gens",
+  "mayoría": "plupart, majorité",
+  "son": "sont",
+  "señores": "messieurs",
+  "mayores": "âgés",
+  "espera": "attend",
+  "hora": "heure",
+  "en": "dans, en, sur",
+  "casa": "maison",
+  "quiere": "veut",
+  "comer": "manger",
+  "comida": "repas, nourriture",
+  "mesa": "table",
+  "él": "lui, il",
+  "alcanza": "atteint",
+  "lo": "le (pronom)",
+  "coge": "prend",
+  "brazos": "bras",
+  "has": "tu as (auxiliaire)",
+  "crecido": "grandi",
+  "por": "par, pour",
+  "noche": "nuit, soir",
+  "sube": "monte",
+  "don": "don (titre de respect)",
+  "le": "vous (politesse)",
+  "devuelvo": "je rends",
+  "libro": "livre",
+  "gracias": "merci",
+  "nada": "rien",
+  "estás": "tu es",
+  "tan": "si",
+  "feliz": "heureux, heureuse",
+  "viene": "vient",
+  "abre": "ouvre",
+  "los": "les",
+  "pone": "met ; pone una cara : fait une tête",
+  "cara": "visage, tête",
+  "triste": "triste",
+  "hermano": "frère",
+  "vive": "vit",
+  "lejos": "loin",
+  "nunca": "jamais",
+  "veo": "je vois",
+  "pena": "peine ; es una pena : c'est dommage",
+  "sí": "oui",
+  "alcanzar": "atteindre",
+  "un": "un",
+  "arriba": "en haut",
+  "puede": "peut",
+  "se": "le lui (se lo)",
+  "mira": "regarde",
+  "fotos": "photos",
+  "familia": "famille",
+  "aquí": "ici",
+  "crecí": "j'ai grandi",
+  "yo": "moi, je",
+  "las": "les (fém.)",
+  "antiguas": "anciennes",
+  "verdad": "vrai ; n'est-ce pas",
+  "como": "comme",
+  "dice": "dit",
+  "devuelve": "remet, rend",
+  "lugar": "place, endroit",
+  "llega": "arrive",
+  "pronto": "bientôt"
+ }
+}

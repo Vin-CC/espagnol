@@ -1,0 +1,251 @@
+{
+ "day": 32,
+ "title": "El tema del campo",
+ "title_fr": "Le morceau de la campagne",
+ "sentences": [
+  {
+   "es": "Diego va a tocar en el café la semana que viene.",
+   "fr": "Diego va jouer au café la semaine prochaine.",
+   "audio": "es_36ee6a378a66.mp3"
+  },
+  {
+   "es": "Hoy, por la tarde, Lucía baja al café con Pipo.",
+   "fr": "Aujourd'hui, l'après-midi, Lucía descend au café avec Pipo.",
+   "audio": "es_a68cc7099c38.mp3"
+  },
+  {
+   "es": "Diego está en su sitio de siempre, cerca de la puerta.",
+   "fr": "Diego est à sa place habituelle, près de la porte.",
+   "audio": "es_57852ecfad7d.mp3"
+  },
+  {
+   "es": "Tiene su guitarra y un libro de música.",
+   "fr": "Il a sa guitare et un livre de musique.",
+   "audio": "es_3d58787b2664.mp3"
+  },
+  {
+   "es": "—Hola, Diego. ¿Qué haces?",
+   "fr": "« Salut, Diego. Qu'est-ce que tu fais ? »",
+   "audio": "es_0cf70a5bf0c8.mp3"
+  },
+  {
+   "es": "—Tengo que elegir los temas para el café. Pero elegir es difícil.",
+   "fr": "« Je dois choisir les morceaux pour le café. Mais choisir, c'est difficile. »",
+   "audio": "es_18479fe0dfd6.mp3"
+  },
+  {
+   "es": "Diego toca un tema sobre el campo.",
+   "fr": "Diego joue un morceau sur la campagne.",
+   "audio": "es_65e5629fdd80.mp3"
+  },
+  {
+   "es": "—Mi padre vive en el campo. Es un sitio muy bonito —dice Diego.",
+   "fr": "« Mon père vit à la campagne. C'est un endroit très joli », dit Diego.",
+   "audio": "es_141839180bcd.mp3"
+  },
+  {
+   "es": "—Tu tema es muy hermoso —dice Lucía.",
+   "fr": "« Ton morceau est très beau », dit Lucía.",
+   "audio": "es_9556adcc465d.mp3"
+  },
+  {
+   "es": "—¿Hermoso? ¿De verdad?",
+   "fr": "« Beau ? Vraiment ? »",
+   "audio": "es_43256a3a6be1.mp3"
+  },
+  {
+   "es": "—Sí. Tienes que elegir ese tema.",
+   "fr": "« Oui. Tu dois choisir ce morceau. »",
+   "audio": "es_f0004e8197b8.mp3"
+  },
+  {
+   "es": "Marta llega con una carta.",
+   "fr": "Marta arrive avec une lettre.",
+   "audio": "es_465b03bc25cc.mp3"
+  },
+  {
+   "es": "—Diego, hay una carta para ti.",
+   "fr": "« Diego, il y a une lettre pour toi. »",
+   "audio": "es_9eddf9cd1642.mp3"
+  },
+  {
+   "es": "Diego lee la carta. No dice nada.",
+   "fr": "Diego lit la lettre. Il ne dit rien.",
+   "audio": "es_495df027b7ad.mp3"
+  },
+  {
+   "es": "—¿Qué pasa? —pregunta Lucía.",
+   "fr": "« Qu'est-ce qui se passe ? » demande Lucía.",
+   "audio": "es_d90aeda3998e.mp3"
+  },
+  {
+   "es": "—Nada. Luego hablamos.",
+   "fr": "« Rien. On en parle plus tard. »",
+   "audio": "es_a69d32f06f25.mp3"
+  },
+  {
+   "es": "Entonces Lucía mira a su lado. ¡Pipo no está!",
+   "fr": "Alors Lucía regarde à côté d'elle. Pipo n'est pas là !",
+   "audio": "es_04dced990053.mp3"
+  },
+  {
+   "es": "—¿Dónde está Pipo? Siempre desaparece.",
+   "fr": "« Où est Pipo ? Il disparaît toujours. »",
+   "audio": "es_fcccfc14cc42.mp3"
+  },
+  {
+   "es": "Buscan a Pipo por todo el café. Nada.",
+   "fr": "Ils cherchent Pipo dans tout le café. Rien.",
+   "audio": "es_138be5fa664d.mp3"
+  },
+  {
+   "es": "—No cuido bien a Pipo —dice Lucía.",
+   "fr": "« Je ne m'occupe pas bien de Pipo », dit Lucía.",
+   "audio": "es_f0e17bba4450.mp3"
+  },
+  {
+   "es": "—Calma, Lucía. Tú cuidas muy bien a Pipo —dice Marta.",
+   "fr": "« Du calme, Lucía. Tu t'occupes très bien de Pipo », dit Marta.",
+   "audio": "es_516d2bda05eb.mp3"
+  },
+  {
+   "es": "En ese momento, Pipo aparece arriba, en lo alto de la puerta.",
+   "fr": "À ce moment-là, Pipo apparaît en haut, tout en haut de la porte.",
+   "audio": "es_78ac5547c365.mp3"
+  },
+  {
+   "es": "Pipo cae sobre la guitarra de Diego.",
+   "fr": "Pipo tombe sur la guitare de Diego.",
+   "audio": "es_7489894a4ac4.mp3"
+  },
+  {
+   "es": "—¡No! ¡Mi guitarra! —dice Diego.",
+   "fr": "« Non ! Ma guitare ! » dit Diego.",
+   "audio": "es_023a3dacc48a.mp3"
+  },
+  {
+   "es": "Diego intenta tocar, pero no funciona. Pipo la rompió.",
+   "fr": "Diego essaie de jouer, mais elle ne marche pas. Pipo l'a cassée.",
+   "audio": "es_d8ae7cdba222.mp3"
+  },
+  {
+   "es": "—Esto es lo peor. Sin música, no hay fiesta.",
+   "fr": "« C'est le pire. Sans musique, pas de fête. »",
+   "audio": "es_6cefbebfcd58.mp3"
+  },
+  {
+   "es": "—Perdón, Diego. Es mi culpa —dice Lucía.",
+   "fr": "« Pardon, Diego. C'est ma faute », dit Lucía.",
+   "audio": "es_62081ece9d55.mp3"
+  },
+  {
+   "es": "—No es tu culpa. Y la carta es peor.",
+   "fr": "« Ce n'est pas ta faute. Et la lettre, c'est pire. »",
+   "audio": "es_e71cc23ab2d5.mp3"
+  },
+  {
+   "es": "Pipo los mira. Parece feliz.",
+   "fr": "Pipo les regarde. Il a l'air content.",
+   "audio": "es_4d170a9f9045.mp3"
+  }
+ ],
+ "gloss": {
+  "va": "va",
+  "a": "à",
+  "tocar": "jouer (de la musique)",
+  "en": "dans, en",
+  "el": "le",
+  "café": "café",
+  "la": "la ; l' (la rompió = l'a cassée)",
+  "semana": "semaine",
+  "hoy": "aujourd'hui",
+  "por": "par, pour",
+  "tarde": "après-midi",
+  "baja": "descend",
+  "al": "au",
+  "con": "avec",
+  "está": "est",
+  "su": "son, sa",
+  "sitio": "endroit, place",
+  "de": "de",
+  "siempre": "toujours",
+  "cerca": "près",
+  "puerta": "porte",
+  "tiene": "a",
+  "guitarra": "guitare",
+  "y": "et",
+  "un": "un",
+  "libro": "livre",
+  "música": "musique",
+  "hola": "bonjour, salut",
+  "qué": "que, quoi",
+  "haces": "tu fais",
+  "tengo": "je dois (tengo que)",
+  "que": "que, qui",
+  "elegir": "choisir",
+  "los": "les",
+  "temas": "morceaux",
+  "para": "pour",
+  "pero": "mais",
+  "es": "est",
+  "difícil": "difficile",
+  "toca": "joue",
+  "tema": "morceau",
+  "sobre": "sur",
+  "campo": "campagne",
+  "mi": "mon, ma",
+  "padre": "père",
+  "vive": "vit",
+  "muy": "très",
+  "bonito": "joli",
+  "dice": "dit",
+  "tu": "ton, ta",
+  "hermoso": "beau",
+  "verdad": "vérité (de verdad = vraiment)",
+  "sí": "oui",
+  "tienes": "tu dois (tienes que)",
+  "ese": "ce, ce…-là",
+  "llega": "arrive",
+  "una": "une",
+  "carta": "lettre",
+  "ti": "toi",
+  "lee": "lit",
+  "no": "non, ne… pas",
+  "nada": "rien",
+  "pasa": "se passe",
+  "pregunta": "demande",
+  "luego": "ensuite",
+  "hablamos": "on parle",
+  "entonces": "alors",
+  "mira": "regarde",
+  "lado": "côté",
+  "dónde": "où",
+  "desaparece": "disparaît",
+  "buscan": "cherchent",
+  "todo": "tout",
+  "cuido": "je m'occupe de",
+  "bien": "bien",
+  "calma": "calme",
+  "tú": "tu, toi",
+  "cuidas": "tu t'occupes de",
+  "momento": "moment",
+  "aparece": "apparaît",
+  "arriba": "en haut",
+  "lo": "le (lo peor = le pire)",
+  "alto": "haut (en lo alto = tout en haut)",
+  "cae": "tombe",
+  "intenta": "essaie",
+  "funciona": "marche, fonctionne",
+  "rompió": "a cassé",
+  "esto": "ceci, ça",
+  "peor": "pire",
+  "sin": "sans",
+  "hay": "il y a",
+  "fiesta": "fête",
+  "perdón": "pardon",
+  "culpa": "faute",
+  "parece": "a l'air",
+  "feliz": "content, heureux",
+  "viene": "vient (la semana que viene = la semaine prochaine)"
+ }
+}

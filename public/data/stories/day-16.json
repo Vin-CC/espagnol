@@ -1,0 +1,176 @@
+{
+ "day": 16,
+ "title": "Una fiesta en un mes",
+ "title_fr": "Une fête dans un mois",
+ "sentences": [
+  {
+   "es": "Don Ramón cuenta muchas historias de Valencia.",
+   "fr": "Don Ramón raconte beaucoup d'histoires de Valencia.",
+   "audio": "es_423edcfd02ee.mp3"
+  },
+  {
+   "es": "Hoy, Pablo llama a la puerta de Lucía.",
+   "fr": "Aujourd'hui, Pablo frappe à la porte de Lucía.",
+   "audio": "es_409fbf86d44c.mp3"
+  },
+  {
+   "es": "—¡Hola! Tengo un mensaje para todos: en un mes, hay una gran fiesta aquí.",
+   "fr": "— Bonjour ! J'ai un message pour tout le monde : dans un mois, il y a une grande fête ici.",
+   "audio": "es_2d9b31efbf5b.mp3"
+  },
+  {
+   "es": "—¿En un mes? ¡Es casi mañana!",
+   "fr": "— Dans un mois ? C'est presque demain !",
+   "audio": "es_bec51c3ca87b.mp3"
+  },
+  {
+   "es": "Pablo va de puerta en puerta con el mensaje.",
+   "fr": "Pablo va de porte en porte avec le message.",
+   "audio": "es_5b8201e3fa02.mp3"
+  },
+  {
+   "es": "En el café, Diego habla con su tía Marta.",
+   "fr": "Au café, Diego parle avec sa tante Marta.",
+   "audio": "es_e17e56ba7efb.mp3"
+  },
+  {
+   "es": "—Tía, hay música en la fiesta. El mejor grupo gana dinero.",
+   "fr": "— Tata, il y a de la musique à la fête. Le meilleur groupe gagne de l'argent.",
+   "audio": "es_56c3e39fcb5b.mp3"
+  },
+  {
+   "es": "—¿Y tú quieres ganar?",
+   "fr": "— Et toi, tu veux gagner ?",
+   "audio": "es_3e2356707777.mp3"
+  },
+  {
+   "es": "—Claro. Pero todavía no tengo grupo.",
+   "fr": "— Bien sûr. Mais je n'ai pas encore de groupe.",
+   "audio": "es_d2240956a7b1.mp3"
+  },
+  {
+   "es": "Diego está preocupado. Un mes es poco tiempo.",
+   "fr": "Diego est inquiet. Un mois, c'est peu de temps.",
+   "audio": "es_328333badabe.mp3"
+  },
+  {
+   "es": "—Es demasiado trabajo para un mes.",
+   "fr": "— C'est trop de travail pour un mois.",
+   "audio": "es_d7397ed7bab0.mp3"
+  },
+  {
+   "es": "—No te preocupes —dice Marta—. Eres muy bueno.",
+   "fr": "— Ne t'inquiète pas, dit Marta. Tu es très bon.",
+   "audio": "es_05b293bc81bf.mp3"
+  },
+  {
+   "es": "Don Ramón entra por la puerta.",
+   "fr": "Don Ramón entre par la porte.",
+   "audio": "es_eaacde8b336f.mp3"
+  },
+  {
+   "es": "Ramón es mayor, pero todavía tiene mucha energía.",
+   "fr": "Ramón est âgé, mais il a encore beaucoup d'énergie.",
+   "audio": "es_5d0e3dbab1ee.mp3"
+  },
+  {
+   "es": "—Diego, yo tengo casi todo para tu grupo.",
+   "fr": "— Diego, j'ai presque tout pour ton groupe.",
+   "audio": "es_af0616f0bb4e.mp3"
+  },
+  {
+   "es": "Conozco a mucha gente mayor que hace música en la ciudad.",
+   "fr": "Je connais beaucoup de personnes âgées qui font de la musique en ville.",
+   "audio": "es_0ab86e0a7383.mp3"
+  },
+  {
+   "es": "—¿De verdad? ¡Gracias, don Ramón!",
+   "fr": "— C'est vrai ? Merci, don Ramón !",
+   "audio": "es_6846a6e3be51.mp3"
+  },
+  {
+   "es": "Ahora, Diego ya no está tan preocupado.",
+   "fr": "Maintenant, Diego n'est plus aussi inquiet.",
+   "audio": "es_26eb4b52e7f1.mp3"
+  }
+ ],
+ "gloss": {
+  "don": "don (titre de respect)",
+  "cuenta": "raconte",
+  "muchas": "beaucoup de",
+  "historias": "histoires",
+  "de": "de",
+  "hoy": "aujourd'hui",
+  "llama": "frappe (llamar a la puerta)",
+  "a": "à",
+  "la": "la",
+  "puerta": "porte",
+  "hola": "bonjour / salut",
+  "tengo": "j'ai",
+  "un": "un",
+  "mensaje": "message",
+  "para": "pour",
+  "todos": "tous / tout le monde",
+  "en": "en / dans / à",
+  "mes": "mois",
+  "hay": "il y a",
+  "una": "une",
+  "gran": "grand(e)",
+  "fiesta": "fête",
+  "aquí": "ici",
+  "es": "est",
+  "casi": "presque",
+  "mañana": "demain / matin",
+  "va": "va",
+  "con": "avec",
+  "el": "le",
+  "café": "café",
+  "habla": "parle",
+  "su": "son / sa / leur",
+  "tía": "tante / tata",
+  "música": "musique",
+  "mejor": "meilleur",
+  "grupo": "groupe",
+  "gana": "gagne",
+  "dinero": "argent",
+  "y": "et",
+  "tú": "tu / toi",
+  "quieres": "tu veux",
+  "ganar": "gagner",
+  "claro": "bien sûr",
+  "pero": "mais",
+  "todavía": "encore",
+  "no": "non / ne... pas",
+  "está": "est",
+  "preocupado": "inquiet",
+  "poco": "peu",
+  "tiempo": "temps",
+  "demasiado": "trop de",
+  "trabajo": "travail / je travaille",
+  "te": "te / toi",
+  "preocupes": "t'inquiètes",
+  "dice": "dit",
+  "eres": "tu es",
+  "muy": "très",
+  "bueno": "bon",
+  "entra": "entre",
+  "por": "par / pour",
+  "mayor": "âgé",
+  "tiene": "a",
+  "mucha": "beaucoup de",
+  "energía": "énergie",
+  "yo": "je / moi",
+  "todo": "tout",
+  "tu": "ton / ta",
+  "conozco": "je connais",
+  "gente": "gens",
+  "que": "que / qui",
+  "hace": "fait",
+  "ciudad": "ville",
+  "verdad": "vérité / vrai",
+  "gracias": "merci",
+  "ahora": "maintenant",
+  "ya": "ne... plus",
+  "tan": "si / aussi"
+ }
+}

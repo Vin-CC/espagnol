@@ -1,0 +1,182 @@
+{
+ "day": 27,
+ "title": "La tía de Marta",
+ "title_fr": "La tante de Marta",
+ "sentences": [
+  {
+   "es": "Marta dice que su tía conoce toda la calle.",
+   "fr": "Marta dit que sa tante connaît toute la rue.",
+   "audio": "es_8fc652fd945c.mp3"
+  },
+  {
+   "es": "La tía vive arriba, sobre el café. Lucía, Ramón y Marta suben.",
+   "fr": "La tante habite en haut, au-dessus du café. Lucía, Ramón et Marta montent.",
+   "audio": "es_665852329e08.mp3"
+  },
+  {
+   "es": "La tía es una señora muy mayor, pero tiene una gran memoria.",
+   "fr": "La tante est une dame très âgée, mais elle a une grande mémoire.",
+   "audio": "es_380d34611695.mp3"
+  },
+  {
+   "es": "Ramón saca la foto. La tía mira la foto.",
+   "fr": "Ramón sort la photo. La tante regarde la photo.",
+   "audio": "es_4d92d539985e.mp3"
+  },
+  {
+   "es": "—¡Oh! La conozco. Era la profesora de la escuela.",
+   "fr": "— Oh ! Je la connais. C'était l'institutrice de l'école.",
+   "audio": "es_7a1fab51a813.mp3"
+  },
+  {
+   "es": "—¿De la escuela? —pregunta Lucía.",
+   "fr": "— De l'école ? demande Lucía.",
+   "audio": "es_72bf3c62cae5.mp3"
+  },
+  {
+   "es": "—Sí. La escuela está en su sangre. Su padre también era profesor.",
+   "fr": "— Oui. L'école, elle l'a dans le sang. Son père aussi était instituteur.",
+   "audio": "es_76d1b9706741.mp3"
+  },
+  {
+   "es": "La tía mira a Ramón.",
+   "fr": "La tante regarde Ramón.",
+   "audio": "es_79bb5358b187.mp3"
+  },
+  {
+   "es": "—Y tú eres el muchacho del perro negro.",
+   "fr": "— Et toi, tu es le jeune homme au chien noir.",
+   "audio": "es_c46b903ec132.mp3"
+  },
+  {
+   "es": "—Sí, soy yo —dice Ramón.",
+   "fr": "— Oui, c'est moi, dit Ramón.",
+   "audio": "es_18a8b4094bef.mp3"
+  },
+  {
+   "es": "—Su padre era un hombre malo. En su casa, él era la ley.",
+   "fr": "— Son père était un homme méchant. Chez lui, c'était lui qui faisait la loi.",
+   "audio": "es_d893323716a8.mp3"
+  },
+  {
+   "es": "—No quería un muchacho sin dinero para su hija.",
+   "fr": "— Il ne voulait pas d'un garçon sans argent pour sa fille.",
+   "audio": "es_16322c78aa13.mp3"
+  },
+  {
+   "es": "—Es extraño —dice Lucía—. ¿Es una historia real?",
+   "fr": "— C'est étrange, dit Lucía. C'est une histoire vraie ?",
+   "audio": "es_f828a033cc08.mp3"
+  },
+  {
+   "es": "—Muy real —dice la tía—. Un día, ella se fue. Es muy extraño.",
+   "fr": "— Très vraie, dit la tante. Un jour, elle est partie. C'est très étrange.",
+   "audio": "es_aba340ebaeda.mp3"
+  },
+  {
+   "es": "Ramón no dice nada.",
+   "fr": "Ramón ne dit rien.",
+   "audio": "es_1dd1b8746413.mp3"
+  },
+  {
+   "es": "—No me lo perdono. Nunca tuve otra oportunidad de hablar con ella.",
+   "fr": "— Je ne me le pardonne pas. Je n'ai jamais eu d'autre occasion de lui parler.",
+   "audio": "es_1a6d9bd74318.mp3"
+  },
+  {
+   "es": "—Ramón, tienes que perdonarte —dice Marta.",
+   "fr": "— Ramón, tu dois te pardonner, dit Marta.",
+   "audio": "es_86bb8b90f1ad.mp3"
+  },
+  {
+   "es": "—Y ahora tienes una nueva oportunidad —dice Lucía.",
+   "fr": "— Et maintenant, tu as une nouvelle occasion, dit Lucía.",
+   "audio": "es_fc2260406e96.mp3"
+  }
+ ],
+ "gloss": {
+  "dice": "dit",
+  "que": "que, qui",
+  "su": "son, sa, leur",
+  "tía": "tante",
+  "conoce": "connaît",
+  "toda": "toute",
+  "la": "la",
+  "calle": "rue",
+  "vive": "vit, habite",
+  "arriba": "en haut",
+  "sobre": "sur, au-dessus de",
+  "el": "le",
+  "café": "café",
+  "y": "et",
+  "suben": "montent",
+  "es": "est",
+  "una": "une",
+  "señora": "dame",
+  "muy": "très",
+  "pero": "mais",
+  "tiene": "a",
+  "gran": "grand",
+  "memoria": "mémoire",
+  "saca": "sort",
+  "foto": "photo",
+  "mira": "regarde",
+  "oh": "oh",
+  "conozco": "je connais",
+  "profesora": "professeure, institutrice",
+  "de": "de",
+  "escuela": "école",
+  "pregunta": "demande",
+  "sí": "oui",
+  "está": "est",
+  "en": "en, dans, à",
+  "sangre": "sang",
+  "padre": "père",
+  "también": "aussi",
+  "profesor": "professeur, instituteur",
+  "a": "à",
+  "tú": "tu, toi",
+  "eres": "tu es",
+  "muchacho": "jeune homme, garçon",
+  "del": "du (de + el)",
+  "perro": "chien",
+  "negro": "noir",
+  "soy": "je suis",
+  "yo": "je, moi",
+  "un": "un",
+  "hombre": "homme",
+  "malo": "méchant",
+  "casa": "maison",
+  "él": "il, lui",
+  "ley": "loi",
+  "no": "non, ne... pas",
+  "sin": "sans",
+  "dinero": "argent",
+  "para": "pour",
+  "hija": "fille",
+  "extraño": "étrange",
+  "historia": "histoire",
+  "real": "vraie",
+  "día": "jour",
+  "ella": "elle",
+  "se": "se",
+  "nada": "rien",
+  "nunca": "jamais",
+  "me": "me, moi",
+  "perdono": "je pardonne",
+  "otra": "autre",
+  "oportunidad": "occasion",
+  "hablar": "parler",
+  "con": "avec",
+  "tienes": "tu as",
+  "perdonarte": "te pardonner",
+  "ahora": "maintenant",
+  "nueva": "nouvelle",
+  "mayor": "âgé(e)",
+  "era": "était",
+  "quería": "voulait",
+  "fue": "(se fue) est partie",
+  "lo": "le",
+  "tuve": "j'ai eu"
+ }
+}

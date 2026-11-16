@@ -1,0 +1,216 @@
+{
+ "day": 39,
+ "title": "Un consejo de caballero",
+ "title_fr": "Un conseil de gentleman",
+ "sentences": [
+  {
+   "es": "La fiesta es mañana, y el abogado también va a venir.",
+   "fr": "La fête, c'est demain, et l'avocat va venir aussi.",
+   "audio": "es_6aa2d9ec26c4.mp3"
+  },
+  {
+   "es": "Hoy, el café está abierto todo el día. Todos preparan la fiesta.",
+   "fr": "Aujourd'hui, le café est ouvert toute la journée. Tout le monde prépare la fête.",
+   "audio": "es_8016632bee67.mp3"
+  },
+  {
+   "es": "Marta está a cargo de la comida. Lucía está a cargo de la puerta y del dinero.",
+   "fr": "Marta s'occupe de la nourriture. Lucía s'occupe de la porte et de l'argent.",
+   "audio": "es_9efc1a34369c.mp3"
+  },
+  {
+   "es": "Pipo duerme encima de los papeles de la fiesta.",
+   "fr": "Pipo dort sur les papiers de la fête.",
+   "audio": "es_57eecba5bc45.mp3"
+  },
+  {
+   "es": "Alguien golpea la puerta. Es Pablo, con muchas cartas.",
+   "fr": "Quelqu'un frappe à la porte. C'est Pablo, avec beaucoup de lettres.",
+   "audio": "es_1ac7642fab67.mp3"
+  },
+  {
+   "es": "—¿Puedo entrar? Está abierto, ¿no?",
+   "fr": "« Je peux entrer ? C'est ouvert, non ? »",
+   "audio": "es_fbe4950f63ed.mp3"
+  },
+  {
+   "es": "Detrás de Pablo, están Carmen y Lola.",
+   "fr": "Derrière Pablo, il y a Carmen et Lola.",
+   "audio": "es_2ac8d2f7318b.mp3"
+  },
+  {
+   "es": "—¡Hola! ¡Venimos a ayudar! —dice Lola.",
+   "fr": "« Bonjour ! On vient aider ! » dit Lola.",
+   "audio": "es_60ad9c16dd8d.mp3"
+  },
+  {
+   "es": "Diego está muy nervioso.",
+   "fr": "Diego est très nerveux.",
+   "audio": "es_9703ccf24f26.mp3"
+  },
+  {
+   "es": "—¿Qué te pasa? —pregunta Lucía.",
+   "fr": "« Qu'est-ce qui t'arrive ? » demande Lucía.",
+   "audio": "es_d822567b55fd.mp3"
+  },
+  {
+   "es": "—Sufro mucho antes de tocar. Y Ramón dice que tengo que cantar.",
+   "fr": "« Je souffre beaucoup avant de jouer. Et Ramón dit que je dois chanter. »",
+   "audio": "es_0a093ee4c04e.mp3"
+  },
+  {
+   "es": "—¿Cantar? ¿Tú cantas?",
+   "fr": "« Chanter ? Tu chantes ? »",
+   "audio": "es_2722895434ba.mp3"
+  },
+  {
+   "es": "—Sí, un poco. Pero tengo miedo.",
+   "fr": "« Oui, un peu. Mais j'ai peur. »",
+   "audio": "es_7f7c75b719a6.mp3"
+  },
+  {
+   "es": "Ramón llega con un consejo.",
+   "fr": "Ramón arrive avec un conseil.",
+   "audio": "es_ae2e4b346592.mp3"
+  },
+  {
+   "es": "—Mi consejo: canta con el corazón. Un caballero no tiene miedo.",
+   "fr": "« Mon conseil : chante avec le cœur. Un gentleman n'a pas peur. »",
+   "audio": "es_079127e84c95.mp3"
+  },
+  {
+   "es": "—Yo no soy un caballero, Don Ramón.",
+   "fr": "« Je ne suis pas un gentleman, Don Ramón. »",
+   "audio": "es_9ff9473076ae.mp3"
+  },
+  {
+   "es": "—¿Y yo? ¿Soy un caballero? —pregunta Lola.",
+   "fr": "« Et moi ? Je suis un gentleman ? » demande Lola.",
+   "audio": "es_74ebc6232aa8.mp3"
+  },
+  {
+   "es": "—Tú eres una señorita —dice Ramón. Todos se ríen.",
+   "fr": "« Toi, tu es une demoiselle », dit Ramón. Tout le monde rit.",
+   "audio": "es_32a7ba081ae2.mp3"
+  },
+  {
+   "es": "Por la noche, Lucía y Diego caminan por la calle del Sol.",
+   "fr": "Le soir, Lucía et Diego marchent dans la calle del Sol.",
+   "audio": "es_de2f6c646622.mp3"
+  },
+  {
+   "es": "El corazón de Diego golpea fuerte.",
+   "fr": "Le cœur de Diego bat fort.",
+   "audio": "es_3df73ecaf84e.mp3"
+  },
+  {
+   "es": "—No sufras —dice Lucía—. Mañana todo va a salir bien.",
+   "fr": "« Ne t'en fais pas, dit Lucía. Demain, tout va bien se passer. »",
+   "audio": "es_9f0082e5b949.mp3"
+  },
+  {
+   "es": "Caminan un poco más. Detrás de ellos, Pipo camina también.",
+   "fr": "Ils marchent encore un peu. Derrière eux, Pipo marche aussi.",
+   "audio": "es_0836049bff82.mp3"
+  },
+  {
+   "es": "—Gracias, Lucía. Tu consejo es el mejor —dice Diego.",
+   "fr": "« Merci, Lucía. Ton conseil est le meilleur », dit Diego.",
+   "audio": "es_c80ce40489ee.mp3"
+  }
+ ],
+ "gloss": {
+  "la": "la",
+  "fiesta": "fête",
+  "es": "est",
+  "mañana": "demain",
+  "y": "et",
+  "el": "le",
+  "abogado": "avocat",
+  "también": "aussi",
+  "va": "va",
+  "a": "à",
+  "venir": "venir",
+  "hoy": "aujourd'hui",
+  "café": "café",
+  "está": "est",
+  "abierto": "ouvert",
+  "todo": "tout (todo el día = toute la journée)",
+  "día": "jour",
+  "todos": "tout le monde",
+  "preparan": "préparent",
+  "cargo": "charge (a cargo de = responsable de)",
+  "de": "de",
+  "comida": "nourriture",
+  "puerta": "porte",
+  "del": "du",
+  "dinero": "argent",
+  "duerme": "dort",
+  "encima": "dessus (encima de = sur)",
+  "los": "les",
+  "papeles": "papiers",
+  "alguien": "quelqu'un",
+  "golpea": "frappe ; bat (le cœur)",
+  "con": "avec",
+  "muchas": "beaucoup de",
+  "cartas": "lettres",
+  "puedo": "je peux",
+  "entrar": "entrer",
+  "no": "non, ne… pas",
+  "detrás": "derrière (detrás de)",
+  "están": "sont",
+  "hola": "bonjour, salut",
+  "venimos": "nous venons",
+  "ayudar": "aider",
+  "dice": "dit",
+  "muy": "très",
+  "nervioso": "nerveux",
+  "qué": "quoi, que",
+  "te": "te, toi",
+  "pasa": "arrive (qué te pasa = qu'est-ce qui t'arrive)",
+  "pregunta": "demande",
+  "sufro": "je souffre",
+  "mucho": "beaucoup",
+  "antes": "avant",
+  "tocar": "jouer (de la musique)",
+  "que": "que, qui",
+  "tengo": "je dois (tengo que) ; j'ai",
+  "cantar": "chanter",
+  "tú": "tu, toi",
+  "cantas": "tu chantes",
+  "sí": "oui",
+  "un": "un",
+  "poco": "peu",
+  "pero": "mais",
+  "miedo": "peur",
+  "llega": "arrive",
+  "consejo": "conseil",
+  "mi": "mon, ma",
+  "canta": "chante",
+  "corazón": "cœur",
+  "caballero": "gentleman, monsieur",
+  "tiene": "a",
+  "yo": "je, moi",
+  "soy": "je suis",
+  "don": "don (titre de respect)",
+  "eres": "tu es",
+  "una": "une",
+  "señorita": "demoiselle",
+  "se": "se",
+  "ríen": "rient (se ríen)",
+  "por": "par, pour",
+  "noche": "nuit, soir",
+  "caminan": "marchent",
+  "calle": "rue",
+  "fuerte": "fort",
+  "sufras": "souffre (no sufras = ne t'en fais pas)",
+  "salir": "sortir (salir bien = bien se passer)",
+  "bien": "bien",
+  "más": "plus (un poco más = encore un peu)",
+  "ellos": "eux",
+  "camina": "marche",
+  "gracias": "merci",
+  "tu": "ton, ta",
+  "mejor": "meilleur"
+ }
+}

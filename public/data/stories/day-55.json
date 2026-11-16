@@ -1,0 +1,218 @@
+{
+ "day": 55,
+ "title": "¿Viajar o quedarse?",
+ "title_fr": "Voyager ou rester ?",
+ "sentences": [
+  {
+   "es": "Ayer, Marta se enteró de que la mujer de la foto era su abuela.",
+   "fr": "Hier, Marta a appris que la femme de la photo était sa grand-mère.",
+   "audio": "es_9735ec821955.mp3"
+  },
+  {
+   "es": "Hoy, Lucía recibe un mensaje de su jefe.",
+   "fr": "Aujourd'hui, Lucía reçoit un message de son chef.",
+   "audio": "es_7479b406db6b.mp3"
+  },
+  {
+   "es": "La empresa quiere desarrollar un proyecto en Francia.",
+   "fr": "L'entreprise veut développer un projet en France.",
+   "audio": "es_50d4c662f7d3.mp3"
+  },
+  {
+   "es": "«Lucía, ¿quieres volver a Francia? Puedes viajar en tren la semana próxima.»",
+   "fr": "« Lucía, veux-tu retourner en France ? Tu peux voyager en train la semaine prochaine. »",
+   "audio": "es_aab2bf920165.mp3"
+  },
+  {
+   "es": "La idea la asusta un poco.",
+   "fr": "L'idée lui fait un peu peur.",
+   "audio": "es_b6bfcda95997.mp3"
+  },
+  {
+   "es": "Lucía va al café y habla con Diego.",
+   "fr": "Lucía va au café et parle avec Diego.",
+   "audio": "es_86074416fe0b.mp3"
+  },
+  {
+   "es": "—Mi empresa quiere desarrollar un proyecto en Francia —dice.",
+   "fr": "« Mon entreprise veut développer un projet en France », dit-elle.",
+   "audio": "es_e2f6639561d7.mp3"
+  },
+  {
+   "es": "—¿Y tú qué quieres? ¿Viajar o permanecer aquí?",
+   "fr": "« Et toi, qu'est-ce que tu veux ? Voyager ou rester ici ? »",
+   "audio": "es_00f7f88230d4.mp3"
+  },
+  {
+   "es": "—No sé. Volver es un riesgo. Quedarme también es un riesgo.",
+   "fr": "« Je ne sais pas. Rentrer, c'est un risque. Rester aussi, c'est un risque. »",
+   "audio": "es_7fcedc0a6df4.mp3"
+  },
+  {
+   "es": "Diego aparta su café y la mira.",
+   "fr": "Diego écarte son café et la regarde.",
+   "audio": "es_bfcd8b144eb1.mp3"
+  },
+  {
+   "es": "—No quiero asustarte, pero... ¿te vas?",
+   "fr": "« Je ne veux pas te faire peur, mais... tu t'en vas ? »",
+   "audio": "es_cd94ab9798da.mp3"
+  },
+  {
+   "es": "—Todavía no sé.",
+   "fr": "« Je ne sais pas encore. »",
+   "audio": "es_4c187d21ecae.mp3"
+  },
+  {
+   "es": "Por la tarde, Lucía camina hasta el mar. Hace mucho sol y ella se cubre la cabeza.",
+   "fr": "L'après-midi, Lucía marche jusqu'à la mer. Il y a beaucoup de soleil et elle se couvre la tête.",
+   "audio": "es_1238b348ceb5.mp3"
+  },
+  {
+   "es": "Mira la salida de una nave muy grande.",
+   "fr": "Elle regarde le départ d'un très grand navire.",
+   "audio": "es_b1f033fb8a33.mp3"
+  },
+  {
+   "es": "—Esa nave va a viajar muy lejos —piensa—. ¿Y yo?",
+   "fr": "« Ce navire va voyager très loin, pense-t-elle. Et moi ? »",
+   "audio": "es_826f82b5e36e.mp3"
+  },
+  {
+   "es": "A la salida del metro, encuentra a Ramón.",
+   "fr": "À la sortie du métro, elle rencontre Ramón.",
+   "audio": "es_2bf48a908ce4.mp3"
+  },
+  {
+   "es": "—Lucía, en la vida hay que correr riesgos —dice él.",
+   "fr": "« Lucía, dans la vie, il faut prendre des risques », dit-il.",
+   "audio": "es_d011395e8af9.mp3"
+  },
+  {
+   "es": "—Pero no hay que huir. Mi padre huyó. Tú puedes permanecer aquí.",
+   "fr": "« Mais il ne faut pas fuir. Mon père a fui. Toi, tu peux rester ici. »",
+   "audio": "es_19a7431a319a.mp3"
+  },
+  {
+   "es": "Lucía aparta sus miedos. Ya sabe su respuesta.",
+   "fr": "Lucía écarte ses peurs. Elle connaît déjà sa réponse.",
+   "audio": "es_e227b7a34a14.mp3"
+  },
+  {
+   "es": "—No voy a tomar ese tren. Me quedo en Valencia.",
+   "fr": "« Je ne vais pas prendre ce train. Je reste à Valencia. »",
+   "audio": "es_6299988e73ea.mp3"
+  },
+  {
+   "es": "Ramón cubre su mano con la suya. —Bien hecho.",
+   "fr": "Ramón couvre sa main avec la sienne. « Bien joué. »",
+   "audio": "es_8f9e5130f219.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à ; en",
+  "abuela": "grand-mère",
+  "al": "au",
+  "aparta": "écarte",
+  "aquí": "ici",
+  "asusta": "fait peur",
+  "asustarte": "te faire peur",
+  "ayer": "hier",
+  "bien": "bien",
+  "cabeza": "tête",
+  "café": "café",
+  "camina": "marche",
+  "con": "avec",
+  "cubre": "couvre",
+  "de": "de",
+  "del": "du",
+  "desarrollar": "développer",
+  "dice": "dit",
+  "el": "le",
+  "ella": "elle",
+  "empresa": "entreprise",
+  "en": "dans ; en ; à",
+  "encuentra": "rencontre ; trouve",
+  "enteró": "a appris (se enteró)",
+  "era": "était",
+  "es": "est",
+  "esa": "ce (fém.)",
+  "ese": "ce",
+  "foto": "photo",
+  "grande": "grand",
+  "habla": "parle",
+  "hace": "fait",
+  "hasta": "jusqu'à",
+  "hay": "il y a (hay que = il faut)",
+  "hecho": "fait (bien hecho = bien joué)",
+  "hoy": "aujourd'hui",
+  "huir": "fuir",
+  "huyó": "a fui",
+  "idea": "idée",
+  "jefe": "chef",
+  "la": "la ; lui",
+  "lejos": "loin",
+  "mano": "main",
+  "mar": "mer",
+  "me": "me",
+  "mensaje": "message",
+  "metro": "métro",
+  "mi": "mon ; mes",
+  "miedos": "peurs",
+  "mira": "regarde",
+  "mucho": "beaucoup de",
+  "mujer": "femme",
+  "muy": "très",
+  "nave": "navire",
+  "no": "non ; ne... pas",
+  "o": "ou",
+  "padre": "père",
+  "permanecer": "rester",
+  "pero": "mais",
+  "piensa": "pense",
+  "poco": "peu (un poco = un peu)",
+  "por": "par (por la tarde = l'après-midi)",
+  "proyecto": "projet",
+  "próxima": "prochaine",
+  "puedes": "tu peux",
+  "que": "que",
+  "quedarme": "rester (moi)",
+  "quedo": "je reste (me quedo)",
+  "quiere": "veut",
+  "quieres": "tu veux",
+  "quiero": "je veux",
+  "qué": "quoi",
+  "recibe": "reçoit",
+  "respuesta": "réponse",
+  "riesgo": "risque",
+  "riesgos": "risques",
+  "sabe": "sait",
+  "salida": "départ ; sortie",
+  "se": "se",
+  "semana": "semaine",
+  "su": "son ; sa",
+  "sus": "ses",
+  "suya": "la sienne",
+  "sé": "je sais",
+  "también": "aussi",
+  "tarde": "après-midi",
+  "te": "te",
+  "todavía": "encore",
+  "tomar": "prendre",
+  "tren": "train",
+  "tú": "toi ; tu",
+  "un": "un",
+  "una": "une",
+  "va": "va",
+  "vas": "tu vas (te vas = tu t'en vas)",
+  "viajar": "voyager",
+  "vida": "vie",
+  "volver": "rentrer ; retourner",
+  "voy": "je vais",
+  "y": "et",
+  "ya": "déjà",
+  "yo": "moi ; je",
+  "él": "il",
+  "correr": "courir (correr riesgos = prendre des risques)"
+ }
+}

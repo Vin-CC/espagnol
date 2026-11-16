@@ -1,0 +1,181 @@
+{
+ "day": 22,
+ "title": "Ni siquiera adiós",
+ "title_fr": "Même pas au revoir",
+ "sentences": [
+  {
+   "es": "Ayer, Lucía encontró una nota vieja en casa de Ramón.",
+   "fr": "Hier, Lucía a trouvé une vieille note chez Ramón.",
+   "audio": "es_5835f82bbf47.mp3"
+  },
+  {
+   "es": "Va al café de Marta. Diego está allí con un libro.",
+   "fr": "Elle va au café de Marta. Diego est là, avec un livre.",
+   "audio": "es_b9ffe3cd26a0.mp3"
+  },
+  {
+   "es": "—Hola, Lucía. ¿Qué te pasa?",
+   "fr": "— Salut, Lucía. Qu'est-ce qui t'arrive ?",
+   "audio": "es_38cf1e0b6630.mp3"
+  },
+  {
+   "es": "Lucía le cuenta todo.",
+   "fr": "Lucía lui raconte tout.",
+   "audio": "es_bfe078a6824b.mp3"
+  },
+  {
+   "es": "—Ayer Ramón ni siquiera me miró. Ni siquiera me dijo adiós.",
+   "fr": "— Hier, Ramón ne m'a même pas regardée. Il ne m'a même pas dit au revoir.",
+   "audio": "es_16d6e2746d03.mp3"
+  },
+  {
+   "es": "—Es una historia de amor —dice Diego—. Es igual que en mi libro.",
+   "fr": "— C'est une histoire d'amour, dit Diego. C'est pareil que dans mon livre.",
+   "audio": "es_c102ff2808ea.mp3"
+  },
+  {
+   "es": "«Te echo de menos» son palabras del corazón.",
+   "fr": "« Tu me manques », ce sont des mots du cœur.",
+   "audio": "es_31eec14dbb50.mp3"
+  },
+  {
+   "es": "Marta llega: —Ramón tiene un gran corazón, incluso con su mal carácter.",
+   "fr": "Marta arrive : — Ramón a un grand cœur, même avec son mauvais caractère.",
+   "audio": "es_69cd8d1763c1.mp3"
+  },
+  {
+   "es": "—¿Y tú sabes quién es C.?",
+   "fr": "— Et toi, tu sais qui est C. ?",
+   "audio": "es_9cf0b7f32a66.mp3"
+  },
+  {
+   "es": "—No. Ni siquiera yo lo sé.",
+   "fr": "— Non. Même moi, je ne le sais pas.",
+   "audio": "es_9a42ddfa6e21.mp3"
+  },
+  {
+   "es": "Por la tarde, Lucía va a casa de Ramón.",
+   "fr": "L'après-midi, Lucía va chez Ramón.",
+   "audio": "es_0c3f6f706cdd.mp3"
+  },
+  {
+   "es": "Ramón está en la puerta. Mete la nota en un libro.",
+   "fr": "Ramón est à la porte. Il met la note dans un livre.",
+   "audio": "es_e547400de0f3.mp3"
+  },
+  {
+   "es": "Lucía quiere entrar, pero Ramón la detiene.",
+   "fr": "Lucía veut entrer, mais Ramón l'arrête.",
+   "audio": "es_c5b8c71935ac.mp3"
+  },
+  {
+   "es": "—Por favor, Lucía. No quiero hablar de la nota.",
+   "fr": "— S'il te plaît, Lucía. Je ne veux pas parler de la note.",
+   "audio": "es_1dc6aac7b051.mp3"
+  },
+  {
+   "es": "Lucía no se detiene: —Pero, Ramón...",
+   "fr": "Lucía ne s'arrête pas : — Mais, Ramón...",
+   "audio": "es_df4f71da625a.mp3"
+  },
+  {
+   "es": "—Adiós, Lucía. Buena suerte con tu trabajo.",
+   "fr": "— Au revoir, Lucía. Bonne chance pour ton travail.",
+   "audio": "es_66b51339614e.mp3"
+  },
+  {
+   "es": "Ramón entra en su casa con el libro.",
+   "fr": "Ramón rentre chez lui avec le livre.",
+   "audio": "es_e5cd9f4218a2.mp3"
+  },
+  {
+   "es": "Lucía piensa: «Igual mañana habla. Con un poco de suerte...»",
+   "fr": "Lucía pense : « Peut-être que demain il parlera. Avec un peu de chance... »",
+   "audio": "es_37983115dab3.mp3"
+  }
+ ],
+ "gloss": {
+  "ayer": "hier",
+  "encontró": "a trouvé",
+  "una": "une",
+  "nota": "note",
+  "vieja": "vieille",
+  "en": "en, dans, à",
+  "casa": "maison",
+  "de": "de",
+  "va": "va",
+  "al": "au (a + el)",
+  "café": "café",
+  "está": "est",
+  "allí": "là",
+  "con": "avec",
+  "un": "un",
+  "libro": "livre",
+  "hola": "bonjour, salut",
+  "qué": "quoi, qu'est-ce que",
+  "te": "te, toi",
+  "pasa": "arrive (qué te pasa : qu'est-ce qui t'arrive)",
+  "le": "lui",
+  "cuenta": "raconte",
+  "todo": "tout",
+  "ni": "ni, même pas",
+  "siquiera": "ni siquiera : même pas",
+  "me": "me, moi",
+  "miró": "a regardé",
+  "dijo": "a dit",
+  "adiós": "au revoir",
+  "es": "est",
+  "historia": "histoire",
+  "amor": "amour",
+  "dice": "dit",
+  "igual": "pareil ; (fam.) peut-être",
+  "que": "que, qui",
+  "mi": "mon, ma",
+  "echo": "echo de menos : tu me manques",
+  "menos": "moins (echar de menos : manquer)",
+  "son": "sont",
+  "palabras": "mots",
+  "del": "du (de + el)",
+  "corazón": "cœur",
+  "llega": "arrive",
+  "tiene": "a",
+  "gran": "grand",
+  "incluso": "même",
+  "su": "son, sa, leur",
+  "mal": "mauvais ; mal",
+  "carácter": "caractère",
+  "y": "et",
+  "tú": "tu, toi",
+  "sabes": "tu sais",
+  "quién": "qui",
+  "c": "C. (initiale)",
+  "no": "non, ne... pas",
+  "yo": "je, moi",
+  "lo": "le",
+  "sé": "je sais",
+  "por": "par, pour",
+  "la": "la",
+  "tarde": "après-midi",
+  "a": "à",
+  "puerta": "porte",
+  "mete": "met",
+  "quiere": "veut",
+  "entrar": "entrer",
+  "pero": "mais",
+  "detiene": "arrête",
+  "favor": "por favor : s'il te plaît",
+  "quiero": "je veux",
+  "hablar": "parler",
+  "se": "se",
+  "buena": "bonne",
+  "suerte": "chance",
+  "tu": "ton, ta",
+  "trabajo": "travail",
+  "el": "le",
+  "piensa": "pense",
+  "mañana": "demain ; matin",
+  "habla": "parle",
+  "poco": "peu",
+  "entra": "entre, rentre"
+ }
+}

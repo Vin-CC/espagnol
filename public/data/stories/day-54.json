@@ -1,0 +1,218 @@
+{
+ "day": 54,
+ "title": "Marta se entera",
+ "title_fr": "Marta l'apprend",
+ "sentences": [
+  {
+   "es": "Ayer, Lucía y Ramón hallaron una foto de una mujer con un vestido blanco.",
+   "fr": "Hier, Lucía et Ramón ont trouvé une photo d'une femme avec une robe blanche.",
+   "audio": "es_59cb84be4f55.mp3"
+  },
+  {
+   "es": "Hoy van a la universidad, al departamento de historia.",
+   "fr": "Aujourd'hui, ils vont à l'université, au département d'histoire.",
+   "audio": "es_5043760e7a9c.mp3"
+  },
+  {
+   "es": "Allí hay una gran cantidad de papeles y fotos viejas.",
+   "fr": "Là-bas, il y a une grande quantité de papiers et de vieilles photos.",
+   "audio": "es_91d4b8609ed9.mp3"
+  },
+  {
+   "es": "Primer intento: nada. Segundo intento: nada.",
+   "fr": "Premier essai : rien. Deuxième essai : rien.",
+   "audio": "es_9f26b34395cf.mp3"
+  },
+  {
+   "es": "En el tercer intento, Lucía encuentra la misma foto.",
+   "fr": "Au troisième essai, Lucía trouve la même photo.",
+   "audio": "es_5e49214b0164.mp3"
+  },
+  {
+   "es": "Un papel dice: «Esta foto pertenece a la familia del café de la calle del Sol».",
+   "fr": "Un papier dit : « Cette photo appartient à la famille du café de la calle del Sol ».",
+   "audio": "es_c97e8e6c27f2.mp3"
+  },
+  {
+   "es": "—¡El café de Marta! —dice Lucía.",
+   "fr": "« Le café de Marta ! » dit Lucía.",
+   "audio": "es_198a19aeab64.mp3"
+  },
+  {
+   "es": "Por la tarde, hablan con Marta. Marta tiene que enterarse de toda la historia.",
+   "fr": "L'après-midi, ils parlent avec Marta. Marta doit apprendre toute l'histoire.",
+   "audio": "es_5e69022ee860.mp3"
+  },
+  {
+   "es": "—¿Es una broma? —pregunta Marta.",
+   "fr": "« C'est une blague ? » demande Marta.",
+   "audio": "es_6c92b79a44d2.mp3"
+  },
+  {
+   "es": "—No es una broma. Mira la foto.",
+   "fr": "« Ce n'est pas une blague. Regarde la photo. »",
+   "audio": "es_d3a877597723.mp3"
+  },
+  {
+   "es": "—Es mi abuela... —dice Marta—. Mi abuela me contó una historia: un hombre la engañó y se fue.",
+   "fr": "« C'est ma grand-mère..., dit Marta. Ma grand-mère m'a raconté une histoire : un homme l'a trompée et il est parti. »",
+   "audio": "es_22867d827a16.mp3"
+  },
+  {
+   "es": "—No, Marta. Mi padre no la engañó —dice Ramón—. Tuvo que huir.",
+   "fr": "« Non, Marta. Mon père ne l'a pas trompée, dit Ramón. Il a dû fuir. »",
+   "audio": "es_f1388944fcb1.mp3"
+  },
+  {
+   "es": "—Hubo un juicio. Dijeron que robó oro. Pero no era verdad.",
+   "fr": "« Il y a eu un procès. On a dit qu'il avait volé de l'or. Mais ce n'était pas vrai. »",
+   "audio": "es_9be9907d3ce1.mp3"
+  },
+  {
+   "es": "—Entonces, el juicio fue un error.",
+   "fr": "« Alors, le procès était une erreur. »",
+   "audio": "es_7fa85f52e48e.mp3"
+  },
+  {
+   "es": "Marta mira a Ramón en silencio.",
+   "fr": "Marta regarde Ramón en silence.",
+   "audio": "es_a6c744b47fc9.mp3"
+  },
+  {
+   "es": "—Entendido —dice al final—. Gracias por compartir esto conmigo.",
+   "fr": "« Compris, dit-elle à la fin. Merci de partager ça avec moi. »",
+   "audio": "es_aaf6a2bcfbdf.mp3"
+  },
+  {
+   "es": "Marta besa a Ramón en la cara.",
+   "fr": "Marta embrasse Ramón sur la joue.",
+   "audio": "es_e3e778237eb1.mp3"
+  },
+  {
+   "es": "Diego llega y quiere enterarse de todo también.",
+   "fr": "Diego arrive et veut tout savoir, lui aussi.",
+   "audio": "es_b7737fcc6c35.mp3"
+  },
+  {
+   "es": "—¿Entonces somos casi familia? —dice, y se ríe.",
+   "fr": "« Alors on est presque de la même famille ? » dit-il, et il rit.",
+   "audio": "es_2bda88eb5e10.mp3"
+  },
+  {
+   "es": "—No es broma, Diego —dice Marta—. Esta carta pertenece a las dos familias.",
+   "fr": "« Ce n'est pas une blague, Diego, dit Marta. Cette lettre appartient aux deux familles. »",
+   "audio": "es_bc2a17a531c9.mp3"
+  },
+  {
+   "es": "—Entendido, entendido. Vamos a compartir un café.",
+   "fr": "« Compris, compris. On va partager un café. »",
+   "audio": "es_8565f72d0c98.mp3"
+  },
+  {
+   "es": "Lucía besa a Pipo. Hoy es un buen día.",
+   "fr": "Lucía embrasse Pipo. Aujourd'hui, c'est une bonne journée.",
+   "audio": "es_3634b80eee7e.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à",
+  "abuela": "grand-mère",
+  "al": "au",
+  "allí": "là-bas",
+  "ayer": "hier",
+  "besa": "embrasse",
+  "blanco": "blanc",
+  "broma": "blague",
+  "buen": "bon",
+  "café": "café",
+  "calle": "rue",
+  "cantidad": "quantité",
+  "cara": "visage ; joue",
+  "carta": "lettre",
+  "casi": "presque",
+  "compartir": "partager",
+  "con": "avec",
+  "conmigo": "avec moi",
+  "contó": "a raconté",
+  "de": "de",
+  "del": "du ; de la",
+  "departamento": "département",
+  "dice": "dit",
+  "dijeron": "ils ont dit ; on a dit",
+  "dos": "deux",
+  "día": "jour ; journée",
+  "el": "le",
+  "en": "dans ; à ; sur",
+  "encuentra": "trouve",
+  "engañó": "a trompé",
+  "entendido": "compris",
+  "enterarse": "apprendre ; être au courant",
+  "entonces": "alors",
+  "era": "était",
+  "error": "erreur",
+  "es": "est",
+  "esta": "cette",
+  "esto": "ça",
+  "familia": "famille",
+  "familias": "familles",
+  "final": "fin (al final = à la fin)",
+  "foto": "photo",
+  "fotos": "photos",
+  "fue": "fut ; a été ; est parti (se fue)",
+  "gracias": "merci",
+  "gran": "grande",
+  "hablan": "ils parlent",
+  "hallaron": "ont trouvé",
+  "hay": "il y a",
+  "historia": "histoire",
+  "hombre": "homme",
+  "hoy": "aujourd'hui",
+  "hubo": "il y a eu",
+  "huir": "fuir",
+  "intento": "essai ; tentative",
+  "juicio": "procès",
+  "la": "la ; l'",
+  "las": "les",
+  "llega": "arrive",
+  "me": "me",
+  "mi": "mon ; ma",
+  "mira": "regarde",
+  "misma": "même",
+  "mujer": "femme",
+  "nada": "rien",
+  "no": "non ; ne... pas",
+  "oro": "or",
+  "padre": "père",
+  "papel": "papier",
+  "papeles": "papiers",
+  "pero": "mais",
+  "pertenece": "appartient",
+  "por": "pour ; par",
+  "pregunta": "demande",
+  "primer": "premier",
+  "que": "que",
+  "quiere": "veut",
+  "robó": "a volé",
+  "ríe": "rit (se ríe)",
+  "se": "se",
+  "segundo": "deuxième",
+  "silencio": "silence",
+  "somos": "nous sommes",
+  "también": "aussi",
+  "tarde": "après-midi",
+  "tercer": "troisième",
+  "tiene": "a (tiene que = doit)",
+  "toda": "toute",
+  "todo": "tout",
+  "tuvo": "a eu (tuvo que = a dû)",
+  "un": "un",
+  "una": "une",
+  "universidad": "université",
+  "vamos": "nous allons ; on va",
+  "van": "ils vont",
+  "verdad": "vrai",
+  "vestido": "robe",
+  "viejas": "vieilles",
+  "y": "et"
+ }
+}

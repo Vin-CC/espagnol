@@ -1,0 +1,227 @@
+{
+ "day": 48,
+ "title": "Un regalo escondido",
+ "title_fr": "Un cadeau caché",
+ "sentences": [
+  {
+   "es": "Ramón y la madre de Lucía tienen un plan secreto. Pero Lucía también tiene uno.",
+   "fr": "Ramón et la mère de Lucía ont un plan secret. Mais Lucía en a un aussi.",
+   "audio": "es_158ab44091e4.mp3"
+  },
+  {
+   "es": "Quiere hacer un regalo a su madre.",
+   "fr": "Elle veut faire un cadeau à sa mère.",
+   "audio": "es_4d35d2e1c3a5.mp3"
+  },
+  {
+   "es": "Después del trabajo, va a un edificio antiguo del centro.",
+   "fr": "Après le travail, elle va dans un vieux bâtiment du centre.",
+   "audio": "es_50d50aa8f0ed.mp3"
+  },
+  {
+   "es": "En la entrada del edificio hay una señal: «Teatro, a la derecha».",
+   "fr": "À l'entrée du bâtiment, il y a un panneau : « Théâtre, à droite ».",
+   "audio": "es_31f59f88c180.mp3"
+  },
+  {
+   "es": "Lucía sigue la señal y va a la derecha.",
+   "fr": "Lucía suit le panneau et va à droite.",
+   "audio": "es_7015291c05f0.mp3"
+  },
+  {
+   "es": "—Buenas tardes. Quiero dos entradas para el próximo fin de semana.",
+   "fr": "« Bonsoir. Je voudrais deux places pour le week-end prochain. »",
+   "audio": "es_c42e7f4151e1.mp3"
+  },
+  {
+   "es": "—¿Para usted y para quién?",
+   "fr": "« Pour vous et pour qui ? »",
+   "audio": "es_29f15a3248a9.mp3"
+  },
+  {
+   "es": "—Para mí y para mi madre. Es un regalo.",
+   "fr": "« Pour moi et pour ma mère. C'est un cadeau. »",
+   "audio": "es_3ac0153cac95.mp3"
+  },
+  {
+   "es": "—Muy bien. Pero cuestan mucho dinero.",
+   "fr": "« Très bien. Mais elles coûtent beaucoup d'argent. »",
+   "audio": "es_edaa4dc697a6.mp3"
+  },
+  {
+   "es": "—No importa. Cuesta mucho, pero es una muestra de amor.",
+   "fr": "« Peu importe. Ça coûte cher, mais c'est une preuve d'amour. »",
+   "audio": "es_fee974ff382a.mp3"
+  },
+  {
+   "es": "En casa, Lucía tiene que esconder las entradas.",
+   "fr": "À la maison, Lucía doit cacher les places.",
+   "audio": "es_483ffb656a5d.mp3"
+  },
+  {
+   "es": "Las esconde en un libro, en la mesa.",
+   "fr": "Elle les cache dans un livre, sur la table.",
+   "audio": "es_d1eb5e306ea6.mp3"
+  },
+  {
+   "es": "Pero Pipo ve todo. Coge el libro con la boca.",
+   "fr": "Mais Pipo voit tout. Il prend le livre avec sa gueule.",
+   "audio": "es_e8fe7d9d387c.mp3"
+  },
+  {
+   "es": "—¡Pipo! ¡Suéltalo!",
+   "fr": "« Pipo ! Lâche-le ! »",
+   "audio": "es_e9bfcccbfbab.mp3"
+  },
+  {
+   "es": "Pipo no quiere soltar el libro. Corre y se esconde bajo la cama.",
+   "fr": "Pipo ne veut pas lâcher le livre. Il court et se cache sous le lit.",
+   "audio": "es_b2bd93e19d93.mp3"
+  },
+  {
+   "es": "En ese momento, la madre entra. —¿Qué pasa aquí?",
+   "fr": "À ce moment-là, la mère entre. « Qu'est-ce qui se passe ici ? »",
+   "audio": "es_57d15ff20acd.mp3"
+  },
+  {
+   "es": "—¡Nada, mamá! Pipo juega, nada más.",
+   "fr": "« Rien, maman ! Pipo joue, c'est tout. »",
+   "audio": "es_08debc683d28.mp3"
+  },
+  {
+   "es": "Al final, Pipo deja el libro. Las entradas están bien.",
+   "fr": "Finalement, Pipo laisse le livre. Les places sont intactes.",
+   "audio": "es_e529431810e6.mp3"
+  },
+  {
+   "es": "Su madre mira a Lucía y ríe.",
+   "fr": "Sa mère regarde Lucía et rit.",
+   "audio": "es_ffb7e51cc4e1.mp3"
+  },
+  {
+   "es": "—Siempre fuiste así, hija. De niña, cuando eras la menor de la familia, siempre escondías cosas.",
+   "fr": "« Tu as toujours été comme ça, ma fille. Petite, quand tu étais la plus jeune de la famille, tu cachais toujours des choses. »",
+   "audio": "es_a2d10564d41a.mp3"
+  },
+  {
+   "es": "—¿Y tú, mamá? ¿Tú no tienes secretos?",
+   "fr": "« Et toi, maman ? Tu n'as pas de secrets ? »",
+   "audio": "es_208363a33979.mp3"
+  },
+  {
+   "es": "—Yo nunca —dice su madre. Pero la madre también tiene uno.",
+   "fr": "« Moi, jamais », dit sa mère. Mais la mère en a un aussi.",
+   "audio": "es_157e99d55135.mp3"
+  }
+ ],
+ "gloss": {
+  "y": "et",
+  "la": "la",
+  "madre": "mère",
+  "de": "de",
+  "tienen": "ils/elles ont",
+  "un": "un",
+  "plan": "plan",
+  "secreto": "secret",
+  "pero": "mais",
+  "también": "aussi",
+  "tiene": "a ; doit (tiene que)",
+  "uno": "un",
+  "quiere": "veut",
+  "hacer": "faire",
+  "regalo": "cadeau",
+  "a": "à",
+  "su": "son, sa",
+  "después": "après, ensuite",
+  "del": "du (de + el)",
+  "trabajo": "travail",
+  "va": "va",
+  "edificio": "bâtiment",
+  "antiguo": "ancien, vieux",
+  "centro": "centre",
+  "en": "dans, en, sur",
+  "entrada": "entrée",
+  "hay": "il y a",
+  "una": "une",
+  "señal": "panneau, signe",
+  "teatro": "théâtre",
+  "derecha": "droite",
+  "sigue": "suit",
+  "buenas": "bonnes ; buenas tardes : bonsoir",
+  "tardes": "après-midi",
+  "quiero": "je veux",
+  "dos": "deux",
+  "entradas": "places, billets",
+  "para": "pour",
+  "el": "le",
+  "próximo": "prochain",
+  "fin": "fin",
+  "semana": "semaine",
+  "usted": "vous (politesse)",
+  "quién": "qui",
+  "mí": "moi",
+  "mi": "mon, ma",
+  "es": "est",
+  "muy": "très",
+  "bien": "bien",
+  "cuestan": "coûtent",
+  "mucho": "beaucoup",
+  "dinero": "argent",
+  "no": "non, ne… pas",
+  "importa": "importe ; no importa : peu importe",
+  "cuesta": "coûte",
+  "muestra": "preuve, marque",
+  "amor": "amour",
+  "casa": "maison",
+  "que": "que",
+  "esconder": "cacher",
+  "las": "les (article) ; les (pronom)",
+  "esconde": "cache",
+  "libro": "livre",
+  "mesa": "table",
+  "ve": "voit",
+  "todo": "tout",
+  "coge": "prend",
+  "con": "avec",
+  "boca": "bouche, gueule",
+  "suéltalo": "lâche-le",
+  "soltar": "lâcher",
+  "corre": "court",
+  "se": "se",
+  "bajo": "sous",
+  "cama": "lit",
+  "ese": "ce, celui-là",
+  "momento": "moment",
+  "entra": "entre",
+  "qué": "quoi, quel",
+  "pasa": "se passe",
+  "aquí": "ici",
+  "nada": "rien",
+  "mamá": "maman",
+  "juega": "joue",
+  "más": "plus",
+  "al": "au (a + el)",
+  "final": "fin",
+  "deja": "laisse",
+  "están": "sont (état, lieu)",
+  "mira": "regarde",
+  "ríe": "rit",
+  "siempre": "toujours",
+  "fuiste": "tu as été",
+  "así": "comme ça",
+  "hija": "ma fille",
+  "niña": "petite fille ; de niña : petite",
+  "cuando": "quand",
+  "eras": "tu étais",
+  "menor": "la plus jeune",
+  "familia": "famille",
+  "escondías": "tu cachais",
+  "cosas": "choses",
+  "tú": "toi, tu",
+  "tienes": "tu as",
+  "secretos": "secrets",
+  "yo": "moi, je",
+  "nunca": "jamais",
+  "dice": "dit"
+ }
+}

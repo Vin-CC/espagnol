@@ -1,0 +1,140 @@
+{
+ "day": 3,
+ "title": "El café de Marta",
+ "title_fr": "Le café de Marta",
+ "sentences": [
+  {
+   "es": "Lucía ya tiene la lista de cafés de don Ramón.",
+   "fr": "Lucía a déjà la liste de cafés de don Ramón.",
+   "audio": "es_2668d3c2ce98.mp3"
+  },
+  {
+   "es": "Ahora Lucía deja a Pipo solo y va al café de Marta.",
+   "fr": "Maintenant, Lucía laisse Pipo seul et va au café de Marta.",
+   "audio": "es_b554dc565151.mp3"
+  },
+  {
+   "es": "Es un día genial.",
+   "fr": "C'est une journée géniale.",
+   "audio": "es_60f2f70a0f61.mp3"
+  },
+  {
+   "es": "Marta habla mucho y habla rápido.",
+   "fr": "Marta parle beaucoup et parle vite.",
+   "audio": "es_f30c327d0e74.mp3"
+  },
+  {
+   "es": "—¡Hola! ¿Cómo estás? ¿Qué quieres?",
+   "fr": "« Salut ! Comment ça va ? Qu'est-ce que tu veux ? »",
+   "audio": "es_07f993c471a6.mp3"
+  },
+  {
+   "es": "—Un café, gracias. Lo siento, no hablo bien español.",
+   "fr": "« Un café, merci. Désolée, je ne parle pas bien espagnol. »",
+   "audio": "es_16812434a80a.mp3"
+  },
+  {
+   "es": "—¡Bueno, no pasa nada! —dice Marta.",
+   "fr": "« Bon, ce n'est pas grave ! » dit Marta.",
+   "audio": "es_0d289327d67a.mp3"
+  },
+  {
+   "es": "—Debes venir aquí cada día y hablar con nosotros.",
+   "fr": "« Tu dois venir ici chaque jour et parler avec nous. »",
+   "audio": "es_84d94d00bfda.mp3"
+  },
+  {
+   "es": "En el café, Diego hace música.",
+   "fr": "Dans le café, Diego fait de la musique.",
+   "audio": "es_9417f339c7cd.mp3"
+  },
+  {
+   "es": "Lucía espera su café y solo ve a Diego.",
+   "fr": "Lucía attend son café et ne voit que Diego.",
+   "audio": "es_9f041ebb4826.mp3"
+  },
+  {
+   "es": "Se siente bien aquí.",
+   "fr": "Elle se sent bien ici.",
+   "audio": "es_e2ff283e1702.mp3"
+  },
+  {
+   "es": "—¡Ahora ya hablas español! —dice Marta.",
+   "fr": "« Maintenant, tu parles déjà espagnol ! » dit Marta.",
+   "audio": "es_6f2e8cc1009e.mp3"
+  },
+  {
+   "es": "Pero en el apartamento, Pipo no espera.",
+   "fr": "Mais dans l'appartement, Pipo n'attend pas.",
+   "audio": "es_dfd3cfb3d46b.mp3"
+  },
+  {
+   "es": "Una vez más, Pipo tiene un plan.",
+   "fr": "Une fois de plus, Pipo a un plan.",
+   "audio": "es_74fb5aa3fd44.mp3"
+  }
+ ],
+ "gloss": {
+  "don": "don (titre de respect)",
+  "ya": "déjà",
+  "a": "à",
+  "una": "une",
+  "lista": "liste",
+  "de": "de",
+  "cafés": "cafés",
+  "ahora": "maintenant",
+  "deja": "laisse",
+  "solo": "seul ; seulement",
+  "y": "et",
+  "va": "va",
+  "al": "au (a + el)",
+  "café": "café",
+  "es": "est ; c'est",
+  "un": "un",
+  "día": "jour ; journée",
+  "genial": "génial",
+  "habla": "parle",
+  "mucho": "beaucoup",
+  "rápido": "vite",
+  "hola": "salut",
+  "cómo": "comment",
+  "estás": "tu vas (cómo estás : comment ça va)",
+  "qué": "quoi ; qu'est-ce que",
+  "quieres": "tu veux",
+  "gracias": "merci",
+  "lo": "le (lo siento : désolé)",
+  "siento": "je regrette (lo siento : désolé)",
+  "no": "ne… pas ; non",
+  "hablo": "je parle",
+  "bien": "bien",
+  "español": "espagnol",
+  "bueno": "bon",
+  "pasa": "se passe (no pasa nada : ce n'est pas grave)",
+  "nada": "rien",
+  "dice": "dit",
+  "debes": "tu dois",
+  "venir": "venir",
+  "aquí": "ici",
+  "cada": "chaque",
+  "hablar": "parler",
+  "con": "avec",
+  "nosotros": "nous",
+  "en": "en ; dans ; à",
+  "el": "le",
+  "hace": "fait",
+  "música": "musique",
+  "espera": "attend",
+  "su": "son",
+  "ve": "voit",
+  "se": "se",
+  "siente": "sent",
+  "hablas": "tu parles",
+  "pero": "mais",
+  "apartamento": "appartement",
+  "vez": "fois",
+  "más": "plus ; de plus",
+  "tiene": "a",
+  "plan": "plan",
+  "la": "la"
+ }
+}

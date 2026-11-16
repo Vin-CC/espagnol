@@ -1,0 +1,216 @@
+{
+ "day": 37,
+ "title": "La carta del abogado",
+ "title_fr": "La lettre de l'avocat",
+ "sentences": [
+  {
+   "es": "Pipo se escapa otra vez, y Lucía sale a buscarlo.",
+   "fr": "Pipo s'échappe encore une fois, et Lucía sort le chercher.",
+   "audio": "es_b95eafd943b3.mp3"
+  },
+  {
+   "es": "Lucía encuentra a Pipo cerca del agua y vuelve al café con él.",
+   "fr": "Lucía trouve Pipo près de l'eau et revient au café avec lui.",
+   "audio": "es_3b1515fc7593.mp3"
+  },
+  {
+   "es": "Diego ya no está. Marta está sola. Llora.",
+   "fr": "Diego n'est plus là. Marta est seule. Elle pleure.",
+   "audio": "es_dc60aaedfd24.mp3"
+  },
+  {
+   "es": "—Marta, ¿por qué lloras?",
+   "fr": "« Marta, pourquoi tu pleures ? »",
+   "audio": "es_99251a29e04e.mp3"
+  },
+  {
+   "es": "—Diego dice que va a partir. Quiere tocar en otra ciudad.",
+   "fr": "« Diego dit qu'il va partir. Il veut jouer dans une autre ville. »",
+   "audio": "es_ed680691004d.mp3"
+  },
+  {
+   "es": "—No llores, Marta. Diego te quiere mucho.",
+   "fr": "« Ne pleure pas, Marta. Diego t'aime beaucoup. »",
+   "audio": "es_341879f8bc08.mp3"
+  },
+  {
+   "es": "Marta le da la carta a Lucía.",
+   "fr": "Marta donne la lettre à Lucía.",
+   "audio": "es_84eb2b70581f.mp3"
+  },
+  {
+   "es": "—Mira. Un abogado me manda esta carta.",
+   "fr": "« Regarde. Un avocat m'envoie cette lettre. »",
+   "audio": "es_17d92feed0d6.mp3"
+  },
+  {
+   "es": "—¿Un abogado?",
+   "fr": "« Un avocat ? »",
+   "audio": "es_9e79b48947f0.mp3"
+  },
+  {
+   "es": "—Sí. Si no pago, pierdo el café. Temo lo peor.",
+   "fr": "« Oui. Si je ne paie pas, je perds le café. Je crains le pire. »",
+   "audio": "es_48aa00e313f5.mp3"
+  },
+  {
+   "es": "Lucía lee la carta. Abajo, hay una dirección: la dirección del abogado.",
+   "fr": "Lucía lit la lettre. En bas, il y a une adresse : l'adresse de l'avocat.",
+   "audio": "es_a7ca18b03374.mp3"
+  },
+  {
+   "es": "—Hay que actuar, Marta. Vamos a hablar con este abogado.",
+   "fr": "« Il faut agir, Marta. On va parler à cet avocat. »",
+   "audio": "es_34f2ca83c0a2.mp3"
+  },
+  {
+   "es": "—¿Y si no quiere hablar?",
+   "fr": "« Et s'il ne veut pas parler ? »",
+   "audio": "es_96f4cda4005b.mp3"
+  },
+  {
+   "es": "—No temas. Yo te ayudo. Y Diego también.",
+   "fr": "« N'aie pas peur. Moi, je t'aide. Et Diego aussi. »",
+   "audio": "es_d223cc282686.mp3"
+  },
+  {
+   "es": "—Diego es como un señorito. No conoce los problemas de dinero.",
+   "fr": "« Diego est comme un fils à papa. Il ne connaît pas les problèmes d'argent. »",
+   "audio": "es_a55b571bc059.mp3"
+  },
+  {
+   "es": "—No es verdad. Diego quiere actuar. Quiere ayudar al café.",
+   "fr": "« Ce n'est pas vrai. Diego veut agir. Il veut aider le café. »",
+   "audio": "es_fa2673f20f08.mp3"
+  },
+  {
+   "es": "Lucía manda un mensaje a Diego: «No partas. Marta te necesita».",
+   "fr": "Lucía envoie un message à Diego : « Ne pars pas. Marta a besoin de toi. »",
+   "audio": "es_cc85ba1f3580.mp3"
+  },
+  {
+   "es": "Una hora después, Diego llega al café.",
+   "fr": "Une heure plus tard, Diego arrive au café.",
+   "audio": "es_33fd0d79eb22.mp3"
+  },
+  {
+   "es": "—Me alegra verte, Diego —dice Marta.",
+   "fr": "« Ça me fait plaisir de te voir, Diego », dit Marta.",
+   "audio": "es_917a755f841c.mp3"
+  },
+  {
+   "es": "—A mí también me alegra verte. Perdón, Marta.",
+   "fr": "« Moi aussi, ça me fait plaisir de te voir. Pardon, Marta. »",
+   "audio": "es_24c7e120f578.mp3"
+  },
+  {
+   "es": "—Yo también te pido perdón, señorito —dice Marta. Y ya no llora.",
+   "fr": "« Moi aussi, je te demande pardon, mon petit monsieur », dit Marta. Et elle ne pleure plus.",
+   "audio": "es_3b494982dab9.mp3"
+  },
+  {
+   "es": "Pipo se sienta entre los dos.",
+   "fr": "Pipo s'assoit entre les deux.",
+   "audio": "es_3ee9e2e8f2e5.mp3"
+  },
+  {
+   "es": "—¡Qué lindo! —dice Lucía.",
+   "fr": "« Que c'est mignon ! » dit Lucía.",
+   "audio": "es_b6fe37d71be5.mp3"
+  }
+ ],
+ "gloss": {
+  "se": "se",
+  "escapa": "échappe",
+  "otra": "autre (otra vez = encore une fois)",
+  "vez": "fois",
+  "y": "et",
+  "sale": "sort",
+  "a": "à",
+  "buscarlo": "le chercher",
+  "encuentra": "trouve",
+  "cerca": "près",
+  "del": "du",
+  "agua": "eau",
+  "vuelve": "revient",
+  "al": "au",
+  "café": "café",
+  "con": "avec",
+  "él": "il, lui",
+  "ya": "déjà (ya no = ne… plus)",
+  "no": "non, ne… pas",
+  "está": "est",
+  "sola": "seule",
+  "llora": "pleure",
+  "por": "pour (por qué = pourquoi)",
+  "qué": "que (qué lindo = que c'est mignon)",
+  "lloras": "tu pleures",
+  "dice": "dit",
+  "que": "que, qui",
+  "va": "va",
+  "partir": "partir",
+  "quiere": "aime ; veut",
+  "tocar": "jouer (de la musique)",
+  "en": "dans, en",
+  "ciudad": "ville",
+  "llores": "pleure (no llores = ne pleure pas)",
+  "te": "te, toi",
+  "mucho": "beaucoup",
+  "le": "lui (le da = donne)",
+  "da": "donne",
+  "la": "la",
+  "carta": "lettre",
+  "mira": "regarde",
+  "un": "un",
+  "abogado": "avocat",
+  "me": "me, moi",
+  "manda": "envoie",
+  "esta": "cette",
+  "sí": "oui",
+  "si": "si",
+  "pago": "je paie",
+  "pierdo": "je perds",
+  "el": "le",
+  "temo": "je crains",
+  "lo": "le (lo peor = le pire)",
+  "peor": "pire",
+  "lee": "lit",
+  "abajo": "en bas",
+  "hay": "il y a ; il faut (hay que)",
+  "una": "une",
+  "dirección": "adresse",
+  "actuar": "agir",
+  "vamos": "allons",
+  "hablar": "parler",
+  "este": "ce",
+  "temas": "crains (no temas = n'aie pas peur)",
+  "yo": "je, moi",
+  "ayudo": "j'aide",
+  "también": "aussi",
+  "es": "est",
+  "como": "comme",
+  "señorito": "fils à papa, petit monsieur",
+  "conoce": "connaît",
+  "los": "les",
+  "problemas": "problèmes",
+  "de": "de",
+  "dinero": "argent",
+  "verdad": "vrai",
+  "ayudar": "aider",
+  "mensaje": "message",
+  "partas": "pars (no partas = ne pars pas)",
+  "necesita": "a besoin de",
+  "hora": "heure",
+  "después": "plus tard",
+  "llega": "arrive",
+  "alegra": "fait plaisir",
+  "verte": "te voir",
+  "mí": "moi",
+  "perdón": "pardon",
+  "pido": "je demande",
+  "sienta": "s'assoit",
+  "entre": "entre",
+  "dos": "deux",
+  "lindo": "mignon"
+ }
+}

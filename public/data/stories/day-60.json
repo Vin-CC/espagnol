@@ -1,0 +1,207 @@
+{
+ "day": 60,
+ "title": "La fiesta de la calle del Sol",
+ "title_fr": "La fête de la calle del Sol",
+ "sentences": [
+  {
+   "es": "Ayer, todos prepararon la comida para la fiesta.",
+   "fr": "Hier, tout le monde a préparé le repas pour la fête.",
+   "audio": "es_30701df65317.mp3"
+  },
+  {
+   "es": "Esta noche, todos cenan juntos en la calle del Sol.",
+   "fr": "Ce soir, tout le monde dîne ensemble dans la calle del Sol.",
+   "audio": "es_20703ea4681f.mp3"
+  },
+  {
+   "es": "La calle está limpia y llena de luces.",
+   "fr": "La rue est propre et pleine de lumières.",
+   "audio": "es_76b374d5a9d1.mp3"
+  },
+  {
+   "es": "En la pared del café, Marta pone la vieja foto y la carta.",
+   "fr": "Sur le mur du café, Marta met la vieille photo et la lettre.",
+   "audio": "es_e8be3272f9a4.mp3"
+  },
+  {
+   "es": "Ramón habla delante de todos: —La historia de mi padre no era una mentira. Era una historia de amor.",
+   "fr": "Ramón parle devant tout le monde : « L'histoire de mon père n'était pas un mensonge. C'était une histoire d'amour. »",
+   "audio": "es_0700842259f7.mp3"
+  },
+  {
+   "es": "Todos cenan y se divierten. Diego toca música.",
+   "fr": "Tout le monde dîne et s'amuse. Diego joue de la musique.",
+   "audio": "es_9e809c9e2ed5.mp3"
+  },
+  {
+   "es": "Lucía comprueba su bolsa: tiene un regalo para Ramón.",
+   "fr": "Lucía vérifie son sac : elle a un cadeau pour Ramón.",
+   "audio": "es_f9befbb4cc84.mp3"
+  },
+  {
+   "es": "Es una flor roja, como la flor de la carta.",
+   "fr": "C'est une fleur rouge, comme la fleur de la lettre.",
+   "audio": "es_21f00a8562c9.mp3"
+  },
+  {
+   "es": "—Para usted, don Ramón.",
+   "fr": "« Pour vous, don Ramón. »",
+   "audio": "es_fcc81dfd16da.mp3"
+  },
+  {
+   "es": "Ramón la mira: —Ahora tú hablas español, Lucía. Y no es mentira.",
+   "fr": "Ramón la regarde : « Maintenant tu parles espagnol, Lucía. Et ce n'est pas un mensonge. »",
+   "audio": "es_3314ebdecab8.mp3"
+  },
+  {
+   "es": "Lucía habla con todos en español: con Marta, con Carmen, con Pablo y con Lola.",
+   "fr": "Lucía parle avec tout le monde en espagnol : avec Marta, avec Carmen, avec Pablo et avec Lola.",
+   "audio": "es_5e2fc48983c1.mp3"
+  },
+  {
+   "es": "Lola dice: —¡Lucía, tienes un cerebro español!",
+   "fr": "Lola dit : « Lucía, tu as un cerveau espagnol ! »",
+   "audio": "es_b18fe7bd9d29.mp3"
+  },
+  {
+   "es": "—No, Lola. Tengo un cerebro francés, con mucho español dentro.",
+   "fr": "« Non, Lola. J'ai un cerveau français, avec beaucoup d'espagnol dedans. »",
+   "audio": "es_5140ae5eadea.mp3"
+  },
+  {
+   "es": "Diego se acerca: —¿Bailas conmigo?",
+   "fr": "Diego s'approche : « Tu danses avec moi ? »",
+   "audio": "es_dfbeeded2ced.mp3"
+  },
+  {
+   "es": "—Estoy dispuesta —dice ella, y se ríe.",
+   "fr": "« Je suis prête », dit-elle, et elle rit.",
+   "audio": "es_21e82a28d435.mp3"
+  },
+  {
+   "es": "Bailan juntos. Marta le dice a Carmen: —Hacen buena pareja, ¿no?",
+   "fr": "Ils dansent ensemble. Marta dit à Carmen : « Ils forment un beau couple, non ? »",
+   "audio": "es_bbbfb542352b.mp3"
+  },
+  {
+   "es": "Carmen los mira: —Sí. Muy buena pareja.",
+   "fr": "Carmen les regarde : « Oui. Un très beau couple. »",
+   "audio": "es_5f4ae7f32164.mp3"
+  },
+  {
+   "es": "Ramón está dispuesto a bailar también, pero solo un poco.",
+   "fr": "Ramón est prêt à danser aussi, mais juste un peu.",
+   "audio": "es_3430ca7b4f12.mp3"
+  },
+  {
+   "es": "Pipo duerme dentro de la bolsa de Lucía.",
+   "fr": "Pipo dort dans le sac de Lucía.",
+   "audio": "es_6b2e7a4a96d5.mp3"
+  },
+  {
+   "es": "Ramón mira su calle, limpia y feliz.",
+   "fr": "Ramón regarde sa rue, propre et heureuse.",
+   "audio": "es_a57657523e47.mp3"
+  },
+  {
+   "es": "Es el final de una historia. Y el principio de otra.",
+   "fr": "C'est la fin d'une histoire. Et le début d'une autre.",
+   "audio": "es_c28e13d7a1c5.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à",
+  "acerca": "s'approche (se acerca)",
+  "ahora": "maintenant",
+  "amor": "amour",
+  "ayer": "hier",
+  "bailan": "dansent",
+  "bailar": "danser",
+  "bailas": "tu danses",
+  "bolsa": "sac",
+  "buena": "bonne ; beau (buena pareja = beau couple)",
+  "café": "café",
+  "calle": "rue",
+  "carta": "lettre",
+  "cenan": "dînent",
+  "cerebro": "cerveau",
+  "comida": "repas",
+  "como": "comme",
+  "comprueba": "vérifie ; confirme",
+  "con": "avec",
+  "conmigo": "avec moi",
+  "de": "de",
+  "del": "du",
+  "delante": "devant",
+  "dentro": "dedans ; dans (dentro de)",
+  "dice": "dit",
+  "dispuesta": "prête ; disposée",
+  "dispuesto": "prêt ; disposé",
+  "divierten": "s'amusent (se divierten)",
+  "don": "don (titre de respect)",
+  "duerme": "dort",
+  "el": "le",
+  "ella": "elle",
+  "en": "dans ; sur ; en",
+  "era": "était",
+  "es": "est",
+  "español": "espagnol",
+  "esta": "ce (esta noche = ce soir)",
+  "estoy": "je suis",
+  "está": "est",
+  "feliz": "heureuse",
+  "fiesta": "fête",
+  "final": "fin",
+  "flor": "fleur",
+  "foto": "photo",
+  "habla": "parle",
+  "hablas": "tu parles",
+  "hacen": "font (hacen buena pareja = forment un beau couple)",
+  "historia": "histoire",
+  "juntos": "ensemble",
+  "la": "la",
+  "limpia": "propre",
+  "llena": "pleine",
+  "luces": "lumières",
+  "mentira": "mensonge",
+  "mi": "mon",
+  "mira": "regarde",
+  "mucho": "beaucoup de",
+  "muy": "très",
+  "música": "musique",
+  "no": "non ; ne... pas",
+  "noche": "soir",
+  "otra": "autre",
+  "padre": "père",
+  "para": "pour",
+  "pared": "mur",
+  "pareja": "couple",
+  "pero": "mais",
+  "poco": "peu (un poco = un peu)",
+  "pone": "met",
+  "prepararon": "ont préparé",
+  "principio": "début",
+  "regalo": "cadeau",
+  "roja": "rouge",
+  "ríe": "rit (se ríe)",
+  "se": "se",
+  "solo": "seulement",
+  "su": "son ; sa",
+  "sí": "oui",
+  "también": "aussi",
+  "tengo": "j'ai",
+  "tiene": "a",
+  "tienes": "tu as",
+  "toca": "joue",
+  "todos": "tout le monde",
+  "tú": "tu",
+  "un": "un",
+  "una": "une",
+  "usted": "vous",
+  "vieja": "vieille",
+  "y": "et",
+  "francés": "français",
+  "le": "lui (le dice a Carmen = dit à Carmen)",
+  "los": "les"
+ }
+}

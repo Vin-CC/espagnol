@@ -1,0 +1,124 @@
+{
+ "day": 2,
+ "title": "Don Ramón",
+ "title_fr": "Don Ramón",
+ "sentences": [
+  {
+   "es": "Lucía y Pipo ya están en Valencia.",
+   "fr": "Lucía et Pipo sont déjà à Valencia.",
+   "audio": "es_a4104036712c.mp3"
+  },
+  {
+   "es": "En el otro apartamento está don Ramón.",
+   "fr": "Dans l'autre appartement, il y a don Ramón.",
+   "audio": "es_d04203fb4719.mp3"
+  },
+  {
+   "es": "Don Ramón era profesor. Sabe mucho de Valencia.",
+   "fr": "Don Ramón était professeur. Il sait beaucoup de choses sur Valencia.",
+   "audio": "es_e76c84a4af96.mp3"
+  },
+  {
+   "es": "—Hola. ¿Usted es de Francia? —dice él.",
+   "fr": "« Bonjour. Vous êtes française ? » dit-il.",
+   "audio": "es_fef1444a8846.mp3"
+  },
+  {
+   "es": "—Sí, soy Lucía. Y este es Pipo.",
+   "fr": "« Oui, je suis Lucía. Et voici Pipo. »",
+   "audio": "es_a4a7d040608a.mp3"
+  },
+  {
+   "es": "—¿Un gato aquí? Creo que es un problema.",
+   "fr": "« Un chat, ici ? Je crois que c'est un problème. »",
+   "audio": "es_ff84ab10f765.mp3"
+  },
+  {
+   "es": "—No, no. Pipo es muy tranquilo.",
+   "fr": "« Non, non. Pipo est très calme. »",
+   "audio": "es_5f66d5d7d1ae.mp3"
+  },
+  {
+   "es": "Don Ramón ve a Pipo. Pipo ve a don Ramón.",
+   "fr": "Don Ramón voit Pipo. Pipo voit don Ramón.",
+   "audio": "es_a165bdb0395a.mp3"
+  },
+  {
+   "es": "—¿Sabe? Creo que es un gato inteligente.",
+   "fr": "« Vous savez ? Je crois que c'est un chat intelligent. »",
+   "audio": "es_8e7b643f86a0.mp3"
+  },
+  {
+   "es": "Don Ramón da a Lucía una lista de cafés.",
+   "fr": "Don Ramón donne à Lucía une liste de cafés.",
+   "audio": "es_f7b77f994d22.mp3"
+  },
+  {
+   "es": "—Debe ver el café de Marta. Es el más genial de Valencia.",
+   "fr": "« Vous devez voir le café de Marta. C'est le plus génial de Valencia. »",
+   "audio": "es_fc3834927f9a.mp3"
+  },
+  {
+   "es": "—¡Muchas gracias!",
+   "fr": "« Merci beaucoup ! »",
+   "audio": "es_4b57252793d0.mp3"
+  },
+  {
+   "es": "Pero Pipo ya lo ve así, con mucho interés.",
+   "fr": "Mais Pipo le regarde déjà comme ça, avec beaucoup d'intérêt.",
+   "audio": "es_c57929ab8c80.mp3"
+  }
+ ],
+ "gloss": {
+  "y": "et",
+  "ya": "déjà",
+  "están": "sont (lieu, état)",
+  "en": "en ; dans ; à",
+  "el": "le",
+  "otro": "autre ; un autre",
+  "apartamento": "appartement",
+  "está": "est (lieu, état)",
+  "don": "don (titre de respect)",
+  "era": "était",
+  "profesor": "professeur",
+  "sabe": "vous savez",
+  "mucho": "beaucoup",
+  "de": "de",
+  "hola": "bonjour ; salut",
+  "usted": "vous (politesse)",
+  "es": "est ; c'est",
+  "dice": "dit",
+  "él": "il ; lui",
+  "sí": "oui",
+  "soy": "je suis",
+  "este": "celui-ci (este es : voici)",
+  "un": "un",
+  "gato": "chat",
+  "aquí": "ici",
+  "creo": "je crois",
+  "que": "que",
+  "problema": "problème",
+  "no": "ne… pas ; non",
+  "muy": "très",
+  "tranquilo": "calme",
+  "ve": "voit ; regarde",
+  "a": "à",
+  "inteligente": "intelligent",
+  "da": "donne",
+  "una": "une",
+  "lista": "liste",
+  "cafés": "cafés",
+  "debe": "vous devez",
+  "ver": "voir",
+  "café": "café",
+  "más": "plus ; de plus",
+  "genial": "génial",
+  "muchas": "beaucoup de (muchas gracias : merci beaucoup)",
+  "gracias": "merci",
+  "pero": "mais",
+  "lo": "le (lo ve : le regarde)",
+  "así": "comme ça ; ainsi",
+  "con": "avec",
+  "interés": "intérêt"
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "day": 58,
+ "title": "Luces azules",
+ "title_fr": "Lumières bleues",
+ "sentences": [
+  {
+   "es": "Ayer, Lola pegó papeles en el viejo árbol.",
+   "fr": "Hier, Lola a collé des papiers sur le vieil arbre.",
+   "audio": "es_107f938f79c1.mp3"
+  },
+  {
+   "es": "Hoy, todos limpian la calle para la fiesta.",
+   "fr": "Aujourd'hui, tout le monde nettoie la rue pour la fête.",
+   "audio": "es_cdf668c1908c.mp3"
+  },
+  {
+   "es": "Lucía limpia las mesas del café. Diego limpia el suelo.",
+   "fr": "Lucía nettoie les tables du café. Diego nettoie le sol.",
+   "audio": "es_04daa162da4e.mp3"
+  },
+  {
+   "es": "Después de tres horas, Lucía está muy cansada. Le duele la espalda.",
+   "fr": "Après trois heures, Lucía est très fatiguée. Elle a mal au dos.",
+   "audio": "es_b62245c283f6.mp3"
+  },
+  {
+   "es": "—Me duele todo —dice ella.",
+   "fr": "« J'ai mal partout », dit-elle.",
+   "audio": "es_5c8a8d3dd076.mp3"
+  },
+  {
+   "es": "Diego bromea: —¿Ya estás cansada? ¡La fiesta es mañana!",
+   "fr": "Diego plaisante : « Tu es déjà fatiguée ? La fête, c'est demain ! »",
+   "audio": "es_230a2e833aef.mp3"
+  },
+  {
+   "es": "—Muy gracioso, Diego —dice Lucía, y se ríe.",
+   "fr": "« Très drôle, Diego », dit Lucía, et elle rit.",
+   "audio": "es_1a25bd011092.mp3"
+  },
+  {
+   "es": "Diego es gracioso. Siempre bromea con ella.",
+   "fr": "Diego est drôle. Il plaisante toujours avec elle.",
+   "audio": "es_569b8f7531fd.mp3"
+  },
+  {
+   "es": "—Algo huele muy bien —dice Lucía.",
+   "fr": "« Quelque chose sent très bon », dit Lucía.",
+   "audio": "es_1b1fb3697dd5.mp3"
+  },
+  {
+   "es": "Es Marta. Prepara la carne para mañana.",
+   "fr": "C'est Marta. Elle prépare la viande pour demain.",
+   "audio": "es_118935341371.mp3"
+  },
+  {
+   "es": "—¡Qué bien huele, Marta!",
+   "fr": "« Comme ça sent bon, Marta ! »",
+   "audio": "es_152316d305f5.mp3"
+  },
+  {
+   "es": "Por la noche, el cielo está oscuro.",
+   "fr": "Le soir, le ciel est sombre.",
+   "audio": "es_cb49788ac8bc.mp3"
+  },
+  {
+   "es": "Diego pone luces azules en el árbol.",
+   "fr": "Diego met des lumières bleues dans l'arbre.",
+   "audio": "es_0f7c3fd425ab.mp3"
+  },
+  {
+   "es": "Ahora la calle oscura es azul y bonita.",
+   "fr": "Maintenant, la rue sombre est bleue et jolie.",
+   "audio": "es_6cfd7849b41e.mp3"
+  },
+  {
+   "es": "Ramón baja de su piso. Está cansado y se apoya en Lucía.",
+   "fr": "Ramón descend de son appartement. Il est fatigué et s'appuie sur Lucía.",
+   "audio": "es_1817d361f9da.mp3"
+  },
+  {
+   "es": "—Usted me apoyó mucho este año —dice Lucía—. Ahora yo lo apoyo a usted.",
+   "fr": "« Vous m'avez beaucoup soutenue cette année, dit Lucía. Maintenant, c'est moi qui vous soutiens. »",
+   "audio": "es_e25cdeb88536.mp3"
+  },
+  {
+   "es": "—Superamos muchas cosas juntos —dice Ramón—. La carta, el miedo, el pasado...",
+   "fr": "« Nous avons surmonté beaucoup de choses ensemble, dit Ramón. La lettre, la peur, le passé... »",
+   "audio": "es_098ee2562ca3.mp3"
+  },
+  {
+   "es": "—Y tú superaste tu miedo al español.",
+   "fr": "« Et toi, tu as surmonté ta peur de l'espagnol. »",
+   "audio": "es_325b8a8e2420.mp3"
+  },
+  {
+   "es": "—Es verdad —dice Lucía en español, sin miedo.",
+   "fr": "« C'est vrai », dit Lucía en espagnol, sans peur.",
+   "audio": "es_3a5deed70f27.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à ; sur",
+  "ahora": "maintenant",
+  "al": "au ; de l' (miedo al = peur de l')",
+  "algo": "quelque chose",
+  "apoya": "s'appuie (se apoya)",
+  "apoyo": "je soutiens",
+  "apoyó": "a soutenu",
+  "ayer": "hier",
+  "azul": "bleu",
+  "azules": "bleues",
+  "año": "année",
+  "baja": "descend",
+  "bien": "bien ; bon (huele bien = sent bon)",
+  "bonita": "jolie",
+  "bromea": "plaisante",
+  "café": "café",
+  "calle": "rue",
+  "cansada": "fatiguée",
+  "cansado": "fatigué",
+  "carne": "viande",
+  "carta": "lettre",
+  "cielo": "ciel",
+  "con": "avec",
+  "cosas": "choses",
+  "de": "de",
+  "del": "du",
+  "después": "après",
+  "dice": "dit",
+  "duele": "fait mal",
+  "el": "le",
+  "ella": "elle",
+  "en": "dans ; en ; sur",
+  "es": "est",
+  "espalda": "dos",
+  "español": "espagnol",
+  "este": "cette",
+  "está": "est",
+  "estás": "tu es",
+  "fiesta": "fête",
+  "gracioso": "drôle",
+  "horas": "heures",
+  "hoy": "aujourd'hui",
+  "huele": "sent",
+  "juntos": "ensemble",
+  "la": "la",
+  "las": "les",
+  "le": "lui (le duele = elle a mal)",
+  "limpia": "nettoie",
+  "limpian": "nettoient",
+  "lo": "vous (lo apoyo a usted)",
+  "luces": "lumières",
+  "mañana": "demain",
+  "me": "me ; m'",
+  "mesas": "tables",
+  "miedo": "peur",
+  "muchas": "beaucoup de",
+  "mucho": "beaucoup",
+  "muy": "très",
+  "noche": "soir",
+  "oscura": "sombre",
+  "oscuro": "sombre",
+  "papeles": "papiers",
+  "para": "pour",
+  "pasado": "passé",
+  "pegó": "a collé",
+  "piso": "appartement",
+  "pone": "met",
+  "por": "par (por la noche = le soir)",
+  "prepara": "prépare",
+  "qué": "comme ; que",
+  "ríe": "rit (se ríe)",
+  "se": "se",
+  "siempre": "toujours",
+  "sin": "sans",
+  "su": "son",
+  "suelo": "sol",
+  "superamos": "nous avons surmonté",
+  "superaste": "tu as surmonté",
+  "todo": "tout",
+  "todos": "tout le monde",
+  "tres": "trois",
+  "tu": "ta",
+  "tú": "toi ; tu",
+  "usted": "vous",
+  "verdad": "vrai",
+  "viejo": "vieux",
+  "y": "et",
+  "ya": "déjà",
+  "yo": "moi ; je",
+  "árbol": "arbre"
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "day": 52,
+ "title": "El oro y la cárcel",
+ "title_fr": "L'or et la prison",
+ "sentences": [
+  {
+   "es": "Ayer, Lucía encontró una flor y una carta sobre una boda.",
+   "fr": "Hier, Lucía a trouvé une fleur et une lettre sur un mariage.",
+   "audio": "es_5d66682e8105.mp3"
+  },
+  {
+   "es": "Hoy, Ramón abre la ventana y mira la calle.",
+   "fr": "Aujourd'hui, Ramón ouvre la fenêtre et regarde la rue.",
+   "audio": "es_461fd007501e.mp3"
+  },
+  {
+   "es": "—Lucía, ahora recuerdo algo —dice.",
+   "fr": "« Lucía, maintenant je me souviens de quelque chose », dit-il.",
+   "audio": "es_b2458de94ac9.mp3"
+  },
+  {
+   "es": "—Mi padre trabajaba en un banco. Manejaba mucho dinero y mucho oro.",
+   "fr": "« Mon père travaillait dans une banque. Il maniait beaucoup d'argent et beaucoup d'or. »",
+   "audio": "es_90fc2d82ad1b.mp3"
+  },
+  {
+   "es": "—Un día, el jefe del banco lo despidió.",
+   "fr": "« Un jour, le chef de la banque l'a renvoyé. »",
+   "audio": "es_a7b0ee941d27.mp3"
+  },
+  {
+   "es": "—¿Por qué? —pregunta Lucía.",
+   "fr": "« Pourquoi ? » demande Lucía.",
+   "audio": "es_d5789272a02a.mp3"
+  },
+  {
+   "es": "—Dijeron que robó oro. Pero no es verdad.",
+   "fr": "« Ils ont dit qu'il avait volé de l'or. Mais ce n'est pas vrai. »",
+   "audio": "es_ca1f3313d5b1.mp3"
+  },
+  {
+   "es": "—Mi padre tuvo miedo de la cárcel, y decidió huir.",
+   "fr": "« Mon père a eu peur de la prison, et il a décidé de fuir. »",
+   "audio": "es_a86807d20b66.mp3"
+  },
+  {
+   "es": "—Huyó a Francia, muy lejos de la calle del Sol.",
+   "fr": "« Il s'est enfui en France, très loin de la calle del Sol. »",
+   "audio": "es_cda1d3025263.mp3"
+  },
+  {
+   "es": "—¿Y la mujer de la carta?",
+   "fr": "« Et la femme de la lettre ? »",
+   "audio": "es_e42ee8f9531f.mp3"
+  },
+  {
+   "es": "—Mi padre quería alejar el peligro de ella. Por eso se alejó.",
+   "fr": "« Mon père voulait éloigner le danger d'elle. C'est pour ça qu'il s'est éloigné. »",
+   "audio": "es_8fb92b0d4484.mp3"
+  },
+  {
+   "es": "—¿Su padre fue a la cárcel?",
+   "fr": "« Votre père est allé en prison ? »",
+   "audio": "es_dd2a6a4b6be2.mp3"
+  },
+  {
+   "es": "—No. Pero perdió todo: el trabajo, la casa y el amor.",
+   "fr": "« Non. Mais il a tout perdu : le travail, la maison et l'amour. »",
+   "audio": "es_88e341d5d32e.mp3"
+  },
+  {
+   "es": "Lucía mira por la ventana. Abajo está el café de Marta.",
+   "fr": "Lucía regarde par la fenêtre. En bas, il y a le café de Marta.",
+   "audio": "es_5e6261e06840.mp3"
+  },
+  {
+   "es": "—Lo lamento mucho, Ramón —dice ella.",
+   "fr": "« Je suis vraiment désolée, Ramón », dit-elle.",
+   "audio": "es_7aeb54c3e222.mp3"
+  },
+  {
+   "es": "—Yo también lo lamento. Mi padre no robó nada.",
+   "fr": "« Moi aussi, je le regrette. Mon père n'a rien volé. »",
+   "audio": "es_800029b70cf8.mp3"
+  },
+  {
+   "es": "Después, bajan al café. Marta prepara carne.",
+   "fr": "Ensuite, ils descendent au café. Marta prépare de la viande.",
+   "audio": "es_d994030297bc.mp3"
+  },
+  {
+   "es": "—Su carne es un placer, Marta —dice Ramón.",
+   "fr": "« Votre viande est un plaisir, Marta », dit Ramón.",
+   "audio": "es_7be52796df02.mp3"
+  },
+  {
+   "es": "—El placer es mío, don Ramón —contesta Marta.",
+   "fr": "« Tout le plaisir est pour moi, don Ramón », répond Marta.",
+   "audio": "es_c5292a7d0182.mp3"
+  },
+  {
+   "es": "Diego pone música en la radio.",
+   "fr": "Diego met de la musique à la radio.",
+   "audio": "es_0e9973e33f47.mp3"
+  },
+  {
+   "es": "Lucía come carne y piensa en el oro, en la cárcel y en un hombre que tuvo que huir.",
+   "fr": "Lucía mange de la viande et pense à l'or, à la prison et à un homme qui a dû fuir.",
+   "audio": "es_fa21631057e8.mp3"
+  },
+  {
+   "es": "¿Quién era la mujer de la flor?",
+   "fr": "Qui était la femme de la fleur ?",
+   "audio": "es_a8a01c21cfb4.mp3"
+  },
+  {
+   "es": "Por la noche, Lucía se despide de todos y sube a casa.",
+   "fr": "Le soir, Lucía dit au revoir à tout le monde et monte chez elle.",
+   "audio": "es_5e34834344a2.mp3"
+  }
+ ],
+ "gloss": {
+  "a": "à ; en",
+  "abajo": "en bas",
+  "abre": "ouvre",
+  "ahora": "maintenant",
+  "al": "au",
+  "alejar": "éloigner",
+  "alejó": "s'est éloigné (se alejó)",
+  "algo": "quelque chose",
+  "amor": "amour",
+  "ayer": "hier",
+  "bajan": "descendent",
+  "banco": "banque",
+  "boda": "mariage",
+  "café": "café",
+  "calle": "rue",
+  "carne": "viande",
+  "carta": "lettre",
+  "casa": "maison ; chez soi",
+  "come": "mange",
+  "contesta": "répond",
+  "cárcel": "prison",
+  "de": "de",
+  "decidió": "a décidé",
+  "del": "du ; de la",
+  "despide": "dit au revoir (se despide)",
+  "despidió": "a renvoyé",
+  "después": "ensuite",
+  "dice": "dit",
+  "dijeron": "ils ont dit",
+  "dinero": "argent",
+  "don": "don (titre de respect)",
+  "día": "jour",
+  "el": "le",
+  "ella": "elle",
+  "en": "dans ; à",
+  "encontró": "a trouvé",
+  "era": "était",
+  "es": "est",
+  "eso": "ça (por eso = c'est pourquoi)",
+  "está": "est ; se trouve",
+  "flor": "fleur",
+  "fue": "est allé",
+  "hombre": "homme",
+  "hoy": "aujourd'hui",
+  "huir": "fuir",
+  "huyó": "s'est enfui",
+  "jefe": "chef",
+  "la": "la",
+  "lamento": "je regrette (lo lamento = je suis désolé)",
+  "lejos": "loin",
+  "lo": "le ; l'",
+  "manejaba": "maniait",
+  "mi": "mon",
+  "miedo": "peur",
+  "mira": "regarde",
+  "mucho": "beaucoup (de)",
+  "mujer": "femme",
+  "muy": "très",
+  "mío": "à moi (el placer es mío = tout le plaisir est pour moi)",
+  "música": "musique",
+  "nada": "rien",
+  "no": "non ; ne... pas",
+  "noche": "nuit ; soir",
+  "oro": "or",
+  "padre": "père",
+  "peligro": "danger",
+  "perdió": "a perdu",
+  "pero": "mais",
+  "piensa": "pense",
+  "placer": "plaisir",
+  "pone": "met",
+  "por": "par ; pour",
+  "pregunta": "demande",
+  "prepara": "prépare",
+  "que": "que ; qui",
+  "quería": "voulait",
+  "quién": "qui",
+  "qué": "quoi (por qué = pourquoi)",
+  "radio": "radio",
+  "recuerdo": "je me souviens",
+  "robó": "a volé",
+  "se": "se",
+  "sobre": "sur ; à propos de",
+  "su": "son ; votre",
+  "sube": "monte",
+  "también": "aussi",
+  "todo": "tout",
+  "todos": "tout le monde",
+  "trabajaba": "travaillait",
+  "trabajo": "travail",
+  "tuvo": "a eu (tuvo que = a dû)",
+  "un": "un",
+  "una": "une",
+  "ventana": "fenêtre",
+  "verdad": "vrai ; vérité",
+  "y": "et",
+  "yo": "moi ; je"
+ }
+}

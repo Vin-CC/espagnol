@@ -1,0 +1,208 @@
+{
+ "day": 38,
+ "title": "Una pequeña investigación",
+ "title_fr": "Une petite enquête",
+ "sentences": [
+  {
+   "es": "Marta y Diego ya están bien. Ahora tienen que hablar con el abogado.",
+   "fr": "Marta et Diego se sont réconciliés. Maintenant, ils doivent parler à l'avocat.",
+   "audio": "es_751a2b13196b.mp3"
+  },
+  {
+   "es": "Por la mañana, Lucía hace una pequeña investigación.",
+   "fr": "Le matin, Lucía mène une petite enquête.",
+   "audio": "es_42922a72bf47.mp3"
+  },
+  {
+   "es": "Busca el nombre del abogado. ¡Es un conocido de Don Ramón!",
+   "fr": "Elle cherche le nom de l'avocat. C'est une connaissance de Don Ramón !",
+   "audio": "es_d7b38f1626fe.mp3"
+  },
+  {
+   "es": "—¿El abogado? Sí, es un conocido mío. Fue estudiante mío —dice Ramón.",
+   "fr": "« L'avocat ? Oui, c'est une connaissance à moi. C'était mon étudiant », dit Ramón.",
+   "audio": "es_62212f4c6a20.mp3"
+  },
+  {
+   "es": "—¿Y es un buen hombre?",
+   "fr": "« Et c'est un homme bien ? »",
+   "audio": "es_b3fdfec796c5.mp3"
+  },
+  {
+   "es": "—Es un buen hombre, sin duda. Pero un poco tonto.",
+   "fr": "« C'est un homme bien, sans aucun doute. Mais un peu bête. »",
+   "audio": "es_7482c211de59.mp3"
+  },
+  {
+   "es": "Por la tarde, Marta se pone su mejor ropa.",
+   "fr": "L'après-midi, Marta met ses plus beaux vêtements.",
+   "audio": "es_850b8021a538.mp3"
+  },
+  {
+   "es": "—¿Esta ropa está bien? —pregunta Marta. Tiene dudas.",
+   "fr": "« Ces vêtements, ça va ? » demande Marta. Elle a des doutes.",
+   "audio": "es_952a8239e54f.mp3"
+  },
+  {
+   "es": "—Estás muy bien —dice Diego—. No seas tonta.",
+   "fr": "« Tu es très bien, dit Diego. Ne sois pas bête. »",
+   "audio": "es_fb022e9d9b60.mp3"
+  },
+  {
+   "es": "Van a la oficina del abogado. Hay una cámara en la puerta.",
+   "fr": "Ils vont au bureau de l'avocat. Il y a une caméra à la porte.",
+   "audio": "es_78d14f0f07f7.mp3"
+  },
+  {
+   "es": "Marta mira la cámara. Tiene miedo. No abre la boca.",
+   "fr": "Marta regarde la caméra. Elle a peur. Elle n'ouvre pas la bouche.",
+   "audio": "es_44822a24795a.mp3"
+  },
+  {
+   "es": "—Ten valor, Marta —dice Diego.",
+   "fr": "« Courage, Marta », dit Diego.",
+   "audio": "es_0ba6f6306604.mp3"
+  },
+  {
+   "es": "El abogado explica el estado de las cosas. El café debe dinero desde hace tres meses.",
+   "fr": "L'avocat explique la situation. Le café doit de l'argent depuis trois mois.",
+   "audio": "es_7c3b1cecdaee.mp3"
+  },
+  {
+   "es": "Por fin, Marta abre la boca.",
+   "fr": "Enfin, Marta ouvre la bouche.",
+   "audio": "es_34b64df9e7ff.mp3"
+  },
+  {
+   "es": "—La culpa es mía. Pero el café es mi vida.",
+   "fr": "« C'est ma faute. Mais le café, c'est ma vie. »",
+   "audio": "es_c65de13af3c7.mp3"
+  },
+  {
+   "es": "—Vamos a hacer una fiesta con música —dice Diego—. El dinero de la fiesta es para pagar.",
+   "fr": "« On va faire une fête avec de la musique, dit Diego. L'argent de la fête sert à payer. »",
+   "audio": "es_fdbd38bd1380.mp3"
+  },
+  {
+   "es": "—Es idea de Carmen, una compañera mía —dice Lucía.",
+   "fr": "« C'est l'idée de Carmen, une collègue à moi », dit Lucía.",
+   "audio": "es_4847c627c982.mp3"
+  },
+  {
+   "es": "El abogado lo piensa un momento.",
+   "fr": "L'avocat réfléchit un moment.",
+   "audio": "es_c0a1738e45a0.mp3"
+  },
+  {
+   "es": "—Bueno. Tienen un mes. Y yo quiero ir a esa fiesta.",
+   "fr": "« Bon. Vous avez un mois. Et moi, je veux aller à cette fête. »",
+   "audio": "es_ef459c1ebc74.mp3"
+  },
+  {
+   "es": "—Sin duda, es un conocido de Ramón —dice Lucía.",
+   "fr": "« Sans aucun doute, c'est une connaissance de Ramón », dit Lucía.",
+   "audio": "es_9d97a233721e.mp3"
+  }
+ ],
+ "gloss": {
+  "y": "et",
+  "ya": "maintenant, déjà",
+  "están": "sont (están bien = vont bien)",
+  "bien": "bien",
+  "ahora": "maintenant",
+  "tienen": "doivent (tienen que) ; ont",
+  "que": "que, qui",
+  "hablar": "parler",
+  "con": "avec",
+  "el": "le",
+  "abogado": "avocat",
+  "por": "par, pour",
+  "la": "la",
+  "mañana": "matin",
+  "hace": "fait ; il y a (desde hace = depuis)",
+  "una": "une",
+  "pequeña": "petite",
+  "investigación": "enquête, recherche",
+  "busca": "cherche",
+  "nombre": "nom",
+  "del": "du",
+  "es": "est",
+  "un": "un",
+  "conocido": "connaissance (personne connue)",
+  "de": "de",
+  "don": "don (titre de respect)",
+  "sí": "oui",
+  "mío": "à moi",
+  "fue": "a été",
+  "estudiante": "étudiant",
+  "dice": "dit",
+  "buen": "bon (buen hombre = homme bien)",
+  "hombre": "homme",
+  "sin": "sans",
+  "duda": "doute (sin duda = sans aucun doute)",
+  "pero": "mais",
+  "poco": "peu",
+  "tonto": "bête",
+  "tarde": "après-midi",
+  "se": "se",
+  "pone": "met (se pone = met sur soi)",
+  "su": "son, sa",
+  "mejor": "meilleur(e), plus beau",
+  "ropa": "vêtements",
+  "esta": "ces, cette",
+  "está": "est",
+  "pregunta": "demande",
+  "tiene": "a",
+  "dudas": "doutes",
+  "estás": "tu es",
+  "muy": "très",
+  "no": "non, ne… pas",
+  "seas": "sois (no seas = ne sois pas)",
+  "tonta": "bête",
+  "van": "vont",
+  "a": "à",
+  "oficina": "bureau",
+  "hay": "il y a",
+  "cámara": "caméra",
+  "en": "dans, en",
+  "puerta": "porte",
+  "mira": "regarde",
+  "miedo": "peur",
+  "abre": "ouvre",
+  "boca": "bouche",
+  "ten": "aie",
+  "valor": "courage",
+  "explica": "explique",
+  "estado": "état (el estado de las cosas = la situation)",
+  "las": "les",
+  "cosas": "choses",
+  "café": "café",
+  "debe": "doit",
+  "dinero": "argent",
+  "desde": "depuis, de",
+  "tres": "trois",
+  "meses": "mois",
+  "fin": "fin (por fin = enfin)",
+  "culpa": "faute",
+  "mía": "à moi (la culpa es mía = c'est ma faute)",
+  "mi": "mon, ma",
+  "vida": "vie",
+  "vamos": "allons",
+  "hacer": "faire",
+  "fiesta": "fête",
+  "música": "musique",
+  "para": "pour",
+  "pagar": "payer",
+  "idea": "idée",
+  "lo": "le, y",
+  "piensa": "réfléchit (lo piensa = y réfléchit)",
+  "momento": "moment",
+  "bueno": "bon, bien",
+  "mes": "mois",
+  "yo": "je, moi",
+  "quiero": "je veux",
+  "ir": "aller",
+  "esa": "cette",
+  "compañera": "collègue (femme)"
+ }
+}

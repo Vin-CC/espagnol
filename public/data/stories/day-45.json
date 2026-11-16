@@ -1,0 +1,222 @@
+{
+ "day": 45,
+ "title": "Un día en el mercado",
+ "title_fr": "Une journée au marché",
+ "sentences": [
+  {
+   "es": "Ayer, Ramón habló de su vida. Hoy, va con Lucía y su madre al mercado.",
+   "fr": "Hier, Ramón a parlé de sa vie. Aujourd'hui, il va au marché avec Lucía et sa mère.",
+   "audio": "es_3a3309313ea2.mp3"
+  },
+  {
+   "es": "El mercado de Valencia es enorme y muy antiguo.",
+   "fr": "Le marché de Valencia est énorme et très ancien.",
+   "audio": "es_1b35de27ff02.mp3"
+  },
+  {
+   "es": "—¡Es maravilloso! —dice la madre.",
+   "fr": "« C'est merveilleux ! » dit la mère.",
+   "audio": "es_ea55d66982bb.mp3"
+  },
+  {
+   "es": "Hay mucha gente y mucho color.",
+   "fr": "Il y a beaucoup de monde et beaucoup de couleur.",
+   "audio": "es_fe57d504c4ea.mp3"
+  },
+  {
+   "es": "La madre mira los precios. —¡Qué precios tan bajos!",
+   "fr": "La mère regarde les prix. « Que les prix sont bas ! »",
+   "audio": "es_7667656c5ba4.mp3"
+  },
+  {
+   "es": "—En Francia el precio es el doble, ¿verdad? —dice Lucía.",
+   "fr": "« En France, le prix est le double, n'est-ce pas ? » dit Lucía.",
+   "audio": "es_4007e4ee713d.mp3"
+  },
+  {
+   "es": "Lucía quiere comprar muchas cosas. Su madre le dice: «Tienes que guardar tu dinero, hija. Hoy invito yo».",
+   "fr": "Lucía veut acheter beaucoup de choses. Sa mère lui dit : « Tu dois garder ton argent, ma fille. Aujourd'hui, c'est moi qui invite. »",
+   "audio": "es_c394f177d4ff.mp3"
+  },
+  {
+   "es": "Después, toman un café. Ramón saca una foto vieja.",
+   "fr": "Ensuite, ils prennent un café. Ramón sort une vieille photo.",
+   "audio": "es_5912e5dce6ee.mp3"
+  },
+  {
+   "es": "En la foto hay un chico joven, con mucho pelo.",
+   "fr": "Sur la photo, il y a un jeune garçon, avec beaucoup de cheveux.",
+   "audio": "es_475c71e76365.mp3"
+  },
+  {
+   "es": "—¿Es usted?",
+   "fr": "« C'est vous ? »",
+   "audio": "es_e44e691f8597.mp3"
+  },
+  {
+   "es": "—Sí. Aquí soy muy joven. Estoy en el ejército.",
+   "fr": "« Oui. Là, je suis très jeune. Je suis dans l'armée. »",
+   "audio": "es_6c16fceb4533.mp3"
+  },
+  {
+   "es": "—¡Qué pelo! —dice Lucía.",
+   "fr": "« Quels cheveux ! » dit Lucía.",
+   "audio": "es_8aea277eca63.mp3"
+  },
+  {
+   "es": "—En el ejército nos cortaban el pelo. Esta foto es de antes.",
+   "fr": "« À l'armée, on nous coupait les cheveux. Cette photo est d'avant. »",
+   "audio": "es_a214ba9746eb.mp3"
+  },
+  {
+   "es": "—¿Y le gustaba el ejército?",
+   "fr": "« Et l'armée vous plaisait ? »",
+   "audio": "es_ce397a3b8f7a.mp3"
+  },
+  {
+   "es": "—No. No era mi elección. Yo quería ser profesor, no luchar.",
+   "fr": "« Non. Ce n'était pas mon choix. Je voulais être professeur, pas me battre. »",
+   "audio": "es_6a2e32ca26b1.mp3"
+  },
+  {
+   "es": "—Mi padre también luchó en una guerra —dice la madre—. Nunca hablaba de eso.",
+   "fr": "« Mon père aussi s'est battu dans une guerre », dit la mère. « Il n'en parlait jamais. »",
+   "audio": "es_c8af5ec723e8.mp3"
+  },
+  {
+   "es": "—La guerra trae mucho odio —dice Ramón—. Yo no quiero odio.",
+   "fr": "« La guerre apporte beaucoup de haine », dit Ramón. « Moi, je ne veux pas de haine. »",
+   "audio": "es_5f6248d57aeb.mp3"
+  },
+  {
+   "es": "—Fue una experiencia difícil, ¿verdad?",
+   "fr": "« Ce fut une expérience difficile, n'est-ce pas ? »",
+   "audio": "es_b5332d545276.mp3"
+  },
+  {
+   "es": "—Sí. Pero después elegí: ser profesor. Fue una buena elección.",
+   "fr": "« Oui. Mais après, j'ai choisi : être professeur. Ce fut un bon choix. »",
+   "audio": "es_2187da6b52cf.mp3"
+  },
+  {
+   "es": "Ramón vuelve a guardar la foto.",
+   "fr": "Ramón range de nouveau la photo.",
+   "audio": "es_21a5c0da6d3f.mp3"
+  },
+  {
+   "es": "—Para mí, este viaje es una experiencia maravillosa —dice la madre.",
+   "fr": "« Pour moi, ce voyage est une expérience merveilleuse », dit la mère.",
+   "audio": "es_fd26bad2cab1.mp3"
+  },
+  {
+   "es": "Ramón ríe. —Y para mí, luchar con el mercado a mi edad, ¡también!",
+   "fr": "Ramón rit. « Et pour moi, me battre avec le marché à mon âge, aussi ! »",
+   "audio": "es_0e2b5f8268a0.mp3"
+  }
+ ],
+ "gloss": {
+  "ayer": "hier",
+  "habló": "a parlé",
+  "de": "de",
+  "su": "son, sa",
+  "vida": "vie",
+  "hoy": "aujourd'hui",
+  "va": "va",
+  "con": "avec",
+  "y": "et",
+  "madre": "mère",
+  "al": "au (a + el)",
+  "mercado": "marché",
+  "el": "le",
+  "es": "est",
+  "enorme": "énorme",
+  "muy": "très",
+  "antiguo": "ancien, vieux",
+  "maravilloso": "merveilleux",
+  "dice": "dit",
+  "la": "la (article) ; la (pronom)",
+  "hay": "il y a",
+  "mucha": "beaucoup de",
+  "gente": "gens",
+  "mucho": "beaucoup",
+  "color": "couleur",
+  "mira": "regarde",
+  "los": "les",
+  "precios": "prix",
+  "qué": "quoi, quel",
+  "tan": "si",
+  "bajos": "bas",
+  "en": "dans, en, sur",
+  "precio": "prix",
+  "doble": "double",
+  "verdad": "vrai ; n'est-ce pas",
+  "quiere": "veut",
+  "comprar": "acheter",
+  "muchas": "beaucoup de (fém.)",
+  "cosas": "choses",
+  "le": "lui ; vous (politesse)",
+  "tienes": "tu dois (tienes que)",
+  "que": "que",
+  "guardar": "garder, ranger",
+  "tu": "ton, ta",
+  "dinero": "argent",
+  "hija": "ma fille",
+  "invito": "j'invite",
+  "yo": "moi, je",
+  "después": "après, ensuite",
+  "toman": "prennent",
+  "un": "un",
+  "café": "café",
+  "saca": "sort",
+  "una": "une",
+  "foto": "photo",
+  "vieja": "vieille",
+  "chico": "garçon",
+  "joven": "jeune",
+  "pelo": "cheveux",
+  "usted": "vous (politesse)",
+  "sí": "oui",
+  "aquí": "ici",
+  "soy": "je suis",
+  "estoy": "je suis",
+  "ejército": "armée",
+  "nos": "nous",
+  "cortaban": "coupaient",
+  "esta": "cette",
+  "antes": "avant",
+  "gustaba": "plaisait",
+  "no": "non, ne… pas",
+  "era": "était",
+  "mi": "mon, ma",
+  "elección": "choix",
+  "quería": "je voulais",
+  "ser": "être",
+  "profesor": "professeur",
+  "luchar": "se battre, lutter",
+  "padre": "père",
+  "también": "aussi",
+  "luchó": "s'est battu",
+  "guerra": "guerre",
+  "nunca": "jamais",
+  "hablaba": "parlait",
+  "eso": "ça",
+  "trae": "apporte",
+  "odio": "haine",
+  "quiero": "je veux",
+  "fue": "ce fut",
+  "experiencia": "expérience",
+  "difícil": "difficile",
+  "pero": "mais",
+  "elegí": "j'ai choisi",
+  "buena": "bonne",
+  "vuelve": "vuelve a : (fait) de nouveau",
+  "a": "à",
+  "para": "pour",
+  "mí": "moi",
+  "este": "ce",
+  "viaje": "voyage",
+  "maravillosa": "merveilleuse",
+  "ríe": "rit",
+  "edad": "âge"
+ }
+}

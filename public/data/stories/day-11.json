@@ -1,0 +1,205 @@
+{
+ "day": 11,
+ "title": "El primer día de trabajo",
+ "title_fr": "Le premier jour de travail",
+ "sentences": [
+  {
+   "es": "Pipo ya está otra vez en casa, y todo está bien.",
+   "fr": "Pipo est de nouveau à la maison, et tout va bien.",
+   "audio": "es_6b65050b60d9.mp3"
+  },
+  {
+   "es": "Hoy es un día importante para Lucía.",
+   "fr": "Aujourd'hui, c'est un jour important pour Lucía.",
+   "audio": "es_cd4e1658e561.mp3"
+  },
+  {
+   "es": "Hoy va a trabajar por primera vez en Valencia.",
+   "fr": "Aujourd'hui, elle va travailler pour la première fois à Valencia.",
+   "audio": "es_d33217a0a41b.mp3"
+  },
+  {
+   "es": "Antes, va al café de Marta.",
+   "fr": "Avant, elle va au café de Marta.",
+   "audio": "es_a5c688d183c1.mp3"
+  },
+  {
+   "es": "—¡Hola, Marta! Un café, por favor. ¡Me muero por un café!",
+   "fr": "— Salut, Marta ! Un café, s'il te plaît. Je meurs d'envie d'un café !",
+   "audio": "es_0922080ca172.mp3"
+  },
+  {
+   "es": "—¿Hoy es tu primer día de trabajo? —dice Marta.",
+   "fr": "— C'est ton premier jour de travail aujourd'hui ? dit Marta.",
+   "audio": "es_fe134365a2ed.mp3"
+  },
+  {
+   "es": "—Sí. Necesito trabajar. Necesito dinero.",
+   "fr": "— Oui. J'ai besoin de travailler. J'ai besoin d'argent.",
+   "audio": "es_fa6f82d3c1cd.mp3"
+  },
+  {
+   "es": "—¿Dónde vas a trabajar?",
+   "fr": "— Où vas-tu travailler ?",
+   "audio": "es_46e39f72df96.mp3"
+  },
+  {
+   "es": "—En una compañía del centro.",
+   "fr": "— Dans une entreprise du centre.",
+   "audio": "es_5e12779fa46a.mp3"
+  },
+  {
+   "es": "—¡Mi hermano trabaja allí! Vive allí, en el centro.",
+   "fr": "— Mon frère travaille là-bas ! Il vit là-bas, dans le centre.",
+   "audio": "es_6dd7f277c4aa.mp3"
+  },
+  {
+   "es": "—¿Cuánto vale el café?",
+   "fr": "— Combien coûte le café ?",
+   "audio": "es_49cabd977ad7.mp3"
+  },
+  {
+   "es": "—Hoy, para ti, no vale nada.",
+   "fr": "— Aujourd'hui, pour toi, il ne coûte rien.",
+   "audio": "es_fbab091caad9.mp3"
+  },
+  {
+   "es": "En la compañía, una mujer habla con Lucía.",
+   "fr": "Dans l'entreprise, une femme parle avec Lucía.",
+   "audio": "es_effb8a220b2b.mp3"
+  },
+  {
+   "es": "—Hola, soy Carmen. ¿Eres la chica nueva?",
+   "fr": "— Bonjour, je suis Carmen. C'est toi, la nouvelle ?",
+   "audio": "es_5e3cbc82446d.mp3"
+  },
+  {
+   "es": "—Sí, soy Lucía. ¿Tú trabajas aquí?",
+   "fr": "— Oui, je suis Lucía. Tu travailles ici ?",
+   "audio": "es_ca0741d338f6.mp3"
+  },
+  {
+   "es": "—Sí, trabajo aquí desde hace muchos años.",
+   "fr": "— Oui, je travaille ici depuis de nombreuses années.",
+   "audio": "es_1ab4b34759ea.mp3"
+  },
+  {
+   "es": "Carmen también tiene un hermano. Su hermano vive en Francia.",
+   "fr": "Carmen aussi a un frère. Son frère vit en France.",
+   "audio": "es_33d1f3e11412.mp3"
+  },
+  {
+   "es": "Lucía y Carmen trabajan mucho.",
+   "fr": "Lucía et Carmen travaillent beaucoup.",
+   "audio": "es_253c3db5e862.mp3"
+  },
+  {
+   "es": "Luego, Carmen dice: —Mañana, más trabajo. ¡Hasta luego!",
+   "fr": "Ensuite, Carmen dit : — Demain, encore du travail. À plus tard !",
+   "audio": "es_fec298ef673e.mp3"
+  },
+  {
+   "es": "—¡Hasta mañana! ¿Vale?",
+   "fr": "— À demain ! D'accord ?",
+   "audio": "es_638bd991516c.mp3"
+  },
+  {
+   "es": "—Vale.",
+   "fr": "— D'accord.",
+   "audio": "es_c08823995f60.mp3"
+  },
+  {
+   "es": "Por la noche, Lucía vuelve a casa. Pipo la espera.",
+   "fr": "Le soir, Lucía rentre à la maison. Pipo l'attend.",
+   "audio": "es_f00b15cc84e5.mp3"
+  },
+  {
+   "es": "«Hoy es un buen día», piensa Lucía.",
+   "fr": "« Aujourd'hui, c'est une bonne journée », pense Lucía.",
+   "audio": "es_e5098e490fea.mp3"
+  }
+ ],
+ "gloss": {
+  "ya": "déjà / ne... plus",
+  "está": "est",
+  "otra": "autre",
+  "vez": "fois",
+  "en": "en / dans / à",
+  "casa": "maison",
+  "y": "et",
+  "todo": "tout",
+  "bien": "bien",
+  "hoy": "aujourd'hui",
+  "es": "est",
+  "un": "un",
+  "día": "jour / journée",
+  "importante": "important",
+  "para": "pour",
+  "va": "va",
+  "a": "à",
+  "trabajar": "travailler",
+  "por": "par / pour",
+  "primera": "première",
+  "antes": "avant",
+  "al": "au",
+  "café": "café",
+  "de": "de",
+  "hola": "bonjour / salut",
+  "favor": "faveur / service",
+  "me": "me / moi",
+  "muero": "je meurs",
+  "tu": "ton / ta",
+  "primer": "premier",
+  "trabajo": "travail / je travaille",
+  "dice": "dit",
+  "sí": "oui",
+  "necesito": "j'ai besoin",
+  "dinero": "argent",
+  "dónde": "où",
+  "vas": "tu vas",
+  "una": "une",
+  "compañía": "entreprise",
+  "del": "du",
+  "centro": "centre",
+  "mi": "mon / ma",
+  "hermano": "frère",
+  "trabaja": "travaille",
+  "allí": "là-bas",
+  "vive": "vit",
+  "el": "le",
+  "cuánto": "combien",
+  "vale": "coûte / d'accord",
+  "ti": "toi",
+  "no": "non / ne... pas",
+  "nada": "rien",
+  "la": "la",
+  "mujer": "femme",
+  "habla": "parle",
+  "con": "avec",
+  "soy": "je suis",
+  "eres": "tu es",
+  "chica": "fille",
+  "nueva": "nouvelle",
+  "tú": "tu / toi",
+  "trabajas": "tu travailles",
+  "aquí": "ici",
+  "desde": "depuis",
+  "hace": "il y a / depuis",
+  "muchos": "beaucoup de / nombreux",
+  "años": "ans / années",
+  "también": "aussi",
+  "tiene": "a",
+  "su": "son / sa / leur",
+  "trabajan": "travaillent",
+  "mucho": "beaucoup",
+  "luego": "ensuite / plus tard",
+  "mañana": "demain",
+  "más": "plus / encore",
+  "hasta": "jusqu'à",
+  "noche": "soir / nuit",
+  "vuelve": "rentre",
+  "espera": "attend",
+  "buen": "bon",
+  "piensa": "pense"
+ }
+}

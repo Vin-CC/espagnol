@@ -1,0 +1,231 @@
+{
+ "day": 36,
+ "title": "Maldito dinero",
+ "title_fr": "Maudit argent",
+ "sentences": [
+  {
+   "es": "Marta sabe que Diego conoce el problema del dinero.",
+   "fr": "Marta sait que Diego connaît le problème d'argent.",
+   "audio": "es_faac868fa0ab.mp3"
+  },
+  {
+   "es": "Al día siguiente, el café está lleno de gente.",
+   "fr": "Le lendemain, le café est plein de monde.",
+   "audio": "es_aa5e0ca23580.mp3"
+  },
+  {
+   "es": "Marta suele hablar con todos. Pero hoy no habla.",
+   "fr": "D'habitude, Marta parle avec tout le monde. Mais aujourd'hui, elle ne parle pas.",
+   "audio": "es_463aca0c7190.mp3"
+  },
+  {
+   "es": "Diego llega. Marta no lo mira.",
+   "fr": "Diego arrive. Marta ne le regarde pas.",
+   "audio": "es_989baf28d855.mp3"
+  },
+  {
+   "es": "—Marta, tenemos que hablar —dice Diego.",
+   "fr": "« Marta, il faut qu'on parle », dit Diego.",
+   "audio": "es_13c27415275a.mp3"
+  },
+  {
+   "es": "—Ahora no. El café está lleno.",
+   "fr": "« Pas maintenant. Le café est plein. »",
+   "audio": "es_9631c872fe1f.mp3"
+  },
+  {
+   "es": "Lucía toma un café cerca de la puerta. Lo ve todo.",
+   "fr": "Lucía prend un café près de la porte. Elle voit tout.",
+   "audio": "es_93e1a19abf56.mp3"
+  },
+  {
+   "es": "Por la tarde, Diego y Marta hablan. Pero hablan muy fuerte.",
+   "fr": "L'après-midi, Diego et Marta parlent. Mais ils parlent très fort.",
+   "audio": "es_02a0c246931e.mp3"
+  },
+  {
+   "es": "—¡Soy tu compañero, Marta! Trabajo aquí todos los días.",
+   "fr": "« Je suis ton collègue, Marta ! Je travaille ici tous les jours. »",
+   "audio": "es_34620acc1108.mp3"
+  },
+  {
+   "es": "—Eres joven. Yo tengo edad para resolver mis problemas.",
+   "fr": "« Tu es jeune. Moi, j'ai l'âge de régler mes problèmes. »",
+   "audio": "es_5789ac40b5b0.mp3"
+  },
+  {
+   "es": "—¿Edad? ¡No eres una vieja, Marta!",
+   "fr": "« L'âge ? Tu n'es pas une vieille, Marta ! »",
+   "audio": "es_df22cdf11b25.mp3"
+  },
+  {
+   "es": "—¡Este maldito dinero! Desde mi punto de vista, es mi problema.",
+   "fr": "« Ce maudit argent ! De mon point de vue, c'est mon problème. »",
+   "audio": "es_c9f1e82277af.mp3"
+  },
+  {
+   "es": "—Desde mi punto de vista, es nuestro problema.",
+   "fr": "« De mon point de vue, c'est notre problème. »",
+   "audio": "es_921ee2b44298.mp3"
+  },
+  {
+   "es": "—Yo siempre cumplo. Y ahora no puedo pagar.",
+   "fr": "« Moi, je tiens toujours parole. Et maintenant, je ne peux pas payer. »",
+   "audio": "es_7c3b7b2ed207.mp3"
+  },
+  {
+   "es": "—Tienes que reconocer la verdad. Necesitas ayuda.",
+   "fr": "« Tu dois reconnaître la vérité. Tu as besoin d'aide. »",
+   "audio": "es_c46c3455e6ee.mp3"
+  },
+  {
+   "es": "—No necesito nada. Y tú no cumples con tu trabajo.",
+   "fr": "« Je n'ai besoin de rien. Et toi, tu ne fais pas ton travail. »",
+   "audio": "es_3140ff304b43.mp3"
+  },
+  {
+   "es": "Diego no la reconoce. No es la Marta de siempre.",
+   "fr": "Diego ne la reconnaît pas. Ce n'est pas la Marta habituelle.",
+   "audio": "es_8d81a7795756.mp3"
+  },
+  {
+   "es": "—Pobre Marta —piensa Lucía.",
+   "fr": "« Pauvre Marta », pense Lucía.",
+   "audio": "es_53e9ac597abc.mp3"
+  },
+  {
+   "es": "En ese momento, alguien abre la puerta. ¡Pipo se escapa!",
+   "fr": "À ce moment-là, quelqu'un ouvre la porte. Pipo s'échappe !",
+   "audio": "es_c3e3a1c6b821.mp3"
+  },
+  {
+   "es": "—¡Maldito Pipo! —dice Lucía—. ¡Siempre se escapa!",
+   "fr": "« Maudit Pipo ! dit Lucía. Il s'échappe toujours ! »",
+   "audio": "es_6b7be5fdad33.mp3"
+  },
+  {
+   "es": "Lucía sale a la calle. Pipo suele ir al sitio de siempre, cerca del agua.",
+   "fr": "Lucía sort dans la rue. D'habitude, Pipo va au même endroit, près de l'eau.",
+   "audio": "es_fcc672374b9e.mp3"
+  },
+  {
+   "es": "Marta y Diego miran a Lucía, y luego se miran.",
+   "fr": "Marta et Diego regardent Lucía, puis ils se regardent.",
+   "audio": "es_8ea3f7350c41.mp3"
+  },
+  {
+   "es": "—Pobre Lucía —dice Diego.",
+   "fr": "« Pauvre Lucía », dit Diego.",
+   "audio": "es_59e3266528cd.mp3"
+  },
+  {
+   "es": "Marta no responde. Pero el problema sigue ahí.",
+   "fr": "Marta ne répond pas. Mais le problème est toujours là.",
+   "audio": "es_afe612afc4cc.mp3"
+  }
+ ],
+ "gloss": {
+  "sabe": "sait",
+  "que": "que, qui",
+  "conoce": "connaît",
+  "el": "le",
+  "problema": "problème",
+  "del": "du",
+  "dinero": "argent",
+  "al": "au",
+  "día": "jour",
+  "siguiente": "suivant (al día siguiente = le lendemain)",
+  "café": "café",
+  "está": "est",
+  "lleno": "plein",
+  "de": "de",
+  "gente": "gens",
+  "suele": "a l'habitude de",
+  "hablar": "parler",
+  "con": "avec",
+  "todos": "tous",
+  "pero": "mais",
+  "hoy": "aujourd'hui",
+  "no": "non, ne… pas",
+  "habla": "parle",
+  "llega": "arrive",
+  "lo": "le ; tout (lo ve todo = voit tout)",
+  "mira": "regarde",
+  "tenemos": "nous devons (tenemos que)",
+  "dice": "dit",
+  "ahora": "maintenant",
+  "toma": "prend",
+  "un": "un",
+  "cerca": "près",
+  "la": "la ; l'",
+  "puerta": "porte",
+  "ve": "voit",
+  "todo": "tout",
+  "por": "par, pour",
+  "tarde": "après-midi",
+  "y": "et",
+  "hablan": "parlent",
+  "muy": "très",
+  "fuerte": "fort",
+  "soy": "je suis",
+  "tu": "ton, ta",
+  "compañero": "collègue",
+  "trabajo": "je travaille ; travail",
+  "aquí": "ici",
+  "los": "les",
+  "días": "jours",
+  "eres": "tu es",
+  "joven": "jeune",
+  "yo": "je, moi",
+  "tengo": "j'ai",
+  "edad": "âge",
+  "para": "pour",
+  "resolver": "régler, résoudre",
+  "mis": "mes",
+  "problemas": "problèmes",
+  "una": "une",
+  "vieja": "vieille",
+  "este": "ce",
+  "maldito": "maudit",
+  "desde": "depuis, de",
+  "mi": "mon, ma",
+  "punto": "point",
+  "vista": "vue (punto de vista = point de vue)",
+  "es": "est",
+  "nuestro": "notre",
+  "siempre": "toujours",
+  "cumplo": "je tiens parole",
+  "puedo": "je peux",
+  "pagar": "payer",
+  "tienes": "tu dois (tienes que)",
+  "reconocer": "reconnaître",
+  "verdad": "vérité",
+  "necesitas": "tu as besoin de",
+  "ayuda": "aide",
+  "necesito": "j'ai besoin de",
+  "nada": "rien",
+  "tú": "tu, toi",
+  "cumples": "tu fais (no cumples con = tu ne fais pas)",
+  "reconoce": "reconnaît",
+  "pobre": "pauvre",
+  "piensa": "pense",
+  "en": "dans, en",
+  "ese": "ce",
+  "momento": "moment",
+  "alguien": "quelqu'un",
+  "abre": "ouvre",
+  "se": "se, s'",
+  "escapa": "échappe",
+  "sale": "sort",
+  "a": "à",
+  "calle": "rue",
+  "ir": "aller",
+  "sitio": "endroit",
+  "agua": "eau",
+  "miran": "regardent",
+  "luego": "ensuite",
+  "responde": "répond",
+  "sigue": "est toujours",
+  "ahí": "là"
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "day": 42,
+ "title": "La caja roja",
+ "title_fr": "La boîte rouge",
+ "sentences": [
+  {
+   "es": "La madre de Lucía vuela hoy de Francia a Valencia.",
+   "fr": "La mère de Lucía prend l'avion aujourd'hui de France à Valencia.",
+   "audio": "es_04028438a73c.mp3"
+  },
+  {
+   "es": "Lucía la espera con Diego.",
+   "fr": "Lucía l'attend avec Diego.",
+   "audio": "es_856edbcbe3a3.mp3"
+  },
+  {
+   "es": "Por fin, su madre llega. Lleva una caja roja muy grande.",
+   "fr": "Enfin, sa mère arrive. Elle porte une très grande boîte rouge.",
+   "audio": "es_00dc7848bfc0.mp3"
+  },
+  {
+   "es": "—¡Hija! —¡Mamá!",
+   "fr": "« Ma fille ! » « Maman ! »",
+   "audio": "es_95ae7a052e2f.mp3"
+  },
+  {
+   "es": "Afuera hace mucho sol.",
+   "fr": "Dehors, il y a beaucoup de soleil.",
+   "audio": "es_e11087861f80.mp3"
+  },
+  {
+   "es": "—¡Cuánto sol! Mi ciudad es muy distinta.",
+   "fr": "« Que de soleil ! Ma ville est très différente. »",
+   "audio": "es_2273f28094b5.mp3"
+  },
+  {
+   "es": "—Aquí todo es distinto, mamá. Mira los colores.",
+   "fr": "« Ici tout est différent, maman. Regarde les couleurs. »",
+   "audio": "es_d3e959e22ee3.mp3"
+  },
+  {
+   "es": "Las casas tienen mucho color: blanco, rojo...",
+   "fr": "Les maisons ont beaucoup de couleur : blanc, rouge...",
+   "audio": "es_19b90bdc4d5e.mp3"
+  },
+  {
+   "es": "—¿Y qué hay en la caja?",
+   "fr": "« Et qu'est-ce qu'il y a dans la boîte ? »",
+   "audio": "es_f3a2adfe7c40.mp3"
+  },
+  {
+   "es": "—Es una sorpresa.",
+   "fr": "« C'est une surprise. »",
+   "audio": "es_7693eb134bdb.mp3"
+  },
+  {
+   "es": "En la calle del Sol, Pablo espera en la puerta.",
+   "fr": "Dans la calle del Sol, Pablo attend à la porte.",
+   "audio": "es_3654c646ee55.mp3"
+  },
+  {
+   "es": "—Hola, Lucía. Tengo que entregar una carta para ti.",
+   "fr": "« Bonjour, Lucía. Je dois te remettre une lettre. »",
+   "audio": "es_2b657cf3de71.mp3"
+  },
+  {
+   "es": "Pablo le da la carta y mira a la madre. Hoy tiene que entregar muchas cartas, pero quiere hablar.",
+   "fr": "Pablo lui donne la lettre et regarde la mère. Aujourd'hui, il doit distribuer beaucoup de lettres, mais il veut parler.",
+   "audio": "es_ac818dfaf171.mp3"
+  },
+  {
+   "es": "—Hola, señora. ¿Le gusta Valencia?",
+   "fr": "« Bonjour, madame. Valencia vous plaît ? »",
+   "audio": "es_2068544091ef.mp3"
+  },
+  {
+   "es": "Pipo está afuera, al sol. Mira la caja con mucho interés.",
+   "fr": "Pipo est dehors, au soleil. Il regarde la boîte avec beaucoup d'intérêt.",
+   "audio": "es_12362f61b9a2.mp3"
+  },
+  {
+   "es": "En casa, la madre abre la caja.",
+   "fr": "À la maison, la mère ouvre la boîte.",
+   "audio": "es_2ab02f72acc4.mp3"
+  },
+  {
+   "es": "Hay ropa, fotos y un libro antiguo para Don Ramón.",
+   "fr": "Il y a des vêtements, des photos et un vieux livre pour Don Ramón.",
+   "audio": "es_e7be5cc601d2.mp3"
+  },
+  {
+   "es": "—Mi deseo es conocer a tus amigos, hija.",
+   "fr": "« Mon souhait, c'est de connaître tes amis, ma fille. »",
+   "audio": "es_a4e97dc6148e.mp3"
+  },
+  {
+   "es": "—Esta noche tenemos una cita en el café de Marta.",
+   "fr": "« Ce soir, nous avons rendez-vous au café de Marta. »",
+   "audio": "es_d530303855b3.mp3"
+  },
+  {
+   "es": "—¿Una cita? ¿Con Diego?",
+   "fr": "« Un rendez-vous ? Avec Diego ? »",
+   "audio": "es_1a209d1a840f.mp3"
+  },
+  {
+   "es": "Lucía se pone roja. —No, mamá. Con todos.",
+   "fr": "Lucía devient rouge. « Non, maman. Avec tout le monde. »",
+   "audio": "es_1faa91cf2d02.mp3"
+  },
+  {
+   "es": "—Bueno. Hacemos un trato: tú me enseñas la ciudad y yo hago la comida.",
+   "fr": "« Bon. Faisons un marché : tu me montres la ville et moi je fais à manger. »",
+   "audio": "es_36e26654a7e3.mp3"
+  },
+  {
+   "es": "—¡Trato hecho!",
+   "fr": "« Marché conclu ! »",
+   "audio": "es_0b8e4d0842a8.mp3"
+  },
+  {
+   "es": "Su madre tiene un deseo más: conocer a Don Ramón.",
+   "fr": "Sa mère a encore un souhait : rencontrer Don Ramón.",
+   "audio": "es_031966aa8724.mp3"
+  },
+  {
+   "es": "Pero eso es otra cita, para otro día.",
+   "fr": "Mais ça, c'est un autre rendez-vous, pour un autre jour.",
+   "audio": "es_a78f1feddd46.mp3"
+  }
+ ],
+ "gloss": {
+  "la": "la ; l' (pronom)",
+  "madre": "mère",
+  "de": "de",
+  "vuela": "prend l'avion",
+  "hoy": "aujourd'hui",
+  "a": "à",
+  "espera": "attend",
+  "con": "avec",
+  "por": "par, pour",
+  "fin": "fin (por fin = enfin)",
+  "su": "son, sa",
+  "llega": "arrive",
+  "lleva": "porte",
+  "una": "une",
+  "caja": "boîte",
+  "roja": "rouge",
+  "muy": "très",
+  "grande": "grande",
+  "hija": "ma fille",
+  "mamá": "maman",
+  "afuera": "dehors",
+  "hace": "il fait (hace sol : il y a du soleil)",
+  "mucho": "beaucoup",
+  "sol": "soleil",
+  "cuánto": "que de, combien",
+  "mi": "mon, ma",
+  "ciudad": "ville",
+  "es": "est",
+  "distinta": "différente",
+  "aquí": "ici",
+  "todo": "tout",
+  "distinto": "différent",
+  "mira": "regarde",
+  "los": "les",
+  "colores": "couleurs",
+  "las": "les (fém.)",
+  "casas": "maisons",
+  "tienen": "ils/elles ont",
+  "color": "couleur",
+  "blanco": "blanc",
+  "rojo": "rouge",
+  "y": "et",
+  "qué": "quoi, quel",
+  "hay": "il y a",
+  "en": "dans, en, sur",
+  "sorpresa": "surprise",
+  "calle": "rue",
+  "del": "du (de + el)",
+  "puerta": "porte",
+  "hola": "bonjour",
+  "tengo": "je dois (tengo que)",
+  "que": "que",
+  "entregar": "remettre, distribuer",
+  "carta": "lettre",
+  "para": "pour",
+  "ti": "toi",
+  "le": "lui, vous",
+  "da": "donne",
+  "tiene": "a ; doit (tiene que)",
+  "muchas": "beaucoup de (fém.)",
+  "cartas": "lettres",
+  "pero": "mais",
+  "quiere": "veut",
+  "hablar": "parler",
+  "señora": "madame",
+  "gusta": "plaît",
+  "está": "est (état, lieu)",
+  "al": "au (a + el)",
+  "interés": "intérêt",
+  "casa": "maison",
+  "abre": "ouvre",
+  "ropa": "vêtements",
+  "fotos": "photos",
+  "un": "un",
+  "libro": "livre",
+  "antiguo": "ancien, vieux",
+  "don": "don (titre de respect)",
+  "deseo": "souhait, désir",
+  "conocer": "connaître, rencontrer",
+  "tus": "tes",
+  "amigos": "amis",
+  "esta": "cette",
+  "noche": "nuit, soir",
+  "tenemos": "nous avons",
+  "cita": "rendez-vous",
+  "el": "le",
+  "café": "café",
+  "se": "se (se pone : devient)",
+  "pone": "devient (se pone roja : rougit)",
+  "no": "non, ne… pas",
+  "todos": "tous, tout le monde",
+  "bueno": "bon",
+  "hacemos": "nous faisons",
+  "trato": "marché, accord",
+  "tú": "toi, tu",
+  "me": "me",
+  "enseñas": "tu montres",
+  "yo": "moi, je",
+  "hago": "je fais",
+  "comida": "repas, nourriture",
+  "hecho": "fait ; trato hecho : marché conclu",
+  "más": "plus",
+  "eso": "ça",
+  "otra": "autre",
+  "otro": "autre",
+  "día": "jour"
+ }
+}

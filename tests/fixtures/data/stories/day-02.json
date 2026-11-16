@@ -1,0 +1,10 @@
+{
+  "day": 2,
+  "title": "El café",
+  "title_fr": "Le café",
+  "sentences": [
+    { "es": "Hay un café en la calle.", "fr": "Il y a un café dans la rue.", "audio": "story-02-01.mp3" },
+    { "es": "Vamos a ir mañana.", "fr": "Nous allons y aller demain.", "audio": "story-02-02.mp3" }
+  ],
+  "gloss": { "hay": "il y a", "un": "un", "café": "café", "en": "dans", "la": "la", "calle": "rue", "vamos": "nous allons", "a": "à", "ir": "aller", "mañana": "demain" }
+}

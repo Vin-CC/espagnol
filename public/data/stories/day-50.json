@@ -1,0 +1,223 @@
+{
+ "day": 50,
+ "title": "La última cena",
+ "title_fr": "Le dernier dîner",
+ "sentences": [
+  {
+   "es": "Después de tres días en la cama, la madre de Lucía está mejor.",
+   "fr": "Après trois jours au lit, la mère de Lucía va mieux.",
+   "audio": "es_4ae02d9232cf.mp3"
+  },
+  {
+   "es": "Mañana vuelve a Francia. Esta noche hay una cena en el café.",
+   "fr": "Demain, elle repart en France. Ce soir, il y a un dîner au café.",
+   "audio": "es_f7350072a297.mp3"
+  },
+  {
+   "es": "Marta y Diego preparan la cena juntos. Ya no se pelean.",
+   "fr": "Marta et Diego préparent le dîner ensemble. Ils ne se disputent plus.",
+   "audio": "es_62050cb75a3c.mp3"
+  },
+  {
+   "es": "—¿Te acuerdas? Antes nos peleábamos mucho —dice Diego.",
+   "fr": "« Tu te souviens ? Avant, on se disputait beaucoup », dit Diego.",
+   "audio": "es_3efce04c1225.mp3"
+  },
+  {
+   "es": "Marta ríe. Ella ya no se acuerda de nada.",
+   "fr": "Marta rit. Elle ne se souvient plus de rien.",
+   "audio": "es_ffbd9197ddd0.mp3"
+  },
+  {
+   "es": "En la cena, la madre habla mucho con Ramón.",
+   "fr": "Au dîner, la mère parle beaucoup avec Ramón.",
+   "audio": "es_36b5b2239263.mp3"
+  },
+  {
+   "es": "Lucía piensa: «¿Mi madre y Ramón? ¿Un amor?».",
+   "fr": "Lucía pense : « Ma mère et Ramón ? Une histoire d'amour ? »",
+   "audio": "es_b39dfb78ad77.mp3"
+  },
+  {
+   "es": "—Ramón, ¿usted está casado? —pregunta Lucía.",
+   "fr": "« Ramón, vous êtes marié ? » demande Lucía.",
+   "audio": "es_d52e52de8951.mp3"
+  },
+  {
+   "es": "—Estuve casado muchos años. Mi mujer murió hace tiempo.",
+   "fr": "« J'ai été marié de nombreuses années. Ma femme est morte il y a longtemps. »",
+   "audio": "es_e733cdf68eea.mp3"
+  },
+  {
+   "es": "—Lucía, estás equivocada —dice su madre—. Hablamos de la carta.",
+   "fr": "« Lucía, tu te trompes », dit sa mère. « Nous parlons de la lettre. »",
+   "audio": "es_79637c0b7613.mp3"
+  },
+  {
+   "es": "—¿De la carta antigua?",
+   "fr": "« De la vieille lettre ? »",
+   "audio": "es_38851b3180f9.mp3"
+  },
+  {
+   "es": "—Sí. Tenemos un dato nuevo. Un dato muy importante.",
+   "fr": "« Oui. Nous avons un élément nouveau. Un élément très important. »",
+   "audio": "es_c8ccf42120d2.mp3"
+  },
+  {
+   "es": "—¿Qué dato?",
+   "fr": "« Quel élément ? »",
+   "audio": "es_cedd0e456520.mp3"
+  },
+  {
+   "es": "—Es una cuestión de tiempo. Pronto lo vas a saber.",
+   "fr": "« C'est une question de temps. Tu vas bientôt le savoir. »",
+   "audio": "es_28d016df566a.mp3"
+  },
+  {
+   "es": "Marta ríe. —Apuesto un café: la carta es de un novio.",
+   "fr": "Marta rit. « Je parie un café : la lettre vient d'un amoureux. »",
+   "audio": "es_2e996fb72adb.mp3"
+  },
+  {
+   "es": "—Y yo apuesto que estás equivocada —dice Ramón.",
+   "fr": "« Et moi, je parie que tu te trompes », dit Ramón.",
+   "audio": "es_605c2060ad11.mp3"
+  },
+  {
+   "es": "Ramón habla del desarrollo de la ciudad, de los cambios, de la gente.",
+   "fr": "Ramón parle du développement de la ville, des changements, des gens.",
+   "audio": "es_0a5c02a45974.mp3"
+  },
+  {
+   "es": "—Con el desarrollo, Valencia cambió mucho. Pero la calle del Sol, no.",
+   "fr": "« Avec le développement, Valencia a beaucoup changé. Mais la calle del Sol, non. »",
+   "audio": "es_960e6c0ea49d.mp3"
+  },
+  {
+   "es": "Al final, la madre se levanta.",
+   "fr": "À la fin, la mère se lève.",
+   "audio": "es_9fa9e7b17b0e.mp3"
+  },
+  {
+   "es": "—Siempre odié decir adiós. ¿Tú también lo odias, hija?",
+   "fr": "« J'ai toujours détesté dire au revoir. Toi aussi, tu détestes ça, ma fille ? »",
+   "audio": "es_07f5587850b9.mp3"
+  },
+  {
+   "es": "—Entonces no digas adiós, mamá. Di: «hasta pronto».",
+   "fr": "« Alors ne dis pas au revoir, maman. Dis : “à bientôt”. »",
+   "audio": "es_202313454ac5.mp3"
+  },
+  {
+   "es": "—Hasta pronto, hija. Es solo una cuestión de tiempo.",
+   "fr": "« À bientôt, ma fille. Ce n'est qu'une question de temps. »",
+   "audio": "es_85ce04a1b5c1.mp3"
+  }
+ ],
+ "gloss": {
+  "después": "après, ensuite",
+  "de": "de",
+  "tres": "trois",
+  "días": "jours",
+  "en": "dans, en, sur",
+  "la": "la",
+  "cama": "lit",
+  "madre": "mère",
+  "está": "est (état, lieu)",
+  "mejor": "mieux, meilleur",
+  "mañana": "matin, demain",
+  "vuelve": "rentre, revient",
+  "a": "à",
+  "esta": "cette",
+  "noche": "nuit, soir",
+  "hay": "il y a",
+  "una": "une",
+  "cena": "dîner",
+  "el": "le",
+  "café": "café",
+  "y": "et",
+  "preparan": "préparent",
+  "juntos": "ensemble",
+  "ya": "déjà, désormais",
+  "no": "non, ne… pas",
+  "pelean": "se disputent (se pelean)",
+  "te": "te",
+  "acuerdas": "tu te souviens",
+  "antes": "avant",
+  "peleábamos": "nous nous disputions",
+  "mucho": "beaucoup",
+  "dice": "dit",
+  "ríe": "rit",
+  "ella": "elle",
+  "se": "se",
+  "acuerda": "se souvient",
+  "nada": "rien",
+  "habla": "parle",
+  "con": "avec",
+  "piensa": "pense",
+  "mi": "mon, ma",
+  "un": "un",
+  "amor": "amour",
+  "usted": "vous (politesse)",
+  "casado": "marié",
+  "pregunta": "demande",
+  "estuve": "j'ai été",
+  "muchos": "beaucoup de",
+  "años": "ans, années",
+  "mujer": "femme",
+  "murió": "est morte",
+  "hace": "fait",
+  "tiempo": "temps ; hace tiempo : il y a longtemps",
+  "estás": "tu es",
+  "equivocada": "dans l'erreur ; estás equivocada : tu te trompes",
+  "su": "son, sa",
+  "hablamos": "nous parlons",
+  "carta": "lettre",
+  "antigua": "ancienne, vieille",
+  "sí": "oui",
+  "tenemos": "nous avons",
+  "dato": "élément, information",
+  "nuevo": "nouveau",
+  "muy": "très",
+  "importante": "important",
+  "qué": "quoi, quel",
+  "es": "est",
+  "cuestión": "question",
+  "pronto": "bientôt",
+  "lo": "le, ça",
+  "vas": "tu vas",
+  "saber": "savoir",
+  "apuesto": "je parie",
+  "novio": "amoureux, fiancé",
+  "yo": "moi, je",
+  "que": "que",
+  "del": "du (de + el)",
+  "desarrollo": "développement",
+  "ciudad": "ville",
+  "los": "les",
+  "cambios": "changements",
+  "gente": "gens",
+  "cambió": "a changé",
+  "pero": "mais",
+  "calle": "rue",
+  "sol": "soleil",
+  "al": "au (a + el)",
+  "final": "fin",
+  "levanta": "lève",
+  "siempre": "toujours",
+  "odié": "j'ai détesté",
+  "decir": "dire",
+  "adiós": "au revoir",
+  "tú": "toi, tu",
+  "también": "aussi",
+  "odias": "tu détestes",
+  "hija": "ma fille",
+  "entonces": "alors",
+  "digas": "dis (no digas : ne dis pas)",
+  "mamá": "maman",
+  "di": "dis",
+  "hasta": "jusqu'à ; hasta pronto : à bientôt",
+  "solo": "seulement",
+  "nos": "nous"
+ }
+}

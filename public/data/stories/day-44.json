@@ -1,0 +1,230 @@
+{
+ "day": 44,
+ "title": "Sal y recuerdos",
+ "title_fr": "Du sel et des souvenirs",
+ "sentences": [
+  {
+   "es": "Después de la fiesta en el café, la madre de Lucía está mejor.",
+   "fr": "Après la fête au café, la mère de Lucía va mieux.",
+   "audio": "es_2e13cdc76745.mp3"
+  },
+  {
+   "es": "Hoy hace la comida para Don Ramón.",
+   "fr": "Aujourd'hui, elle fait à manger pour Don Ramón.",
+   "audio": "es_d8542dcc3c22.mp3"
+  },
+  {
+   "es": "Lucía y su madre cortan cosas toda la mañana. Cortan y hablan, hablan y cortan.",
+   "fr": "Lucía et sa mère coupent des choses toute la matinée. Elles coupent et parlent, parlent et coupent.",
+   "audio": "es_cdb385b775ed.mp3"
+  },
+  {
+   "es": "—Mamá, ¿cuánta agua? —No sé. Yo no necesito medidas. Todo está en mi mente.",
+   "fr": "« Maman, combien d'eau ? » « Je ne sais pas. Je n'ai pas besoin de mesures. Tout est dans ma tête. »",
+   "audio": "es_e84ec82de44e.mp3"
+  },
+  {
+   "es": "—¡La abuela tampoco usaba medidas! —dice Lucía.",
+   "fr": "« Mamie non plus n'utilisait pas de mesures ! » dit Lucía.",
+   "audio": "es_fa0c7607865c.mp3"
+  },
+  {
+   "es": "Pero falta algo: no hay sal.",
+   "fr": "Mais il manque quelque chose : il n'y a pas de sel.",
+   "audio": "es_e799e5b87cb6.mp3"
+  },
+  {
+   "es": "Lucía sube a casa de Ramón. —¿Tiene sal?",
+   "fr": "Lucía monte chez Ramón. « Vous avez du sel ? »",
+   "audio": "es_b8d5ed8910be.mp3"
+  },
+  {
+   "es": "—Claro. Y también un poco de vino.",
+   "fr": "« Bien sûr. Et aussi un peu de vin. »",
+   "audio": "es_dc7d79750f83.mp3"
+  },
+  {
+   "es": "A las dos, todos comen. Pipo come en el suelo.",
+   "fr": "À deux heures, tout le monde mange. Pipo mange par terre.",
+   "audio": "es_af803a8c4d3f.mp3"
+  },
+  {
+   "es": "Ramón levanta su vino. —¡Salud!",
+   "fr": "Ramón lève son vin. « Santé ! »",
+   "audio": "es_8fa349eb2d14.mp3"
+  },
+  {
+   "es": "—¡Salud! —dicen Lucía y su madre.",
+   "fr": "« Santé ! » disent Lucía et sa mère.",
+   "audio": "es_022dae12a81c.mp3"
+  },
+  {
+   "es": "—Con respecto a su salud, señora, ¿está mejor?",
+   "fr": "« En ce qui concerne votre santé, madame, allez-vous mieux ? »",
+   "audio": "es_519bae713076.mp3"
+  },
+  {
+   "es": "—Sí, gracias. No es nada.",
+   "fr": "« Oui, merci. Ce n'est rien. »",
+   "audio": "es_7c929df8d0db.mp3"
+  },
+  {
+   "es": "Entonces Ramón habla de su vida.",
+   "fr": "Alors Ramón parle de sa vie.",
+   "audio": "es_bebfb44afb1b.mp3"
+  },
+  {
+   "es": "—Cuando yo tenía siete años, esta calle era distinta.",
+   "fr": "« Quand j'avais sept ans, cette rue était différente. »",
+   "audio": "es_7d02f1e8c1ca.mp3"
+  },
+  {
+   "es": "—¿Cómo era?",
+   "fr": "« Comment était-elle ? »",
+   "audio": "es_99e2c56a8991.mp3"
+  },
+  {
+   "es": "—Había una especie de fiesta aquí cada semana. La gente vendía sal, agua, ropa...",
+   "fr": "« Il y avait une sorte de fête ici chaque semaine. Les gens vendaient du sel, de l'eau, des vêtements... »",
+   "audio": "es_946974b012e5.mp3"
+  },
+  {
+   "es": "—¿Y usted?",
+   "fr": "« Et vous ? »",
+   "audio": "es_96a7ddf6208c.mp3"
+  },
+  {
+   "es": "—Yo jugaba en el suelo con siete amigos. ¡Siete!",
+   "fr": "« Moi, je jouais par terre avec sept amis. Sept ! »",
+   "audio": "es_74d5e9a47c32.mp3"
+  },
+  {
+   "es": "Todos se ríen.",
+   "fr": "Tout le monde rit.",
+   "audio": "es_848b86c9914d.mp3"
+  },
+  {
+   "es": "—Mi mente es vieja, pero recuerdo todo.",
+   "fr": "« Mon esprit est vieux, mais je me souviens de tout. »",
+   "audio": "es_235ce2733d1c.mp3"
+  },
+  {
+   "es": "La madre también se ríe. —Usted es una especie de libro de historia.",
+   "fr": "La mère rit aussi. « Vous êtes une sorte de livre d'histoire. »",
+   "audio": "es_d28d60207f05.mp3"
+  },
+  {
+   "es": "—Y con respecto a la comida, señora: ¡es excelente!",
+   "fr": "« Et en ce qui concerne le repas, madame : il est excellent ! »",
+   "audio": "es_c3db052d28db.mp3"
+  },
+  {
+   "es": "Lucía mira a su madre y a Ramón. Ríe también. Está feliz.",
+   "fr": "Lucía regarde sa mère et Ramón. Elle rit aussi. Elle est heureuse.",
+   "audio": "es_e4814345a5b2.mp3"
+  }
+ ],
+ "gloss": {
+  "después": "après, ensuite",
+  "de": "de",
+  "la": "la",
+  "fiesta": "fête",
+  "en": "dans, en, sur",
+  "el": "le",
+  "café": "café",
+  "madre": "mère",
+  "está": "est (état, lieu)",
+  "mejor": "mieux, meilleur",
+  "hoy": "aujourd'hui",
+  "hace": "fait",
+  "comida": "repas, nourriture",
+  "para": "pour",
+  "don": "don (titre de respect)",
+  "y": "et",
+  "su": "son, sa",
+  "cortan": "coupent",
+  "cosas": "choses",
+  "toda": "toute",
+  "mañana": "matin, demain",
+  "hablan": "parlent",
+  "mamá": "maman",
+  "cuánta": "combien de",
+  "agua": "eau",
+  "no": "non, ne… pas",
+  "sé": "je sais",
+  "yo": "moi, je",
+  "medidas": "mesures",
+  "todo": "tout",
+  "mi": "mon, ma",
+  "mente": "esprit, tête",
+  "abuela": "grand-mère, mamie",
+  "tampoco": "non plus",
+  "usaba": "utilisait",
+  "dice": "dit",
+  "pero": "mais",
+  "falta": "manque",
+  "algo": "quelque chose",
+  "hay": "il y a",
+  "sal": "sel",
+  "sube": "monte",
+  "a": "à",
+  "casa": "maison",
+  "tiene": "il/elle a ; vous avez (usted)",
+  "claro": "bien sûr",
+  "también": "aussi",
+  "un": "un",
+  "poco": "peu",
+  "vino": "vin",
+  "las": "les (fém.)",
+  "dos": "deux",
+  "todos": "tous, tout le monde",
+  "comen": "mangent",
+  "come": "mange",
+  "suelo": "sol, par terre",
+  "levanta": "lève",
+  "salud": "santé",
+  "dicen": "disent",
+  "con": "avec",
+  "respecto": "respect ; con respecto a : en ce qui concerne",
+  "señora": "madame",
+  "sí": "oui",
+  "gracias": "merci",
+  "es": "est",
+  "nada": "rien",
+  "entonces": "alors",
+  "habla": "parle",
+  "vida": "vie",
+  "cuando": "quand",
+  "tenía": "j'avais",
+  "siete": "sept",
+  "años": "ans, années",
+  "esta": "cette",
+  "calle": "rue",
+  "era": "était",
+  "distinta": "différente",
+  "cómo": "comment",
+  "había": "il y avait",
+  "una": "une",
+  "especie": "sorte, espèce",
+  "aquí": "ici",
+  "cada": "chaque",
+  "semana": "semaine",
+  "gente": "gens",
+  "vendía": "vendait",
+  "ropa": "vêtements",
+  "usted": "vous (politesse)",
+  "jugaba": "je jouais",
+  "amigos": "amis",
+  "se": "se (se ríen : rient)",
+  "ríen": "rient",
+  "vieja": "vieille",
+  "recuerdo": "je me souviens",
+  "ríe": "rit",
+  "libro": "livre",
+  "historia": "histoire",
+  "excelente": "excellent",
+  "mira": "regarde",
+  "feliz": "heureux, heureuse",
+  "necesito": "j'ai besoin de"
+ }
+}

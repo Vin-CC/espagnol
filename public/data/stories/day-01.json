@@ -1,0 +1,119 @@
+{
+ "day": 1,
+ "title": "La llegada",
+ "title_fr": "L'arrivée",
+ "sentences": [
+  {
+   "es": "Lucía es de Francia.",
+   "fr": "Lucía vient de France.",
+   "audio": "es_7993678dd942.mp3"
+  },
+  {
+   "es": "Está en Valencia, en España.",
+   "fr": "Elle est à Valencia, en Espagne.",
+   "audio": "es_4461ce765a2f.mp3"
+  },
+  {
+   "es": "Tiene un apartamento en la calle del Sol.",
+   "fr": "Elle a un appartement dans la rue du Soleil.",
+   "audio": "es_10447490698f.mp3"
+  },
+  {
+   "es": "Y tiene un gato: Pipo.",
+   "fr": "Et elle a un chat : Pipo.",
+   "audio": "es_df712d4c41a4.mp3"
+  },
+  {
+   "es": "El apartamento no es grande, pero es perfecto.",
+   "fr": "L'appartement n'est pas grand, mais il est parfait.",
+   "audio": "es_d6a1e30743ea.mp3"
+  },
+  {
+   "es": "En la calle hay un café y hay música.",
+   "fr": "Dans la rue, il y a un café et il y a de la musique.",
+   "audio": "es_8c9ee14c93b0.mp3"
+  },
+  {
+   "es": "—¡Valencia es genial! —dice Lucía.",
+   "fr": "« Valencia, c'est génial ! » dit Lucía.",
+   "audio": "es_153cf802c7d7.mp3"
+  },
+  {
+   "es": "Lucía quiere ir al café.",
+   "fr": "Lucía veut aller au café.",
+   "audio": "es_34073fb537e1.mp3"
+  },
+  {
+   "es": "—Pipo, ¿quieres ir al café?",
+   "fr": "« Pipo, tu veux aller au café ? »",
+   "audio": "es_00f853f0cb56.mp3"
+  },
+  {
+   "es": "Pipo no dice nada.",
+   "fr": "Pipo ne dit rien.",
+   "audio": "es_7a22458d928b.mp3"
+  },
+  {
+   "es": "Es un gato: no puede ir al café.",
+   "fr": "C'est un chat : il ne peut pas aller au café.",
+   "audio": "es_b3cd5565f2e5.mp3"
+  },
+  {
+   "es": "—¿Qué vas a hacer, Pipo?",
+   "fr": "« Qu'est-ce que tu vas faire, Pipo ? »",
+   "audio": "es_2891e528b80b.mp3"
+  },
+  {
+   "es": "Pipo no hace nada. Está en el apartamento.",
+   "fr": "Pipo ne fait rien. Il est dans l'appartement.",
+   "audio": "es_88a263a7255f.mp3"
+  },
+  {
+   "es": "Lucía va al café.",
+   "fr": "Lucía va au café.",
+   "audio": "es_2073087de061.mp3"
+  },
+  {
+   "es": "Pero Pipo tiene un plan.",
+   "fr": "Mais Pipo a un plan.",
+   "audio": "es_46e4b7d6bbd4.mp3"
+  }
+ ],
+ "gloss": {
+  "es": "est ; c'est",
+  "de": "de",
+  "está": "est (lieu, état)",
+  "en": "en ; dans ; à",
+  "tiene": "a",
+  "un": "un",
+  "apartamento": "appartement",
+  "la": "la",
+  "calle": "rue",
+  "del": "du (de + el)",
+  "y": "et",
+  "gato": "chat",
+  "el": "le",
+  "no": "ne… pas ; non",
+  "grande": "grand(e)",
+  "pero": "mais",
+  "perfecto": "parfait",
+  "hay": "il y a",
+  "café": "café",
+  "música": "musique",
+  "genial": "génial",
+  "dice": "dit",
+  "quiere": "veut",
+  "ir": "aller",
+  "al": "au (a + el)",
+  "quieres": "tu veux",
+  "nada": "rien",
+  "puede": "peut",
+  "qué": "quoi ; qu'est-ce que",
+  "vas": "tu vas",
+  "a": "à",
+  "hacer": "faire",
+  "hace": "fait",
+  "va": "va",
+  "plan": "plan"
+ }
+}

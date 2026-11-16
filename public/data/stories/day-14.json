@@ -1,0 +1,187 @@
+{
+ "day": 14,
+ "title": "¿Comes conmigo?",
+ "title_fr": "Tu manges avec moi ?",
+ "sentences": [
+  {
+   "es": "Lucía ya conoce a Lola, la hija de Carmen.",
+   "fr": "Lucía connaît déjà Lola, la fille de Carmen.",
+   "audio": "es_333d4125cb39.mp3"
+  },
+  {
+   "es": "Es fin de semana. No hay trabajo.",
+   "fr": "C'est le week-end. Il n'y a pas de travail.",
+   "audio": "es_31efaeeedda7.mp3"
+  },
+  {
+   "es": "Carmen llama a Lucía por teléfono.",
+   "fr": "Carmen appelle Lucía au téléphone.",
+   "audio": "es_7afe3bdaf220.mp3"
+  },
+  {
+   "es": "—Lucía, ¿quieres comer conmigo y con Lola hoy?",
+   "fr": "— Lucía, tu veux manger avec Lola et moi aujourd'hui ?",
+   "audio": "es_7db84f3ce621.mp3"
+  },
+  {
+   "es": "—¡Claro! ¿Dónde?",
+   "fr": "— Bien sûr ! Où ?",
+   "audio": "es_79cdb795aef6.mp3"
+  },
+  {
+   "es": "—En el café de Marta, a las dos.",
+   "fr": "— Au café de Marta, à deux heures.",
+   "audio": "es_402c2e46f390.mp3"
+  },
+  {
+   "es": "Por la tarde, las tres comen en el café.",
+   "fr": "L'après-midi, elles mangent toutes les trois au café.",
+   "audio": "es_f10ad0c7749a.mp3"
+  },
+  {
+   "es": "—Este café me recuerda a Francia —dice Lucía.",
+   "fr": "— Ce café me rappelle la France, dit Lucía.",
+   "audio": "es_bfdae1845b85.mp3"
+  },
+  {
+   "es": "—¿Piensas mucho en tu familia?",
+   "fr": "— Tu penses beaucoup à ta famille ?",
+   "audio": "es_f428eceb7a6c.mp3"
+  },
+  {
+   "es": "—Sí. Cada semana hablo con mi madre.",
+   "fr": "— Oui. Chaque semaine, je parle avec ma mère.",
+   "audio": "es_0e24b0a8a0c1.mp3"
+  },
+  {
+   "es": "—Mamá, ¿puedo usar tu teléfono?",
+   "fr": "— Maman, je peux utiliser ton téléphone ?",
+   "audio": "es_510d60beab72.mp3"
+  },
+  {
+   "es": "—Un segundo... Sí, pero solo para sacar una foto.",
+   "fr": "— Une seconde... Oui, mais seulement pour prendre une photo.",
+   "audio": "es_c9601e6174b7.mp3"
+  },
+  {
+   "es": "Lola saca una foto de Lucía y Carmen.",
+   "fr": "Lola prend une photo de Lucía et Carmen.",
+   "audio": "es_75fb8fc57436.mp3"
+  },
+  {
+   "es": "En ese momento, Diego llega con más café.",
+   "fr": "À ce moment-là, Diego arrive avec encore du café.",
+   "audio": "es_e1e2775b747e.mp3"
+  },
+  {
+   "es": "—¡Es cierto! —dice Lola—. Lucía tiene un amigo especial: ¡Diego!",
+   "fr": "— C'est vrai ! dit Lola. Lucía a un ami spécial : Diego !",
+   "audio": "es_a3b8bc432c86.mp3"
+  },
+  {
+   "es": "Lucía no dice nada. Quiere cambiar de tema.",
+   "fr": "Lucía ne dit rien. Elle veut changer de sujet.",
+   "audio": "es_0753349be7c5.mp3"
+  },
+  {
+   "es": "—No es cierto, Lola —dice Lucía.",
+   "fr": "— Ce n'est pas vrai, Lola, dit Lucía.",
+   "audio": "es_bcb59b2c4adc.mp3"
+  },
+  {
+   "es": "Diego mira a Lucía y dice: —¿Quieres comer conmigo otro día?",
+   "fr": "Diego regarde Lucía et dit : — Tu veux manger avec moi un autre jour ?",
+   "audio": "es_53ff04fed383.mp3"
+  },
+  {
+   "es": "—Sí... quizá la semana que viene —dice Lucía, y cambia de tema.",
+   "fr": "— Oui... peut-être la semaine prochaine, dit Lucía, et elle change de sujet.",
+   "audio": "es_0f82a155d221.mp3"
+  },
+  {
+   "es": "Lola saca otra foto. ¡Qué buena tarde!",
+   "fr": "Lola prend une autre photo. Quel bel après-midi !",
+   "audio": "es_f409bc1e7b25.mp3"
+  }
+ ],
+ "gloss": {
+  "ya": "déjà / ne... plus",
+  "conoce": "connaît",
+  "a": "à",
+  "la": "la",
+  "hija": "fille",
+  "de": "de",
+  "es": "est",
+  "el": "le",
+  "fin": "fin (fin de semana : week-end)",
+  "semana": "semaine",
+  "no": "non / ne... pas",
+  "hay": "il y a",
+  "trabajo": "travail / je travaille",
+  "llama": "appelle",
+  "por": "par / pour",
+  "teléfono": "téléphone",
+  "quieres": "tu veux",
+  "comer": "manger",
+  "conmigo": "avec moi",
+  "y": "et",
+  "con": "avec",
+  "tarde": "après-midi",
+  "claro": "bien sûr",
+  "dónde": "où",
+  "en": "en / dans / à",
+  "café": "café",
+  "las": "les",
+  "dos": "deux",
+  "tres": "trois",
+  "comen": "mangent",
+  "este": "ce",
+  "me": "me / moi",
+  "recuerda": "rappelle",
+  "dice": "dit",
+  "mucho": "beaucoup",
+  "tu": "ton / ta",
+  "familia": "famille",
+  "sí": "oui",
+  "cada": "chaque",
+  "hablo": "je parle",
+  "mi": "mon / ma",
+  "madre": "mère",
+  "mamá": "maman",
+  "puedo": "je peux",
+  "usar": "utiliser",
+  "un": "un",
+  "segundo": "seconde",
+  "pero": "mais",
+  "solo": "seulement / juste",
+  "para": "pour",
+  "sacar": "prendre (photo)",
+  "una": "une",
+  "foto": "photo",
+  "saca": "prend (photo)",
+  "ese": "ce",
+  "momento": "moment",
+  "llega": "arrive",
+  "más": "plus / encore",
+  "cierto": "vrai",
+  "tiene": "a",
+  "amigo": "ami",
+  "especial": "spécial",
+  "nada": "rien",
+  "quiere": "veut",
+  "cambiar": "changer",
+  "tema": "sujet",
+  "mira": "regarde",
+  "otro": "autre",
+  "día": "jour / journée",
+  "quizá": "peut-être",
+  "otra": "autre",
+  "cambia": "change",
+  "qué": "quoi / que / quel",
+  "hoy": "aujourd'hui",
+  "piensas": "tu penses (pensar en : penser à)",
+  "que": "que (la semana que viene : la semaine prochaine)",
+  "viene": "vient",
+  "buena": "bonne"
+ }
+}
