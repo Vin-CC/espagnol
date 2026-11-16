@@ -37,15 +37,27 @@ Si on supprime l’appli de l’écran d’accueil ou les données de Safari, la
 - Notation : **À revoir** = FSRS *Again*, **Je savais** = FSRS *Good* (`ts-fsrs`, rétention 0,9,
   apprentissage court terme : une carte ratée revient dans la même séance).
 - Une révision due aujourd’hui (quelle que soit l’heure) fait partie de la file du jour.
-- Série = jours consécutifs avec une activité (cartes, histoire, Dreaming Spanish ou écoute). Elle n’est
-  pas cassée tant que la journée n’est pas finie.
+- **Après une absence** : au plus 60 révisions par jour (Réglages, 30–150), les plus anciennes d’abord ;
+  le reste revient les jours suivants (« le reste plus tard »). Tant que plus de 40 révisions sont dues
+  ce jour-là, le nouveau lot attend le lendemain (le « Jour N » n’avance pas, aucun jour n’est perdu).
+  Message « Bon retour ! » après au moins 2 jours sans activité.
+- Série = jours avec une activité (cartes, histoire, Dreaming Spanish ou écoute), avec **un jour manqué
+  toléré** : elle ne casse qu’après 2 jours manqués de suite. Elle n’est pas cassée tant que la journée
+  n’est pas finie. Si elle casse, l’accueil affiche « Nouvelle série — record : N jours ».
+- Accueil : un seul bouton principal (première étape non faite) ; « Journée terminée ✓ » quand Mots,
+  Histoire et Dreaming Spanish sont faits. Stat « d’espagnol écouté » = Dreaming Spanish + audio des
+  histoires et de l’écoute en trajet. Bandeau d’installation (une fois, refermable) après la première
+  séance si l’appli n’est pas lancée depuis l’écran d’accueil.
+- Écoute en trajet : cochée après 5 min d’écoute cumulée dans la journée.
 - **Mot jamais vu** : d’abord une découverte (recto et verso, audio) avec un seul bouton « Compris, suivant »
   = FSRS *Again* ; le mot revient quelques minutes plus tard pour être vérifié normalement.
-- **Compteur de séance** : barre de progression + « 7 / 10 nouveaux mots vus · 12 révisions restantes » et
-  temps estimé (15 s par découverte, 8 s par vérification). Les révisions restantes comptent aussi les
-  retours d’apprentissage (un nouveau mot = 1 découverte + 2 vérifications si tout est su).
-- L’histoire est cochée quand toutes ses phrases ont été écoutées. Un mot touché est surligné ; sa bulle
-  de traduction s’affiche au-dessus pour ne pas cacher la ligne suivante.
+- **Compteurs en mots** : accueil « 10 nouveaux mots · 5 à revoir · ≈ 4 min » ; pendant la séance, barre
+  de progression + « Reste ≈ N min » (même estimation : 15 s par découverte, 8 s par vérification, retours
+  d’apprentissage compris) ; fin de séance : bilan du jour « N mots revus · N nouveaux · durée ».
+- L’histoire est cochée quand toutes ses phrases ont été écoutées ; une carte « Histoire terminée ✓ »
+  apparaît alors en bas avec « Étape suivante ». Un mot touché est surligné (sa bulle s’affiche au-dessus) ;
+  toucher ailleurs sur la phrase la rejoue. Traduction off : un petit bouton « FR » sous chaque phrase
+  montre/masque sa traduction.
 
 ## Arborescence
 
@@ -87,7 +99,8 @@ Toutes les URL sont relatives : il suffit de publier le contenu de `public/`.
 1. Copier `public/` à la racine de la branche publiée (ou utiliser une action Pages avec `path: app/public`).
 2. Dans le dépôt : *Settings › Pages* → source = la branche / l’action.
 3. **À chaque mise à jour** de l’appli ou des données, incrémenter `CACHE_VERSION` dans `public/sw.js`
-   (sinon les téléphones gardent l’ancienne version en cache une visite de plus). Si on ajoute un module JS,
+   (sinon les téléphones gardent l’ancienne version en cache). La nouvelle version s’active tout de suite
+   (`skipWaiting` + `clients.claim`) et l’appli se recharge d’elle-même au prochain passage sur l’accueil. Si on ajoute un module JS,
    l’ajouter à la liste `SHELL` de `sw.js`.
 
 Le cache audio (`ed-audio-v1`) est séparé et survit aux changements de version ; si un fichier audio

@@ -19,6 +19,7 @@
   --shadow: 0 1px 2px rgb(0 0 0 / 6%), 0 4px 16px rgb(0 0 0 / 6%);
   --radius: 16px;
   --nav-h: 64px;
+  --statusbar: #c2410c;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -40,6 +41,7 @@
     --hl: #4a3b10;
     --focus: #93c5fd;
     --shadow: 0 1px 2px rgb(0 0 0 / 40%);
+    --statusbar: #141210;
   }
 }
 
@@ -53,6 +55,12 @@ body {
   font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);
   -webkit-tap-highlight-color: transparent;
+}
+/* Barre d'état iOS « black-translucent » (texte blanc) : bande opaque sous l'encoche, couleur d'accent
+   en clair (texte lisible), fond en sombre. Hauteur nulle hors PWA installée. */
+body::before {
+  content: ""; position: fixed; top: 0; left: 0; right: 0; z-index: 30;
+  height: env(safe-area-inset-top); background: var(--statusbar);
 }
 .wrap {
   max-width: 640px;
@@ -105,6 +113,15 @@ a { color: var(--accent); }
 .stats { list-style: none; padding: 0; margin: 8px 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .stats li { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px; font-size: .82rem; color: var(--muted); text-align: center; }
 .stats strong { display: block; font-size: 1.25rem; color: var(--text); }
+.stats strong.smaller { font-size: 1rem; line-height: 1.25; margin-bottom: 2px; }
+.sub-note { display: block; font-size: .9rem; margin-top: 2px; }
+.day-done { margin: 4px 0 6px; padding: 12px 16px; border-radius: 12px; background: var(--good-soft); color: var(--text); border: 1px solid var(--good); }
+.day-done .dd-title { font-weight: 800; font-size: 1.15rem; color: var(--good); margin: 0; }
+.day-done p { margin: 0; }
+.hint.welcome { margin: 10px 0 0; font-weight: 600; }
+.install-banner { display: flex; align-items: flex-start; gap: 6px; margin: 14px 0 0; padding: 8px 4px 8px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--focus); }
+.install-banner p { margin: 6px 0; flex: 1; font-size: .95rem; }
+.install-banner .btn { flex: none; }
 .steps { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-direction: column; gap: 12px; }
 .step { display: flex; gap: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
 .step .check { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; border: 2px solid var(--line); color: var(--muted); }
@@ -128,13 +145,17 @@ input.num { width: 90px; min-height: 48px; font: inherit; font-size: 1.1rem; pad
 .session-text { margin: 6px 0 0; font-size: .9rem; color: var(--muted); }
 .review .hint { margin: 0; font-size: .95rem; }
 .review { display: flex; flex-direction: column; gap: 16px; min-height: calc(100dvh - 170px - env(safe-area-inset-top) - env(safe-area-inset-bottom)); }
-.flash { flex: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: 24px 20px; box-shadow: var(--shadow); text-align: center; display: flex; flex-direction: column; justify-content: center; cursor: pointer; }
+.flash { flex: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: 40px 20px 24px; box-shadow: var(--shadow); text-align: center; display: flex; flex-direction: column; justify-content: flex-start; cursor: pointer; }
 .flash.back { cursor: default; }
 .pos { color: var(--muted); font-size: .9rem; margin: 0; }
 .lemma { font-size: clamp(2.6rem, 13vw, 4rem); font-weight: 800; line-height: 1.1; margin: 8px 0 14px; overflow-wrap: anywhere; }
 .ex-row { display: flex; gap: 8px; align-items: center; justify-content: center; }
 .ex { font-size: 1.2rem; margin: 0; }
 .ex strong { color: var(--accent); }
+.speaker { flex: none; transition: background .15s, color .15s; }
+.speaker.playing { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); animation: pulse 1s ease-in-out infinite; }
+@keyframes pulse { 50% { transform: scale(1.08); } }
+.audio-note { color: var(--muted); font-size: .9rem; margin: 6px 0 0; }
 .answer { border-top: 1px dashed var(--line); margin-top: 18px; padding-top: 16px; }
 .fr { font-size: 1.6rem; font-weight: 700; margin-bottom: 6px; }
 .ex-fr { color: var(--muted); font-size: 1.05rem; }
@@ -145,6 +166,7 @@ input.num { width: 90px; min-height: 48px; font: inherit; font-size: 1.1rem; pad
 .actions { display: grid; gap: 12px; }
 .actions.two { grid-template-columns: 1fr 1fr; }
 .finish { text-align: center; padding-top: 10vh; }
+.finish-stats { font-size: 1.15rem; font-weight: 600; }
 .big-check { font-size: 3.5rem; color: var(--good); margin: 0; }
 
 /* Histoire */
@@ -166,10 +188,16 @@ input.num { width: 90px; min-height: 48px; font: inherit; font-size: 1.1rem; pad
 .sent { display: flex; gap: 10px; align-items: flex-start; padding: 10px 8px; border-radius: 12px; transition: background .2s; cursor: pointer; scroll-margin: 140px; }
 .sent.current { background: var(--hl); }
 .sent .replay { flex: none; width: 44px; height: 44px; min-width: 44px; min-height: 44px; font-size: .9rem; }
-.sent .es { font-size: 1.25rem; line-height: 1.6; margin: 0; }
+.sent > div { flex: 1; min-width: 0; }
+.sent .es { font-size: 1.3rem; line-height: 1.5; margin: 0; }
 .sent .fr { display: none; font-size: 1rem; font-weight: 400; color: var(--muted); margin: 2px 0 0; }
-.sentences.with-fr .fr { display: block; }
-.w { cursor: pointer; border-radius: 4px; }
+.sentences.with-fr .fr, .sent.show-fr .fr { display: block; }
+/* Traduction d'une seule phrase : petit bouton discret, cible tactile de 44 px. */
+.fr-btn { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; padding: 0 8px; margin: -6px 0 -8px -8px; border: 0; background: none; color: var(--muted); font: inherit; font-size: .75rem; font-weight: 700; letter-spacing: .05em; cursor: pointer; }
+.fr-btn span { border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
+.fr-btn[aria-expanded="true"] span { background: var(--surface-2); color: var(--text); }
+.sentences.with-fr .fr-btn { display: none; }
+.w { cursor: pointer; border-radius: 4px; padding: 4px 2px; margin: -4px -2px; }
 .w:active, .w.active { background: var(--accent-soft); }
 .w.active { box-shadow: 0 0 0 2px var(--accent-soft); }
 .bubble { position: absolute; z-index: 5; width: min(280px, calc(100% - 16px)); background: var(--text); color: var(--bg); border-radius: 12px; padding: 10px 14px; box-shadow: 0 6px 24px rgb(0 0 0 / 25%); }
@@ -177,6 +205,8 @@ input.num { width: 90px; min-height: 48px; font: inherit; font-size: 1.1rem; pad
 .bubble .muted { color: inherit; opacity: .7; }
 .b-word { font-weight: 800; font-size: 1.1rem; }
 .b-card { opacity: .85; font-size: .95rem; }
+.story-end { text-align: center; margin: 4px 0 20px; }
+.story-end .end-title { font-size: 1.3rem; font-weight: 800; color: var(--good); }
 
 /* Listes */
 .page-head { margin-bottom: 12px; }
@@ -186,6 +216,7 @@ input.num { width: 90px; min-height: 48px; font: inherit; font-size: 1.1rem; pad
 .lib-title { flex: 1; }
 .lib-check { color: var(--good); font-weight: 800; }
 .weeks audio { width: 100%; margin-top: 6px; }
+.week-meta { font-weight: 600; margin-bottom: 4px; }
 .locked { color: var(--muted); border-style: dashed; box-shadow: none; }
 
 /* Réglages */

@@ -161,8 +161,9 @@ test('série de jours consécutifs', () => {
   assert.equal(S.streak(act([3, 4, 5]), at(5)), 3);
   // Aujourd’hui pas encore actif : la série d’hier tient toujours.
   assert.equal(S.streak(act([3, 4]), at(5)), 2);
-  // Un trou casse la série.
-  assert.equal(S.streak(act([1, 2, 4, 5]), at(5)), 2);
+  // Un seul jour manqué est toléré (il ne compte pas) ; deux jours manqués de suite cassent la série.
+  assert.equal(S.streak(act([1, 2, 4, 5]), at(5)), 4);
+  assert.equal(S.streak(act([1, 2, 5]), at(5)), 1);
   assert.equal(S.streak(act([1, 2]), at(5)), 0);
   // Les autres activités comptent aussi.
   assert.equal(S.streak({ [dayKey(at(5))]: { reviews: 0, ds: 30 } }, at(5)), 1);

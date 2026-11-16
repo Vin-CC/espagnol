@@ -4,7 +4,7 @@
 // - Audio : cache séparé et durable (survit aux changements de version), rempli à la première lecture
 //   ou par le bouton « Télécharger tout l'audio ». Les requêtes Range (Safari) reçoivent une réponse 206.
 
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const SHELL_CACHE = `ed-shell-${CACHE_VERSION}`;
 const AUDIO_CACHE = 'ed-audio-v1';
 const DAYS = 60;
@@ -38,10 +38,11 @@ const OPTIONAL = [
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(SHELL_CACHE);
-    await cache.addAll(SHELL);
+    // cache: 'reload' : ne pas reprendre une ancienne copie du cache HTTP lors d'une mise à jour.
+    await cache.addAll(SHELL.map((u) => new Request(u, { cache: 'reload' })));
     await Promise.all(OPTIONAL.map(async (url) => {
       try {
-        const r = await fetch(url);
+        const r = await fetch(url, { cache: 'reload' });
         if (r.ok) await cache.put(url, r);
       } catch { /* hors-ligne ou absent : ignoré */ }
     }));

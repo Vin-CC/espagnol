@@ -98,3 +98,44 @@ export function collectAudio(cardsData, stories = [], listen = []) {
   for (const w of listen || []) if (w.file) set.add(w.file);
   return [...set];
 }
+
+/** Mots d'une traduction, en minuscules sans accents ni ponctuation (comparaisons). */
+function words(s) {
+  return String(s || '').toLocaleLowerCase('fr').normalize('NFD').replace(/\p{M}/gu, '')
+    .split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+}
+
+/** Vrai si `needle` apparaît, mot pour mot, dans `hay` (« a » n'est pas contenu dans « avoir »). */
+export function containsWords(hay, needle) {
+  const h = words(hay);
+  const n = words(needle);
+  if (!n.length) return false;
+  for (let i = 0; i + n.length <= h.length; i += 1) {
+    if (n.every((w, j) => h[i + j] === w)) return true;
+  }
+  return false;
+}
+
+/**
+ * Lignes de la bulle d'un mot d'histoire : glose en contexte, puis la carte du paquet
+ * sans répéter une traduction déjà donnée par la glose (on garde alors seulement le lemme s'il diffère).
+ * @returns {{gloss: string|null, lemma: string|null, cardFr: string|null, ff: boolean}}
+ */
+export function bubbleInfo(info) {
+  const { gloss, card, word } = info;
+  if (!card) return { gloss, lemma: null, cardFr: null, ff: false };
+  const sameLemma = norm(card.lemma) === word;
+  const repeated = !!gloss && (containsWords(card.fr, gloss) || containsWords(gloss, card.fr));
+  return {
+    gloss,
+    lemma: sameLemma && (repeated || !gloss) ? null : card.lemma,
+    cardFr: repeated ? null : card.fr,
+    ff: !!card.ff,
+  };
+}
+
+/** Le titre français n'est affiché que s'il diffère du titre espagnol. */
+export function frTitle(story) {
+  if (!story || !story.title_fr) return '';
+  return words(story.title_fr).join(' ') === words(story.title).join(' ') ? '' : story.title_fr;
+}

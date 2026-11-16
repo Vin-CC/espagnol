@@ -3,3 +3,4 @@
 import './scheduler.test.mjs';
 import './text-storage.test.mjs';
 import './session-backup.test.mjs';
+import './backlog-streak.test.mjs';

@@ -90,3 +90,21 @@ test('clearAll ne touche que les clés ed:v1:*', () => {
   store.clearAll(st);
   assert.deepEqual([...st.map.keys()], ['autre']);
 });
+
+test('bulle : pas de traduction répétée, comparaison mot à mot normalisée', () => {
+  const card = { lemma: 'tener', fr: 'avoir', ff: false };
+  assert.ok(T.containsWords('avoir, posséder', 'Avoir'));
+  assert.ok(!T.containsWords('avoir', 'a'));
+  // Glose identique à la carte (même mot) : une seule ligne.
+  assert.deepEqual(T.bubbleInfo({ word: 'tener', gloss: 'avoir', card }), { gloss: 'avoir', lemma: null, cardFr: null, ff: false });
+  // Forme conjuguée : glose + lemme seulement.
+  assert.deepEqual(T.bubbleInfo({ word: 'tiene', gloss: 'il a', card: { lemma: 'tener', fr: 'avoir ; il a', ff: false } }),
+    { gloss: 'il a', lemma: 'tener', cardFr: null, ff: false });
+  // Traductions différentes : les deux.
+  assert.deepEqual(T.bubbleInfo({ word: 'tiene', gloss: 'il a', card }), { gloss: 'il a', lemma: 'tener', cardFr: 'avoir', ff: false });
+  // Sans glose : la carte.
+  assert.deepEqual(T.bubbleInfo({ word: 'tener', gloss: null, card }), { gloss: null, lemma: null, cardFr: 'avoir', ff: false });
+  assert.equal(T.frTitle({ title: 'Don Ramón', title_fr: 'Don Ramón' }), '');
+  assert.equal(T.frTitle({ title: 'Don Ramon', title_fr: 'don ramón' }), '');
+  assert.equal(T.frTitle({ title: 'La llegada', title_fr: 'L’arrivée' }), 'L’arrivée');
+});

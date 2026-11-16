@@ -59,6 +59,25 @@ function persist() {
   store.save('settings', app.settings);
 }
 function setProgress(p) { app.progress = p; persist(); }
+/** Options de la file du jour (plafond de révisions réglable). */
+const qopts = () => ({ maxReviews: app.settings.maxReviews });
+const isStandalone = () => navigator.standalone === true
+  || (typeof matchMedia === 'function' && matchMedia('(display-mode: standalone)').matches);
+
+// Temps d'audio écouté (histoires, écoute en trajet) : cumulé en mémoire, enregistré par paquets.
+const heard = { story: 0, listen: 0 };
+function flushHeard() {
+  let p = app.progress;
+  for (const k of Object.keys(heard)) {
+    if (heard[k] > 0) { p = S.addListening(p, heard[k], now(), k); heard[k] = 0; }
+  }
+  if (p !== app.progress) setProgress(p);
+}
+function addHeard(kind, seconds) {
+  if (!(seconds > 0) || seconds > 600) return;
+  heard[kind] += seconds;
+  if (heard[kind] >= 15) flushHeard();
+}
 // Petites informations hors progression (dernier export, aides déjà vues…), clé ed:v1:meta.
 const getMeta = () => store.load('meta', {}) || {};
 const setMeta = (m) => store.save('meta', m);
@@ -98,6 +117,7 @@ function render() {
   const r = route();
   if (lastRoute && lastRoute !== `${r.name}/${r.arg}`) leaveScreen();
   lastRoute = `${r.name}/${r.arg}`;
+  if (app.updateReady && r.name === 'aujourdhui') { location.reload(); return; }
   ensureUnlocked();
   const screens = {
     aujourdhui: renderToday, mots: renderReview, histoire: renderStory,
@@ -112,6 +132,7 @@ function render() {
 }
 
 function leaveScreen() {
+  flushHeard();
   if (app.story) { app.story.playing = false; app.story = null; audio.stop(); }
   audio.stop();
   for (const el of app.listenEls.values()) dock.append(el); // garde la lecture en cours
@@ -135,12 +156,21 @@ function renderNav(active) {
 
 // ---------- Aujourd'hui ----------
 function renderToday() {
+  flushHeard();
   const t = now();
+  const today = dayKey(t);
   const p = app.progress;
-  const q = S.dailyQueue(p, t);
-  const steps = S.todaySteps(p, t);
-  const nRev = q.reviews.length + q.learning.length;
+  const o = qopts();
+  const q = S.dailyQueue(p, t, o);
+  const sp = S.sessionProgress(p, t, o);
+  const steps = S.todaySteps(p, t, o);
+  const act = p.activity[today] || {};
+  const meta = getMeta();
   const streak = S.streak(p.activity, t);
+  const best = S.bestStreak(p.activity);
+  // Une seule action principale : la première étape obligatoire non faite.
+  const current = ['words', 'story', 'dreaming'].find((k) => !steps[k]) || null;
+  const btn = (key, extra = '') => `btn${extra}${current === key ? ' primary' : ''}`;
 
   const step = (done, num, title, sub, body, opts = {}) => h('li', { class: `step${done ? ' done' : ''}` },
     h('span', { class: 'check', 'aria-hidden': 'true' }, done ? '✓' : String(num)),
@@ -151,7 +181,16 @@ function renderToday() {
       body));
 
   const storyTitle = h('span', {}, '…');
-  getStory(p.day).then((s) => { storyTitle.textContent = s ? `${s.title} — ${s.title_fr}` : 'Bientôt disponible'; });
+  getStory(p.day).then((s) => {
+    const fr = s && T.frTitle(s);
+    storyTitle.textContent = s ? (fr ? `${s.title} — ${fr}` : s.title) : 'Bientôt disponible';
+  });
+
+  // Mots : en mots (pas en passages de carte), même durée estimée que pendant la séance.
+  const held = !steps.words && q.fresh.length === 0 && p.lastUnlock !== today && S.isBacklogHeld(p, t);
+  const wordsSub = steps.words
+    ? (act.rev || act.nw ? `Terminé · ${S.finishLabel(act)}` : 'Terminé pour aujourd’hui')
+    : [S.wordsLabel(sp), held ? h('span', { class: 'sub-note' }, 'Les nouveaux mots attendent : on revoit d’abord.') : null];
 
   const dsBody = h('div', { class: 'row wrapping' });
   const dsForm = () => {
@@ -167,25 +206,30 @@ function renderToday() {
         render();
       },
     }, h('label', { for: 'ds-min' }, 'Minutes :'), input,
-    h('button', { type: 'submit', class: 'btn primary' }, 'Ajouter'),
+    h('button', { type: 'submit', class: btn('dreaming') }, 'Ajouter'),
     h('button', { type: 'button', class: 'btn', onclick: () => { app.ui.ds = false; render(); } }, 'Annuler'));
     setTimeout(() => input.select(), 0);
     return form;
   };
   if (app.ui.ds) dsBody.append(dsForm());
   else {
+    // Avant d'avoir ouvert Dreaming Spanish, l'action principale est « Ouvrir » ; ensuite « J'ai regardé ».
+    const opened = meta.dsOpened === today;
     dsBody.append(
-      h('a', { class: 'btn', href: DS_URL, target: '_blank', rel: 'noopener' }, 'Ouvrir Dreaming Spanish ↗'),
-      h('button', { class: 'btn primary', type: 'button', onclick: () => { app.ui.ds = true; render(); } }, 'J’ai regardé'),
+      h('a', {
+        class: opened ? 'btn' : btn('dreaming'), href: DS_URL, target: '_blank', rel: 'noopener',
+        onclick: () => { setMeta({ ...getMeta(), dsOpened: today }); setTimeout(render, 400); },
+      }, 'Ouvrir Dreaming Spanish ↗'),
+      h('button', { class: opened ? btn('dreaming') : 'btn', type: 'button', onclick: () => { app.ui.ds = true; render(); } }, 'J’ai regardé'),
     );
   }
 
   let banner = null;
-  if (store.needsBackupReminder(getMeta(), S.usageDays(p.activity), t)) {
+  if (store.needsBackupReminder(meta, S.usageDays(p.activity), t)) {
     const out = h('div', { 'aria-live': 'polite' });
     const btns = h('div', { class: 'row wrapping' },
       h('button', {
-        class: 'btn primary', type: 'button',
+        class: 'btn', type: 'button',
         onclick: () => exportProgress(out, () => { btns.hidden = true; }),
       }, 'Exporter'),
       h('button', {
@@ -198,28 +242,49 @@ function renderToday() {
       btns, out);
   }
 
-  root.append(
+  // Installation : proposée une seule fois, après la première séance terminée.
+  let install = null;
+  if (meta.firstSessionDone && !meta.installDismissed && !isStandalone()) {
+    install = h('section', { class: 'install-banner', 'aria-label': 'Installer l’appli' },
+      h('p', {}, h('strong', {}, 'Installe l’appli : '), 'Safari › Partager › Sur l’écran d’accueil (hors-ligne + plein écran)'),
+      h('button', {
+        class: 'btn ghost icon', type: 'button', 'aria-label': 'Fermer',
+        onclick: () => { setMeta({ ...getMeta(), installDismissed: true }); install.remove(); },
+      }, '✕'));
+  }
+
+  const dayDone = current === null;
+  const welcome = !steps.words && S.daysAway(p.activity, t) >= 2
+    ? h('p', { class: 'hint welcome', role: 'status' }, 'Bon retour ! On reprend en douceur.') : null;
+  const streakTile = streak === 0 && best > 0
+    ? h('li', {}, h('strong', { class: 'smaller' }, 'Nouvelle série'), `record : ${plural(best, 'jour', 'jours')}`)
+    : h('li', {}, h('strong', {}, String(streak)), streak > 1 ? ' jours de suite' : ' jour de suite');
+
+  root.append(...[
+    dayDone ? h('section', { class: 'day-done', role: 'status' },
+      h('p', { class: 'dd-title' }, 'Journée terminée ✓'),
+      h('p', { class: 'small' }, 'Reviens demain pour de nouveaux mots.')) : null,
     h('header', { class: 'hero' },
       h('p', { class: 'kicker' }, 'Español diario'),
       h('h1', {}, `Jour ${p.day} / ${app.totalDays}`),
       h('ul', { class: 'stats' },
-        h('li', {}, h('strong', {}, String(streak)), streak > 1 ? ' jours de suite' : ' jour de suite'),
+        streakTile,
         h('li', {}, h('strong', {}, String(S.wordsLearned(p))), ' mots appris'),
-        h('li', {}, h('strong', {}, fmtHours(p.dsMinutes || 0)), ' d’écoute'))),
+        h('li', {}, h('strong', {}, fmtHours(S.listeningMinutes(p))), ' d’espagnol écouté'))),
+    welcome,
+    install,
     banner,
     h('ol', { class: 'steps' },
-      step(steps.words, 1, 'Mots',
-        steps.words ? 'Terminé pour aujourd’hui' : `${plural(nRev, 'révision', 'révisions')} + ${plural(q.fresh.length, 'nouveau', 'nouveaux')}`,
-        steps.words ? null : h('a', { class: 'btn primary big', href: '#/mots' }, 'Commencer')),
+      step(steps.words, 1, 'Mots', wordsSub,
+        steps.words ? null : h('a', { class: btn('words', ' big'), href: '#/mots' }, act.reviews ? 'Continuer' : 'Commencer')),
       step(steps.story, 2, 'Histoire du jour', storyTitle,
-        h('a', { class: `btn${steps.words && !steps.story ? ' primary' : ''}`, href: `#/histoire/${p.day}` },
-          steps.story ? 'Relire' : 'Lire')),
+        h('a', { class: btn('story'), href: `#/histoire/${p.day}` }, steps.story ? 'Relire' : 'Lire')),
       step(steps.dreaming, 3, 'Dreaming Spanish (45 min)',
-        `Cumul : ${fmtHours(p.dsMinutes || 0)}${steps.dreaming ? ` · aujourd’hui ${fmtHours(p.activity[dayKey(t)].ds)}` : ''}`,
+        `Cumul : ${fmtHours(p.dsMinutes || 0)}${steps.dreaming ? ` · aujourd’hui ${fmtHours(act.ds)}` : ''}`,
         dsBody),
-      step(steps.listen, 4, 'Écoute en trajet', 'Les mots de la semaine, à écouter sans écran.',
+      step(steps.listen, 4, 'Écoute en trajet', 'Les mots de la semaine, à écouter sans écran (5 min suffisent).',
         h('a', { class: 'btn', href: '#/ecoute' }, 'Écouter'), { optional: true })),
-  );
+  ].filter(Boolean));
 }
 
 // ---------- Révision ----------
@@ -228,39 +293,51 @@ function exampleNode(card) {
     .map((s) => (s.hit ? h('strong', {}, s.text) : s.text)));
 }
 
-function playCard(card) {
+/** Joue le mot puis la phrase ; état « en lecture » sur 🔊, aide si l'audio ne part pas. */
+async function playCard(card, btnEl, noteEl) {
   const urls = [card.a_word, card.a_ex].filter(Boolean).map(audioUrl);
-  audio.playSequence(urls);
+  if (!urls.length) return;
+  if (noteEl) noteEl.hidden = true;
+  if (btnEl) btnEl.classList.add('playing');
+  const res = await audio.playSequence(urls);
+  if (btnEl) btnEl.classList.remove('playing');
+  if (noteEl && (res === 'blocked' || res === 'error')) noteEl.hidden = false;
 }
 
 function renderReview() {
   const rv = app.review;
   const t = now();
-  const id = rv.side === 'back' && rv.id != null ? rv.id : S.pickNext(app.progress, t);
-  const sp = S.sessionProgress(app.progress, t);
-  const lbl = S.sessionLabel(sp);
+  const o = qopts();
+  const id = rv.side === 'back' && rv.id != null ? rv.id : S.pickNext(app.progress, t, o);
+  const sp = S.sessionProgress(app.progress, t, o);
+
+  if (id == null) {
+    // Fin de séance : bilan factuel de la journée, pas de « Quitter ».
+    const act = app.progress.activity[dayKey(t)] || {};
+    if (act.reviews && !getMeta().firstSessionDone) setMeta({ ...getMeta(), firstSessionDone: true });
+    const storyDone = S.todaySteps(app.progress, t, o).story;
+    root.append(h('section', { class: 'finish' },
+      h('p', { class: 'big-check', 'aria-hidden': 'true' }, '✓'),
+      h('h1', {}, 'Terminé pour aujourd’hui'),
+      h('p', { class: 'finish-stats' }, act.reviews ? S.finishLabel(act) : 'Aucun mot à revoir pour l’instant.'),
+      sp.later ? h('p', { class: 'muted' }, 'Les autres révisions viendront les jours suivants.') : null,
+      h('div', { class: 'col' },
+        storyDone
+          ? h('a', { class: 'btn primary big', href: '#/' }, 'Retour à l’accueil')
+          : [h('a', { class: 'btn primary big', href: `#/histoire/${app.progress.day}` }, 'Lire l’histoire du jour'),
+            h('a', { class: 'btn', href: '#/' }, 'Retour à l’accueil')])));
+    return;
+  }
+  const pct = Math.round(sp.ratio * 100);
   const top = h('div', { class: 'topbar' },
     h('a', { class: 'btn ghost', href: '#/', 'aria-label': 'Quitter la révision' }, '✕ Quitter'),
-    h('span', { class: 'counter' }, id == null ? '' : lbl.time));
-  const pct = Math.round(sp.ratio * 100);
-  const session = id == null ? null : h('div', { class: 'session' },
+    h('span', { class: 'counter', 'aria-live': 'polite' }, S.remainingLabel(sp)));
+  const session = h('div', { class: 'session' },
     h('div', {
       class: 'bar', role: 'progressbar', 'aria-label': 'Avancement de la séance',
       'aria-valuemin': '0', 'aria-valuemax': '100', 'aria-valuenow': String(pct),
-    }, h('span', { style: `width:${pct}%` })),
-    h('p', { class: 'session-text', 'aria-live': 'polite' }, lbl.text));
+    }, h('span', { style: `width:${pct}%` })));
 
-  if (id == null) {
-    root.append(top, h('section', { class: 'finish' },
-      h('p', { class: 'big-check', 'aria-hidden': 'true' }, '✓'),
-      h('h1', {}, 'Terminé pour aujourd’hui'),
-      h('p', {}, rv.done ? `${plural(rv.done, 'carte revue', 'cartes revues')} pendant cette séance.` : 'Aucune carte à revoir pour l’instant.'),
-      h('p', {}, 'Prochaine étape : l’histoire du jour.'),
-      h('div', { class: 'col' },
-        h('a', { class: 'btn primary big', href: `#/histoire/${app.progress.day}` }, 'Lire l’histoire du jour'),
-        h('a', { class: 'btn', href: '#/' }, 'Retour à l’accueil'))));
-    return;
-  }
   const card = app.byId.get(id);
   if (!card) { // carte inconnue (données changées) : on la retire de la file
     const p = { ...app.progress, pending: app.progress.pending.filter((x) => x !== id), cards: { ...app.progress.cards } };
@@ -269,6 +346,7 @@ function renderReview() {
     render();
     return;
   }
+  if (rv.id !== id) rv.shownAt = Date.now();
   rv.id = id;
   // Carte jamais vue : découverte (recto + verso), notée « Again » pour revenir dans la séance.
   const discover = !app.progress.cards[id];
@@ -279,13 +357,19 @@ function renderReview() {
   const grade = (rating) => {
     audio.stop();
     if (showHint) setMeta({ ...getMeta(), hintDiscovery: true });
-    setProgress(S.rate(app.progress, id, rating, now(), app.scheduler));
+    const spent = Math.min(90, (Date.now() - (rv.shownAt || Date.now())) / 1000);
+    setProgress(S.addStudyTime(S.rate(app.progress, id, rating, now(), app.scheduler), spent, now()));
     rv.side = 'front';
     rv.id = null;
     rv.done += 1;
     render();
   };
 
+  const audioNote = h('p', { class: 'audio-note', hidden: true }, 'Touche 🔊 pour écouter');
+  const speaker = h('button', {
+    class: 'btn icon speaker', type: 'button', 'aria-label': 'Écouter',
+    onclick: (e) => { e.stopPropagation(); playCard(card, speaker, audioNote); },
+  }, '🔊');
   const face = h('div', {
     class: `flash${back ? ' back' : ''}${discover ? ' discover' : ''}`,
     role: back ? null : 'button',
@@ -295,11 +379,8 @@ function renderReview() {
   },
   h('p', { class: 'pos' }, POS[card.pos] || card.pos, discover ? h('span', { class: 'tag new' }, 'nouveau mot') : null),
   h('p', { class: 'lemma', lang: 'es' }, card.lemma),
-  h('div', { class: 'ex-row', lang: 'es' }, exampleNode(card),
-    h('button', {
-      class: 'btn icon', type: 'button', 'aria-label': 'Réécouter',
-      onclick: (e) => { e.stopPropagation(); playCard(card); },
-    }, '🔊')),
+  h('div', { class: 'ex-row', lang: 'es' }, exampleNode(card), speaker),
+  audioNote,
   back ? h('div', { class: 'answer' },
     card.ff ? h('p', { class: 'ff' }, 'FAUX AMI') : null,
     h('p', { class: 'fr' }, card.fr),
@@ -323,7 +404,8 @@ function renderReview() {
   app.ui.keys = { flip, grade, back, discover };
   if (!back || discover) {
     face.focus({ preventScroll: true });
-    if (audio.isUnlocked()) playCard(card);
+    if (audio.isUnlocked()) playCard(card, speaker, audioNote);
+    else audioNote.hidden = false;
   }
 }
 
@@ -358,24 +440,32 @@ function buildStory(sec, story, day) {
   // Repli : l'étape doit pouvoir être cochée quand l'audio manque.
   const manualBtn = h('button', {
     class: 'btn', type: 'button', hidden: true,
-    onclick: () => { if (!done()) setProgress(S.markStoryDone(app.progress, day, now())); updateUi(); },
+    onclick: () => { if (!done()) finished(); },
   }, 'J’ai lu l’histoire');
   const updateUi = () => {
     playBtn.textContent = noAudio ? 'Audio bientôt disponible'
       : st.playing ? '⏸ Pause' : (st.current >= 0 && st.current < story.sentences.length - 1 ? '▶ Reprendre' : '▶ Lire en écoutant');
     st.sentEls.forEach((el, i) => el.classList.toggle('current', i === st.current));
-    status.textContent = done() ? '✓ Histoire lue en entier. Bravo !'
+    status.textContent = done() ? '✓ Histoire lue en entier.'
       : noAudio ? 'L’audio de cette histoire n’est pas encore prêt : lis-la, puis touche « J’ai lu l’histoire ».'
         : st.missing ? 'Certaines phrases n’ont pas pu être lues (audio indisponible).' : '';
     status.classList.toggle('muted', !done());
     manualBtn.hidden = done() || !(noAudio || st.missing);
+    endCard.hidden = !done();
     if ('mediaSession' in navigator) navigator.mediaSession.playbackState = st.playing ? 'playing' : 'paused';
   };
 
+  // Fin de lecture : carte « Histoire terminée » en bas de la liste, amenée à l'écran.
+  const endCard = h('section', { class: 'card story-end', hidden: true, 'aria-live': 'polite' },
+    h('p', { class: 'end-title' }, 'Histoire terminée ✓'),
+    h('a', { class: 'btn primary big', href: '#/' }, 'Étape suivante'));
+  const finished = () => {
+    setProgress(S.markStoryDone(app.progress, day, now()));
+    updateUi();
+    requestAnimationFrame(() => endCard.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+  };
   const checkComplete = () => {
-    if (withAudio.length && withAudio.every((i) => st.played.has(i)) && !done()) {
-      setProgress(S.markStoryDone(app.progress, day, now()));
-    }
+    if (withAudio.length && withAudio.every((i) => st.played.has(i)) && !done()) finished();
   };
 
   const playFrom = async (i, single = false) => {
@@ -388,12 +478,14 @@ function buildStory(sec, story, day) {
       if (!story.sentences[k].audio) { st.missing = true; if (single) break; continue; }
       st.sentEls[k].scrollIntoView({ behavior: 'smooth', block: 'center' });
       const res = await audio.play(audioUrl(story.sentences[k].audio));
+      if (res === 'ended') addHeard('story', (audio.element.duration || 0) / (app.settings.speed || 1));
       if (app.story !== st) return;
-      if (res === 'stopped') { st.playing = false; updateUi(); return; }
+      if (res === 'stopped' || res === 'blocked') { st.playing = false; flushHeard(); updateUi(); return; }
       if (res === 'ended') st.played.add(k); else st.missing = true;
       if (single) break;
     }
     st.playing = false;
+    flushHeard();
     checkComplete();
     if (!single && st.current === story.sentences.length - 1) st.current = -1;
     updateUi();
@@ -419,12 +511,15 @@ function buildStory(sec, story, day) {
     activeWord = wordEl;
     wordEl.classList.add('active');
     const info = T.lookupWord(wordEl.textContent, story.gloss, app.lexicon);
+    const b = T.bubbleInfo(info);
     const lines = [h('p', { class: 'b-word', lang: 'es' }, wordEl.textContent)];
-    if (info.gloss) lines.push(h('p', { class: 'b-gloss' }, info.gloss));
-    if (info.card && !(info.card.fr === info.gloss && T.norm(info.card.lemma) === info.word)) {
-      lines.push(h('p', { class: 'b-card' }, h('span', { lang: 'es' }, info.card.lemma), ' : ', info.card.fr,
-        info.card.ff ? h('span', { class: 'ff small' }, 'faux ami') : null));
-    }
+    if (b.gloss) lines.push(h('p', { class: 'b-gloss' }, b.gloss));
+    if (b.lemma || b.cardFr) {
+      lines.push(h('p', { class: 'b-card' },
+        b.lemma && !b.cardFr ? 'forme de ' : null,
+        b.lemma ? h('span', { lang: 'es' }, b.lemma) : null, b.lemma && b.cardFr ? ' : ' : null,
+        b.cardFr, b.ff ? h('span', { class: 'ff small' }, 'faux ami') : null));
+    } else if (b.ff) lines.push(h('p', {}, h('span', { class: 'ff small' }, 'faux ami')));
     if (!info.gloss && !info.card) lines.push(h('p', { class: 'muted' }, 'Pas de traduction pour ce mot.'));
     bubble.replaceChildren(...lines);
     bubble.hidden = false;
@@ -448,11 +543,22 @@ function buildStory(sec, story, day) {
         s.audio ? h('button', { class: 'btn icon replay', type: 'button', 'aria-label': `Rejouer la phrase ${i + 1}` }, '▶') : null,
         h('div', {},
           h('p', { class: 'es', lang: 'es' }, T.tokenize(s.es).map((tk) => (tk.word ? h('span', { class: 'w' }, tk.text) : tk.text))),
-          h('p', { class: 'fr' }, s.fr)));
+          h('p', { class: 'fr', id: `fr-${i}` }, s.fr),
+          s.fr ? h('button', {
+            class: 'fr-btn', type: 'button', 'aria-expanded': 'false', 'aria-controls': `fr-${i}`,
+            'aria-label': `Traduction de la phrase ${i + 1}`,
+          }, h('span', {}, 'FR')) : null));
       st.sentEls.push(li);
       return li;
     }));
   list.addEventListener('click', (e) => {
+    const fb = e.target.closest('.fr-btn');
+    if (fb) { // traduction de cette phrase seulement (tap à nouveau = masquer)
+      e.stopPropagation();
+      const open = fb.closest('.sent').classList.toggle('show-fr');
+      fb.setAttribute('aria-expanded', String(open));
+      return;
+    }
     const w = e.target.closest('.w');
     if (w) { e.stopPropagation(); showBubble(w); return; }
     const li = e.target.closest('.sent');
@@ -479,8 +585,8 @@ function buildStory(sec, story, day) {
     h('header', { class: 'story-head' },
       h('p', { class: 'kicker' }, `Histoire · jour ${day}`),
       h('h1', { lang: 'es' }, story.title),
-      h('p', { class: 'muted' }, story.title_fr)),
-    h('p', { class: 'hint' }, 'Lis en écoutant, puis une 2e fois sans traduction.'),
+      T.frTitle(story) ? h('p', { class: 'muted' }, T.frTitle(story)) : null),
+    h('p', { class: 'hint' }, 'Écoute en lisant. Touche un mot pour le traduire, touche ‹ FR › sous une phrase pour voir sa traduction.'),
     h('div', { class: 'controls' }, playBtn,
       h('div', { class: 'row wrapping' },
         h('label', { class: 'switch', for: 'tr' }, trToggle, h('span', {}, 'Traduction')),
@@ -488,6 +594,7 @@ function buildStory(sec, story, day) {
     status,
     manualBtn,
     list,
+    endCard,
     bubble,
     h('p', { class: 'center' }, h('a', { class: 'btn', href: '#/histoires' }, 'Toutes les histoires')),
   );
@@ -525,13 +632,38 @@ function renderLibrary() {
 }
 
 // ---------- Écoute ----------
+const fmtDuration = (sec) => `${Math.max(1, Math.round(sec / 60))} min`;
+/** Jours couverts par la semaine W : 7W−6 à 7W (bornés au nombre de jours). */
+const weekDays = (w) => [7 * w.week - 6, Math.min(7 * w.week, app.totalDays)];
+
 function listenElement(w) {
   if (!app.listenEls.has(w.week)) {
-    const el = h('audio', { controls: true, preload: 'none', src: audioUrl(w.file) });
+    const el = h('audio', { controls: true, preload: 'metadata', src: audioUrl(w.file) });
+    // Temps réellement écouté (timeupdate) : l'étape est cochée après 5 min cumulées.
+    let last = null;
+    const resync = () => { last = el.currentTime; };
+    el.addEventListener('playing', resync);
+    el.addEventListener('seeked', resync);
+    el.addEventListener('timeupdate', () => {
+      if (el.paused || last == null) return;
+      const d = el.currentTime - last;
+      last = el.currentTime;
+      if (d > 0 && d < 3) addHeard('listen', d / (el.playbackRate || 1));
+    });
+    const stop = () => { last = null; flushHeard(); };
+    el.addEventListener('pause', stop);
+    el.addEventListener('ended', stop);
+    el.addEventListener('loadedmetadata', () => {
+      if (!Number.isFinite(el.duration)) return;
+      const m = getMeta();
+      const durations = { ...(m.listenDur || {}), [w.week]: Math.round(el.duration) };
+      if (m.listenDur?.[w.week] !== durations[w.week]) setMeta({ ...m, listenDur: durations });
+      const out = document.getElementById(`dur-${w.week}`);
+      if (out) out.textContent = ` · ${fmtDuration(el.duration)}`;
+    });
     el.addEventListener('play', () => {
       audio.stop();
       for (const other of app.listenEls.values()) if (other !== el) other.pause();
-      setProgress(S.markListened(app.progress, now()));
       if ('mediaSession' in navigator) {
         try {
           navigator.mediaSession.metadata = new MediaMetadata({
@@ -553,21 +685,28 @@ function listenElement(w) {
 }
 
 function renderListen() {
+  const done = S.todaySteps(app.progress, now(), qopts()).listen;
   const head = h('header', { class: 'page-head' }, h('h1', {}, 'Écoute en trajet'),
-    h('p', { class: 'muted' }, 'Mot espagnol, pause de 3 s pour le traduire dans ta tête, traduction, puis une phrase. Fonctionne écran verrouillé.'));
+    h('p', { class: 'muted' }, 'Mot espagnol, pause de 3 s pour le traduire dans ta tête, traduction, puis une phrase. Fonctionne écran verrouillé.'),
+    h('p', { class: done ? 'done-note' : 'muted small' }, done ? '✓ Écoute du jour faite.' : 'L’étape du jour est cochée après 5 min d’écoute.'));
   root.append(head);
   if (!app.listen.length) {
     root.append(h('p', { class: 'card' }, 'Les fichiers d’écoute ne sont pas encore disponibles.'));
     return;
   }
   const weeks = S.unlockedWeeks(app.progress.day, app.listen);
+  const known = getMeta().listenDur || {};
   const list = h('ul', { class: 'weeks' });
   for (const w of [...weeks].reverse()) {
     const words = (w.words || []).map((id) => app.byId.get(id)).filter(Boolean);
+    const [a, b] = weekDays(w);
+    const el = listenElement(w);
+    const dur = Number.isFinite(el.duration) ? el.duration : known[w.week];
     list.append(h('li', { class: 'card' },
       h('h2', {}, `Semaine ${w.week}`),
-      h('p', { class: 'muted', lang: 'es' }, `${words.length} mots : ${words.slice(0, 8).map((c) => c.lemma).join(', ')}${words.length > 8 ? '…' : ''}`),
-      listenElement(w)));
+      h('p', { class: 'week-meta' }, `Mots des jours ${a} à ${b}`, h('span', { id: `dur-${w.week}` }, dur ? ` · ${fmtDuration(dur)}` : '')),
+      h('p', { class: 'muted small', lang: 'es' }, `${words.slice(0, 8).map((c) => c.lemma).join(', ')}${words.length > 8 ? '…' : ''}`),
+      el));
   }
   const next = app.listen.find((w) => !weeks.includes(w));
   if (next) list.append(h('li', { class: 'card locked' }, `Semaine ${next.week} : débloquée au jour ${7 * next.week - 6}.`));
@@ -589,6 +728,16 @@ function renderSettings() {
       h('button', { class: 'btn icon', type: 'button', 'aria-label': 'Plus', onclick: () => setNew(1) }, '+')),
     h('p', { class: 'muted' }, 'Entre 5 et 20 (10 conseillé). S’applique au prochain lot.'));
 
+  // Plafond de révisions par jour (après une absence, le reste est reporté)
+  const revVal = h('output', { class: 'stepper-val', 'aria-live': 'polite' }, String(s.maxReviews));
+  const setRev = (d) => { s.maxReviews = S.clampReviews(s.maxReviews + d); revVal.textContent = String(s.maxReviews); persist(); };
+  const maxRev = h('section', { class: 'card' },
+    h('h2', {}, 'Révisions max par jour'),
+    h('div', { class: 'stepper' },
+      h('button', { class: 'btn icon', type: 'button', 'aria-label': 'Moins de révisions', onclick: () => setRev(-10) }, '−'), revVal,
+      h('button', { class: 'btn icon', type: 'button', 'aria-label': 'Plus de révisions', onclick: () => setRev(10) }, '+')),
+    h('p', { class: 'muted' }, `Entre ${S.MIN_REVIEWS} et ${S.MAX_REVIEWS} (60 conseillé, ≈ 8 min). Après une absence, le reste est gardé pour les jours suivants.`));
+
   const cog = h('section', { class: 'card' },
     h('label', { class: 'switch', for: 'cog' },
       h('input', {
@@ -603,7 +752,7 @@ function renderSettings() {
   const dlBtn = h('button', { class: 'btn primary', type: 'button', onclick: () => downloadAll(dlBtn, dlStatus) },
     'Télécharger tout l’audio pour le hors-ligne');
   const offline = h('section', { class: 'card' }, h('h2', {}, 'Hors-ligne'),
-    h('p', { class: 'muted' }, 'L’appli et les textes fonctionnent déjà sans réseau. L’audio est gardé après la première écoute ; ce bouton télécharge tout d’un coup (prévoir le Wi-Fi).'),
+    h('p', { class: 'muted' }, 'L’appli et les textes fonctionnent déjà sans réseau. L’audio est gardé après la première écoute ; ce bouton télécharge tout d’un coup : environ 125 Mo, en Wi-Fi.'),
     dlBtn, dlStatus);
 
   // Sauvegarde
@@ -657,7 +806,7 @@ function renderSettings() {
   };
   drawReset();
 
-  root.append(h('header', { class: 'page-head' }, h('h1', {}, 'Réglages')), newCards, cog, offline, backup, reset,
+  root.append(h('header', { class: 'page-head' }, h('h1', {}, 'Réglages')), newCards, maxRev, cog, offline, backup, reset,
     h('p', { class: 'muted center small' }, 'Español diario · FSRS (ts-fsrs, MIT)'));
 }
 
@@ -757,6 +906,14 @@ function onKey(e) {
 async function init() {
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
+    // Nouvelle version activée (skipWaiting + clients.claim) : on recharge, mais seulement sur
+    // l'accueil pour ne jamais interrompre une séance ou une lecture.
+    if (navigator.serviceWorker.controller) {
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        app.updateReady = true;
+        if (route().name === 'aujourdhui' && !app.ui.ds) location.reload();
+      });
+    }
   }
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
 
@@ -784,6 +941,7 @@ async function init() {
   document.addEventListener('keydown', onKey);
   window.addEventListener('hashchange', render);
   document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') flushHeard();
     if (document.visibilityState === 'visible' && route().name === 'aujourdhui') render();
   });
   render();

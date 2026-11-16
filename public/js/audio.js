@@ -51,8 +51,11 @@ export function setRate(r) {
 el.addEventListener('play', () => { el.playbackRate = rate; });
 
 /**
- * Joue un fichier ; la promesse se résout avec 'ended', 'error' (fichier absent/illisible)
- * ou 'stopped' (pause, ou autre lecture lancée entre-temps).
+ * Joue un fichier ; la promesse se résout avec 'ended', 'error' (fichier absent/illisible),
+ * 'blocked' (lecture refusée par le navigateur faute de geste) ou 'stopped' (pause, ou autre
+ * lecture lancée entre-temps).
+ * `.src` est réassigné juste avant chaque `play()` sur l'élément unique : contournement du bug
+ * WebKit 295518 (élément audio inutilisable à la réouverture de la PWA sur iOS).
  * `onStart` est appelé quand la lecture démarre effectivement.
  */
 export function play(url, { onStart } = {}) {
@@ -78,18 +81,28 @@ export function play(url, { onStart } = {}) {
       if (my !== token) return finish('stopped');
       el.addEventListener('pause', onPause);
       if (onStart) onStart();
-    }).catch((e) => finish(my === token && e && e.name !== 'AbortError' && e.name !== 'NotAllowedError' ? 'error' : 'stopped'));
+    }).catch((e) => {
+      if (my !== token || !e || e.name === 'AbortError') return finish('stopped');
+      if (e.name === 'NotAllowedError') { unlocked = false; return finish('blocked'); }
+      return finish('error');
+    });
   });
 }
 
-/** Joue plusieurs fichiers à la suite ; s'arrête si une autre lecture prend la main. */
+/**
+ * Joue plusieurs fichiers à la suite ; s'arrête si une autre lecture prend la main.
+ * Renvoie 'ended', 'stopped', 'blocked' ou 'error' (au moins un fichier illisible).
+ */
 export async function playSequence(urls) {
+  let out = 'ended';
   for (const u of urls) {
     const my = token + 1;
     const res = await play(u);
-    if (res === 'stopped' || token !== my) return false;
+    if (res === 'stopped' || token !== my) return 'stopped';
+    if (res === 'blocked') return 'blocked';
+    if (res === 'error') out = 'error';
   }
-  return true;
+  return out;
 }
 
 export function currentToken() { return token; }
